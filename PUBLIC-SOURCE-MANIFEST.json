@@ -1,0 +1,294 @@
+{
+  "format": "passato-prossimo-public-source-v1",
+  "version": "0.6.0-alpha.1",
+  "generatedAt": "2026-08-25T20:38:00.000Z",
+  "policy": "Explicit allowlist; raw corpora, installers, release archives, dependencies, local media, and secrets are excluded.",
+  "fileCount": 57,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 776,
+      "sha256": "2D39876B3AA8EFB11A03BED1BBB257C1722598F16D32848D53A2708A3AA823DE"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/alpha-feedback.yml",
+      "bytes": 970,
+      "sha256": "3D055B064BE5A50BC34B2AB4ED87DAD8C1A76692C02FB0FEF8A9D12D3F36DE60"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
+      "bytes": 1662,
+      "sha256": "772565F7E1050D23DCF16A902E2E5D0EE96D2BEA4C25BF9807E479EB4B06F6D8"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "bytes": 28,
+      "sha256": "1F103C6A9DD07CD13A9A6F17ACE6B813F47747EB9CB7E00488CB2073CAAF91BB"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 610,
+      "sha256": "EE57D142838FD818FD8E552D64A810A9CCC9AF9A9A4348BEB9C0BF45DFC84C4B"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1071,
+      "sha256": "8FCDEA3E35032D02E18997E3975CEB6A3AAAE04BB3206F5D47364B5504DB94F9"
+    },
+    {
+      "path": "DATA-LICENSES.md",
+      "bytes": 2522,
+      "sha256": "9361FB36D3B9F7F9827D89713FAD925D11064B21C1C69601B3199AF3FCE47BCD"
+    },
+    {
+      "path": "docs/PUBLIC-ALPHA-DATA-INVENTORY.md",
+      "bytes": 7077,
+      "sha256": "073508C236768B9B4F4EBE6B6D2F16338498DFFBF36C8D4B193DE5DB3B547528"
+    },
+    {
+      "path": "docs/PUBLIC-RELEASE-CHECKLIST.md",
+      "bytes": 2060,
+      "sha256": "62A28AC5F3DEDC3A3DB47CE12187A0EC9676BBEDB56C6434AF5853D8A86C8DD5"
+    },
+    {
+      "path": "forge.config.js",
+      "bytes": 1198,
+      "sha256": "5D7A98C40BB4AACA3B3787F2E86550A59D8C14411DF15EBF1BEC1A1BF72CF0ED"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1366,
+      "sha256": "C4FE9058C505CAA61F69A8BED979F226C31144AB74D5B7333AD9F7E6C1288CA2"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 259518,
+      "sha256": "75F626A44AF4409BD9FC65C2D05B86413239E3DC910618968779C773A578278A"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1009,
+      "sha256": "C610FE0E02C44F7178638266410193961339E6B975095182E5CA2008D8A431B3"
+    },
+    {
+      "path": "prototype-0.2-lexical-coverage/core-dictionary.js",
+      "bytes": 3346046,
+      "sha256": "C85972EE509889BA0D54A65DCA7D5256F5CEECB522F9D4D7FBF7FC6D810D40E5"
+    },
+    {
+      "path": "prototype-0.2-lexical-coverage/data/README.txt",
+      "bytes": 717,
+      "sha256": "C220D5B84F770B0D9531C0E3F82FF6223CC1D57F89B8EC22D51EAE6B1E724562"
+    },
+    {
+      "path": "prototype-0.2-lexical-coverage/lexicon.js",
+      "bytes": 1909,
+      "sha256": "E424A97F591A333E1E6F0474E3A219F956128BAFA499FB2F50890BC1D639A5E1"
+    },
+    {
+      "path": "prototype-0.2-lexical-coverage/README.md",
+      "bytes": 5177,
+      "sha256": "7CE6FF09A3E32B7FA75F1B1E872E7CDE61FDD331F92A591E56BB80AA44615AC3"
+    },
+    {
+      "path": "prototype-0.2-lexical-coverage/tools/import-kaikki-italian.js",
+      "bytes": 17505,
+      "sha256": "E9BEF4369A0DADF9F8881586222FC4C7071F92F1EA8D0A73822F4166310783F4"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/accent-rules.js",
+      "bytes": 3271,
+      "sha256": "7D25F76DBCB1FF7C2C2BFC79B428386473E68EB46F3FEAB1B952D6AB843486ED"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/context-markers.js",
+      "bytes": 10404,
+      "sha256": "6FAC671BDDBA421E5E366BCF3DB2D2225AC4D9DD7D20C81B6D50C863D9F0BC52"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/dictionary-overflow.js",
+      "bytes": 1998317,
+      "sha256": "CB9D0A3E4756525B16EA24872A774EE3644302692B8A540DBBE16026270ECA20"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/elision-rules.js",
+      "bytes": 2427,
+      "sha256": "B8FF61E4DB0224EBEABB49D7C84119DCCC135C61FF0B7959B976FB19F838D193"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/learner-enrichment.js",
+      "bytes": 3005135,
+      "sha256": "3F2F41260A399407D77B119ADBF425D6509228BC29539604851807BA6456F8D1"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/paisa-frequency.js",
+      "bytes": 1367567,
+      "sha256": "93FAB35E3124B6F94517D84C15344D77C8E799BC1575F2C29DBF3509133DB1D3"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/README.md",
+      "bytes": 6175,
+      "sha256": "165ED018654DA50A2A52812AD4E3335BC242556D4F44BEE32BEABC2F5180D8F1"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/tools/build-accent-rules.js",
+      "bytes": 2636,
+      "sha256": "2B264DF9B835A4629CE227F3E43B5EF2865F9A7620D3AB4088E8CA14CE5BCCA3"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/tools/build-context-markers.js",
+      "bytes": 4205,
+      "sha256": "C1F99D029394789DD3C6685E087EDA496674C444C25C878204314D2AE7B9C3BD"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/tools/build-dictionary-overflow.js",
+      "bytes": 4361,
+      "sha256": "203FB4F73994AE7839C4643341CD6D15A2E169325CC26908BF9BCDFEC28C704C"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/tools/build-learner-enrichment.js",
+      "bytes": 1867,
+      "sha256": "7FE42DBD3BBB94951C24385EFE4F0275522B7A55C0C50DE3C6AB77ABDF2D61FE"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/tools/build-paisa-frequency.js",
+      "bytes": 3483,
+      "sha256": "97CE6D7336ED0B67F06773EED15AE8F6803B674AB590524F38D5DD9C3B07070B"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/tools/test-audio-reader.js",
+      "bytes": 4017,
+      "sha256": "1B11036E9ACE7C9EECD57209031ABA265A7EF69EFE1872B7EE3F577F9C18B56D"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/tools/test-elision-layer.js",
+      "bytes": 2872,
+      "sha256": "5D6C3737B10A4534E1C7246121E691FFF2837565BCE73CE613A24A55F1EB9A58"
+    },
+    {
+      "path": "prototype-0.5-media-shell/app.js",
+      "bytes": 159898,
+      "sha256": "F6DE8F89C7440CF3FD4CF7B6B82227BCF7FDD745015EEEA5C5F5B43F82841FE7"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/breakdown-system.md",
+      "bytes": 1933,
+      "sha256": "CADAE9CE10556754C14D65A14D6BD3293D4035340AE929AAC1F720381FB3CD7A"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/build-log-step-1-provider-contract.md",
+      "bytes": 4028,
+      "sha256": "5CFD275A247BDFA4F67E21A3947FBF8239E461BEE12C1F0FFF5C76693D1D94E4"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/build-log-step-2-youtube-parser.md",
+      "bytes": 2096,
+      "sha256": "20B9693DEB663FB70F96FAE788DCAFA5D9282116B656AAA83308B1137B6F2311"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/build-log-step-3-desktop-identity.md",
+      "bytes": 2685,
+      "sha256": "7130702561C2954C9A69FB00DDB2243AF89A91BCE96A144BA546243CC90A1FCE"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/build-log-step-4-resting-object.md",
+      "bytes": 2373,
+      "sha256": "1EF9FDF38192D63CBFA347BCA4238592F4200C28454746A021F3CF0674A3F05A"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/build-log-step-5-youtube-provider.md",
+      "bytes": 3937,
+      "sha256": "091F4F68215CE814113534DCDBDA79380A4F04757136EC3CC29CA2F0669F04ED"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/media-shell.md",
+      "bytes": 9222,
+      "sha256": "D58C6FC14398CEC8EFC23068833BE32BCB23D1167CE37BE60AD15DA37EBCCF82"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/teacher-provider-experiment.md",
+      "bytes": 2855,
+      "sha256": "485080F7535690C5DE4685967D9FEC9C75464BCA8BBB3818E1E063E9E9AE81AF"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/tester-build-0.6.md",
+      "bytes": 3600,
+      "sha256": "908C166E381F0858F01BE2084CB0B0D8190B72D81BC3C567795CA3C4F8BCD335"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/url-door.md",
+      "bytes": 2668,
+      "sha256": "5C649773AD5DABFF0DFC0B51102069739610F690CB6D75A04EE371E4C3FABD67"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/youtube-adapter-roadmap.md",
+      "bytes": 1450,
+      "sha256": "CC17E41E28FC83C36806B51939B8B1A28848789656AFD02D6DA6CE3E80BD4D0A"
+    },
+    {
+      "path": "prototype-0.5-media-shell/index.html",
+      "bytes": 1051,
+      "sha256": "0594FBAECC208237911197343C1850DD92880C2EA3C5E97AE020649C7D75EDA2"
+    },
+    {
+      "path": "prototype-0.5-media-shell/README.md",
+      "bytes": 3104,
+      "sha256": "E252B66F7D80C9C84062A8FFB133A736C9B604EB00A0B7F9A053AE68EC5BEE3E"
+    },
+    {
+      "path": "prototype-0.5-media-shell/styles.css",
+      "bytes": 45762,
+      "sha256": "69380FAD160BFF39F5419E722580258EEEBFDDFC55A58371DE21217F6534D4CB"
+    },
+    {
+      "path": "prototype-0.5-media-shell/tools/test-breakdown.js",
+      "bytes": 5977,
+      "sha256": "F2B614F749546C403A2A189013BDCD191776D0B82E41E93B936E0264336B495A"
+    },
+    {
+      "path": "prototype-0.5-media-shell/tools/test-media-shell.js",
+      "bytes": 14341,
+      "sha256": "954530B68DB9A20F73BC1A88D4880C4AAAC1A9638538B7F0841EB8FB34917D3E"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2857,
+      "sha256": "CEAD07000CC94C751AFC473A6995BB03A361E19D57F79F15ACF98053D52F2409"
+    },
+    {
+      "path": "src/books.js",
+      "bytes": 4090,
+      "sha256": "2B69303502761379C9663DE76ADF8B51DE9E36AE88829C2833E0243F8C0ABB93"
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 39540,
+      "sha256": "9CC241CD02FE828EB67D76AE1FAC73E9D998EBFD8DBB66985FEE2AFAAF4651AB"
+    },
+    {
+      "path": "src/preload.js",
+      "bytes": 1094,
+      "sha256": "52C297B27DA7DEB98841F43AFA276A30FF56BE253074FAC99BED2A0F6F5F117E"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.txt",
+      "bytes": 26294,
+      "sha256": "E82E8377F0AA276D9FA761419B6D067AA6477A4E05B65B63F77A8B55F4C37FED"
+    },
+    {
+      "path": "tools/build-public-source.js",
+      "bytes": 6120,
+      "sha256": "79F4D9700F297C254D5371CE62294AA0DE93AC8580E9931A40AB6517483BF885"
+    },
+    {
+      "path": "tools/build-third-party-notices.js",
+      "bytes": 7082,
+      "sha256": "E9974C5023521F8DE7C7B25E88FD4292CF16A2AEF00484D38B46F426EF5A2241"
+    },
+    {
+      "path": "tools/test-url-importer.js",
+      "bytes": 10921,
+      "sha256": "B72B373CB3A42B347A05146A9532ECA1356C878712A80E8B1EDC88DAAF9906ED"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+# Dependencies and generated application packages
+node_modules/
+out/
+public-repo/
+
+# Release binaries and archives; keep the Markdown release records
+releases/Passato-Prossimo-*/
+releases/*.zip
+releases/*.zip.sha256.txt
+
+# Large source corpora and downloaded datasets
+prototype-0.2-lexical-coverage/data/*
+!prototype-0.2-lexical-coverage/data/README.txt
+prototype-0.3-assisted-reader/lemma-frequencies-paisa.txt.gz
+
+# Local media, books, backups, and secrets
+*.epub
+*.mp3
+*.mp4
+*.mov
+*.m4a
+*.wav
+backup-*.zip
+.env
+.env.*
+!.env.example
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

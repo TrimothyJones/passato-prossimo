@@ -1,0 +1,18 @@
+* text=auto
+
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+
+# Generated language data should not dominate GitHub language statistics.
+prototype-0.2-lexical-coverage/core-dictionary.js linguist-generated=true
+prototype-0.2-lexical-coverage/lexicon.js linguist-generated=true
+prototype-0.3-assisted-reader/paisa-frequency.js linguist-generated=true
+prototype-0.3-assisted-reader/learner-enrichment.js linguist-generated=true
+prototype-0.3-assisted-reader/dictionary-overflow.js linguist-generated=true
+prototype-0.3-assisted-reader/context-markers.js linguist-generated=true
+prototype-0.3-assisted-reader/accent-rules.js linguist-generated=true
+prototype-0.3-assisted-reader/elision-rules.js linguist-generated=true
