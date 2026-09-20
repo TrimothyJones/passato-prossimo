@@ -20,6 +20,8 @@ const exactCopies = [
   ["package.json", "package.json"],
   ["package-lock.json", "package-lock.json"],
   ["forge.config.js", "forge.config.js"],
+  ["releases/public-source/index.html", "index.html"],
+  ["releases/public-source/.nojekyll", ".nojekyll"],
   ["releases/public-source/README.md", "README.md"],
   ["releases/PUBLIC-ALPHA-DATA-INVENTORY.md", "docs/PUBLIC-ALPHA-DATA-INVENTORY.md"],
   ["releases/PUBLIC-RELEASE-CHECKLIST.md", "docs/PUBLIC-RELEASE-CHECKLIST.md"],
@@ -40,12 +42,16 @@ const exactCopies = [
   ["prototype-0.3-assisted-reader/README.md", "prototype-0.3-assisted-reader/README.md"],
   ["tools/build-public-source.js", "tools/build-public-source.js"],
   ["tools/build-third-party-notices.js", "tools/build-third-party-notices.js"],
+  ["tools/serve-mobile.js", "tools/serve-mobile.js"],
+  ["tools/test-mobile-entry.js", "tools/test-mobile-entry.js"],
+  ["tools/test-mobile-importer.js", "tools/test-mobile-importer.js"],
   ["tools/test-url-importer.js", "tools/test-url-importer.js"]
 ];
 
 const treeCopies = [
   ["prototype-0.3-assisted-reader/tools", "prototype-0.3-assisted-reader/tools"],
   ["prototype-0.5-media-shell", "prototype-0.5-media-shell"],
+  ["mobile", "mobile"],
   ["releases/public-source/.github", ".github"]
 ];
 

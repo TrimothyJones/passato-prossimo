@@ -1,0 +1,171 @@
+.mobile-app {
+  min-height: 100dvh;
+  padding-top: env(safe-area-inset-top);
+  -webkit-tap-highlight-color: rgba(143, 212, 194, 0.16);
+  overscroll-behavior-y: contain;
+}
+
+.mobile-app .app-shell,
+.mobile-app .library,
+.mobile-app .reader,
+.mobile-app .media-lab {
+  min-height: 100dvh;
+}
+
+.mobile-app button,
+.mobile-app input,
+.mobile-app select,
+.mobile-app summary {
+  touch-action: manipulation;
+}
+
+@media (max-width: 700px) {
+  .mobile-app .library {
+    width: calc(100% - 24px);
+    padding-top: 28px;
+    padding-bottom: calc(48px + env(safe-area-inset-bottom));
+  }
+
+  .mobile-app .library::before {
+    top: 28px;
+    right: -46px;
+    transform: scale(0.78);
+  }
+
+  .mobile-app .library-top {
+    margin-bottom: 22px;
+    padding-right: 28px;
+  }
+
+  .mobile-app .library h1 {
+    max-width: 11ch;
+    font-size: 2.55rem;
+    line-height: 1;
+  }
+
+  .mobile-app .library-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .mobile-app .library-actions .ghost-button {
+    width: 100%;
+    min-height: 46px;
+    padding: 8px 10px;
+  }
+
+  .mobile-app .library-note {
+    grid-column: 1 / -1;
+    margin: 0;
+  }
+
+  .mobile-app .url-import input,
+  .mobile-app .url-import button {
+    min-height: 48px;
+  }
+
+  .mobile-app .book-card {
+    min-height: 156px;
+    padding: 18px;
+  }
+
+  .mobile-app .reader {
+    padding-bottom: calc(20px + env(safe-area-inset-bottom));
+  }
+
+  .mobile-app .reader-bar {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 9px;
+    padding: 10px 12px;
+  }
+
+  .mobile-app .reader-bar > div:nth-child(2) {
+    min-width: 0;
+  }
+
+  .mobile-app .reader-bar .eyebrow {
+    display: none;
+  }
+
+  .mobile-app .reader-bar h1 {
+    display: -webkit-box;
+    max-height: 2.5em;
+    font-size: 1rem;
+    line-height: 1.2;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  .mobile-app .reader-bar .ghost-button {
+    min-height: 44px;
+    padding: 0 11px;
+  }
+
+  .mobile-app .compatibility {
+    min-width: 0;
+    padding: 6px 9px;
+  }
+
+  .mobile-app .compatibility span {
+    font-size: 0.62rem;
+  }
+
+  .mobile-app .compatibility strong {
+    font-size: 0.95rem;
+  }
+
+  .mobile-app .reader-layout {
+    width: 100%;
+    gap: 0;
+  }
+
+  .mobile-app .page {
+    min-height: 76dvh;
+    padding: 28px 18px 40px;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    font-size: calc(1.06rem * var(--reader-scale));
+  }
+
+  .mobile-app .side-rail {
+    gap: 0;
+  }
+
+  .mobile-app .side-rail > .quiet-card {
+    display: none;
+  }
+
+  .mobile-app .word-token {
+    padding: 2px;
+  }
+
+  .mobile-app .word-lens.is-sheet,
+  .mobile-app .emoji-lens.is-sheet,
+  .mobile-app .breakdown-panel.is-sheet {
+    right: 8px;
+    bottom: calc(8px + env(safe-area-inset-bottom));
+    left: 8px;
+    max-height: 76dvh;
+  }
+
+  .mobile-app .reader-tools {
+    width: calc(100% - 16px);
+    margin: 10px auto 0;
+    padding-bottom: calc(12px + env(safe-area-inset-bottom));
+  }
+
+  .mobile-app .breakdown-toggle {
+    min-height: 42px;
+    flex: 1 1 100%;
+  }
+
+  .mobile-app .media-lab-bar {
+    padding-top: 10px;
+  }
+
+  .mobile-app .media-workspace {
+    width: calc(100% - 16px);
+  }
+}

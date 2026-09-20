@@ -6,14 +6,21 @@ turning every page into a lesson dashboard?
 
 This repository contains the source-visible **0.6 public alpha**. The current
 reading loop supports local TXT and EPUB books, article URLs, word and sentence
-Breakdown, Windows text-to-speech, local audio/video, early YouTube playback, and
-manual export of a sanitized local testing report.
+Breakdown, text-to-speech, local audio/video, early YouTube playback, and manual
+export of a sanitized local testing report.
 
 ## Alpha Status
 
-This is unfinished research software, currently available for Windows x64 and
-noncommercial testing. It is unsigned, has no automatic updates, and should not
+This is unfinished research software for noncommercial testing. The installable
+web app runs on modern mobile and desktop browsers. A separate unsigned Windows
+x64 build remains available and has no automatic updates. Neither version should
 be trusted with the only copy of an important file.
+
+Open the official web alpha at
+**https://trimothyjones.github.io/passato-prossimo/**. On iPhone, open that URL
+in Safari, use **Share**, and choose **Add to Home Screen**. After the first
+successful load, the reader shell and locally imported books can reopen offline;
+URL imports and online media still require a connection.
 
 Download compiled builds from the repository's **Releases** page. Do not download
 an installer copied to an unrelated mirror. The SHA-256 checksum published beside
@@ -25,6 +32,10 @@ Interaction events remain local unless the user manually exports a testing
 report. Exported reports exclude reading text, book titles, selected words, URLs,
 YouTube video IDs, and stable device identifiers. Reports can be opened in a text
 editor before sharing.
+
+Books imported in the web app are stored in that browser's IndexedDB storage and
+are not uploaded to the Passato Prossimo host. Browser or operating-system storage
+cleanup can remove them, so keep the original files.
 
 ## Development
 
@@ -52,6 +63,7 @@ layers needed by the alpha are included with their licenses and provenance.
 ## Project Structure
 
 - `prototype-0.5-media-shell/`: active reader, Breakdown, URL Door, and media UI.
+- `mobile/`: installable browser entry point, local importer, and offline shell.
 - `prototype-0.3-assisted-reader/`: compact language and context layers.
 - `prototype-0.2-lexical-coverage/`: core dictionary and lexical seed.
 - `src/`: Electron desktop boundary, importer, privacy-safe reporting, and books.

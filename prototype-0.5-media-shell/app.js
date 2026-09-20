@@ -1,4 +1,5 @@
 const appEl = document.querySelector("#app");
+const platform = window.PASSATO_PLATFORM;
 const builtinBooks = window.IMMERSION_BOOKS || [];
 let customBooks = [];
 const dictionary = new Map((window.CORE_ITALIAN_DICTIONARY || []).map((entry) => [entry.lemma, entry]));
@@ -310,8 +311,8 @@ let speechState = {
   utterance: null
 };
 
-function hasNativeImporter() {
-  return Boolean(window.immersion?.importBookFromFile && window.immersion?.loadCustomBooks);
+function hasBookImporter() {
+  return Boolean(platform?.capabilities.bookImport);
 }
 
 function hasNativeUrlPreview() {
@@ -2396,7 +2397,7 @@ function renderLibrary() {
   activeLensAnchored = false;
   activeEmojiSentenceIndex = null;
   activeEmojiLensAnchored = false;
-  const nativeImporter = hasNativeImporter();
+  const bookImporter = hasBookImporter();
   appEl.innerHTML = `
     <section class="library">
       <header class="library-top">
@@ -2407,7 +2408,7 @@ function renderLibrary() {
       <div class="library-actions">
         <button class="ghost-button media-shell-launch" id="mediaShellButton" type="button">Open Media Shell</button>
         ${
-          nativeImporter
+          bookImporter
             ? `<button class="ghost-button import-button" id="importButton" type="button">Import EPUB/TXT</button>
                <button class="ghost-button" id="refreshShelfButton" type="button">Refresh shelf</button>
                <button class="ghost-button" id="exportTestingReportButton" type="button">Export testing report</button>`
@@ -2670,7 +2671,7 @@ async function loadActiveSectionText() {
   }
 
   const ref = sectionsFor(activeBook)[activeSectionIndex] || { chapterIndex: 0, sectionIndex: 0 };
-  const section = await window.immersion.loadBookSection({
+  const section = await platform.library.loadSection({
     bookId: activeBook.id,
     chapterIndex: ref.chapterIndex,
     sectionIndex: ref.sectionIndex
@@ -3744,10 +3745,10 @@ async function setSection(index) {
 }
 
 async function importBook() {
-  if (!hasNativeImporter()) return;
+  if (!hasBookImporter()) return;
   showLibraryMessage("Opening book picker...");
   try {
-    const result = await window.immersion.importBookFromFile();
+    const result = await platform.library.importBook();
     if (!result) {
       showLibraryMessage("Import canceled.");
       return;
@@ -4056,17 +4057,8 @@ function showLibraryMessage(message) {
 }
 
 async function loadCustomBooks() {
-  if (!hasNativeImporter()) {
-    try {
-      customBooks = JSON.parse(localStorage.getItem("prototype03BrowserUrlBooks") || "[]");
-    } catch {
-      customBooks = [];
-    }
-    renderLibrary();
-    return;
-  }
   try {
-    customBooks = await window.immersion.loadCustomBooks();
+    customBooks = await platform.library.loadBooks();
   } catch {
     customBooks = [];
   }

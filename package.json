@@ -10,14 +10,16 @@
   "main": "src/main.js",
   "scripts": {
     "start": "electron-forge start",
+    "mobile:serve": "node tools/serve-mobile.js",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "notices": "node tools/build-third-party-notices.js",
     "public:source": "node tools/build-public-source.js",
-    "test": "node prototype-0.5-media-shell/tools/test-media-shell.js && node prototype-0.5-media-shell/tools/test-breakdown.js && node tools/test-url-importer.js"
+    "test": "node tools/test-mobile-entry.js && node tools/test-mobile-importer.js && node prototype-0.5-media-shell/tools/test-platform-adapter.js && node prototype-0.5-media-shell/tools/test-media-shell.js && node prototype-0.5-media-shell/tools/test-breakdown.js && node tools/test-url-importer.js"
   },
   "dependencies": {
     "cheerio": "1.0.0-rc.12",
+    "fflate": "^0.8.3",
     "yauzl": "^3.4.0"
   },
   "devDependencies": {
