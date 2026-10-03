@@ -5,8 +5,11 @@ const path = require("node:path");
 
 const root = path.resolve(__dirname, "..");
 const defaultPort = 4173;
+const landingPath = require("node:fs").existsSync(path.join(root, "releases/public-source/index.html"))
+  ? "releases/public-source/index.html" : "index.html";
 const allowedFiles = new Set([
   "mobile/index.html",
+  landingPath,
   "mobile/mobile.css",
   "mobile/manifest.webmanifest",
   "mobile/pwa-register.js",
@@ -45,6 +48,7 @@ const contentTypes = new Map([
 function normalizedRequestPath(rawUrl) {
   const pathname = new URL(rawUrl || "/", "http://localhost").pathname;
   if (pathname === "/" || pathname === "/mobile") return "mobile/index.html";
+  if (pathname === "/index.html") return landingPath;
   const decoded = decodeURIComponent(pathname).replace(/^\/+/, "");
   return decoded === "mobile/" ? "mobile/index.html" : decoded;
 }

@@ -1,7 +1,7 @@
 {
   "format": "passato-prossimo-public-source-v1",
   "version": "0.6.0-alpha.2",
-  "generatedAt": "2026-10-03T19:22:13.513Z",
+  "generatedAt": "2026-10-03T21:32:20.396Z",
   "policy": "Explicit allowlist; raw corpora, installers, release archives, dependencies, local media, and secrets are excluded. Existing public Forge configuration preserved; unrelated workspace change excluded.",
   "fileCount": 132,
   "files": [
@@ -67,8 +67,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 383,
-      "sha256": "E1EF4EBC16DA3DF2C188E73813F90979596361960146B99C9E747C42C95E3895"
+      "bytes": 15221,
+      "sha256": "E437A6E50B0B950D6BCCA71EFFB4DF3C514154DFD01CBB3CB2924113CA33C0F3"
     },
     {
       "path": "LICENSE",
@@ -547,8 +547,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4209,
-      "sha256": "9CFC882D442B80A9459E242ECE184A0F8D0001B64AF77B86AA4DF190AD65364C"
+      "bytes": 4345,
+      "sha256": "0DB6E99DDA9962460D53E856D0F92B166ADEFC838F8225F75A6FF856B3F16DEA"
     },
     {
       "path": "src/books.js",
@@ -622,8 +622,8 @@
     },
     {
       "path": "tools/serve-mobile.js",
-      "bytes": 3930,
-      "sha256": "BED51B52EA0B28C6C39E518760A55884B12DE925C469A1907FCEFB63F4BB77BD"
+      "bytes": 4159,
+      "sha256": "EA00F01403068F796B914CD45BD6AC697CF0D759AFC65E8C6BF30F50212A8756"
     },
     {
       "path": "tools/test-italian-foundation.js",

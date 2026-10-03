@@ -29,8 +29,9 @@ x64 build remains available and has no automatic updates. Neither version should
 be trusted with the only copy of an important file.
 
 Open the official web alpha at
-**https://trimothyjones.github.io/passato-prossimo/**. On iPhone, open that URL
-in Safari, use **Share**, and choose **Add to Home Screen**. After the first
+**https://trimothyjones.github.io/passato-prossimo/** and choose **Open the reader**.
+The reader is also available directly at **https://trimothyjones.github.io/passato-prossimo/mobile/**.
+On iPhone, open the reader in Safari, use **Share**, and choose **Add to Home Screen**. After the first
 successful load, the reader shell and locally imported books can reopen offline;
 URL imports and online media still require a connection.
 
