@@ -64,6 +64,9 @@ for (const script of [
   path.join(languageDir, "accent-rules.js"),
   path.join(languageDir, "elision-rules.js"),
   path.join(projectDir, "prototype-0.2-lexical-coverage", "core-dictionary.js"),
+  path.join(prototypeDir, "platform-adapter.js"),
+  path.join(prototypeDir, "reader-dict-en-trial.js"),
+  path.join(prototypeDir, "word-lens-trial.js"),
   path.join(prototypeDir, "app.js")
 ]) {
   vm.runInContext(fs.readFileSync(script, "utf8"), context, { filename: script });
@@ -342,9 +345,98 @@ console.table([{
 }]);
 
 const mediaShellSource = fs.readFileSync(path.join(prototypeDir, "app.js"), "utf8");
+vm.runInContext(`activeBook = {id:'trial-test'}; activeAnalysis = analyzeSection('di fare tempo casa'); showWordLens(0);`, context);
+assert.match(elementStub.innerHTML, /More dictionary meanings · 11/);
+assert.match(elementStub.innerHTML, /CC BY-SA 4.0/);
+vm.runInContext('showWordLens(1)', context);
+assert.match(elementStub.innerHTML, /More dictionary meanings · 46/);
+vm.runInContext('showWordLens(2)', context);
+assert.match(elementStub.innerHTML, /More dictionary meanings · 6/);
+vm.runInContext('showWordLens(3)', context);
+assert.doesNotMatch(elementStub.innerHTML, /More dictionary meanings/);
+vm.runInContext('window.PASSATO_WORD_LENS_TRIAL = undefined; showWordLens(0)', context);
+assert.doesNotMatch(elementStub.innerHTML, /More dictionary meanings/);
 assert.match(mediaShellSource, /media-resting-thumbnail/);
 assert.match(mediaShellSource, /Open on YouTube/);
 assert.match(mediaShellSource, /Sources &amp; licenses/);
 assert.match(mediaShellSource, /mik3ml\/italian-dictionary/);
 assert.match(mediaShellSource, /CC BY-NC-SA 3\.0/);
 assert.doesNotMatch(mediaShellSource, /<iframe\b/i);
+
+// Exercise the actual reader with the reviewed provider, not only its renderer.
+for (const name of ['reviewed-verbs-data.js', 'reviewed-word-lens.js']) {
+  vm.runInContext(fs.readFileSync(path.join(prototypeDir,name),'utf8'),context,{filename:name});
+}
+const beforeCore=JSON.stringify(context.window.CORE_ITALIAN_DICTIONARY);
+for (const entry of context.window.PASSATO_REVIEWED_VERBS.entries) {
+  vm.runInContext(`activeAnalysis = analyzeSection(${JSON.stringify(entry.headword)}); showWordLens(0);`,context);
+  for(const definition of entry.groups?.length?entry.groups.map(g=>g.definition):[entry.definition]) assert(elementStub.innerHTML.includes(definition.text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')));
+  assert.match(elementStub.innerHTML,/Original meanings and dictionary details/);
+}
+vm.runInContext("activeAnalysis = analyzeSection('Voglio fare una pizza.'); showWordLens(1);",context);
+assert.match(elementStub.innerHTML,/<dt>Verb meaning<\/dt><dd>to do; to make<\/dd>/);
+assert.match(elementStub.innerHTML,/Source verb senses · 45/);
+vm.runInContext("activeAnalysis = analyzeSection('cercare'); showWordLens(0);",context);
+assert.match(elementStub.innerHTML,/Reviewed verb meaning/);
+vm.runInContext("activeAnalysis = analyzeSection('ribellare'); showWordLens(0);",context);
+assert.doesNotMatch(elementStub.innerHTML,/Reviewed verb meaning/);
+vm.runInContext("window.PASSATO_REVIEWED_VERBS = undefined; activeAnalysis = analyzeSection('fare'); showWordLens(0);",context);
+assert.doesNotMatch(elementStub.innerHTML,/Reviewed verb meaning/);
+assert.equal(JSON.stringify(context.window.CORE_ITALIAN_DICTIONARY),beforeCore);
+console.log('Word Lens reviewed-provider integration: PASS');
+
+// Passage diagnostics exercise the real tokenizer and Word Lens rendering.
+vm.runInContext(fs.readFileSync(path.join(prototypeDir,'reviewed-verbs-data.js'),'utf8'),context);
+const passageFixtures=JSON.parse(fs.readFileSync(path.join(prototypeDir,'data/research/verbs-001-passages.json'),'utf8'));
+const passageCoverage=new Set();
+const passageResults=[];
+for(const passage of passageFixtures.cases){
+  context.passageText=passage.text;
+  vm.runInContext('activeAnalysis=analyzeSection(passageText)',context);
+  for(const target of passage.targets){
+    context.targetToken=target;
+    const index=vm.runInContext('activeAnalysis.rows.findIndex(r=>r.token.toLowerCase()===targetToken.toLowerCase())',context);
+    assert(index>=0,passage.id+': missing token '+target);
+    vm.runInContext('showWordLens('+index+')',context);
+    const accepted=context.window.PASSATO_REVIEWED_VERBS.entries.find(e=>e.headword===target);
+    assert(accepted,target);
+    assert(elementStub.innerHTML.includes(accepted.definition.text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')),passage.id+': gloss missing');
+    assert.match(elementStub.innerHTML,/Original meanings and dictionary details/);
+    passageCoverage.add(target);
+  }
+}
+assert.equal(passageCoverage.size,49,'All accepted headwords must occur in a passage');
+for(const probe of passageFixtures.probes){
+  context.passageText=probe.text; context.targetToken=probe.token;
+  const index=vm.runInContext('activeAnalysis=analyzeSection(passageText); activeAnalysis.rows.findIndex(r=>r.token.toLowerCase()===targetToken.toLowerCase())',context);
+  assert(index>=0,probe.id);
+  vm.runInContext('showWordLens('+index+')',context);
+  const reviewed=elementStub.innerHTML.includes('Reviewed verb meaning');
+  assert.equal(reviewed,!['held','form-gap'].includes(probe.assessment),probe.id);
+  if(probe.id==='passare-time')assert.match(elementStub.innerHTML,/spend \(time\)/);
+  if(probe.id==='realizzare-awareness')assert.match(elementStub.innerHTML,/English-influenced meaning/);
+  passageResults.push({case:probe.id,reviewedOverlay:reviewed,assessment:probe.assessment});
+}
+console.table(passageResults);
+console.log('Passage diagnostics: 49 headwords across '+passageFixtures.cases.length+' passages; '+passageFixtures.probes.length+' context/form probes. Rendering PASS; semantic limitations remain explicitly recorded.');
+
+// New batch: exercise both constructions and all grouped uses in sentences.
+for(const [text,word,expected] of [
+ ['Devo cercare le chiavi.','cercare','Two common constructions'],
+ ['Voglio cercare di capire.','cercare','trying to understand'],
+ ['Devo registrare il pagamento.','registrare','Written records'],
+ ['Voglio registrare un video.','registrare','Audio/video'],
+ ['Preferisco giocare a calcio.','giocare','musical instrument'],
+ ['Non voglio occupare tutto lo spazio.','occupare','Occuparsi di'],
+ ['Posso sentire un rumore.','sentire','Hearing:'],
+ ['Comincio a sentire freddo.','sentire','Feeling:'],
+ ['Il servizio militare dura un anno.','militare','adjective'],
+ ['Un militare aspetta fuori.','militare','noun'],
+ ['Vuole militare in un partito.','militare','verb']
+]){
+ context.passageText=text;context.targetToken=word;
+ const idx=vm.runInContext('activeAnalysis=analyzeSection(passageText);activeAnalysis.rows.findIndex(r=>r.token===targetToken)',context);assert(idx>=0);
+ vm.runInContext('showWordLens('+idx+')',context);assert(elementStub.innerHTML.includes(expected),word);
+ if(word==='militare'){assert.match(elementStub.innerHTML,/Meanings by use/);assert.match(elementStub.innerHTML,/no use has been selected/);assert.match(elementStub.innerHTML,/service member/);}
+}
+console.log('Batch two sentence integration: required notes and unranked grammatical alternatives PASS');

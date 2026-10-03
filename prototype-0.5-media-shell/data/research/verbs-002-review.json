@@ -1,0 +1,3294 @@
+{
+  "schemaVersion": 1,
+  "batchId": "verbs-002",
+  "batchSha256": "dc812722adde4cde61a3affde29dc4a309e4b239be52c4ec441628748911ec85",
+  "reviewType": "AI-assisted first pass",
+  "sourcePolicy": "Adapted source glosses retain CC BY-SA 4.0 attribution. No legal approval inferred.",
+  "decisions": [
+    {
+      "lemma": "cercare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to look for; to try to (with di + infinitive)",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:cercare:1:1",
+          "sourceText": "to look for",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "cercare / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:cercare:1:2",
+          "sourceText": "to try [with di (+ infinitive)]",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "cercare / section 1 / item 2"
+          }
+        }
+      ],
+      "rationale": "Preserve the searching sense and distinguish the attempt sense with di + infinitive. User accepted the revised combined learner wording and construction guide.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "contextNote": {
+        "language": "en",
+        "title": "Two common constructions",
+        "text": "Cercare + a person or thing means to look for them: cerco le chiavi — I am looking for the keys. Cercare di + infinitive means to try to do something: cerco di capire — I am trying to understand.",
+        "author": "Codex, following user-requested construction clarification",
+        "scope": "General construction guide, not sentence-specific interpretation",
+        "status": "accepted",
+        "verification": {
+          "url": "https://www.treccani.it/vocabolario/cercare/",
+          "purpose": "Construction check only; explanatory wording and examples are original, not imported dictionary prose"
+        }
+      },
+      "userFeedback": {
+        "reviewedOn": "2026-09-26",
+        "reviewer": "Project user (this conversation)",
+        "status": "resolved-user-accepted",
+        "note": "User accepted the general list and requested try/attempt plus a cercare di + infinitive note. Assistant corrected the reversed look-for/try distinction; revised combined wording has not yet been explicitly accepted. User subsequently accepted the corrected combined wording and construction guide."
+      },
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner gloss and construction-note wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to look for; to try to (with di + infinitive)",
+        "userFeedback": "User approved the revised wording and explained the project goal of guiding learners beyond a short definition.",
+        "contentHashVersion": 2,
+        "contentHash": "c660021d9bc5c0da8463510920111439ed32afe907fcbc075fb8ccca82854dde"
+      }
+    },
+    {
+      "lemma": "tornare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to return; to come back",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:tornare:1:1",
+          "sourceText": "(intransitive) to return, to come back",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "tornare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to return; to come back",
+        "userFeedback": "User passed the first ten with cercare as the sole requested amendment.",
+        "contentHashVersion": 2,
+        "contentHash": "abb03666d095bcde6d648b270d3b3cd27b512236afdb6f56c7f8c7e1e0ddf255"
+      }
+    },
+    {
+      "lemma": "continuare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to continue; to carry on",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:continuare:1:1",
+          "sourceText": "(transitive) to continue, to keep on doing (an action)",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "continuare / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:continuare:1:4",
+          "sourceText": "(intransitive) to continue, to persevere, to carry on (of a person) [auxiliary avere]",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "continuare / section 1 / item 4"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to continue; to carry on",
+        "userFeedback": "User passed the first ten with cercare as the sole requested amendment.",
+        "contentHashVersion": 2,
+        "contentHash": "952573f2915d66ff96c965a340f898545f5863c19b1927301ee96fc4a1492d6a"
+      }
+    },
+    {
+      "lemma": "costruire",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to build",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:costruire:1:1",
+          "sourceText": "to build, construct",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "costruire / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to build",
+        "userFeedback": "User passed the first ten with cercare as the sole requested amendment.",
+        "contentHashVersion": 2,
+        "contentHash": "dd510d50d980e4d5c63006aa29106c4918ed32932214800b8a4232d2c8d64dc3"
+      }
+    },
+    {
+      "lemma": "comprendere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to understand; to include",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:comprendere:1:2",
+          "sourceText": "(transitive) to understand, comprehend, take the point, get the point",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "comprendere / section 1 / item 2"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:comprendere:1:1",
+          "sourceText": "(transitive) to comprise, to include, to encompass",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "comprendere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Lead with understanding and retain inclusion. This deliberately reverses source order.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to understand; to include",
+        "userFeedback": "User passed the first ten with cercare as the sole requested amendment.",
+        "contentHashVersion": 2,
+        "contentHash": "ae0f19683ba9b1db98b8c3dfb8944fba2c32bc322bddb09067d52515d0b0f856"
+      }
+    },
+    {
+      "lemma": "sembrare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to seem; to appear",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sembrare:1:1",
+          "sourceText": "to seem, to look (like), to appear",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "sembrare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to seem; to appear",
+        "userFeedback": "User passed the first ten with cercare as the sole requested amendment.",
+        "contentHashVersion": 2,
+        "contentHash": "a82dee3c3bad1629db315f334e9d5af8eeab312cc6e7fdb4c284be74ab55c4ad"
+      }
+    },
+    {
+      "lemma": "pensare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to think",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:pensare:1:1",
+          "sourceText": "to think",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "pensare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to think",
+        "userFeedback": "User passed the first ten with cercare as the sole requested amendment.",
+        "contentHashVersion": 2,
+        "contentHash": "16c6402a075347e0f0ade1f4fbd7980005e797a77745072f18a1979bec0a139a"
+      }
+    },
+    {
+      "lemma": "morire",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to die",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:morire:2:1",
+          "sourceText": "(intransitive) to die [auxiliary essere]",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "morire / section 2 / item 1"
+          }
+        }
+      ],
+      "rationale": "Do not promote the obsolete/regional transitive kill sense into the default.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to die",
+        "userFeedback": "User passed the first ten with cercare as the sole requested amendment.",
+        "contentHashVersion": 2,
+        "contentHash": "587da6f556ab7c2721319d8ceeb0694b6c0b13252b6a959595b6c59d0665e15d"
+      }
+    },
+    {
+      "lemma": "tenere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to hold; to keep",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:tenere:1:1",
+          "sourceText": "(transitive) to hold",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "tenere / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:tenere:1:2",
+          "sourceText": "(transitive) to keep",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "tenere / section 1 / item 2"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to hold; to keep",
+        "userFeedback": "User passed the first ten with cercare as the sole requested amendment.",
+        "contentHashVersion": 2,
+        "contentHash": "c7514f078a3a29cffb3956ed27955872685ef4256b72b1ca54f5d3c238a77eb1"
+      }
+    },
+    {
+      "lemma": "produrre",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to produce",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:produrre:1:1",
+          "sourceText": "(transitive) to produce, yield, bear, generate",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "produrre / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:produrre:1:2",
+          "sourceText": "(transitive) to produce, manufacture, make",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "produrre / section 1 / item 2"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to produce",
+        "userFeedback": "User passed the first ten with cercare as the sole requested amendment.",
+        "contentHashVersion": 2,
+        "contentHash": "28f02b21a15c0a36854d5bda6acc6d041055f372811a07350692d25a504056df"
+      }
+    },
+    {
+      "lemma": "permettere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to allow; to let",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:permettere:1:1",
+          "sourceText": "(transitive) to allow, to let, to permit, to authorize, to entitle",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "permettere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner wording and displayed construction/grouping treatment only; not automatic contextual selection, secondary-sense approval, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to allow; to let",
+        "userFeedback": "User explicitly passed the remaining words and notes in 11–20 and adopted labeled alternatives as the standing review approach.",
+        "contentHashVersion": 2,
+        "contentHash": "4d80e3e8a9020e1948f863962c6eaf52a032fe69b5d6d21130af7cba5be4f9da"
+      }
+    },
+    {
+      "lemma": "chiedere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to ask; to ask for",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:chiedere:1:1",
+          "sourceText": "(transitive) to ask (for)",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "chiedere / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:chiedere:1:2",
+          "sourceText": "(transitive) to ask, request",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "chiedere / section 1 / item 2"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner wording and displayed construction/grouping treatment only; not automatic contextual selection, secondary-sense approval, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to ask; to ask for",
+        "userFeedback": "User explicitly passed the remaining words and notes in 11–20 and adopted labeled alternatives as the standing review approach.",
+        "contentHashVersion": 2,
+        "contentHash": "95f4239e26382d53c3e202920157083491297c378deac38cbcaee99d9f98f774"
+      }
+    },
+    {
+      "lemma": "rappresentare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to represent; to depict",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:rappresentare:1:2",
+          "sourceText": "to represent, depict, portray, picture, show",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "rappresentare / section 1 / item 2"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:rappresentare:1:3",
+          "sourceText": "to represent, act for, stand for, speak for, act as agent for, be",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "rappresentare / section 1 / item 3"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner wording and displayed construction/grouping treatment only; not automatic contextual selection, secondary-sense approval, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to represent; to depict",
+        "userFeedback": "User explicitly passed the remaining words and notes in 11–20 and adopted labeled alternatives as the standing review approach.",
+        "contentHashVersion": 2,
+        "contentHash": "8af2b827ecaef819a388eb1a0d7c05cf0955c8179b2cf033bb83577cbfe73899"
+      }
+    },
+    {
+      "lemma": "dedicare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to dedicate",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:dedicare:1:1",
+          "sourceText": "(transitive) to dedicate",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "dedicare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner wording and displayed construction/grouping treatment only; not automatic contextual selection, secondary-sense approval, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to dedicate",
+        "userFeedback": "User explicitly passed the remaining words and notes in 11–20 and adopted labeled alternatives as the standing review approach.",
+        "contentHashVersion": 2,
+        "contentHash": "49d71cb376bcd28c1e7e5738cc2e35eef0f621555dd648def9da4d2f6ec3ceda"
+      }
+    },
+    {
+      "lemma": "ricordare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to remember; to remind",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:ricordare:1:1",
+          "sourceText": "(transitive) to remember, to recall, to recollect",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "ricordare / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:ricordare:1:2",
+          "sourceText": "(transitive) to remind",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "ricordare / section 1 / item 2"
+          }
+        }
+      ],
+      "rationale": "Remember and remind require different argument structures; display alternatives, not interchangeable sentence translations.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "clarification": {
+        "status": "resolved-user-accepted",
+        "note": "Remember: ricordo il viaggio — I remember the trip. Remind: ti ricordo la scadenza — I remind you of the deadline. The construction tells us whose memory is involved. Original explanatory examples, not source quotations.",
+        "reference": "https://www.treccani.it/vocabolario/ricordare/"
+      },
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner wording and displayed construction/grouping treatment only; not automatic contextual selection, secondary-sense approval, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to remember; to remind",
+        "userFeedback": "User explicitly passed the remaining words and notes in 11–20 and adopted labeled alternatives as the standing review approach.",
+        "contentHashVersion": 2,
+        "contentHash": "b19d3d98949f9118d11dfa106f84aa16e27a3e09d699d9a9b17c6fb01fbad503"
+      }
+    },
+    {
+      "lemma": "stare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to stay / remain; to be or feel (in certain expressions)",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:stare:1:1",
+          "sourceText": "to stay, remain",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "stare / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:stare:1:8",
+          "sourceText": "to be in a certain condition",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "stare / section 1 / item 8"
+          }
+        }
+      ],
+      "rationale": "Do not present as freely interchangeable with essere. Progressive and stare per constructions require their own explanations.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "clarification": {
+        "status": "resolved-user-accepted",
+        "note": "Sto bene describes wellbeing; sto a casa describes being/staying at home; sto mangiando uses stare + gerund for an action in progress. Temporary state is not a general rule for choosing stare over essere: sono stanco also describes a temporary state. Keep constructions distinct.",
+        "reference": "https://www.treccani.it/vocabolario/stare/"
+      },
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-29",
+        "scope": "Revised learner gloss and construction note; not approval of automatic context selection, all secondary senses, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to stay / remain; to be or feel (in certain expressions)",
+        "userFeedback": "User accepted the proposed stare treatment to avoid confusion with essere and favored dictionary-style construction distinctions while contextual selection remains unresolved.",
+        "contentHashVersion": 2,
+        "contentHash": "ceb0820f54b938245c8150ef8ac985836a37c15f323e03089f38c13e230174d6"
+      }
+    },
+    {
+      "lemma": "partecipare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to take part in",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:partecipare:1:1",
+          "sourceText": "(intransitive) to take part in, to participate in, to share [auxiliary avere]",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "partecipare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner wording and displayed construction/grouping treatment only; not automatic contextual selection, secondary-sense approval, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to take part in",
+        "userFeedback": "User explicitly passed the remaining words and notes in 11–20 and adopted labeled alternatives as the standing review approach.",
+        "contentHashVersion": 2,
+        "contentHash": "8aaf48f5a89044a1127f59e0f126444681f348a78a5336202ac5ac5832e66174"
+      }
+    },
+    {
+      "lemma": "militare",
+      "pos": "verb",
+      "decision": "hold",
+      "proposedDefinition": null,
+      "evidence": [],
+      "rationale": "Human approved distinct adjective, noun, and verb groups. Keep held from the single-verb-default exporter pending grouped display; wording is resolved, automatic context selection is not.",
+      "confidence": "unassessed",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "clarification": {
+        "status": "resolved-user-accepted",
+        "note": "Group the spelling in the lookup UI while preserving distinct adjective, noun, and verb records. Adjective: military (servizio militare). Noun: service member (un militare). Verb: serve as a soldier, or be active in an organization (militare in un partito). Existing archive already preserves all three grammatical sections. Treccani separates adjective/noun militare1 from verb militare2. Context may rank the records, but uncertain context should expose labeled alternatives rather than force a verb default. Runtime remains held.",
+        "reference": "https://www.treccani.it/vocabolario/militare2/"
+      },
+      "followUpEvidence": {
+        "url": "https://www.treccani.it/vocabolario/militare2/",
+        "purpose": "Grammatical grouping verification; no external dictionary prose imported",
+        "treatmentType": "part-of-speech-grouping",
+        "definitionLanguage": "en",
+        "groups": [
+          {
+            "pos": "adjective",
+            "meaning": "military",
+            "sourceSection": 1,
+            "sourceText": "military"
+          },
+          {
+            "pos": "noun",
+            "meaning": "service member",
+            "sourceSection": 2,
+            "sourceText": "serviceman"
+          },
+          {
+            "pos": "verb",
+            "meaning": "to serve as a soldier; to be active in an organization",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:militare:3:1",
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:militare:3:3"
+            ]
+          }
+        ],
+        "source": {
+          "provider": "reader.dict IT-EN",
+          "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+          "date": "2026-09-01",
+          "url": "https://www.reader-dict.com",
+          "attribution": "reader.dict and Wiktionary contributors",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "locator": "militare / section 3 / item 1"
+        },
+        "license": {
+          "identifier": "CC-BY-SA-4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        "confidence": "unassessed",
+        "register": {
+          "value": "unknown",
+          "note": "Absence of a source register label does not establish neutral register."
+        },
+        "reviewStatus": "human-accepted-treatment"
+      },
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner wording and displayed construction/grouping treatment only; not automatic contextual selection, secondary-sense approval, or publication",
+        "status": "accepted-treatment",
+        "acceptedDefinition": null,
+        "userFeedback": "User explicitly passed the remaining words and notes in 11–20 and adopted labeled alternatives as the standing review approach.",
+        "contentHashVersion": 2,
+        "contentHash": "c660bf11eadf5deee04e6a6639b22cb409075c68828a7881f767bbdfc4b39548",
+        "acceptedTreatment": "Show military (adjective), service member (noun), and serve as a soldier / be active in an organization (verb) as labeled alternatives; do not force a single contextual meaning."
+      }
+    },
+    {
+      "lemma": "costituire",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to constitute; to form; to establish",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:costituire:1:1",
+          "sourceText": "to constitute, establish, set up, form",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "costituire / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:costituire:1:2",
+          "sourceText": "to constitute, compose, make up, consist",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "costituire / section 1 / item 2"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner wording and displayed construction/grouping treatment only; not automatic contextual selection, secondary-sense approval, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to constitute; to form; to establish",
+        "userFeedback": "User explicitly passed the remaining words and notes in 11–20 and adopted labeled alternatives as the standing review approach.",
+        "contentHashVersion": 2,
+        "contentHash": "a567ed0eaa01f7d3085e9a469ccb43ee78146ea98b5832e419ea372f7b4dc4a2"
+      }
+    },
+    {
+      "lemma": "avvenire",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to happen; to occur",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:avvenire:1:1",
+          "sourceText": "to happen, to occur",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "avvenire / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner wording and displayed construction/grouping treatment only; not automatic contextual selection, secondary-sense approval, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to happen; to occur",
+        "userFeedback": "User explicitly passed the remaining words and notes in 11–20 and adopted labeled alternatives as the standing review approach.",
+        "contentHashVersion": 2,
+        "contentHash": "8e561be5a11f7f2d559c21ed67d9d4659c7490f1b2b1399f782deed269a2b948"
+      }
+    },
+    {
+      "lemma": "porre",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to put; to place; to pose a question",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:porre:1:1",
+          "sourceText": "to put",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "porre / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:porre:1:2",
+          "sourceText": "to set, to place",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "porre / section 1 / item 2"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:porre:1:4",
+          "sourceText": "to pose (a question, etc.)",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "porre / section 1 / item 4"
+          }
+        }
+      ],
+      "rationale": "User accepted the learner gloss with labeled alternative uses under the standing review policy. Preserve every original source sense, including lay down, without implying all secondary senses are human-reviewed.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "clarification": {
+        "status": "resolved-user-accepted",
+        "note": "Placement: to put / place. With a question: to pose a question. These are labeled uses of the same verb; other source meanings remain available separately.",
+        "reference": "../data/research/verbs-002.json#porre"
+      },
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner gloss wording; for porre, labeled placement/question uses as requested. Not blanket approval of secondary senses, automatic context selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to put; to place; to pose a question",
+        "userFeedback": "User passed words 21–30 and requested the same labeled-alternatives approach for porre.",
+        "contentHashVersion": 2,
+        "contentHash": "d758bb7095b373c2104bad7e3e76f4b86ac54bc10017ff2c6996bbb348d019bd"
+      }
+    },
+    {
+      "lemma": "perdere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to lose",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:perdere:1:1",
+          "sourceText": "(ambitransitive) to lose [auxiliary avere]",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "perdere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner gloss wording; for porre, labeled placement/question uses as requested. Not blanket approval of secondary senses, automatic context selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to lose",
+        "userFeedback": "User passed words 21–30 and requested the same labeled-alternatives approach for porre.",
+        "contentHashVersion": 2,
+        "contentHash": "879ab031b95a1732f2f0c28dd0e7a4ca03473221638ba13fd03fec581a29ba18"
+      }
+    },
+    {
+      "lemma": "esistere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to exist",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:esistere:1:1",
+          "sourceText": "(intransitive) to exist, to be",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "esistere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner gloss wording; for porre, labeled placement/question uses as requested. Not blanket approval of secondary senses, automatic context selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to exist",
+        "userFeedback": "User passed words 21–30 and requested the same labeled-alternatives approach for porre.",
+        "contentHashVersion": 2,
+        "contentHash": "4b2cc77f9e354da3e6d4c8cd8547a101dbed15c7c6b26c11bc83cda92c68006e"
+      }
+    },
+    {
+      "lemma": "uscire",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to go out; to leave",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:uscire:1:1",
+          "sourceText": "(intransitive) to go out, leave, exit",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "uscire / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner gloss wording; for porre, labeled placement/question uses as requested. Not blanket approval of secondary senses, automatic context selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to go out; to leave",
+        "userFeedback": "User passed words 21–30 and requested the same labeled-alternatives approach for porre.",
+        "contentHashVersion": 2,
+        "contentHash": "27e1788f9837b4b5c143f23fa470aee4751e22c357f29eff1e4d27e9c5c027fd"
+      }
+    },
+    {
+      "lemma": "lavorare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to work",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:lavorare:1:1",
+          "sourceText": "(intransitive) to work; to labor",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "lavorare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner gloss wording; for porre, labeled placement/question uses as requested. Not blanket approval of secondary senses, automatic context selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to work",
+        "userFeedback": "User passed words 21–30 and requested the same labeled-alternatives approach for porre.",
+        "contentHashVersion": 2,
+        "contentHash": "1ef04cae65734092a6a99fc3ae9a24ac535b31a7f8ab477d1416c0da6a6cdca7"
+      }
+    },
+    {
+      "lemma": "dirigere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to direct; to manage",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:dirigere:1:2",
+          "sourceText": "to run, manage or direct",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "dirigere / section 1 / item 2"
+          }
+        }
+      ],
+      "rationale": "Choose manage/direct (item 2), not first-listed addressing a letter.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner gloss wording; for porre, labeled placement/question uses as requested. Not blanket approval of secondary senses, automatic context selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to direct; to manage",
+        "userFeedback": "User passed words 21–30 and requested the same labeled-alternatives approach for porre.",
+        "contentHashVersion": 2,
+        "contentHash": "4fd4ab14aebc880d818b91f87f5ee9d4a84316f817cf932dfc2001f0bb233fdb"
+      }
+    },
+    {
+      "lemma": "definire",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to define",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:definire:1:1",
+          "sourceText": "(transitive) to define",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "definire / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner gloss wording; for porre, labeled placement/question uses as requested. Not blanket approval of secondary senses, automatic context selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to define",
+        "userFeedback": "User passed words 21–30 and requested the same labeled-alternatives approach for porre.",
+        "contentHashVersion": 2,
+        "contentHash": "06f2a53ddb38a6b132307db19844a1fc10fbf8512ed977d34b4a4ec050478e5c"
+      }
+    },
+    {
+      "lemma": "scoprire",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to discover; to uncover",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:scoprire:1:2",
+          "sourceText": "to discover, find out",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "scoprire / section 1 / item 2"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:scoprire:1:1",
+          "sourceText": "to uncover",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "scoprire / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Lead with discovery, retain uncovering; do not select solely by source order.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner gloss wording; for porre, labeled placement/question uses as requested. Not blanket approval of secondary senses, automatic context selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to discover; to uncover",
+        "userFeedback": "User passed words 21–30 and requested the same labeled-alternatives approach for porre.",
+        "contentHashVersion": 2,
+        "contentHash": "5263f24bc0222a9448d3daa14382278af53c600dbacebe28b061759993d4a346"
+      }
+    },
+    {
+      "lemma": "ricevere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to receive",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:ricevere:1:1",
+          "sourceText": "to receive, get, have, be given, take",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "ricevere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Replace the radio/television-specific current default with general receive.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner gloss wording; for porre, labeled placement/question uses as requested. Not blanket approval of secondary senses, automatic context selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to receive",
+        "userFeedback": "User passed words 21–30 and requested the same labeled-alternatives approach for porre.",
+        "contentHashVersion": 2,
+        "contentHash": "650834227cba8edd564929b02f1509ecd1e8f9eb910a04e13b416c282632ffac"
+      }
+    },
+    {
+      "lemma": "uccidere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to kill",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:uccidere:1:1",
+          "sourceText": "(transitive) to kill",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "uccidere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner gloss wording; for porre, labeled placement/question uses as requested. Not blanket approval of secondary senses, automatic context selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to kill",
+        "userFeedback": "User passed words 21–30 and requested the same labeled-alternatives approach for porre.",
+        "contentHashVersion": 2,
+        "contentHash": "e21da52fe0c6b0acb2ecad276ccb52036060e1b36066ae801ae2515f007bdb52"
+      }
+    },
+    {
+      "lemma": "indicare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to indicate; to point out",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:indicare:1:4",
+          "sourceText": "to indicate",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "indicare / section 1 / item 4"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:indicare:1:1",
+          "sourceText": "to point out, point to",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "indicare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed labeled alternatives only; not all secondary senses, automatic contextual selection, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to indicate; to point out",
+        "userFeedback": "User passed words 31–40 and the labeled alternative approach, emphasizing that Word Lens should not claim more contextual understanding than it has.",
+        "contentHashVersion": 2,
+        "contentHash": "da85be500b578b3c54913f709456cd82c272f63b30d7d877221fa53bfce4ca76"
+      }
+    },
+    {
+      "lemma": "prevedere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to foresee; to forecast",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:prevedere:1:1",
+          "sourceText": "to foresee, to anticipate",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "prevedere / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:prevedere:1:2",
+          "sourceText": "to forecast",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "prevedere / section 1 / item 2"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:prevedere:1:3",
+          "sourceText": "to plan",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "prevedere / section 1 / item 3"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:prevedere:1:4",
+          "sourceText": "to include",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "prevedere / section 1 / item 4"
+          }
+        }
+      ],
+      "rationale": "Forecasting/anticipating is a proposed general starting point; include/provide-for remains relevant in plans and regulations. User accepted the labeled alternatives; no automatic contextual selection is implied.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "clarification": {
+        "status": "resolved-user-accepted",
+        "note": "Prediction: to foresee / forecast. Plans: to include / provide for. These are alternative uses, not an automatic interpretation of this sentence.",
+        "reference": "../data/research/verbs-002.json#prevedere"
+      },
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed labeled alternatives only; not all secondary senses, automatic contextual selection, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to foresee; to forecast",
+        "userFeedback": "User passed words 31–40 and the labeled alternative approach, emphasizing that Word Lens should not claim more contextual understanding than it has.",
+        "contentHashVersion": 2,
+        "contentHash": "c1e4b6103e637eb6f7630cfd315d60843e6127150e28c350d63552e740690a26"
+      }
+    },
+    {
+      "lemma": "mostrare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to show",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:mostrare:1:1",
+          "sourceText": "(transitive) to show",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "mostrare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed labeled alternatives only; not all secondary senses, automatic contextual selection, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to show",
+        "userFeedback": "User passed words 31–40 and the labeled alternative approach, emphasizing that Word Lens should not claim more contextual understanding than it has.",
+        "contentHashVersion": 2,
+        "contentHash": "3aa431417466449302580b470922bb93c9a4c8d0682a0cee62f87927124cd711"
+      }
+    },
+    {
+      "lemma": "comporre",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to compose",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:comporre:1:1",
+          "sourceText": "to compose, compound",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "comporre / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:comporre:1:3",
+          "sourceText": "to dial (a telephone)",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "comporre / section 1 / item 3"
+          }
+        }
+      ],
+      "rationale": "Repair the current noun-like composition gloss. Dialing a number remains a separate sense. User accepted the labeled alternatives; no automatic contextual selection is implied.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "clarification": {
+        "status": "resolved-user-accepted",
+        "note": "Composition: to compose. Telephone use: to dial a number. Other source meanings remain available separately.",
+        "reference": "../data/research/verbs-002.json#comporre"
+      },
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed labeled alternatives only; not all secondary senses, automatic contextual selection, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to compose",
+        "userFeedback": "User passed words 31–40 and the labeled alternative approach, emphasizing that Word Lens should not claim more contextual understanding than it has.",
+        "contentHashVersion": 2,
+        "contentHash": "ea7bc414a093a4ce5b61cb27f2141a26887d80e37843eb1730f8335850a81208"
+      }
+    },
+    {
+      "lemma": "fondare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to found; to establish",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:fondare:1:1",
+          "sourceText": "(transitive) to found, establish, constitute, start, set up, build",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "fondare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed labeled alternatives only; not all secondary senses, automatic contextual selection, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to found; to establish",
+        "userFeedback": "User passed words 31–40 and the labeled alternative approach, emphasizing that Word Lens should not claim more contextual understanding than it has.",
+        "contentHashVersion": 2,
+        "contentHash": "e66cbebf1354678f3ba0e3f37b57c97d84a0f183278e98310eb355c2281c1d7f"
+      }
+    },
+    {
+      "lemma": "aprire",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to open",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:aprire:1:1",
+          "sourceText": "(transitive) to open",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "aprire / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed labeled alternatives only; not all secondary senses, automatic contextual selection, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to open",
+        "userFeedback": "User passed words 31–40 and the labeled alternative approach, emphasizing that Word Lens should not claim more contextual understanding than it has.",
+        "contentHashVersion": 2,
+        "contentHash": "a7f1a6d798bdac2ba827c333412a5d5d801497a2e5bf707f589ba1b89dcb8b00"
+      }
+    },
+    {
+      "lemma": "cominciare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to begin; to start",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:cominciare:1:1",
+          "sourceText": "(ambitransitive) to begin, to start, to commence, to set about",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "cominciare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed labeled alternatives only; not all secondary senses, automatic contextual selection, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to begin; to start",
+        "userFeedback": "User passed words 31–40 and the labeled alternative approach, emphasizing that Word Lens should not claim more contextual understanding than it has.",
+        "contentHashVersion": 2,
+        "contentHash": "be30c5c23a7694ac9b6113ef94f9ea326054abcbc427f201b3dd7bfdb42a2211"
+      }
+    },
+    {
+      "lemma": "svolgere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to carry out",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:svolgere:1:1",
+          "sourceText": "to unroll, unwind",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "svolgere / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:svolgere:1:4",
+          "sourceText": "to carry out",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "svolgere / section 1 / item 4"
+          }
+        }
+      ],
+      "rationale": "Propose carry out before literal unroll. Reflexive svolgersi is a different lookup/construction. User accepted the labeled alternatives; no automatic contextual selection is implied.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "clarification": {
+        "status": "resolved-user-accepted",
+        "note": "An activity or task: to carry out. Literal use: to unroll / unwind. The pronominal form svolgersi requires separate construction handling.",
+        "reference": "../data/research/verbs-002.json#svolgere"
+      },
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed labeled alternatives only; not all secondary senses, automatic contextual selection, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to carry out",
+        "userFeedback": "User passed words 31–40 and the labeled alternative approach, emphasizing that Word Lens should not claim more contextual understanding than it has.",
+        "contentHashVersion": 2,
+        "contentHash": "f0c4e0e2a42e710151a12bd8a1710e42a1f23f0f5ef7ae16ba6750304ce92957"
+      }
+    },
+    {
+      "lemma": "finire",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to finish; to end",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:finire:1:1",
+          "sourceText": "(transitive) to finish [auxiliary avere]",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "finire / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:finire:1:3",
+          "sourceText": "(intransitive) to finish, to end [auxiliary essere]",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "finire / section 1 / item 3"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed labeled alternatives only; not all secondary senses, automatic contextual selection, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to finish; to end",
+        "userFeedback": "User passed words 31–40 and the labeled alternative approach, emphasizing that Word Lens should not claim more contextual understanding than it has.",
+        "contentHashVersion": 2,
+        "contentHash": "8f23c43d72545052948e0183c23f9df19b54a7a3fa7339f5a2883b3a1b303658"
+      }
+    },
+    {
+      "lemma": "sviluppare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to develop",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sviluppare:1:1",
+          "sourceText": "(transitive) to develop",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "sviluppare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Replace the informal intransitive puberty sense with ordinary transitive develop.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed labeled alternatives only; not all secondary senses, automatic contextual selection, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to develop",
+        "userFeedback": "User passed words 31–40 and the labeled alternative approach, emphasizing that Word Lens should not claim more contextual understanding than it has.",
+        "contentHashVersion": 2,
+        "contentHash": "1bf0c243c6f34af102441067d5989103da3b6062dd01654391832a25a052217a"
+      }
+    },
+    {
+      "lemma": "contenere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to contain",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:contenere:1:1",
+          "sourceText": "(transitive) to contain",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "contenere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed construction/sense distinctions; notes for registrare, giocare, occupare, and sentire are required for integration. Not approval of every secondary sense, automatic contextual selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to contain",
+        "userFeedback": "User passed the final ten on condition that all four discussed distinctions are included.",
+        "contentHashVersion": 2,
+        "contentHash": "4468e6b0324e150c56fcb37235f1de2fb1a0e4e775057873ce3de10d2ab5a8b1"
+      }
+    },
+    {
+      "lemma": "credere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to believe; to think",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:credere:1:1",
+          "sourceText": "to believe",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "credere / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:credere:1:2",
+          "sourceText": "to think",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "credere / section 1 / item 2"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed construction/sense distinctions; notes for registrare, giocare, occupare, and sentire are required for integration. Not approval of every secondary sense, automatic contextual selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to believe; to think",
+        "userFeedback": "User passed the final ten on condition that all four discussed distinctions are included.",
+        "contentHashVersion": 2,
+        "contentHash": "c43f5046ba9841349160a4f4bfaff76455fedbbf8dfc47590625725ffc5f824b"
+      }
+    },
+    {
+      "lemma": "formare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to form; to shape",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:formare:1:1",
+          "sourceText": "(transitive) to form, create, shape, make, mould/mold",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "formare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed construction/sense distinctions; notes for registrare, giocare, occupare, and sentire are required for integration. Not approval of every secondary sense, automatic contextual selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to form; to shape",
+        "userFeedback": "User passed the final ten on condition that all four discussed distinctions are included.",
+        "contentHashVersion": 2,
+        "contentHash": "cc3eb7b36bacf12cde68a32f64611172d25b9538a6cc4f0183d8eab800b3eeeb"
+      }
+    },
+    {
+      "lemma": "apparire",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to appear; to seem",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:apparire:1:1",
+          "sourceText": "to appear",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "apparire / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:apparire:1:2",
+          "sourceText": "to seem, to look",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "apparire / section 1 / item 2"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed construction/sense distinctions; notes for registrare, giocare, occupare, and sentire are required for integration. Not approval of every secondary sense, automatic contextual selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to appear; to seem",
+        "userFeedback": "User passed the final ten on condition that all four discussed distinctions are included.",
+        "contentHashVersion": 2,
+        "contentHash": "6799846768ccbbb6e0ac899645208a03ffaa8f3873277857c9c601d38b3c656f"
+      }
+    },
+    {
+      "lemma": "registrare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to record; to register",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:registrare:1:1",
+          "sourceText": "(transitive) to register, record, note",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "registrare / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:registrare:1:2",
+          "sourceText": "(transitive) to record, tape, video",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "registrare / section 1 / item 2"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions. Human approval requires the discussed distinction to appear in the learner display.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "clarification": {
+        "status": "resolved-user-accepted",
+        "note": "Written records: to register or enter information in a record. Audio/video: to record sound or images. Keep these uses labeled separately.",
+        "reference": "../data/research/verbs-002.json#registrare"
+      },
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed construction/sense distinctions; notes for registrare, giocare, occupare, and sentire are required for integration. Not approval of every secondary sense, automatic contextual selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to record; to register",
+        "userFeedback": "User passed the final ten on condition that all four discussed distinctions are included.",
+        "contentHashVersion": 2,
+        "contentHash": "da86520d5a25fee4c7bbc08c40e86080590e8c29eb5d22b2c8452581e0775295"
+      }
+    },
+    {
+      "lemma": "giocare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to play a game or sport",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:giocare:1:1",
+          "sourceText": "to play, specifically:",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "giocare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Replace mechanical backlash default. Keep game/sport scope; playing an instrument must not be inferred from this gloss. Human approval requires the discussed distinction to appear in the learner display.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "clarification": {
+        "status": "resolved-user-accepted",
+        "note": "Games and sports: to play a game or sport. This gloss does not cover playing a musical instrument.",
+        "reference": "../data/research/verbs-002.json#giocare"
+      },
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed construction/sense distinctions; notes for registrare, giocare, occupare, and sentire are required for integration. Not approval of every secondary sense, automatic contextual selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to play a game or sport",
+        "userFeedback": "User passed the final ten on condition that all four discussed distinctions are included.",
+        "contentHashVersion": 2,
+        "contentHash": "3c4f45ae169800d227e50feaf2ae5e2315479d705a6bdaba8f2d99b48365628c"
+      }
+    },
+    {
+      "lemma": "occupare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to occupy; to take up",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:occupare:1:2",
+          "sourceText": "(transitive) to occupy, take up, fill",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "occupare / section 1 / item 2"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:occupare:1:1",
+          "sourceText": "(transitive) to occupy, take over, squat in",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "occupare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Lead with occupying/taking up. Do not promote learner busy oneself without a reflexive construction. Human approval requires the discussed distinction to appear in the learner display.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "clarification": {
+        "status": "resolved-user-accepted",
+        "note": "To occupy or take up space, time, or a place. Occuparsi di is a separate pronominal construction; do not apply this bare-verb gloss to it automatically.",
+        "reference": "../data/research/verbs-002.json#occupare"
+      },
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed construction/sense distinctions; notes for registrare, giocare, occupare, and sentire are required for integration. Not approval of every secondary sense, automatic contextual selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to occupy; to take up",
+        "userFeedback": "User passed the final ten on condition that all four discussed distinctions are included.",
+        "contentHashVersion": 2,
+        "contentHash": "25d7c7b49e4825ee200ef63df3f3517dff3bc0c73e4a9afde8fe44faf0787289"
+      }
+    },
+    {
+      "lemma": "offrire",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to offer",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:offrire:1:1",
+          "sourceText": "(transitive) to offer, treat",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "offrire / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed construction/sense distinctions; notes for registrare, giocare, occupare, and sentire are required for integration. Not approval of every secondary sense, automatic contextual selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to offer",
+        "userFeedback": "User passed the final ten on condition that all four discussed distinctions are included.",
+        "contentHashVersion": 2,
+        "contentHash": "b6cbdea3ec8a5341d2b2dece566a7af8d426f46b3d49223fc17abee3bd340ef7"
+      }
+    },
+    {
+      "lemma": "legare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to tie; to bind",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:legare:1:1",
+          "sourceText": "(transitive) bind, tie",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "legare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed construction/sense distinctions; notes for registrare, giocare, occupare, and sentire are required for integration. Not approval of every secondary sense, automatic contextual selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to tie; to bind",
+        "userFeedback": "User passed the final ten on condition that all four discussed distinctions are included.",
+        "contentHashVersion": 2,
+        "contentHash": "0565768b19eaeefaba0973f23895c29d19994414d41cb02caae120efdf5a455c"
+      }
+    },
+    {
+      "lemma": "sentire",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to hear; to feel",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sentire:1:2",
+          "sourceText": "to hear",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "sentire / section 1 / item 2"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sentire:1:1",
+          "sourceText": "to feel",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "sentire / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions. Human approval requires the discussed distinction to appear in the learner display.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "clarification": {
+        "status": "resolved-user-accepted",
+        "note": "Hearing: to hear. Feeling: to feel. Keep these uses visibly distinct; the sentence is needed to choose between them.",
+        "reference": "../data/research/verbs-002.json#sentire"
+      },
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-10-03",
+        "scope": "Learner glosses and discussed construction/sense distinctions; notes for registrare, giocare, occupare, and sentire are required for integration. Not approval of every secondary sense, automatic contextual selection, or publication.",
+        "status": "accepted",
+        "acceptedDefinition": "to hear; to feel",
+        "userFeedback": "User passed the final ten on condition that all four discussed distinctions are included.",
+        "contentHashVersion": 2,
+        "contentHash": "cc2ae42c2cadc2c83e6081231ac9f25a5fa5c5a9d413b48ce375f774354ba318"
+      }
+    }
+  ],
+  "reviewWorkflow": "../../docs/lexical-review-workflow.md",
+  "batchReview": {
+    "status": "human-review-complete",
+    "reviewer": "Project user (this conversation)",
+    "reviewedOn": "2026-10-03",
+    "scope": "All 50 learner entries and discussed special treatments reviewed",
+    "acceptedGlosses": 49,
+    "acceptedFormTreatments": 1,
+    "integrationStatus": "local-word-lens",
+    "note": "All reviewed wording and required notes connected locally, including grouped militare. Secondary source senses remain unreviewed; exact surface matching only. Public release not performed.",
+    "requiredDistinctionHeadwords": [
+      "cercare",
+      "ricordare",
+      "stare",
+      "militare",
+      "porre",
+      "prevedere",
+      "comporre",
+      "svolgere",
+      "registrare",
+      "giocare",
+      "occupare",
+      "sentire"
+    ],
+    "integrationAuthorization": {
+      "status": "authorized-local-word-lens",
+      "scope": "Accepted glosses, notes, and grammatical alternatives; no automatic sense selection or deployment",
+      "excludedHeadwords": [],
+      "expectedEntries": 50
+    }
+  }
+}

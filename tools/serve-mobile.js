@@ -26,7 +26,12 @@ const allowedFiles = new Set([
   "prototype-0.3-assisted-reader/accent-rules.js",
   "prototype-0.3-assisted-reader/elision-rules.js",
   "prototype-0.5-media-shell/styles.css",
+  "prototype-0.5-media-shell/index.html",
+  "prototype-0.5-media-shell/reader-dict-en-trial.js",
+  "prototype-0.5-media-shell/word-lens-trial.js",
   "prototype-0.5-media-shell/platform-adapter.js",
+  "prototype-0.5-media-shell/reviewed-verbs-data.js",
+  "prototype-0.5-media-shell/reviewed-word-lens.js",
   "prototype-0.5-media-shell/app.js"
 ]);
 const contentTypes = new Map([

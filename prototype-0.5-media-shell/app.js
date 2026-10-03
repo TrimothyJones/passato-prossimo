@@ -2467,6 +2467,11 @@ function renderSourcesLicensesDialog() {
 
         <section>
           <h3>Dictionary layers</h3>
+          <p><strong>reader.dict / Wiktionary contributors</strong><br />Word Lens includes 99 reviewed headword entries, adapted learner meanings and usage notes, and preserved source senses. Dictionary data: CC BY-SA 4.0. IT–EN snapshot: 2026-09-01. Review does not imply sentence-specific interpretation.</p>
+          <div class="sources-dialog-links">
+            <button type="button" data-license-url="https://www.reader-dict.com">reader.dict</button>
+            <button type="button" data-license-url="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</button>
+          </div>
           <p><strong>Kaikki / English Wiktionary / Wiktextract</strong><br />Core entries were selected, ranked, and adapted into a compact local dictionary. CC BY-SA 4.0.</p>
           <div class="sources-dialog-links">
             <button type="button" data-license-url="https://kaikki.org/dictionary/Italian/index.html">Kaikki</button>
@@ -3447,6 +3452,7 @@ function showWordLens(rowIndex, anchorEl = null) {
   const lens = appEl.querySelector("#wordLens");
   const knownState = contextInfo ? "Context marker" : row.known ? "Likely familiar" : "Potential friction";
   const matchState = `${row.lemmaMatch.label} / ${confidenceLabel(row.lemmaMatch.confidence)}`;
+  const reviewed = window.PASSATO_REVIEWED_WORD_LENS?.lookup(window.PASSATO_REVIEWED_VERBS, row.token);
   lens.hidden = false;
   lens.classList.remove("is-idle", "is-floating", "is-sheet");
   lens.removeAttribute("style");
@@ -3464,11 +3470,12 @@ function showWordLens(rowIndex, anchorEl = null) {
     </div>
     <dl>
       <div><dt>Dictionary form</dt><dd>${escapeHtml(row.lemma)}</dd></div>
-      <div><dt>Meaning</dt><dd>${escapeHtml(entry.meaning)}</dd></div>
-      ${learnerNote ? `<div><dt>Learner gloss</dt><dd>${escapeHtml(learnerNote)}</dd></div>` : ""}
-      ${entry.example ? `<div><dt>Example</dt><dd>${escapeHtml(entry.example)}</dd></div>` : ""}
-      ${learnerInfo?.englishExample ? `<div><dt>Example meaning</dt><dd>${escapeHtml(learnerInfo.englishExample)}</dd></div>` : ""}
-      ${overflowNote ? `<div><dt>Overflow note</dt><dd>${escapeHtml(overflowNote)}</dd></div>` : ""}
+      ${reviewed ? window.PASSATO_REVIEWED_WORD_LENS.meaning(reviewed) : `<div><dt>Meaning</dt><dd>${escapeHtml(entry.meaning)}</dd></div>`}
+      ${window.PASSATO_REVIEWED_WORD_LENS?.notes(reviewed) || ""}
+      ${!reviewed && learnerNote ? `<div><dt>Learner gloss</dt><dd>${escapeHtml(learnerNote)}</dd></div>` : ""}
+      ${!reviewed && entry.example ? `<div><dt>Example</dt><dd>${escapeHtml(entry.example)}</dd></div>` : ""}
+      ${!reviewed && learnerInfo?.englishExample ? `<div><dt>Example meaning</dt><dd>${escapeHtml(learnerInfo.englishExample)}</dd></div>` : ""}
+      ${!reviewed && overflowNote ? `<div><dt>Overflow note</dt><dd>${escapeHtml(overflowNote)}</dd></div>` : ""}
       ${providerNotes.map(renderProviderNote).join("")}
       <div><dt>Reading signal</dt><dd>${knownState}. Zipf ${row.zipf.toFixed(1)}.</dd></div>
       <div><dt>Frequency source</dt><dd>${escapeHtml(frequencyInfo.source)}${frequencyInfo.rank ? ` / rank ${escapeHtml(frequencyInfo.rank)}` : ""}</dd></div>
@@ -3478,6 +3485,7 @@ function showWordLens(rowIndex, anchorEl = null) {
       ${row.lemmaMatch.ambiguity.isAmbiguous ? `<div><dt>Ambiguity</dt><dd>${escapeHtml(row.lemmaMatch.ambiguity.label)}. ${escapeHtml(row.lemmaMatch.ambiguity.explanation)}</dd></div>` : ""}
       <div><dt>Why grouped?</dt><dd>${escapeHtml(row.lemmaMatch.explanation)} Related forms share one dictionary form so repeated encounters can support the same word family.</dd></div>
     </dl>
+    ${reviewed ? window.PASSATO_REVIEWED_WORD_LENS.evidence(reviewed, { ...entry, learnerExample: learnerInfo?.italianExample, englishExample: learnerInfo?.englishExample }) : window.PASSATO_WORD_LENS_TRIAL?.render(window.READER_DICT_EN_TRIAL, row.token) || ""}
     <div class="lens-evidence">
       <span>${escapeHtml(row.lemmaMatch.method)}</span>
       <meter min="0" max="1" value="${row.lemmaMatch.confidence}"></meter>
@@ -3507,6 +3515,9 @@ function showWordLens(rowIndex, anchorEl = null) {
   `;
 
   lens.querySelector(".lens-close")?.addEventListener("click", hideWordLens);
+  for (const link of lens.querySelectorAll("[data-license-url]")) {
+    link.addEventListener("click", () => openProjectSource(link.dataset.licenseUrl));
+  }
 
   for (const button of lens.querySelectorAll(".lens-actions button")) {
     button.addEventListener("click", () => {

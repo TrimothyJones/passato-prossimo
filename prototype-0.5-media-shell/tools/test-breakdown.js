@@ -60,6 +60,7 @@ const scripts = [
   path.join(languageDir, "accent-rules.js"),
   path.join(languageDir, "elision-rules.js"),
   path.join(projectDir, "prototype-0.2-lexical-coverage", "core-dictionary.js"),
+  path.join(prototypeDir, "platform-adapter.js"),
   path.join(prototypeDir, "app.js")
 ];
 

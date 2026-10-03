@@ -3,9 +3,17 @@ Public alpha notice generated from the packaged dependency set.
 
 Passato Prossimo original application code and interface
 Copyright (c) 2026 Passato Prossimo Project. All rights reserved.
-The project's source-code license has not yet been selected.
+Original code is covered by the temporary noncommercial alpha terms in LICENSE.
 
 LANGUAGE AND READING DATA
+
+reader.dict / Wiktionary contributors
+Source: https://www.reader-dict.com ; terms: https://www.reader-dict.com/legal-mentions
+License: CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/
+IT-EN snapshot: 2026-09-01; archive SHA-256: 0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf
+Changes: selected entries, HTML-to-text extraction, reviewed learner glosses and construction notes, separate grammatical groups. Source senses retained. Data remains CC BY-SA 4.0.
+The three-word IT-IT/IT-EN trial and selected review source records retain the same attribution and license. Exact source metadata is recorded in prototype-0.5-media-shell/data/research/README.md and the data files.
+Original sources and contributors do not endorse Passato Prossimo.
 
 1. Kaikki Italian dictionary / English Wiktionary / Wiktextract
 Source: https://kaikki.org/dictionary/Italian/index.html

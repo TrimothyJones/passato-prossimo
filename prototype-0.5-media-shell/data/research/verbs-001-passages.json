@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "reviewStatus": "ai-assessed-awaiting-user",
+  "purpose": "Diagnostic fixtures, not dictionary entries or human-approved corpus. Constructed passages are original AI-authored contemporary scenarios; authentic excerpts are separately cited, not CC-BY-SA dictionary data.",
+  "cases": [
+    {
+      "id": "visit",
+      "kind": "constructed",
+      "text": "Vorrei venire a trovarti, vedere la mostra e fare una passeggiata. Prima di andare in centro, dobbiamo trovare un parcheggio.",
+      "targets": [
+        "venire",
+        "vedere",
+        "fare",
+        "andare",
+        "trovare"
+      ],
+      "note": "General gloss is a useful starting point; no automatic sense selection is asserted.",
+      "source": null
+    },
+    {
+      "id": "museum",
+      "kind": "constructed",
+      "text": "Per coniare una nuova parola non basta essere originali: bisogna avere qualcosa da dire. Il museo vuole inglobare la collezione privata e sormontare gli ostacoli economici.",
+      "targets": [
+        "coniare",
+        "essere",
+        "avere",
+        "inglobare",
+        "sormontare"
+      ],
+      "note": "General gloss is a useful starting point; no automatic sense selection is asserted.",
+      "source": null
+    },
+    {
+      "id": "volunteers",
+      "kind": "constructed",
+      "text": "Per potere partecipare senza dovere rinunciare al lavoro, cerchiamo un turno serale. Non basta volere aiutare: bisogna dare una mano, portare i materiali e prendere accordi con gli altri.",
+      "targets": [
+        "potere",
+        "dovere",
+        "volere",
+        "dare",
+        "portare",
+        "prendere"
+      ],
+      "note": "General gloss is a useful starting point; no automatic sense selection is asserted.",
+      "source": null
+    },
+    {
+      "id": "workshop",
+      "kind": "constructed",
+      "text": "Per riuscire a iniziare il laboratorio in tempo, dobbiamo usare gli strumenti disponibili, utilizzare bene lo spazio, mettere in ordine i tavoli e rimanere concentrati.",
+      "targets": [
+        "riuscire",
+        "iniziare",
+        "usare",
+        "utilizzare",
+        "mettere",
+        "rimanere"
+      ],
+      "note": "General gloss is a useful starting point; no automatic sense selection is asserted.",
+      "source": null
+    },
+    {
+      "id": "journalism",
+      "kind": "constructed",
+      "text": "Vorrei diventare giornalista, scrivere articoli e pubblicare un reportage. Prima di arrivare sul posto, devo sapere chi chiamare e quanto tempo passare in redazione.",
+      "targets": [
+        "diventare",
+        "scrivere",
+        "pubblicare",
+        "arrivare",
+        "sapere",
+        "chiamare",
+        "passare"
+      ],
+      "note": "Passare means spend time here: the short gloss alone is insufficient; its accepted context note covers this.",
+      "source": null
+    },
+    {
+      "id": "application",
+      "kind": "constructed",
+      "text": "Per ottenere il contributo dobbiamo presentare il progetto. Possiamo lasciare parlare tutti e seguire le proposte: da una discussione può nascere una buona idea.",
+      "targets": [
+        "ottenere",
+        "presentare",
+        "lasciare",
+        "parlare",
+        "seguire",
+        "nascere"
+      ],
+      "note": "General gloss is a useful starting point; no automatic sense selection is asserted.",
+      "source": null
+    },
+    {
+      "id": "research",
+      "kind": "constructed",
+      "text": "Prima di entrare nel laboratorio occorre considerare i rischi. Il gruppo vuole trattare i dati con attenzione e correlare i risultati alle condizioni di prova.",
+      "targets": [
+        "entrare",
+        "considerare",
+        "trattare",
+        "correlare"
+      ],
+      "note": "General gloss is a useful starting point; no automatic sense selection is asserted.",
+      "source": null
+    },
+    {
+      "id": "project",
+      "kind": "constructed",
+      "text": "Il quartiere può divenire un luogo più accogliente. Vogliamo creare un giardino, rendere accessibile il cortile e vincere il bando. Prima di partire con i lavori, dobbiamo decidere come raggiungere gli obiettivi e realizzare il progetto. Vorremmo conoscere meglio i vicini e vivere qui a lungo.",
+      "targets": [
+        "divenire",
+        "creare",
+        "rendere",
+        "vincere",
+        "partire",
+        "decidere",
+        "raggiungere",
+        "realizzare",
+        "conoscere",
+        "vivere"
+      ],
+      "note": "Partire con i lavori means start work, requiring a secondary sense; rendere is resultative here. Divenire is stylistically elevated in this otherwise contemporary passage.",
+      "source": null
+    },
+    {
+      "id": "authentic-housing",
+      "kind": "authentic-excerpt",
+      "text": "Abitare in una nuova città: come trovare casa e cosa devi sapere",
+      "targets": [
+        "trovare",
+        "sapere"
+      ],
+      "note": "Modern university guidance; devi is an inflected form outside the reviewed exact-match overlay.",
+      "source": "https://www.unibo.it/it/ho-un-diploma"
+    },
+    {
+      "id": "authentic-arrival",
+      "kind": "authentic-excerpt",
+      "text": "Tutto quello che devi sapere per venire a studiare in Italia.",
+      "targets": [
+        "sapere",
+        "venire"
+      ],
+      "note": "Modern university guidance; quoted total from this source is 24 words.",
+      "source": "https://www.unibo.it/it/ho-un-diploma"
+    },
+    {
+      "id": "authentic-lessons",
+      "kind": "authentic-excerpt",
+      "text": "Qui potrai seguire le lezioni e sostenere gli esami.",
+      "targets": [
+        "seguire"
+      ],
+      "note": "Seguire le lezioni means attend/follow classes; follow alone can be too literal.",
+      "source": "https://www.unibo.it/it/studiare/guida-alla-scelta-del-corso/scegli-il-corso"
+    }
+  ],
+  "probes": [
+    {
+      "id": "passare-time",
+      "text": "Vorrei passare due ore in biblioteca.",
+      "token": "passare",
+      "expectedContext": "spend time",
+      "assessment": "context-note"
+    },
+    {
+      "id": "passare-exam",
+      "text": "Spero di passare l’esame.",
+      "token": "passare",
+      "expectedContext": "pass an exam",
+      "assessment": "secondary-sense"
+    },
+    {
+      "id": "rendere-return",
+      "text": "Devo rendere il libro a Marta.",
+      "token": "rendere",
+      "expectedContext": "give back",
+      "assessment": "default"
+    },
+    {
+      "id": "rendere-result",
+      "text": "Questo può rendere più semplice il lavoro.",
+      "token": "rendere",
+      "expectedContext": "make something become / resultative construction",
+      "assessment": "usage-note"
+    },
+    {
+      "id": "realizzare-awareness",
+      "text": "Comincio a realizzare quanto sia difficile.",
+      "token": "realizzare",
+      "expectedContext": "realize / become aware",
+      "assessment": "origin-annotation"
+    },
+    {
+      "id": "conoscere-experience",
+      "text": "La città potrebbe conoscere una nuova crisi.",
+      "token": "conoscere",
+      "expectedContext": "experience / undergo",
+      "assessment": "secondary-sense"
+    },
+    {
+      "id": "prendere-transport",
+      "text": "Preferisco prendere il treno.",
+      "token": "prendere",
+      "expectedContext": "take transport",
+      "assessment": "default"
+    },
+    {
+      "id": "dare-exam",
+      "text": "Devo dare un esame domani.",
+      "token": "dare",
+      "expectedContext": "take / sit an exam",
+      "assessment": "secondary-sense"
+    },
+    {
+      "id": "venire-passive",
+      "text": "Il documento deve venire firmato oggi.",
+      "token": "venire",
+      "expectedContext": "passive auxiliary",
+      "assessment": "secondary-sense"
+    },
+    {
+      "id": "ribellare-bare",
+      "text": "Nel racconto il capo cerca di ribellare la popolazione al sovrano.",
+      "token": "ribellare",
+      "expectedContext": "cause others to rebel; deliberately historical construction",
+      "assessment": "held"
+    },
+    {
+      "id": "ribellarsi",
+      "text": "È giusto ribellarsi a una richiesta ingiusta.",
+      "token": "ribellarsi",
+      "expectedContext": "rebel / resist; pronominal form",
+      "assessment": "form-gap"
+    },
+    {
+      "id": "inflection",
+      "text": "Ieri ho fatto una pizza.",
+      "token": "fatto",
+      "expectedContext": "past participle of fare; exact overlay does not match",
+      "assessment": "form-gap"
+    },
+    {
+      "id": "clitic",
+      "text": "Lasciami andare!",
+      "token": "Lasciami",
+      "expectedContext": "let me; enclitic form outside exact overlay",
+      "assessment": "form-gap"
+    },
+    {
+      "id": "noun-homograph",
+      "text": "Il potere comporta responsabilità.",
+      "token": "potere",
+      "expectedContext": "noun power, not modal can",
+      "assessment": "pos-gap"
+    }
+  ]
+}

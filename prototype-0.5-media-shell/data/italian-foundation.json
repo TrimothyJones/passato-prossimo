@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "providerId": "italian-foundation",
+  "revision": "experiment-1",
+  "entries": [
+    {
+      "id": "di-preposition-of",
+      "headword": "di",
+      "language": "it",
+      "pos": "preposition",
+      "definition": { "text": "of", "language": "en" },
+      "usageNote": "A starting gloss for relation or possession. Other uses need separate senses; this is not a translation for every occurrence.",
+      "preferred": true,
+      "source": {
+        "kind": "original",
+        "author": "Codex (AI-assisted draft)",
+        "references": [{ "locator": "prototype-0.5-media-shell/docs/italian-foundation-provider-step-2.md", "senseLocator": "First review batch: di; editorial direction only, lexical evidence still needed", "relation": "evidence" }],
+        "attribution": "Passato Prossimo experiment; AI-assisted wording, not independently reviewed."
+      },
+      "license": { "expression": null, "evidence": null, "status": "pending" },
+      "confidence": "unassessed",
+      "register": "unknown",
+      "review": { "status": "draft", "reviewer": null, "reviewedAt": null, "contentHash": null, "note": "Preview only. Verify lexical sources, grammatical scope, register, and reuse metadata before approval." }
+    },
+    {
+      "id": "fare-verb-do",
+      "headword": "fare",
+      "language": "it",
+      "pos": "verb",
+      "definition": { "text": "to do", "language": "en" },
+      "usageNote": "A general learner starting point. Review ‘to make’ as a separate sense and keep construction-specific meanings available.",
+      "preferred": true,
+      "source": {
+        "kind": "original",
+        "author": "Codex (AI-assisted draft)",
+        "references": [{ "locator": "prototype-0.5-media-shell/docs/italian-foundation-provider-step-2.md", "senseLocator": "First review batch: fare; editorial direction only, lexical evidence still needed", "relation": "evidence" }],
+        "attribution": "Passato Prossimo experiment; AI-assisted wording, not independently reviewed."
+      },
+      "license": { "expression": null, "evidence": null, "status": "pending" },
+      "confidence": "unassessed",
+      "register": "unknown",
+      "review": { "status": "draft", "reviewer": null, "reviewedAt": null, "contentHash": null, "note": "Preview only. Verify lexical sources, grammatical scope, register, and reuse metadata before approval." }
+    }
+  ]
+}

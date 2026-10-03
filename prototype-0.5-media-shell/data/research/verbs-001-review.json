@@ -1,0 +1,3061 @@
+{
+  "schemaVersion": 1,
+  "batchId": "verbs-001",
+  "batchSha256": "f0ed5c546cb251bde56c4afaffc4196868aa33ad9c5b52eea767859155bf155f",
+  "reviewType": "AI-assisted first pass",
+  "sourcePolicy": "Adapted source glosses retain CC BY-SA 4.0 attribution. No legal approval inferred.",
+  "decisions": [
+    {
+      "lemma": "venire",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to come",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:venire:1:1",
+          "sourceText": "to come",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "venire / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Replace the passive-auxiliary-only core default. Preserve passive, informal, and vulgar senses with their labels.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to come",
+        "userFeedback": "User confirmed the first ten meanings, including coniare as coin a word.",
+        "contentHash": "79671d2c8d94802eaf3c212c620ae5331771466070ce1ce450a74e62c5781167",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "fare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to do; to make",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:fare:1:1",
+          "sourceText": "(transitive) to do",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "fare / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:fare:1:2",
+          "sourceText": "(transitive) to make",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "fare / section 1 / item 2"
+          }
+        }
+      ],
+      "rationale": "Replace the time-specific core default. Do/make are separate source senses; this is a combined display gloss, not a merged source sense.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to do; to make",
+        "userFeedback": "User confirmed the first ten meanings, including coniare as coin a word.",
+        "contentHash": "6eb6ce4af39bbb3e54fecaddbdc02a952c6f1d858316f097d64fed7d190577c8",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "vedere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to see",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:vedere:1:1",
+          "sourceText": "to see",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "vedere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Use ordinary seeing before the construction-specific warning with di + infinitive.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to see",
+        "userFeedback": "User confirmed the first ten meanings, including coniare as coin a word.",
+        "contentHash": "da2eaa0f3bb198f66a7fc887033755f5e1f4fa61aa0640306d6e03a507f44e5d",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "trovare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to find",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:trovare:1:1",
+          "sourceText": "to find",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "trovare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Use finding before contacting. Preserve visit and think senses; reflexive trovarsi needs separate handling.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to find",
+        "userFeedback": "User confirmed the first ten meanings, including coniare as coin a word.",
+        "contentHash": "7a31528e46c847b04a14f3521c3b32bf53cae80d075b3c6be909e58784777d73",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "andare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to go",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:andare:1:1",
+          "sourceText": "to go [auxiliary essere]",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "andare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Use going before habitual attendance. Preserve impersonal and passive constructions separately.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to go",
+        "userFeedback": "User confirmed the first ten meanings, including coniare as coin a word.",
+        "contentHash": "401daf229913988f44112f757031d1919d10362853dda03e77542e05cb761fab",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "coniare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to mint coins; to coin a word",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:coniare:1:1",
+          "sourceText": "(transitive) to mint (coinage)",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "coniare / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:coniare:1:3",
+          "sourceText": "(transitive) to coin (words)",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "coniare / section 1 / item 3"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to mint coins; to coin a word",
+        "userFeedback": "User confirmed the first ten meanings, including coniare as coin a word.",
+        "contentHash": "8356bf347bde85bcbd91e48fdc8548ff8e8f628505e0e1edebd6e86828b18bd6",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "sormontare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to overcome; to surmount",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sormontare:1:1",
+          "sourceText": "(transitive) to overcome or surmount; to be on top of something",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "sormontare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "User corrected the learner default to emphasize overcoming something. Physical position remains secondary in the unchanged source.",
+      "confidence": "unassessed",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to overcome; to surmount",
+        "userFeedback": "Lead with to overcome something.",
+        "contentHash": "17180f2ff1c623629d2e2e274ff2c5b53fc752ee2c3770659dfd42417d66349a",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "inglobare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to incorporate; to include in a whole",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:inglobare:1:1",
+          "sourceText": "(transitive) to include or incorporate (external elements) into a unified whole",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "inglobare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to incorporate; to include in a whole",
+        "userFeedback": "User confirmed the first ten meanings, including coniare as coin a word.",
+        "contentHash": "270ff125c7cb8c041dd1cc12b6e901f7e379ced7cfeac573047b7a9c637737bf",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "ribellare",
+      "pos": "verb",
+      "decision": "hold",
+      "proposedDefinition": null,
+      "evidence": [],
+      "rationale": "Human accepted the ribellare/ribellarsi distinction. Hold runtime default pending explicit pronominal form mapping; do not replace the bare-headword source sense.",
+      "confidence": "unassessed",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner meaning, wording, and discussed context/form/origin treatment; not publication approval or approval of every secondary source sense",
+        "status": "accepted-treatment",
+        "acceptedDefinition": null,
+        "userFeedback": "User approved the changes and confirmed the first 50-word batch reviewed.",
+        "contentHashVersion": 2,
+        "acceptedTreatment": "Keep archaic transitive ribellare distinct; use ribellarsi for the everyday to rebel sense. Form mapping remains an integration task.",
+        "contentHash": "dd9d1002376a0f4cda936990cc1707724e4c5974a5c82086e947b7717ff8b234"
+      },
+      "followUpEvidence": {
+        "url": "https://www.treccani.it/vocabolario/ribellare/",
+        "purpose": "Form distinction verification only; no dictionary text imported",
+        "proposedHeadword": "ribellarsi",
+        "proposedMeaning": "to rebel"
+      }
+    },
+    {
+      "lemma": "essere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to be",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:essere:1:1",
+          "sourceText": "(copulative) Used as a copula. to be",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "essere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Remove the misleading subjunctive-only qualifier in the learner gloss. Copular and auxiliary uses remain distinct.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to be",
+        "userFeedback": "User confirmed the first ten meanings, including coniare as coin a word.",
+        "contentHash": "3c6fc821af710c33e0f1badd87f867d860a570416db31bbb3c79543d040f64e5",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "avere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to have",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:avere:1:1",
+          "sourceText": "(transitive) to have",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "avere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Possession is the proposed default; the exported auxiliary explanation needs its own grammar review.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to have",
+        "userFeedback": "User reviewed the next ten (batch 001, words 11–20) and accepted all proposed glosses without corrections.",
+        "contentHash": "55065c8a8279f5f7b66f836c67fa18860454d9d7dbef9e3bdaa95b39b7ff23d8",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "potere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "can; to be able to",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:potere:1:1",
+          "sourceText": "(ambitransitive) can, could; to be able to",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "potere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Ability is a useful default; permission and possibility still depend on the sentence.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "can; to be able to",
+        "userFeedback": "User reviewed the next ten (batch 001, words 11–20) and accepted all proposed glosses without corrections.",
+        "contentHash": "8f1ec59eb8387571a381153f6f1fc23367c1f61b9e64901ddef30539c088f58b",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "dovere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "must; to have to",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:dovere:1:2",
+          "sourceText": "(auxiliary) to have to do something (must)",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "dovere / section 1 / item 2"
+          }
+        }
+      ],
+      "rationale": "Choose the obligation sense (source item 2), not first-listed owe. Retain debt as a separate sense.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "must; to have to",
+        "userFeedback": "User reviewed the next ten (batch 001, words 11–20) and accepted all proposed glosses without corrections.",
+        "contentHash": "8d7d1712d2def31e8344dc8261fd22c71cf870ee4a7c7a605568a32bfdb146a9",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "dare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to give",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:dare:1:1",
+          "sourceText": "to give (to transfer the possession/holding of something to someone else)",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "dare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to give",
+        "userFeedback": "User reviewed the next ten (batch 001, words 11–20) and accepted all proposed glosses without corrections.",
+        "contentHash": "562c5f0105d51917dbfe91f0db70b0f182fbd2c256f3e10c513fe1c0242bc217",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "volere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to want",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:volere:1:1",
+          "sourceText": "(transitive, modal) to want",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "volere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to want",
+        "userFeedback": "User reviewed the next ten (batch 001, words 11–20) and accepted all proposed glosses without corrections.",
+        "contentHash": "1643427586be20df641f454d955a39dc79dcfe1277265bc4da86d5600d6e541e",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "portare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to bring; to take; to carry",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:portare:1:1",
+          "sourceText": "to bring, fetch, take, carry",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "portare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Bring/take depends on direction and viewpoint. Wearing stays available separately.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to bring; to take; to carry",
+        "userFeedback": "User reviewed the next ten (batch 001, words 11–20) and accepted all proposed glosses without corrections.",
+        "contentHash": "111b4d252e5e41a32e7f607e03ecec661f1fcbc1cce59d16bdf195baa193543a",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "prendere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to take; to get",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:prendere:1:1",
+          "sourceText": "(transitive) to take, hold, pick up, get",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "prendere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to take; to get",
+        "userFeedback": "User reviewed the next ten (batch 001, words 11–20) and accepted all proposed glosses without corrections.",
+        "contentHash": "a8e3a1884ee399fa13eaac4da66136bed54402da89714ea3c40a5c839489dff5",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "riuscire",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to manage to; to succeed",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riuscire:1:1",
+          "sourceText": "to manage; to be able [with a or di (+ infinitive) ‘to do something’]",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "riuscire / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riuscire:1:6",
+          "sourceText": "to succeed; to do well [with in ‘in something’]",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "riuscire / section 1 / item 6"
+          }
+        }
+      ],
+      "rationale": "Keep constructions attached to senses. Verify the exported a/di alternatives before teaching a general preposition rule.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to manage to; to succeed",
+        "userFeedback": "User reviewed the next ten (batch 001, words 11–20) and accepted all proposed glosses without corrections.",
+        "contentHash": "2ffa05b3fa073c5abc84e59b0a4ced20d6176270554941c074e3c2804cdd1181",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "usare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to use",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:usare:1:1",
+          "sourceText": "(transitive) to use",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "usare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to use",
+        "userFeedback": "User reviewed the next ten (batch 001, words 11–20) and accepted all proposed glosses without corrections.",
+        "contentHash": "b0ae186e7a57d1a9d402088ca85c13795cfee14b879a982bb312613edd2fd84c",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "utilizzare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to use",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:utilizzare:1:1",
+          "sourceText": "(transitive) to use, make use of, utilize",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "utilizzare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to use",
+        "userFeedback": "User reviewed the next ten (batch 001, words 11–20) and accepted all proposed glosses without corrections.",
+        "contentHash": "81ceb35d9be6a267cd4ffad065d26a2b2c3ad67f696aa0d7f49c3e682d64207b",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "iniziare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to begin; to start",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:iniziare:1:1",
+          "sourceText": "(ambitransitive) to begin, to set about",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "iniziare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to begin; to start",
+        "userFeedback": "User accepted the first nine in words 21–30 without corrections.",
+        "contentHash": "a812b638f06797fffc12e257a410540866903b32052ff0856eb3d21cbb869beb",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "rimanere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to stay; to remain",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:rimanere:1:1",
+          "sourceText": "to stay",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "rimanere / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:rimanere:1:2",
+          "sourceText": "to remain",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "rimanere / section 1 / item 2"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to stay; to remain",
+        "userFeedback": "User accepted the first nine in words 21–30 without corrections.",
+        "contentHash": "45320fe936220fc1247b19709f6a963d92a01068334ed6bd8ee187d68966a4f7",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "mettere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to put; to place",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:mettere:1:1",
+          "sourceText": "(transitive) to put, to place, to lay, to set",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "mettere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to put; to place",
+        "userFeedback": "User accepted the first nine in words 21–30 without corrections.",
+        "contentHash": "7cfc35b6ce14f642783d8101338991bbf176f171f6673955e880402c1c6486fb",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "pubblicare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to publish",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:pubblicare:1:1",
+          "sourceText": "to publish",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "pubblicare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to publish",
+        "userFeedback": "User accepted the first nine in words 21–30 without corrections.",
+        "contentHash": "80e8473609490edf1d4003734fd5a7a8847c8f5e0337ff5db3abd31c10a99c45",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "arrivare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to arrive; to reach",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:arrivare:1:1",
+          "sourceText": "(intransitive) to arrive, to come, to reach [auxiliary essere]",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "arrivare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to arrive; to reach",
+        "userFeedback": "User accepted the first nine in words 21–30 without corrections.",
+        "contentHash": "c3ef8f8eefef169b8e3d32963c9acdd21e8682ac8c166d0e9879380d3292e4c7",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "diventare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to become",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:diventare:1:1",
+          "sourceText": "to become (rich, dry, a doctor, etc.), to go (crazy, etc.), to turn (red, blue, etc.)",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "diventare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to become",
+        "userFeedback": "User accepted the first nine in words 21–30 without corrections.",
+        "contentHash": "d3d53b1f382577a59452844e12724701c4912a8135abda6e4ae05e6966195809",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "scrivere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to write",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:scrivere:1:1",
+          "sourceText": "(ambitransitive) to write [auxiliary avere]",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "scrivere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to write",
+        "userFeedback": "User accepted the first nine in words 21–30 without corrections.",
+        "contentHash": "ba0faf28b54a47a5241de6f16323a37441c52ba5e5fe07eca3f4c38e605b4869",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "sapere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to know a fact; to know how to",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sapere:1:1",
+          "sourceText": "(ambitransitive) to know (information) [auxiliary avere]",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "sapere / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sapere:1:2",
+          "sourceText": "(transitive, auxiliary) to be able to, can, could (to know how to)",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "sapere / section 1 / item 2"
+          }
+        }
+      ],
+      "rationale": "Distinguish knowing facts/how to from conoscere. Taste/smell with di is a separate construction.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to know a fact; to know how to",
+        "userFeedback": "User accepted the first nine in words 21–30 without corrections.",
+        "contentHash": "b4926790709a03f703747918997f9736e182b29c8babfec859ac22cd3456a389",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "chiamare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to call",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:chiamare:1:1",
+          "sourceText": "(transitive) to call",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "chiamare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to call",
+        "userFeedback": "User accepted the first nine in words 21–30 without corrections.",
+        "contentHash": "2a2d838c443283b7c0ccc3115c9f9033d90ace1cc092d20441ef6d50f9a23423",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "passare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to pass / go by",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:passare:1:1",
+          "sourceText": "(ambitransitive) to pass (all senses)",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "passare / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:passare:1:6",
+          "sourceText": "(intransitive) to move on [with a ‘to another topic, activity, etc.’]",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "passare / section 1 / item 6"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:passare:1:7",
+          "sourceText": "(transitive) to go over or through",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "passare / section 1 / item 7"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:passare:1:9",
+          "sourceText": "(transitive) to transfer; to move",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "passare / section 1 / item 9"
+          }
+        }
+      ],
+      "rationale": "User proposed a short starting gloss with a separate Context matters note. Keep on hold for final wording and example review; the general explanation must not become an automatic translation for every sentence.",
+      "confidence": "unassessed",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "contextNote": {
+        "title": "Context matters",
+        "language": "en",
+        "text": "Passare is a flexible verb whose meaning changes with context. Its core idea often involves passing, moving, or changing from one state/place to another. Depending on the sentence, it can mean things like to pass by, spend (time), hand/pass something, switch/change, or go through.",
+        "author": "Project user (this conversation)",
+        "status": "accepted",
+        "scope": "General orientation; not a selected sentence meaning or an exhaustive list of senses",
+        "verification": {
+          "url": "https://www.treccani.it/vocabolario/passare/",
+          "purpose": "Sense sanity check only; explanatory text supplied by the user, not copied from Treccani"
+        }
+      },
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner meaning, wording, and discussed context/form/origin treatment; not publication approval or approval of every secondary source sense",
+        "status": "accepted",
+        "acceptedDefinition": "to pass / go by",
+        "userFeedback": "User approved the changes and confirmed the first 50-word batch reviewed.",
+        "contentHashVersion": 2,
+        "contentHash": "d19fe0e9bac3e5d9e6a421595162bceba2d69963378e9dea7b1edf061520db3c"
+      }
+    },
+    {
+      "lemma": "ottenere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to obtain; to get",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:ottenere:1:1",
+          "sourceText": "(transitive) to obtain, to achieve, to gain (something desired)",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "ottenere / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:ottenere:1:2",
+          "sourceText": "(transitive) to obtain, to get (a result)",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "ottenere / section 1 / item 2"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to obtain; to get",
+        "userFeedback": "User accepted words 31–40 except lasciare and parlare, which were raised for clarification.",
+        "contentHash": "b20962c85944226161b29a702a5d04a8af3715f9d911eb6a2b08f65f6efc3de7",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "presentare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to present; to introduce",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:presentare:1:1",
+          "sourceText": "(transitive) to present",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "presentare / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:presentare:1:2",
+          "sourceText": "(transitive) to introduce",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "presentare / section 1 / item 2"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to present; to introduce",
+        "userFeedback": "User accepted words 31–40 except lasciare and parlare, which were raised for clarification.",
+        "contentHash": "376dac488c8bffe1232b9640fba720733cc47bc4b56ea7f1846f9f6a99513178",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "lasciare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to leave; to let / allow",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:lasciare:1:1",
+          "sourceText": "to leave (to leave something behind)",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "lasciare / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:lasciare:1:2",
+          "sourceText": "to let",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "lasciare / section 1 / item 2"
+          }
+        }
+      ],
+      "rationale": "User accepted leave; let/allow after reviewing the Italian constructions. Preserve lasciare andare and lasciare stare as construction-specific readings.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "clarification": {
+        "status": "resolved-user-accepted",
+        "userQuestion": "Does let here mean let go of something?",
+        "reference": "https://www.treccani.it/vocabolario/lasciare/",
+        "note": "Let/allow is supported by section 6; releasing is another use. The attached mi in lasciami is a pronoun, not a conjugation ending.",
+        "examples": [
+          {
+            "it": "Lasciami andare!",
+            "en": "Let me go!",
+            "origin": "user-supplied Italian; assistant translation"
+          },
+          {
+            "it": "Lascia stare il mio cane!",
+            "en": "Leave my dog alone!",
+            "origin": "user-supplied Italian with full stare; assistant translation"
+          }
+        ]
+      },
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording, including the discussed construction/specialist-sense clarification; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to leave; to let / allow",
+        "userFeedback": "User accepted words 31–40 after discussion of lasciare as let/allow and parlare as speak/talk.",
+        "contentHash": "73e74830013cb2c575934e965a73714d61a18b204daa5fcfff2a967a2c32dcde",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "parlare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to speak; to talk",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:parlare:1:1",
+          "sourceText": "(ambitransitive) to talk, to speak",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "parlare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Keep to speak; to talk as the learner default. Source cant is explicitly labeled heraldry: a visual pun on a name in a coat of arms, unrelated to cannot. Retain only as a specialist secondary sense.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "clarification": {
+        "status": "resolved-user-accepted",
+        "userQuestion": "Does cant mean cannot?",
+        "reference": "https://en.wiktionary.org/wiki/cant",
+        "note": "Cant is a heraldic term here. No change to the proposed learner gloss; awaiting user response to the explanation."
+      },
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording, including the discussed construction/specialist-sense clarification; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to speak; to talk",
+        "userFeedback": "User accepted words 31–40 after discussion of lasciare as let/allow and parlare as speak/talk.",
+        "contentHash": "56cb577bb0b681a87e4c09dcbbce617eb04256f828d9c03f4c0a0f497fa2842d",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "nascere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to be born",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:nascere:1:1",
+          "sourceText": "to be born",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "nascere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to be born",
+        "userFeedback": "User accepted words 31–40 except lasciare and parlare, which were raised for clarification.",
+        "contentHash": "1f3145ce142511d3f9f86abb3d736edb2a7de4f1915c5a2e9762013957415625",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "seguire",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to follow",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:seguire:1:1",
+          "sourceText": "(transitive) to follow, to pursue",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "seguire / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to follow",
+        "userFeedback": "User accepted words 31–40 except lasciare and parlare, which were raised for clarification.",
+        "contentHash": "909e7db5bad9a6c179977f92cf0b9b86435be975caee983647547784a22ddac2",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "considerare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to consider",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:considerare:1:1",
+          "sourceText": "to consider, to examine, to weigh, to contemplate",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "considerare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to consider",
+        "userFeedback": "User accepted words 31–40 except lasciare and parlare, which were raised for clarification.",
+        "contentHash": "a35c9ace57740208232bf3fd55b3ffe863015a37d3a96e7e36263f1dc1f429e7",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "entrare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to enter; to go in",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:entrare:1:1",
+          "sourceText": "to enter, to go in",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "entrare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to enter; to go in",
+        "userFeedback": "User accepted words 31–40 except lasciare and parlare, which were raised for clarification.",
+        "contentHash": "99f7946ff3b833967b7e53041e83715883506efbc81225998680d2fada826dcc",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "trattare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to treat; to deal with",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:trattare:1:1",
+          "sourceText": "(transitive) to treat, to handle, to deal with",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "trattare / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:trattare:1:6",
+          "sourceText": "(intransitive) to be about, to deal with, to treat [auxiliary avere]",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "trattare / section 1 / item 6"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to treat; to deal with",
+        "userFeedback": "User accepted words 31–40 except lasciare and parlare, which were raised for clarification.",
+        "contentHash": "8f3e8735f35224fd945e7d7f24971e5548838780f1f660eb3f559d07df0e6920",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "correlare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to correlate",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:correlare:1:1",
+          "sourceText": "(transitive) to correlate",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "correlare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "scope": "Learner gloss meaning and wording only; not blanket approval of secondary senses, register, licensing, or publication",
+        "status": "accepted",
+        "acceptedDefinition": "to correlate",
+        "userFeedback": "User accepted words 31–40 except lasciare and parlare, which were raised for clarification.",
+        "contentHash": "1b104b3f6cb6d81224cb10db5218f4e9d8bd805e7a6853e3ee7113212b461892",
+        "contentHashVersion": 2
+      }
+    },
+    {
+      "lemma": "divenire",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to become",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:divenire:1:1",
+          "sourceText": "to become",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "divenire / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "User raises dramatic/philosophical connotations. Italian dictionaries support overlap with diventare, not a restriction to profound life changes. Keep the verb separate from philosophical noun il divenire; proposed explanatory note awaits review.",
+      "confidence": "unassessed",
+      "register": {
+        "value": "unknown",
+        "note": "Do not automatically assign literary register to the ordinary verb from philosophical associations; the checked dictionaries do not establish that categorical restriction."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "clarification": {
+        "status": "resolved-user-accepted",
+        "reference": "https://dizionario.internazionale.it/parola/divenire",
+        "note": "Divenire can describe a change of condition, often progressive, and overlaps with diventare. Philosophical il divenire is a separate noun use. A dramatic interpretation depends on context; no rule excludes concrete transformations.",
+        "additionalReferences": [
+          "https://dizionari.corriere.it/dizionario_italiano/D/divenire_1.shtml",
+          "https://dizionari.repubblica.it/Italiano/D/divenire.html"
+        ],
+        "examples": []
+      },
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner meaning, wording, and discussed context/form/origin treatment; not publication approval or approval of every secondary source sense",
+        "status": "accepted",
+        "acceptedDefinition": "to become",
+        "userFeedback": "User approved the changes and confirmed the first 50-word batch reviewed.",
+        "contentHashVersion": 2,
+        "contentHash": "61ac9d469de56677065a0d4948d55c11d73b3632643dda395b49eca91148975e"
+      }
+    },
+    {
+      "lemma": "creare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to create",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:creare:1:1",
+          "sourceText": "to create",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "creare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner meaning, wording, and discussed context/form/origin treatment; not publication approval or approval of every secondary source sense",
+        "status": "accepted",
+        "acceptedDefinition": "to create",
+        "userFeedback": "User approved the changes and confirmed the first 50-word batch reviewed.",
+        "contentHashVersion": 2,
+        "contentHash": "a1cf1c9a37235e3551e7766e58f64fcf8885188009184acb901a1f539815b4db"
+      }
+    },
+    {
+      "lemma": "rendere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to give back; to make someone/something become …",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:rendere:1:1",
+          "sourceText": "(transitive) to give back, to return",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "rendere / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:rendere:1:4",
+          "sourceText": "(transitive) to send or make",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "rendere / section 1 / item 4"
+          }
+        }
+      ],
+      "rationale": "Separate restitution from the resultative construction. Make in English covers both production (fare/preparare) and causing a state (rendere + object + adjective). The latter applies to objects as well as emotional states; no universal root-based translation rule.",
+      "confidence": "unassessed",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "clarification": {
+        "status": "resolved-user-accepted",
+        "reference": "https://www.treccani.it/vocabolario/rendere/",
+        "note": "Restitution: give back. Resultative construction: rendere + object + adjective, cause the described state. This can apply to people or things. Yield, express, and other source senses remain separate.",
+        "examples": [
+          {
+            "it": "Questa notizia mi rende felice.",
+            "en": "This news makes me happy.",
+            "origin": "AI-authored illustration; not a corpus quotation"
+          },
+          {
+            "it": "La cottura rende la pizza croccante.",
+            "en": "Baking makes the pizza crisp.",
+            "origin": "AI-authored illustration; not a corpus quotation"
+          },
+          {
+            "it": "Faccio una pizza.",
+            "en": "I am making a pizza.",
+            "origin": "AI-authored illustration; not a corpus quotation"
+          }
+        ]
+      },
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner meaning, wording, and discussed context/form/origin treatment; not publication approval or approval of every secondary source sense",
+        "status": "accepted",
+        "acceptedDefinition": "to give back; to make someone/something become …",
+        "userFeedback": "User approved the changes and confirmed the first 50-word batch reviewed.",
+        "contentHashVersion": 2,
+        "contentHash": "9c36f6e37358b5eb2cd352b211543d21f6300f7f34f32b3d27835bfe39fad2c8"
+      }
+    },
+    {
+      "lemma": "vincere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to win",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:vincere:1:1",
+          "sourceText": "(ambitransitive) to win [auxiliary avere]",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "vincere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner meaning, wording, and discussed context/form/origin treatment; not publication approval or approval of every secondary source sense",
+        "status": "accepted",
+        "acceptedDefinition": "to win",
+        "userFeedback": "User approved the changes and confirmed the first 50-word batch reviewed.",
+        "contentHashVersion": 2,
+        "contentHash": "da7e082755d3894bd60bf451491c4e2b1e8955def0a767440ff5f7dc297fd87a"
+      }
+    },
+    {
+      "lemma": "partire",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to leave; to depart",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:partire:1:1",
+          "sourceText": "to depart; to leave; to set forth",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "partire / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Prefer departure. The archive also contains divide/share senses; keep separate source sections and labels.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner meaning, wording, and discussed context/form/origin treatment; not publication approval or approval of every secondary source sense",
+        "status": "accepted",
+        "acceptedDefinition": "to leave; to depart",
+        "userFeedback": "User approved the changes and confirmed the first 50-word batch reviewed.",
+        "contentHashVersion": 2,
+        "contentHash": "e2556270cb74a6252a86978a465ac92cb4faa4304acfcbe146baa28986bdace3"
+      }
+    },
+    {
+      "lemma": "raggiungere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to reach; to achieve",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:raggiungere:1:1",
+          "sourceText": "to reach, arrive at, get to, touch",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "raggiungere / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:raggiungere:1:3",
+          "sourceText": "to attain, gain, achieve",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "raggiungere / section 1 / item 3"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner meaning, wording, and discussed context/form/origin treatment; not publication approval or approval of every secondary source sense",
+        "status": "accepted",
+        "acceptedDefinition": "to reach; to achieve",
+        "userFeedback": "User approved the changes and confirmed the first 50-word batch reviewed.",
+        "contentHashVersion": 2,
+        "contentHash": "059ef7343f70a4fc3b5a0d2fe6eede6b2eaa3a476d51acad794b45b3ec5bf20b"
+      }
+    },
+    {
+      "lemma": "decidere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to decide",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:decidere:1:4",
+          "sourceText": "(transitive) to decide, to make up one's mind",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "decidere / section 1 / item 4"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner meaning, wording, and discussed context/form/origin treatment; not publication approval or approval of every secondary source sense",
+        "status": "accepted",
+        "acceptedDefinition": "to decide",
+        "userFeedback": "User approved the changes and confirmed the first 50-word batch reviewed.",
+        "contentHashVersion": 2,
+        "contentHash": "d377399136e9d7de826aaf3eeb3fcb6ace94c2e4c5d14465a0f0909e1a6c966c"
+      }
+    },
+    {
+      "lemma": "realizzare",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to bring into reality; to accomplish",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:realizzare:1:1",
+          "sourceText": "to achieve, to accomplish",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "realizzare / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Distinguish actualizing/completing something from becoming aware. The awareness sense is an established semantic borrowing influenced by English via French, not necessarily a present-day neologism. Do not silently reinterpret the ambiguous archive item realize, see through.",
+      "confidence": "unassessed",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "clarification": {
+        "status": "resolved-user-accepted",
+        "reference": "https://accademiadellacrusca.it/it/consulenza/abbiamo-realizzato-che-si-puo-usare/1241",
+        "note": "The awareness meaning is a semantic calque of English through French, documented in discussion by 1938 and accepted in the cited Crusca analysis. Attach its origin note to that sense alone; do not mark the whole verb as new or nonstandard.",
+        "examples": [
+          {
+            "it": "Abbiamo realizzato il progetto.",
+            "en": "We carried out the project.",
+            "origin": "AI-authored illustration; not a corpus quotation"
+          },
+          {
+            "it": "Ho realizzato che mancava una pagina.",
+            "en": "I realized that a page was missing.",
+            "origin": "AI-authored illustration; not a corpus quotation"
+          }
+        ]
+      },
+      "senseAnnotationProposals": [
+        {
+          "senseDescription": {
+            "language": "it",
+            "text": "rendersi conto; prendere coscienza di qualcosa"
+          },
+          "englishMeaning": "to realize; to become aware",
+          "kind": "usage-origin",
+          "label": "English-influenced meaning",
+          "technicalLabel": "calco semantico",
+          "originLanguage": "en",
+          "viaLanguage": "fr",
+          "usageStatus": "established",
+          "review": {
+            "status": "human-accepted-treatment"
+          },
+          "source": {
+            "url": "https://accademiadellacrusca.it/it/consulenza/abbiamo-realizzato-che-si-puo-usare/1241",
+            "purpose": "Verification reference; no source prose imported"
+          },
+          "license": {
+            "status": "not-assessed-for-export"
+          },
+          "note": "Historical origin label, not a register or correctness warning. Not yet linked to a sufficiently precise archive sense."
+        }
+      ],
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner meaning, wording, and discussed context/form/origin treatment; not publication approval or approval of every secondary source sense",
+        "status": "accepted",
+        "acceptedDefinition": "to bring into reality; to accomplish",
+        "userFeedback": "User approved the changes and confirmed the first 50-word batch reviewed.",
+        "contentHashVersion": 2,
+        "contentHash": "61ea0d87aed9a2fc641cc7b9179a904c891978aa7a3b0ce1e3be5e76c691ca32"
+      }
+    },
+    {
+      "lemma": "conoscere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to know a person or place; to be familiar with",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:conoscere:1:1",
+          "sourceText": "(transitive) to know (a person or place), to meet (a person), to experience",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "conoscere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Keep familiarity with people/places distinct from sapere; do not carry every source paraphrase into the default.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner meaning, wording, and discussed context/form/origin treatment; not publication approval or approval of every secondary source sense",
+        "status": "accepted",
+        "acceptedDefinition": "to know a person or place; to be familiar with",
+        "userFeedback": "User approved the changes and confirmed the first 50-word batch reviewed.",
+        "contentHashVersion": 2,
+        "contentHash": "dbbc1ac9eb821cf0b02fab7e5dc9187f49a82fff819f181a2df6bf191ea24ce0"
+      }
+    },
+    {
+      "lemma": "vivere",
+      "pos": "verb",
+      "decision": "propose",
+      "proposedDefinition": {
+        "text": "to live",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:vivere:1:1",
+          "sourceText": "(intransitive) to live; to be alive [auxiliary avere or (traditional) essere]",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "vivere / section 1 / item 1"
+          }
+        }
+      ],
+      "rationale": "Propose a concise general verb gloss supported by the cited source sense(s); preserve all other senses and their restrictions.",
+      "confidence": "medium",
+      "register": {
+        "value": "unknown",
+        "note": "Absence of a source register label does not establish neutral register."
+      },
+      "review": {
+        "status": "ai-reviewed-awaiting-human",
+        "reviewer": "Codex (AI)",
+        "scope": "General learner-default proposal; not a full validation of every secondary sense",
+        "approvedBy": null
+      },
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "humanReview": {
+        "reviewer": "Project user (this conversation)",
+        "reviewedOn": "2026-09-26",
+        "scope": "Learner meaning, wording, and discussed context/form/origin treatment; not publication approval or approval of every secondary source sense",
+        "status": "accepted",
+        "acceptedDefinition": "to live",
+        "userFeedback": "User approved the changes and confirmed the first 50-word batch reviewed.",
+        "contentHashVersion": 2,
+        "contentHash": "c6618cce5e5094c99ec7695d9ef48b9c7f5bce666a8b12c3f3c6115ed52eec5b"
+      }
+    }
+  ],
+  "batchReview": {
+    "status": "human-review-complete",
+    "reviewer": "Project user (this conversation)",
+    "reviewedOn": "2026-09-26",
+    "scope": "All 50 learner entries and discussed special treatments reviewed",
+    "acceptedGlosses": 49,
+    "acceptedFormTreatments": 1,
+    "integrationStatus": "local-word-lens",
+    "note": "Review complete does not imply all 301 secondary source senses approved. Preserve original batches; resolve form mapping and test integration separately.",
+    "integrationAuthorization": {
+      "status": "authorized-local-word-lens",
+      "scope": "Accepted glosses, notes, and grammatical alternatives; no automatic sense selection or deployment",
+      "excludedHeadwords": [
+        "ribellare"
+      ],
+      "expectedEntries": 49
+    }
+  }
+}

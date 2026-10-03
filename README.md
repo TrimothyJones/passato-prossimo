@@ -9,6 +9,18 @@ reading loop supports local TXT and EPUB books, article URLs, word and sentence
 Breakdown, text-to-speech, local audio/video, early YouTube playback, and manual
 export of a sanitized local testing report.
 
+## Word Lens update — 0.6.0-alpha.2
+
+Word Lens now includes 99 reviewed Italian headword entries with clearer English
+meanings, construction notes, and labeled alternatives. Original dictionary senses
+and source details remain available. Dictionary data credits reader.dict and
+Wiktionary contributors under CC BY-SA 4.0.
+
+This update improves lexical guidance; it does not automatically select a meaning
+from context. Matching uses exact headwords, with conjugated forms retaining the
+existing lookup. The web app has this update; the older Windows download remains
+unchanged. Further refinements are planned, without a promised release schedule.
+
 ## Alpha Status
 
 This is unfinished research software for noncommercial testing. The installable

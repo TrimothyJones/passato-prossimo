@@ -1,0 +1,1337 @@
+{
+  "schemaVersion": 1,
+  "providerId": "reader-dict-it-trial",
+  "source": {
+    "source": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+    "sha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+    "archiveDate": "2026-09-01",
+    "license": {
+      "expression": "CC-BY-SA-4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "evidence": "https://www.reader-dict.com/legal-mentions"
+    },
+    "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo."
+  },
+  "changes": "Three-entry subset; HTML parsed to plain text; POS definition lists separated from synonyms. No English translation or sense alignment added.",
+  "entries": [
+    {
+      "headword": "di",
+      "senses": [
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:1",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 1,
+          "definition": {
+            "text": "specifica meglio il sostantivo cui si riferisce",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 1"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:2",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 2,
+          "definition": {
+            "text": "indica appartenenza o possesso",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 2"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:3",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 3,
+          "definition": {
+            "text": "indica denominazione",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 3"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:4",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 4,
+          "definition": {
+            "text": "indica argomento",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 4"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:5",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 5,
+          "definition": {
+            "text": "indica moto da luogo",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 5"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:6",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 6,
+          "definition": {
+            "text": "indica moto per luogo",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 6"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:7",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 7,
+          "definition": {
+            "text": "indica tempo determinato",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 7"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:8",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 8,
+          "definition": {
+            "text": "indica provenienza",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 8"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:9",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 9,
+          "definition": {
+            "text": "indica causa",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 9"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:10",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 10,
+          "definition": {
+            "text": "indica mezzo",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 10"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:11",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 11,
+          "definition": {
+            "text": "indica modo",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 11"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:12",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 12,
+          "definition": {
+            "text": "indica quantità",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 12"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:13",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 13,
+          "definition": {
+            "text": "indica il secondo termine di un paragone",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 13"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:14",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 14,
+          "definition": {
+            "text": "indica colpa",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 14"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:15",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 15,
+          "definition": {
+            "text": "indica materia",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 15"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:16",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 16,
+          "definition": {
+            "text": "specifica il contesto, indica limitazione",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 16"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:17",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 17,
+          "definition": {
+            "text": "indica qualità",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 17"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:18",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 18,
+          "definition": {
+            "text": "indica età",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 18"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:di:Preposizione:19",
+          "headword": "di",
+          "language": "it",
+          "pos": "preposition",
+          "sourceSection": "Preposizione",
+          "sourcePosition": 19,
+          "definition": {
+            "text": "indica prezzo",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "di / Preposizione / 19"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        }
+      ],
+      "supplemental": [
+        {
+          "type": "other-source-text",
+          "text": "/ˈdi/"
+        },
+        {
+          "type": "other-source-text",
+          "text": "dal latino de"
+        }
+      ]
+    },
+    {
+      "headword": "fare",
+      "senses": [
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:fare:Sostantivo:1",
+          "headword": "fare",
+          "language": "it",
+          "pos": "noun",
+          "sourceSection": "Sostantivo",
+          "sourcePosition": 1,
+          "definition": {
+            "text": "l'operare per realizzare qualcosa",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "fare / Sostantivo / 1"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:fare:Verb:1",
+          "headword": "fare",
+          "language": "it",
+          "pos": "verb",
+          "sourceSection": "Verb",
+          "sourcePosition": 1,
+          "definition": {
+            "text": "realizzare o portare a termine qualcosa",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "fare / Verb / 1"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:fare:Verb:2",
+          "headword": "fare",
+          "language": "it",
+          "pos": "verb",
+          "sourceSection": "Verb",
+          "sourcePosition": 2,
+          "definition": {
+            "text": "compiere un'azione",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "fare / Verb / 2"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:fare:Verb:3",
+          "headword": "fare",
+          "language": "it",
+          "pos": "verb",
+          "sourceSection": "Verb",
+          "sourcePosition": 3,
+          "definition": {
+            "text": "accompagnato a un sostantivo, spesso sostituisce il verbo corrispondente",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "fare / Verb / 3"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:fare:Verb:4",
+          "headword": "fare",
+          "language": "it",
+          "pos": "verb",
+          "sourceSection": "Verb",
+          "sourcePosition": 4,
+          "definition": {
+            "text": "atteggiarsi a, imitare",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "fare / Verb / 4"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:fare:Verb:5",
+          "headword": "fare",
+          "language": "it",
+          "pos": "verb",
+          "sourceSection": "Verb",
+          "sourcePosition": 5,
+          "definition": {
+            "text": "fare il finto tonto: fingersi uno sprovveduto",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "fare / Verb / 5"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:fare:Verb:6",
+          "headword": "fare",
+          "language": "it",
+          "pos": "verb",
+          "sourceSection": "Verb",
+          "sourcePosition": 6,
+          "definition": {
+            "text": "(gergale) si riferisce ad un furto",
+            "language": "it"
+          },
+          "labels": [
+            "(gergale)"
+          ],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "fare / Verb / 6"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:fare:Verb:7",
+          "headword": "fare",
+          "language": "it",
+          "pos": "verb",
+          "sourceSection": "Verb",
+          "sourcePosition": 7,
+          "definition": {
+            "text": "(gergale) in romanesco significa ricevere un regalo importante",
+            "language": "it"
+          },
+          "labels": [
+            "(gergale)"
+          ],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "fare / Verb / 7"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        }
+      ],
+      "supplemental": [
+        {
+          "type": "other-source-text",
+          "text": "/ˈfaːre/"
+        },
+        {
+          "type": "synonyms",
+          "items": [
+            "(sostantivo) atteggiamento, comportamento,contegno, attività, lavoro, azione, operosità",
+            "modo, maniera, portamento, tono,",
+            "(del giorno, della notte) inizio, principio",
+            "(verbo) agire, allestire, attuare, causare, compiere, comporre concretare, effettuare, eseguire, fabbricare, foggiare, formare, generare, modellare, operare, plasmare, produrre, provocare, realizzare, suscitare",
+            "coltivare, dedicarsi, esercitarsi, fungere, funzionare, intraprendere, lavorare, occuparsi, operare, praticare",
+            "avviare, causare, indurre, ottenere, procurare, raggiungere, rendere",
+            "atteggiarsi, comportarsi, fingersi, recitare, spacciarsi",
+            "credere, giudicare, immaginare, raffigurare, ritenere, supporre",
+            "(di opera) comporre, formare, mettere in scena",
+            "(di versi, suoni) emettere",
+            "(di odore) spandere",
+            "(di funzione, rito) celebrare",
+            "cagionare, condurre, dare adito, dare luogo, determinare,",
+            "(di documento, richiesta) compilare, inoltrare, scrivere",
+            "(di operazioni aritmetiche) dare come risultato",
+            "eleggere, nominare",
+            "confarsi, essere adatto,",
+            "(di periodo) compiersi, essere trascorso, terminare, trascorrere",
+            "(di tempo) essere"
+          ]
+        },
+        {
+          "type": "other-source-text",
+          "text": "contrazione dal latino facere"
+        }
+      ]
+    },
+    {
+      "headword": "tempo",
+      "senses": [
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:tempo:Sostantivo:1",
+          "headword": "tempo",
+          "language": "it",
+          "pos": "noun",
+          "sourceSection": "Sostantivo",
+          "sourcePosition": 1,
+          "definition": {
+            "text": "(filosofia) (antropologia) (fisica) (astronomia) dimensione in cui si concepisce e si misura il passare degli eventi",
+            "language": "it"
+          },
+          "labels": [
+            "(filosofia)",
+            "(antropologia)",
+            "(fisica)",
+            "(astronomia)"
+          ],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "tempo / Sostantivo / 1"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:tempo:Sostantivo:2",
+          "headword": "tempo",
+          "language": "it",
+          "pos": "noun",
+          "sourceSection": "Sostantivo",
+          "sourcePosition": 2,
+          "definition": {
+            "text": "(storia) (archeologia) epoca, periodo storico",
+            "language": "it"
+          },
+          "labels": [
+            "(storia)",
+            "(archeologia)"
+          ],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "tempo / Sostantivo / 2"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:tempo:Sostantivo:3",
+          "headword": "tempo",
+          "language": "it",
+          "pos": "noun",
+          "sourceSection": "Sostantivo",
+          "sourcePosition": 3,
+          "definition": {
+            "text": "intervallo di tempo di proiezione di un film (di solito ce ne sono due)",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "tempo / Sostantivo / 3"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:tempo:Sostantivo:4",
+          "headword": "tempo",
+          "language": "it",
+          "pos": "noun",
+          "sourceSection": "Sostantivo",
+          "sourcePosition": 4,
+          "definition": {
+            "text": "(sport) un intervallo di tempo di pausa che si può chiedere in alcuni sport, come la pallavolo",
+            "language": "it"
+          },
+          "labels": [
+            "(sport)"
+          ],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "tempo / Sostantivo / 4"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:tempo:Sostantivo:5",
+          "headword": "tempo",
+          "language": "it",
+          "pos": "noun",
+          "sourceSection": "Sostantivo",
+          "sourcePosition": 5,
+          "definition": {
+            "text": "(meccanica) (tecnologia) (ingegneria) fase o parte del ciclo di un motore a combustione interna",
+            "language": "it"
+          },
+          "labels": [
+            "(meccanica)",
+            "(tecnologia)",
+            "(ingegneria)"
+          ],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "tempo / Sostantivo / 5"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:tempo:Sostantivo:6",
+          "headword": "tempo",
+          "language": "it",
+          "pos": "noun",
+          "sourceSection": "Sostantivo",
+          "sourcePosition": 6,
+          "definition": {
+            "text": "l'insieme delle possibili condizioni meteorologiche",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "tempo / Sostantivo / 6"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:tempo:Sostantivo:7",
+          "headword": "tempo",
+          "language": "it",
+          "pos": "noun",
+          "sourceSection": "Sostantivo",
+          "sourcePosition": 7,
+          "definition": {
+            "text": "tempo di reazione: lasso temporale che trascorre dall'avvenimento di un fatto, di uno stimolo o di un'azione, alla risposta individuale, basata sui riflessi",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "tempo / Sostantivo / 7"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:tempo:Sostantivo:8",
+          "headword": "tempo",
+          "language": "it",
+          "pos": "noun",
+          "sourceSection": "Sostantivo",
+          "sourcePosition": 8,
+          "definition": {
+            "text": "(per estensione) \"idea\" dell'immediatezza",
+            "language": "it"
+          },
+          "labels": [
+            "(per estensione)"
+          ],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "tempo / Sostantivo / 8"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:tempo:Sostantivo:9",
+          "headword": "tempo",
+          "language": "it",
+          "pos": "noun",
+          "sourceSection": "Sostantivo",
+          "sourcePosition": 9,
+          "definition": {
+            "text": "(senso figurato) cambiamento di qualcosa e/o qualcuno nella continuità della trasformazione",
+            "language": "it"
+          },
+          "labels": [
+            "(senso figurato)"
+          ],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "tempo / Sostantivo / 9"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:tempo:Sostantivo:10",
+          "headword": "tempo",
+          "language": "it",
+          "pos": "noun",
+          "sourceSection": "Sostantivo",
+          "sourcePosition": 10,
+          "definition": {
+            "text": "primo tempo e secondo tempo: nello sport del calcio è la suddivisione della partita in due fasi, talvolta in quattro, ecc",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "tempo / Sostantivo / 10"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:tempo:Sostantivo:11",
+          "headword": "tempo",
+          "language": "it",
+          "pos": "noun",
+          "sourceSection": "Sostantivo",
+          "sourcePosition": 11,
+          "definition": {
+            "text": "percezione del tempo: parziale o, in molti casi, relativa alla soggettività di ciascuno",
+            "language": "it"
+          },
+          "labels": [],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "tempo / Sostantivo / 11"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        },
+        {
+          "id": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81:tempo:Sostantivo:12",
+          "headword": "tempo",
+          "language": "it",
+          "pos": "noun",
+          "sourceSection": "Sostantivo",
+          "sourcePosition": 12,
+          "definition": {
+            "text": "(musica) velocità di esecuzione di un brano musicale",
+            "language": "it"
+          },
+          "labels": [
+            "(musica)"
+          ],
+          "preferred": false,
+          "register": "unknown",
+          "confidence": "unassessed",
+          "review": {
+            "status": "unreviewed"
+          },
+          "source": {
+            "providerId": "reader-dict-it-trial",
+            "url": "https://www.reader-dict.com/file/it/dict-it-it.zip",
+            "archiveSha256": "36c3433aa5267a9c5d22926b8c15e8bce57ece6e71000518414afe6dd6019b81",
+            "attribution": "reader.dict; Wiktionary contributors. Extracted from reader.dict IT. HTML unchanged; subset limited to di, fare, tempo.",
+            "locator": "tempo / Sostantivo / 12"
+          },
+          "license": {
+            "expression": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "evidence": "https://www.reader-dict.com/legal-mentions"
+          }
+        }
+      ],
+      "supplemental": [
+        {
+          "type": "other-source-text",
+          "text": "/ˈtɛmpo/"
+        },
+        {
+          "type": "synonyms",
+          "items": [
+            "durata, epoca, era, estensione, età, evo, intervallo, periodo, spazio, tratto",
+            "momento, istante, lasso,",
+            "secolo, stadio, gradino, data, termine",
+            "ciclicità, intermittenza, sequenza",
+            "circostanza favorevole, contingenza, momento adatto, occasione, opportunità, possibilità,turno, volta",
+            "(di un’azione o di un processo) fase",
+            "(meccanica) (di motore a scoppio) fase",
+            "(di film, opera teatrale) atto, parte,",
+            "(sport) (di gioco, partita) fase, parte",
+            "(della giovinezza, del successo) momento, ora",
+            "(meteorologia) clima, condizione climatica, stagione, condizioni atmosferiche",
+            "(musica) accentazione, battuta, cadenza, movimento,ritmo, velocità di esecuzione."
+          ]
+        },
+        {
+          "type": "other-source-text",
+          "text": "dal latino tĕmpus, voce d’incerta origine, che aveva solo il sign. cronologico, mentre quello atmosferico era significato da tempestas"
+        }
+      ]
+    }
+  ]
+}

@@ -9,6 +9,9 @@ releases/*.zip
 releases/*.zip.sha256.txt
 
 # Large source corpora and downloaded datasets
+/tmp/italian-dictionary-1827/
+/tmp/reader-dict-it/
+/tmp/reader-dict-it-en/
 prototype-0.2-lexical-coverage/data/*
 !prototype-0.2-lexical-coverage/data/README.txt
 prototype-0.3-assisted-reader/lemma-frequencies-paisa.txt.gz

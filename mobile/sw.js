@@ -1,4 +1,4 @@
-const CACHE_NAME = "passato-prossimo-mobile-v1";
+const CACHE_NAME = "passato-prossimo-mobile-v4";
 const APP_ASSETS = [
   "./",
   "./index.html",
@@ -21,6 +21,10 @@ const APP_ASSETS = [
   "../prototype-0.3-assisted-reader/elision-rules.js",
   "../prototype-0.5-media-shell/styles.css",
   "../prototype-0.5-media-shell/platform-adapter.js",
+  "../prototype-0.5-media-shell/reader-dict-en-trial.js",
+  "../prototype-0.5-media-shell/word-lens-trial.js",
+  "../prototype-0.5-media-shell/reviewed-verbs-data.js",
+  "../prototype-0.5-media-shell/reviewed-word-lens.js",
   "../prototype-0.5-media-shell/app.js"
 ];
 

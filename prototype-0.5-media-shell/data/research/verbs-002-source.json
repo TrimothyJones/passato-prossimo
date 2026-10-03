@@ -1,0 +1,215 @@
+{
+  "source": {
+    "provider": "reader.dict IT-EN",
+    "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+    "date": "2026-09-01",
+    "url": "https://www.reader-dict.com",
+    "attribution": "reader.dict and Wiktionary contributors",
+    "license": {
+      "identifier": "CC-BY-SA-4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  },
+  "entries": [
+    {
+      "headword": "cercare",
+      "html": "/t͡ʃerˈka.re/\n<p><b>Verb</b></p><ol><li>to look for</li><li>to try [<i>with</i> <b>di</b> (+ infinitive)]</li></ol><p>Inherited from Late Latin <i>circāre</i>, from Latin <i>circa</i>, <i>circus</i>.</p>"
+    },
+    {
+      "headword": "tornare",
+      "html": "<p><b>Verb</b></p><ol><li>(<i>intransitive</i>) to return, to come back</li><li>(<i>intransitive</i>) to return, to reappear</li><li>(<i>intransitive</i>) to start (doing something again) [<i>with</i> <b>a</b> (+ infinitive)]</li><li>(<i>intransitive</i>) to be (healthy, beautiful, clean, etc.) again</li><li>(<i>intransitive</i>) to add up correctly (<i>of an account</i>)</li><li>(transitive,&#32;literary) to return, to give back</li><li>(transitive,&#32;literary) to turn (one's face, etc.)</li></ol><p>Inherited from Latin <i>tornāre</i> (“to turn”).</p>"
+    },
+    {
+      "headword": "continuare",
+      "html": "/kon.ti.nuˈa.re/ · /kon.tiˈnwa.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to continue, to keep on doing (an action)</li><li>(<i>transitive</i>) to continue, to resume (an action)</li><li>(<i>intransitive</i>) to continue, to last (<i>of a thing</i>) [auxiliary <i>avere</i> or <i>essere</i>]</li><li>(<i>intransitive</i>) to continue, to persevere, to carry on (<i>of a person</i>) [auxiliary <i>avere</i>]</li></ol><p>Borrowed from Latin <i>continuāre</i>, from <i>continuus</i>.</p>"
+    },
+    {
+      "headword": "costruire",
+      "html": "/kos.truˈi.re/\n<p><b>Verb</b></p><ol><li>to build, construct</li><li>to plan, frame</li></ol><p>From Latin <i>cōnstruere</i>, probably a borrowing.</p>"
+    },
+    {
+      "headword": "comprendere",
+      "html": "/komˈprɛn.de.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to comprise, to include, to encompass</li><li>(<i>transitive</i>) to understand, comprehend, take the point, get the point</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: capire, intendere</li></ol></ol><p>From Latin <i>comprendere</i>, variant of <i>comprehendere</i>.</p>"
+    },
+    {
+      "headword": "sembrare",
+      "html": "/semˈbra.re/\n<p><b>Verb</b></p><ol><li>to seem, to look (like), to appear</li><li>to sound, taste or feel (like)</li><li>(<i>impersonal</i>) to seem</li></ol><p>Borrowed from Old Occitan <i>semblar</i>, from Late Latin <i>similāre</i>, a verb based on Latin <i>similis</i> (“similar”). More or less a doublet of <i>somigliare</i>.</p>"
+    },
+    {
+      "headword": "pensare",
+      "html": "/penˈsa.re/\n<p><b>Verb</b></p><ol><li>to think</li><li>(<i>transitive</i>) to think about someone</li><li>to realize</li><li>to expect</li></ol><p>Inherited from Latin <i>pēnsāre</i> (“weigh carefully”), frequentative of <i>pendere</i>. Doublet of <i>pesare</i>.</p>"
+    },
+    {
+      "headword": "morire",
+      "html": "/moˈri.re/\n<p><b>Noun</b> <i>m.</i></p><ol><li>death</li></ol><p><b>Verb</b></p><ol><li>(<i>intransitive</i>) to die [auxiliary <i>essere</i>]</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: (<i>euphemistic</i>) andare agli alberi pizzuti, (<i>euphemistic</i>) andare all'altro mondo, crepare, decedere, defungere, lasciarci la pelle, lasciarci le cuoia, lasciarci le penne, (<i>euphemistic</i>) mancare, (<i>euphemistic</i>) passare a miglior vita, procombere, schiattare, tirare le cuoia, (<i>euphemistic</i>) trapassare, (<i>euphemistic</i>) venire meno, (<i>euphemistic</i>) volare in cielo</li></ol><li>(obsolete&#32;or&#32;Tuscany,&#32;transitive) to kill [auxiliary <i>avere</i>]; (<i>normally only participially</i>)</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: uccidere</li></ol></ol><p>Inherited from Latin <i>morī(rī)</i>.</p>"
+    },
+    {
+      "headword": "tenere",
+      "html": "/teˈne.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to hold</li><ol style=\"list-style-type:lower-alpha\"><li>to set aside; to conserve</li><li>to hold (one's spot in line, etc.)</li><li>to reserve</li></ol><li>(<i>transitive</i>) to keep</li><li>(<i>ambitransitive</i>) to hold up; to sustain</li><li>(<i>transitive</i>) continue to wear; to not remove (a garment); to keep on (a garment)</li><li>(<i>transitive</i>) to take</li><li>(transitive,&#32;chiefly&#32;southern Italy) to have; to possess</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: avere</li></ol><li>(<i>transitive</i>) to treat (in a certain way)</li><li>(<i>transitive</i>) to have employed</li><li>(<i>transitive</i>) to manage</li><li>(<i>transitive</i>) to carry out (<i>of a speech, lesson, etc.</i>)</li><li>(<i>transitive</i>) to have over or keep (at a place)</li><li>(<i>transitive</i>) to hold back (an impulse, feeling, etc.)</li><li>(<i>transitive</i>) to look over or take care of</li><li>(<i>transitive</i>) to assume or take up (a behavior, attitude, etc.)</li><li>(<i>transitive</i>) to take up (to occupy space)</li><li>(transitive,&#32;informal) to contain</li><li>(transitive,&#32;military) to defend (a position, etc.) from enemy attack</li><li>(transitive,&#32;journalism) to continue coverage of uninteresting or unpressing news, in hopes of future developments</li><li>(transitive,&#32;literary) to consider or deem; to hold to be</li><li>(transitive,&#32;archaic) to refrain from spending; to be stingy</li><li>(<i>intransitive</i>) to stick or attach well [auxiliary <i>avere</i>] (<i>of a glue, etc.</i>)</li><li>(<i>intransitive</i>) to be airtight [auxiliary <i>avere</i>]</li><li>(<i>intransitive</i>) to seem colorable; to hold water [auxiliary <i>avere</i>]</li><li>(<i>intransitive</i>) to last [auxiliary <i>avere</i>]</li><li>(<i>intransitive</i>) to support someone's views, positions, etc. [<i>with</i> <b>per</b>] [auxiliary <i>avere</i>]</li><li>(<i>intransitive</i>) to root [<i>with</i> <b>per</b> <small>‘for’</small>] [auxiliary <i>avere</i>]</li><li>(<i>intransitive</i>) to like or love (in a non romantic way) [<i>with</i> <b>a</b>] [auxiliary <i>avere</i>]</li><li>(intransitive,&#32;economics) to remain stable [auxiliary <i>avere</i>] (<i>of a currency, stock market, etc.</i>)</li><li>(intransitive,&#32;rare) to look like [auxiliary <i>avere</i>]</li></ol><p><b>Usage Note</b></p><ol><li>The use of <i>tenere</i> in the sense of <i>avere</i> (“to have”) is typically nonstandard and often associated with the Neapolitan dialect, and region.</li></ol><p>Inherited from Latin <i>tenēre</i>, from Proto-Italic <i>&#42;tenēō</i>, stative from Proto-Indo-European <i>&#42;ten-</i> (“to stretch, draw”).</p><p>See the etymology of the corresponding lemma form.</p>"
+    },
+    {
+      "headword": "produrre",
+      "html": "/proˈdur.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to produce, yield, bear, generate</li><li>(<i>transitive</i>) to produce, manufacture, make</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: fabbricare</li></ol><li>(<i>transitive</i>) to cause, produce</li></ol><p>Borrowed from Latin <i>prōdūcere</i>.</p>"
+    },
+    {
+      "headword": "permettere",
+      "html": "/perˈmet.te.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to allow, to let, to permit, to authorize, to entitle</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: consentire, autorizzare, lasciare</li></ol></ol><p>From Latin <i>permittere</i>.</p>"
+    },
+    {
+      "headword": "chiedere",
+      "html": "/ˈkje.de.re/ · /ˈkjɛ.de.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to ask (for)</li><li>(<i>transitive</i>) to ask, request</li><li>(<i>intransitive</i>) to ask [<i>with</i> <b>di</b> <small>‘about (someone)’</small>] [auxiliary <i>avere</i>]</li></ol><p>Inherited from Latin <i>quaerere</i>, with dissimilation of /r–r/ to /d–r/.</p>"
+    },
+    {
+      "headword": "rappresentare",
+      "html": "/rap.pre.zenˈta.re/\n<p><b>Verb</b></p><ol><li>to be, constitute, represent, account for, symbolize, mean</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: essere, costituire, significare, simboleggiare</li></ol><li>to represent, depict, portray, picture, show</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: mostrare</li></ol><li>to represent, act for, stand for, speak for, act as agent for, be</li><li>(<i>theater</i>) to act, play, stage, give</li><li>(<i>film</i>) to run, show</li></ol><p>From Latin <i>repraesentāre</i>.</p>"
+    },
+    {
+      "headword": "dedicare",
+      "html": "/de.diˈka.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to dedicate</li></ol><p>Derived from Latin <i>dēdicāre</i>.</p>"
+    },
+    {
+      "headword": "ricordare",
+      "html": "/ri.korˈda.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to remember, to recall, to recollect</li><li>(<i>transitive</i>) to remind</li><li>(<i>transitive</i>) to commemorate</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: commemorare</li></ol><li>(<i>transitive</i>) to mention, to record</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: menzionare, nominare</li></ol></ol><p>From Latin <i>recordārī</i>.</p>"
+    },
+    {
+      "headword": "stare",
+      "html": "/ˈsta.re/\n<p><b>Verb</b></p><ol><li>to stay, remain</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: restare, rimanere</li></ol><li>to keep, stick [<i>with</i> <b>a</b>]</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: attenersi</li></ol><li>(<i>followed by a gerund</i>) to be doing something (present continuous)</li><li>to be up to [<i>with</i> <b>a</b>]</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: toccare, spettare</li></ol><li>to be about to [<i>with</i> <b>per</b>]</li><li>(<i>mathematics</i>) to be in relation to, to stand in relation to (in English idiom applicable to statements of analogy and/or of mathematical relationship: \"to be to\") [<i>with</i> <b>a</b>]</li><li>(<i>regional</i>) to live</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: vivere, abitare</li></ol><li>to be in a certain condition</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: essere</li></ol></ol><p><b>Usage Note</b></p><ol><li>sta' + mi = stammi</li><li>sta' + ti = statti</li><li>sta' + gli = stagli</li><li>sta' + le = stalle</li><li>sta' + ci = stacci</li><li>sta' + ne = stanne</li></ol><p>Inherited from Latin <i>stāre</i>. Cognate with Spanish <i>estar</i> and English <i>state</i>.</p>"
+    },
+    {
+      "headword": "partecipare",
+      "html": "/par.te.t͡ʃiˈpa.re/\n<p><b>Verb</b></p><ol><li>(<i>intransitive</i>) to take part in, to participate in, to share [auxiliary <i>avere</i>]</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: prendere parte</li></ol><li>(<i>intransitive</i>) to attend, to be present [auxiliary <i>avere</i>]</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: essere presente</li></ol><li>(<i>transitive</i>) to inform, to acquaint</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: annunciare</li></ol></ol><p>From Latin <i>participāre</i>.</p>"
+    },
+    {
+      "headword": "militare",
+      "html": "/mi.liˈta.re/\n<p><b>Adjective</b></p><ol><li>military</li><li>army</li></ol><p><b>Noun</b> <i>m.</i></p><ol><li>serviceman</li></ol><p><b>Verb</b></p><ol><li>to serve as a soldier, to militate</li><li>(<i>figurative</i>) to fight [<i>with</i> <b>a</b> <small>‘for (an idea)’</small>]</li><li>to participate actively (in a political party or organization)</li><li>to militate [<i>with</i> <b>a favore di</b> <small>‘in favor of (an argument or fact)’</small>]</li></ol><p>Probably borrowed from Latin <i>mīlitāris</i>.</p><p>From Latin <i>mīlitāre</i>.</p>"
+    },
+    {
+      "headword": "costituire",
+      "html": "/kos.ti.tuˈi.re/\n<p><b>Verb</b></p><ol><li>to constitute, establish, set up, form</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: fondare, stabilire</li></ol><li>to constitute, compose, make up, consist</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: formare, comporre</li></ol><li>to constitute, represent, be</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: rappresentare, essere</li></ol><li>to constitute, appoint, make</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: nominare</li></ol></ol><p>From Latin <i>cōnstituō</i> (“to set up, establish, confirm”).</p>"
+    },
+    {
+      "headword": "avvenire",
+      "html": "<p><b>Verb</b></p><ol><li>to happen, to occur</li></ol><p><b>Adjective</b></p><ol><li>(<i>relational</i>) future</li></ol><p><b>Noun</b> <i>m.</i></p><ol><li>future</li><li>prospects</li><li>(rare,&#32;literary) posterity</li></ol><p>From Latin <i>advenīre</i>.</p>"
+    },
+    {
+      "headword": "porre",
+      "html": "/ˈpor.re/\n<p><b>Verb</b></p><ol><li>to put</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: mettere</li></ol><li>to set, to place</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: collocare</li></ol><li>to lay down</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: posare</li></ol><li>to pose (<i>a question, etc.</i>)</li></ol><p>Inherited from Latin <i>pōnere</i> (“to put, place”), with <i>pōnō</i> &gt; <i>&#42;ponjo</i>> <i>&#42;pogno</i> &gt; <i>pongo</i> subsumed to the 'L-pattern' of <i>vengo</i> (cf. Old Italian <i>vegno</i>, <i>vegnamo</i>, <i>vegnono</i>) in a much-debated process of 'velar allomorphy'. This is mirrored in Spanish <i>pongo</i>, <i>vengo</i>, but with an opposite outcome in Portuguese <i>ponho</i>, <i>venho</i>.</p>"
+    },
+    {
+      "headword": "perdere",
+      "html": "/ˈpɛr.de.re/\n<p><b>Verb</b></p><ol><li>(<i>ambitransitive</i>) to lose [auxiliary <i>avere</i>]</li><li>to waste</li><li>to destroy</li><li>to miss, to be late for something</li></ol><p>Inherited from Latin <i>perdere</i>. The variant past participle <i>perso</i> was created by analogy with <i>preso</i>, etc.</p>"
+    },
+    {
+      "headword": "esistere",
+      "html": "/eˈzis.te.re/\n<p><b>Verb</b></p><ol><li>(<i>intransitive</i>) to exist, to be</li></ol><p>From Latin <i>exsistere</i>.</p>"
+    },
+    {
+      "headword": "uscire",
+      "html": "/uʃˈʃi.re/\n<p><b>Verb</b></p><ol><li>(<i>intransitive</i>) to go out, leave, exit</li><li>(<i>intransitive</i>) to get off, get out</li><li>(<i>intransitive</i>) to disappear</li><li>(<i>intransitive</i>) to flow, run (<i>of a liquid</i>)</li><li>(<i>intransitive</i>) to descend, spring (from)</li><li>(<i>intransitive</i>) to release, come out (be published)</li><li>(<i>intransitive</i>) to date</li><li>(vulgar,&#32;slang) to \"get it/them out\" (to show body parts by taking off clothes, especially for erotic purposes)</li><ol style=\"list-style-type:lower-alpha\"><li>in the form \"uscirle\", literally \"to get them out\": to show the breasts</li><li>in the form \"uscirlo\", literally \"to get it out\": to show the penis</li><li>in the form \"escile\", literally \"get them out\": invitation to a woman to show her breasts</li><li>in the form \"escilo\", literally \"get it out\": invitation to a man to show his penis</li></ol></ol><p>From older <i>escire</i>, from Latin <i>exīre</i>, from <i>ex</i> + <i>eō</i> (“to go”). The word may have been phonetically influenced by the etymologically unrelated <i>uscio</i> (“door”).</p><p>Compare Sicilian <i>nèsciri</i>, Catalan <i>eixir</i>, Romanian <i>ieși</i>, Old Spanish <i>exir</i> and Old French <i>issir</i>.</p>"
+    },
+    {
+      "headword": "lavorare",
+      "html": "/la.voˈra.re/\n<p><b>Verb</b></p><ol><li>(<i>intransitive</i>) to work; to labor</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: esercitare, svolgere, occuparsi, professare, operare, agire, ingegnarsi, adoperarsi, impegnarsi</li></ol><li>(<i>intransitive</i>) to work; to function</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: funzionare, produrre</li></ol><li>(<i>intransitive</i>) to run or operate (a business, etc.); to do business</li><li>(<i>transitive</i>) to work or carve (a material)</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: trattare, manipolare, elaborare, scolpire, intarsiare, sbalzare</li></ol><li>(<i>transitive</i>) to knead (dough)</li><li>(<i>transitive</i>) to cultivate</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: dissodare, coltivare</li></ol><li>(transitive,&#32;rare) to butter up or wheedle</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: lavorarsi</li></ol></ol><p>From Latin <i>labōrāre</i>.</p>"
+    },
+    {
+      "headword": "dirigere",
+      "html": "/diˈri.d͡ʒe.re/\n<p><b>Verb</b></p><ol><li>to address (a letter etc.)</li><li>to run, manage or direct</li><li>to lead</li><li>to conduct (an orchestra)</li></ol><p>From Latin <i>dīrigere</i> (“to steer, direct”), probably borrowed in this form.</p>"
+    },
+    {
+      "headword": "definire",
+      "html": "/de.fiˈni.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to define</li><li>(<i>transitive</i>) to decide, to resolve</li></ol><p>Derived from Latin <i>dēfīnīre</i> (“to bound, set bounds to; to limit; to define, explain, designate by limiting”). By surface analysis, <i>de-</i> +‎ <i>finire</i>.</p>"
+    },
+    {
+      "headword": "scoprire",
+      "html": "/skoˈpri.re/\n<p><b>Verb</b></p><ol><li>to uncover</li><li>to discover, find out</li><li>to sight; to spot</li></ol><p>From <i>s-</i> +‎ <i>coprire</i> (“cover”).</p>"
+    },
+    {
+      "headword": "ricevere",
+      "html": "/riˈt͡ʃe.ve.re/\n<p><b>Verb</b></p><ol><li>to receive, get, have, be given, take</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: avere, ottenere, prendere, percepire, provare</li></ol><li>to accept</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: accettare</li></ol><li>to accommodate, hold, receive, welcome, meet, see, shelter</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: accogliere, ospitare, contenere, vedere, incontrare</li></ol><li>(radio,&#32;television,&#32;etc.) to receive, pick up, read</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: prendere</li></ol></ol><p>From Latin <i>recipere</i>. Possibly borrowed from a Gallo-Italic language, where Latin /-p-/ &gt; /v/ is a regular change, unlike in Italian. Compare the doublet <i>recepire</i>.</p>"
+    },
+    {
+      "headword": "uccidere",
+      "html": "/utˈt͡ʃi.de.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to kill</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: ammazzare, assassinare</li></ol></ol><p>From Old Italian <i>occidere</i>, from Latin <i>occīdō</i> (“to kill, slay”). Compare Romanian <i>ucide</i>.</p>"
+    },
+    {
+      "headword": "indicare",
+      "html": "/in.diˈka.re/\n<p><b>Verb</b></p><ol><li>to point out, point to</li><li>to show, to mean, to signpost, to mark</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: mostrare</li></ol><li>to recommend, to advise</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: consigliare, richiedere</li></ol><li>to indicate</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: dire</li></ol></ol><p>From Latin <i>indicāre</i>.</p>"
+    },
+    {
+      "headword": "prevedere",
+      "html": "/pre.veˈde.re/\n<p><b>Verb</b></p><ol><li>to foresee, to anticipate</li><li>to forecast</li><li>to plan</li><li>to include</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: includere</li></ol></ol><p><b>Usage Note</b></p><ol><li>The conjugation of this verb differs from <i>vedere</i> in having an alternative, regularly formed future and conditional <i>prevederò</i> etc.</li></ol><p>From Latin <i>praevidēre</i>.</p>"
+    },
+    {
+      "headword": "mostrare",
+      "html": "/mosˈtra.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to show</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: fare vedere</li></ol><li>(<i>transitive</i>) to indicate, to point</li><li>(<i>transitive</i>) to explain, to reveal, to demonstrate</li><li>(intransitive,&#32;rare) to pretend</li></ol><p>Inherited from Latin <i>mōnstrāre</i> (“to show”). Cognate with Spanish <i>mostrar</i>, Occitan <i>muishar</i> and French <i>montrer</i>.</p>"
+    },
+    {
+      "headword": "comporre",
+      "html": "/komˈpor.re/\n<p><b>Verb</b></p><ol><li>to compose, compound</li><li>to constitute, form</li><li>to dial (a telephone)</li><li>to arrange, adjust</li><li>to settle, patch up (a disagreement)</li><li>to typeset</li></ol><p><b>Noun</b> <i>m.</i></p><ol><li>(<i>music</i>) composition</li></ol><p>From Latin <i>compōnere</i>.</p>"
+    },
+    {
+      "headword": "fondare",
+      "html": "/fonˈda.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to found, establish, constitute, start, set up, build</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: avviare, costituire</li></ol><li>(transitive,&#32;figurative) to found, base, ground</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: basare</li></ol></ol><p>Inherited from Latin <i>fundāre</i>.</p>"
+    },
+    {
+      "headword": "aprire",
+      "html": "/aˈpri.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to open</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: schiudere, dischiudere</li></ol><li>(<i>transitive</i>) to unlock</li><li>(<i>transitive</i>) to turn on</li></ol><p>From Latin <i>aperīre</i>. Compare Sicilian <i>ràpiri</i>.</p>"
+    },
+    {
+      "headword": "cominciare",
+      "html": "/ko.minˈt͡ʃa.re/\n<p><b>Verb</b></p><ol><li>(<i>ambitransitive</i>) to begin, to start, to commence, to set about</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: incominciare, iniziare, (dated,&#32;regional) principiare</li></ol></ol><p>Inherited from Vulgar Latin <i>&#42;cominitiāre</i>.</p>"
+    },
+    {
+      "headword": "svolgere",
+      "html": "/ˈzvɔl.d͡ʒe.re/\n<p><b>Verb</b></p><ol><li>to unroll, unwind</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: srotolare, sciogliere</li></ol><li>to develop</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: elaborare, sviluppare</li></ol><li>to discuss</li><li>to carry out</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: esercitare, realizzare</li></ol></ol><p>From <i>s-</i> +‎ <i>volgere</i>; cognate with Piedmontese <i>svòlge</i>.</p>"
+    },
+    {
+      "headword": "finire",
+      "html": "/fiˈni.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to finish [auxiliary <i>avere</i>]</li><li>(<i>intransitive</i>) to end up (<i>doing something</i>) [<i>with</i> <b>per</b> (+ infinitive); <i>or</i> <i>with</i> <b>con</b>, <i>along with</i> <b>il</b> <i>or</i> <b>lo</b> <i>or</i> <b>l'</b> (+ infinitive)] [auxiliary <i>avere</i>]</li><li>(<i>intransitive</i>) to finish, to end [auxiliary <i>essere</i>]</li><li>(<i>intransitive</i>) to end up (<i>somewhere</i>) [auxiliary <i>essere</i>]</li></ol><p>Inherited from Latin <i>fīnīre</i>.</p>"
+    },
+    {
+      "headword": "sviluppare",
+      "html": "/zvi.lupˈpa.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to develop</li><li>(intransitive,&#32;informal) to mature (of a plant or animal), to reach puberty (of an adolescent)</li></ol><p>From <i>s-</i> +‎ <i>viluppo</i> (“tangle”) +‎ <i>-are</i>. Compare Piedmontese <i>svilupé</i>.</p>"
+    },
+    {
+      "headword": "contenere",
+      "html": "/kon.teˈne.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to contain</li></ol><p>From Latin <i>continēre</i>.</p>"
+    },
+    {
+      "headword": "credere",
+      "html": "/ˈkre.de.re/\n<p><b>Verb</b></p><ol><li>to believe</li><li>to think</li></ol><p><b>Conjugation</b></p><ol><li>Unlike all other verbs, the negative imperative second person plural of <i>credere</i> may take the subjunctive rather than the indicative in some contexts, although the indicative is also used in others:</li></ol><p>Inherited from Latin <i>crēdere</i> (“to believe”).</p>"
+    },
+    {
+      "headword": "formare",
+      "html": "/forˈma.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to form, create, shape, make, mould/mold</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: creare, dare forma, fare, modellare</li></ol><li>(<i>transitive</i>) to form, establish, set up, create, make up</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: creare, costituire, fondare</li></ol><li>(<i>transitive</i>) to train, educate</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: istruire</li></ol></ol><p>From Latin <i>formāre</i>.</p>"
+    },
+    {
+      "headword": "apparire",
+      "html": "/ap.paˈri.re/\n<p><b>Verb</b></p><ol><li>to appear</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: comparire</li></ol><li>to seem, to look</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: parere, sembrare</li></ol><li>to grow</li></ol><p>From Latin <i>appārēre</i>, from <i>ad-</i> + <i>pāreō</i>. Compare Sicilian <i>appàrriri</i>.</p>"
+    },
+    {
+      "headword": "registrare",
+      "html": "/re.d͡ʒisˈtra.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to register, record, note</li><ol style=\"list-style-type:lower-alpha\"><li>Synonym: annotare</li></ol><li>(<i>transitive</i>) to record, tape, video</li><li>(<i>transitive</i>) to adjust, set</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: regolare, aggiustare</li></ol><li>(<i>transitive</i>) to check in</li></ol><p>From <i>registro</i> +‎ <i>-are</i>.</p>"
+    },
+    {
+      "headword": "giocare",
+      "html": "/d͡ʒoˈka.re/\n<p><b>Verb</b></p><ol><li>to play, specifically&#58;</li><ol style=\"list-style-type:lower-alpha\"><li>(<i>intransitive</i>) to play a game, for fun or as a pastime</li><li>(<i>intransitive</i>) to do something for fun</li><li>(<i>intransitive</i>) to partake in a sport or game</li><li>(<i>intransitive</i>) to act as required from a game</li><li>(<i>intransitive</i>) to participate in a sporting match</li><li>(<i>transitive</i>) to put into action (in a game)</li></ol><li>(intransitive,&#32;hunting) to respond to bait (<i>of birds</i>)</li><li>(<i>intransitive</i>) to have a gambling addiction</li><li>(<i>transitive</i>) to put as stake (in a game)</li><ol style=\"list-style-type:lower-alpha\"><li>(<i>by extension</i>) to bet, wager</li></ol><li>(<i>transitive</i>) to spend or waste (time) playing</li><li>(figurative,&#32;transitive) to deceive or manipulate</li><li>(figurative,&#32;intransitive):</li><ol style=\"list-style-type:lower-alpha\"><li>(with <i>di</i>) to use (something) skillfully</li><li>(<i>mechanical engineering</i>) to have backlash (<i>of a mechanism</i>)</li><li>to be important, to matter</li><li>to make the most of, to take advantage of</li></ol></ol><p>Inherited from Latin <i>iocārī</i>. By surface analysis, <i>gioco</i> (“game”) +‎ <i>-are</i>. Cognate with Sicilian <i>jucari</i>.</p>"
+    },
+    {
+      "headword": "occupare",
+      "html": "/ok.kuˈpa.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to occupy, take over, squat in</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: prendere possesso, impossessarsi</li></ol><li>(<i>transitive</i>) to occupy, take up, fill</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: impegnare, riempire, ricoprire</li></ol><li>(<i>transitive</i>) to employ, find a job</li><ol style=\"list-style-type:lower-alpha\"><li>Synonyms: impiegare, impiegarsi</li></ol></ol><p>Borrowed from Latin <i>occupāre</i>.</p>"
+    },
+    {
+      "headword": "offrire",
+      "html": "/ofˈfri.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) to offer, treat</li></ol><p>From Vulgar Latin <i>&#42;offerīre</i>, from Latin <i>offerre</i>.</p>"
+    },
+    {
+      "headword": "legare",
+      "html": "/gare/ · /leˈɡa.re/\n<p><b>Verb</b></p><ol><li>(<i>transitive</i>) bind, tie</li><li>(<i>transitive</i>) unite</li><li>(<i>transitive</i>) connect, link</li><li>(transitive,&#32;rare) alloy</li><li>(<i>intransitive</i>) unite, bind, bond, fuse, join together</li><li>(<i>intransitive</i>) get along (<i>with someone</i>)</li><li>(<i>transitive</i>) bequeath</li><li>(transitive,&#32;archaic&#32;or&#32;rare) dispatch as a delegation</li></ol><p>Inherited from Latin <i>ligāre</i>.</p><p>Borrowed from Latin <i>lēgāre</i>.</p>"
+    },
+    {
+      "headword": "sentire",
+      "html": "/senˈti.re/\n<p><b>Verb</b></p><ol><li>to feel</li><li>to hear</li><li>to smell</li></ol><p>Inherited from Latin <i>sentīre</i>.</p>"
+    }
+  ]
+}

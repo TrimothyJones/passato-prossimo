@@ -1997,6 +1997,18 @@ h2,
   cursor: pointer;
 }
 
+.word-lens-dictionary {
+  margin: 18px 0;
+  padding: 14px 0;
+  border-top: 1px solid currentColor;
+  overflow-wrap: anywhere;
+}
+.word-lens-dictionary summary { cursor: pointer; }
+.word-lens-dictionary details { margin: 12px 0; }
+.word-lens-dictionary li { margin: 10px 0; line-height: 1.5; }
+.word-lens-dictionary ul { padding-left: 20px; }
+.word-lens-dictionary code { font-size: .75rem; }
+
 .debug-drawer {
   margin: 0 16px 18px;
   padding-top: 12px;

@@ -21,3 +21,16 @@ editions in `src/books.js`.
 
 See `THIRD-PARTY-NOTICES.txt` for detailed attribution, citations, dependency
 versions, copyright notices, and complete production package license texts.
+
+## reader.dict and reviewed Word Lens entries
+
+`prototype-0.5-media-shell/reviewed-verbs-data.js`, the reader.dict trial bundles,
+and their selected source/extracted dictionary records under `data/` credit
+reader.dict and Wiktionary contributors and retain [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+Source: [reader.dict](https://www.reader-dict.com), [published terms](https://www.reader-dict.com/legal-mentions).
+Changes include selected entries, markup removal, reviewed English learner glosses,
+construction notes and grammatical grouping; original senses remain available.
+The IT–EN snapshot is 2026-09-01. Archive hashes and locators are preserved in the
+records. See `prototype-0.5-media-shell/data/research/README.md` for attribution.
+This license applies to dictionary data, not unrelated code. Short cited external
+passage fixtures retain their source rights and are not relicensed as dictionary data.

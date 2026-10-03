@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Foundation comparison · Passato Prossimo</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #24362f; background: #f5f2e9; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { max-width: 1040px; margin: auto; padding: 48px 24px; }
+    .eyebrow { font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; }
+    h1 { font: 500 clamp(2.4rem, 6vw, 4rem)/1.08 Georgia, serif; margin: 16px 0; }
+    .intro { max-width: 650px; line-height: 1.65; color: #53645a; }
+    .controls { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin: 32px 0 20px; }
+    select { padding: 10px 34px 10px 12px; border: 1px solid #9caaa0; border-radius: 8px; font: inherit; background: white; }
+    .switch { display: flex; gap: 8px; align-items: center; }
+    input { accent-color: #28583e; width: 18px; height: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .card { background: #fffef9; border: 1px solid #d7ddd2; border-radius: 16px; padding: 26px; min-width: 0; }
+    .candidate { border-color: #73917b; background: #edf3e9; }
+    h2 { font-size: .8rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; margin: 0 0 28px; }
+    .word { font: 500 2.4rem Georgia, serif; margin: 0; }
+    .gloss { font-size: 1.35rem; line-height: 1.45; margin: 16px 0; }
+    .muted { color: #53645a; font-size: .9rem; line-height: 1.6; }
+    .badge { display: inline-block; background: #f5e7bf; color: #644b16; border-radius: 5px; padding: 5px 8px; font-size: .75rem; }
+    details { margin-top: 24px; border-top: 1px solid #ccd6c9; padding-top: 16px; }
+    summary { cursor: pointer; font-size: .9rem; }
+    li { margin: 14px 0; line-height: 1.55; overflow-wrap: anywhere; }
+    pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: .8rem; }
+    footer { margin-top: 28px; font-size: .85rem; line-height: 1.7; color: #53645a; }
+    #status { font-size: .85rem; }
+    @media (max-width: 640px) { main { padding: 28px 16px; } .grid { grid-template-columns: 1fr; } .card { padding: 22px; } }
+  </style>
+  <script defer src="/prototype-0.2-lexical-coverage/core-dictionary.js"></script>
+  <script defer src="/prototype-0.3-assisted-reader/learner-enrichment.js"></script>
+  <script defer src="/prototype-0.3-assisted-reader/dictionary-overflow.js"></script>
+  <script defer src="/prototype-0.5-media-shell/italian-foundation.js"></script>
+  <script defer src="/prototype-0.5-media-shell/lexical-provider.js"></script>
+  <script defer src="/prototype-0.5-media-shell/foundation-lab.js"></script>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Passato Prossimo / a small experiment</div>
+    <h1>A clearer place to start.</h1>
+    <p class="intro">Compare today's Word Lens with an English learner gloss and reader.dict's English and Italian definitions. Three words, separate senses, and the original meanings kept in view.</p>
+    <div class="controls">
+      <label for="word">Word</label>
+      <select id="word"><option value="di">di</option><option value="fare">fare</option><option value="tempo">tempo</option></select>
+      <label class="switch"><input id="preview" type="checkbox" checked> Preview draft gloss</label>
+      <label class="switch"><input id="readerPreview" type="checkbox" checked> Show reader.dict Italian senses</label>
+      <label class="switch"><input id="englishPreview" type="checkbox" checked> Show reader.dict English definitions</label>
+    </div>
+    <p id="status" role="status">Loading local comparison…</p>
+    <div class="grid">
+      <section class="card" id="current" aria-label="Current Word Lens"></section>
+      <section class="card candidate" id="proposed" aria-label="Foundation experiment"></section>
+    </div>
+    <section class="card" id="readerEnglish" aria-label="Reader.dict English definitions" style="margin-top:18px"></section>
+    <section class="card" id="readerDict" aria-label="Reader.dict Italian senses" style="margin-top:18px"></section>
+    <footer>This page is a local review sandbox. Draft glosses are AI-assisted and unreviewed; they do not enter the normal provider export. The main reader and its dictionaries are unchanged.</footer>
+  </main>
+</body>
+</html>

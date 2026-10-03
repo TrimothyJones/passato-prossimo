@@ -1,0 +1,75 @@
+{
+  "source": {
+    "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+    "provider": "reader.dict IT-EN",
+    "license": "CC-BY-SA-4.0",
+    "attribution": "reader.dict and Wiktionary contributors"
+  },
+  "reviewStatus": "verification-only-not-runtime-approved",
+  "entries": [
+    {
+      "method": "direct",
+      "headword": "ribellare",
+      "html": "/ri.belˈla.re/\n<p><b>Verb</b></p><ol><li>(transitive,&#32;archaic,&#32;rare) to incite, to cause to rebel</li></ol><p>From Latin <i>rebellāre</i>.</p>"
+    },
+    {
+      "method": "direct",
+      "headword": "ribellarsi",
+      "html": "/ri.belˈlar.si/\n<p><b>Verb</b></p><ol><li>to rebel, to revolt</li></ol><p><b>Synonym</b></p><ol><li>insorgere, rivoltarsi, opporsi</li></ol>"
+    }
+  ],
+  "parsed": [
+    {
+      "method": "direct",
+      "headword": "ribellare",
+      "sections": [
+        {
+          "position": 1,
+          "heading": "Verb",
+          "headingText": "Verb",
+          "items": [
+            {
+              "text": "(transitive, archaic, rare) to incite, to cause to rebel",
+              "details": []
+            }
+          ]
+        }
+      ],
+      "supplemental": [
+        "/ri.belˈla.re/",
+        "From Latin rebellāre."
+      ]
+    },
+    {
+      "method": "direct",
+      "headword": "ribellarsi",
+      "sections": [
+        {
+          "position": 1,
+          "heading": "Verb",
+          "headingText": "Verb",
+          "items": [
+            {
+              "text": "to rebel, to revolt",
+              "details": []
+            }
+          ]
+        },
+        {
+          "position": 2,
+          "heading": "Synonym",
+          "headingText": "Synonym",
+          "items": [
+            {
+              "text": "insorgere, rivoltarsi, opporsi",
+              "details": []
+            }
+          ]
+        }
+      ],
+      "supplemental": [
+        "/ri.belˈlar.si/"
+      ]
+    }
+  ]
+}

@@ -47,7 +47,13 @@ async function run() {
 
     const serviceWorkerResponse = await fetch(`${base}/mobile/sw.js`);
     assert.equal(serviceWorkerResponse.status, 200);
-    assert.match(await serviceWorkerResponse.text(), /passato-prossimo-mobile-v1/);
+    const worker = await serviceWorkerResponse.text();
+    assert.match(worker, /passato-prossimo-mobile-v4/);
+    for (const asset of ['reader-dict-en-trial.js', 'word-lens-trial.js', 'reviewed-verbs-data.js', 'reviewed-word-lens.js']) {
+      assert(worker.includes(asset));
+      assert(mobileHtml.indexOf(asset) < mobileHtml.indexOf('app.js'));
+      assert.equal((await fetch(`${base}/prototype-0.5-media-shell/${asset}`)).status, 200);
+    }
 
     const iconResponse = await fetch(`${base}/mobile/icons/app-icon-192.png`);
     assert.equal(iconResponse.status, 200);

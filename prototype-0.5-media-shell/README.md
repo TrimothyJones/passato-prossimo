@@ -27,6 +27,14 @@ This is a local Italian-first proof of concept. It does not claim perfect transl
 
 The language resources generated for Prototype 0.3 remain providers for this version instead of being duplicated. Prototype 0.4 is preserved as the stable Breakdown snapshot.
 
+See [docs/italian-foundation-provider-step-2.md](./docs/italian-foundation-provider-step-2.md) for the proposed reviewed foundation provider, preferred learner senses, and review workflow following the lexical audit. This is a design proposal; no new lexical data is shipped yet.
+
+An isolated comparison of di, fare, and tempo is available with `npm run foundation:lab` at
+`http://127.0.0.1:4174`. See [docs/foundation-experiment.md](./docs/foundation-experiment.md)
+for the draft preview, validation commands, and experiment boundaries.
+The [reader.dict trial](./docs/reader-dict-trial.md) adds Italian sense evidence
+beside the existing English glosses without changing the main reader.
+
 See [docs/breakdown-system.md](./docs/breakdown-system.md) for the layer design and current limitations.
 
 See [docs/url-door.md](./docs/url-door.md) for the reviewed web-import workflow and its storage boundary.
@@ -44,3 +52,9 @@ See [docs/build-log-step-3-desktop-identity.md](./docs/build-log-step-3-desktop-
 See [docs/build-log-step-4-resting-object.md](./docs/build-log-step-4-resting-object.md) for the thumbnail, source metadata, attribution, and no-iframe checkpoint.
 
 See [docs/build-log-step-5-youtube-provider.md](./docs/build-log-step-5-youtube-provider.md) for the official player adapter, lifecycle, contract evidence, and live validation checklist.
+
+Reviewed Word Lens update (2026-10-03): both verb batches now contribute 99 exact
+headwords locally, including all accepted usage notes and grouped adjective/noun/
+verb meanings for militare. See [integration status](docs/word-lens-trial-integration.md)
+and the [context evidence research design](docs/word-lens-context-evidence-design.md).
+Sentence-specific sense selection and expanded form matching remain future work.

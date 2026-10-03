@@ -2,7 +2,7 @@
   "name": "the-immersion-project",
   "productName": "Passato Prossimo",
   "appId": "com.passatoprossimo.immersion",
-  "version": "0.6.0-alpha.1",
+  "version": "0.6.0-alpha.2",
   "description": "Passato Prossimo, an Italian immersion reader and media learning prototype.",
   "author": "Passato Prossimo Project",
   "license": "UNLICENSED",
@@ -11,11 +11,23 @@
   "scripts": {
     "start": "electron-forge start",
     "mobile:serve": "node tools/serve-mobile.js",
+    "audit:lexicon": "node tools/audit-italian-lexicon.js",
+    "plan:verb-batch": "node tools/plan-lexical-batch.js",
+    "test:verb-batch": "node tools/test-lexical-batch.js",
+    "test:verb-reviews": "node tools/check-verb-reviews.js",
+    "validate:foundation": "node tools/build-italian-foundation.js --check",
+    "build:foundation": "node tools/build-italian-foundation.js",
+    "test:foundation": "node tools/test-italian-foundation.js",
+    "foundation:lab": "npm run build:foundation && npm run build:reader-trial && node tools/serve-foundation-lab.js",
+    "build:reader-trial": "node tools/build-reader-dict-trial.js && node tools/build-reader-dict-en-trial.js",
+    "test:reader-trial": "node tools/test-reader-dict-trial.js && node tools/test-reader-dict-en-trial.js",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "notices": "node tools/build-third-party-notices.js",
     "public:source": "node tools/build-public-source.js",
-    "test": "node tools/test-mobile-entry.js && node tools/test-mobile-importer.js && node prototype-0.5-media-shell/tools/test-platform-adapter.js && node prototype-0.5-media-shell/tools/test-media-shell.js && node prototype-0.5-media-shell/tools/test-breakdown.js && node tools/test-url-importer.js"
+    "test": "node tools/test-mobile-entry.js && node tools/test-mobile-importer.js && node prototype-0.5-media-shell/tools/test-platform-adapter.js && node prototype-0.5-media-shell/tools/test-media-shell.js && node prototype-0.5-media-shell/tools/test-breakdown.js && node tools/test-url-importer.js",
+    "build:reviewed-verbs": "node tools/build-reviewed-verbs.js",
+    "test:reviewed-verbs": "node tools/test-reviewed-verbs.js"
   },
   "dependencies": {
     "cheerio": "1.0.0-rc.12",

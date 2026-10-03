@@ -1,9 +1,9 @@
 {
   "format": "passato-prossimo-public-source-v1",
-  "version": "0.6.0-alpha.1",
-  "generatedAt": "2026-09-20T08:00:11.2347200Z",
-  "policy": "Explicit allowlist; raw corpora, installers, release archives, dependencies, local media, and secrets are excluded.",
-  "fileCount": 81,
+  "version": "0.6.0-alpha.2",
+  "generatedAt": "2026-10-03T19:22:13.513Z",
+  "policy": "Explicit allowlist; raw corpora, installers, release archives, dependencies, local media, and secrets are excluded. Existing public Forge configuration preserved; unrelated workspace change excluded.",
+  "fileCount": 132,
   "files": [
     {
       "path": ".gitattributes",
@@ -11,79 +11,199 @@
       "sha256": "2D39876B3AA8EFB11A03BED1BBB257C1722598F16D32848D53A2708A3AA823DE"
     },
     {
-      "path": "prototype-0.5-media-shell/docs/build-log-mobile-step-3-installable-pwa.md",
-      "bytes": 1725,
-      "sha256": "EC1B3BAD719425F2602142F0E4D628D6A8A8DB6CCAAC36FA6214637AFEF41702"
+      "path": ".github/ISSUE_TEMPLATE/alpha-feedback.yml",
+      "bytes": 970,
+      "sha256": "3D055B064BE5A50BC34B2AB4ED87DAD8C1A76692C02FB0FEF8A9D12D3F36DE60"
     },
     {
-      "path": "prototype-0.5-media-shell/docs/build-log-mobile-step-2-book-import.md",
-      "bytes": 2073,
-      "sha256": "226CB63886BC99185AD71FA57FBD2300F0ACDEBEA4BBA4AD16957046C3C85B46"
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
+      "bytes": 1662,
+      "sha256": "772565F7E1050D23DCF16A902E2E5D0EE96D2BEA4C25BF9807E479EB4B06F6D8"
     },
     {
-      "path": "prototype-0.5-media-shell/docs/build-log-mobile-step-1-browser-shell.md",
-      "bytes": 1343,
-      "sha256": "DA4D58251015B0AE23E4AE2103582B95EB2A93757820EC4EBE85D7585F61EED3"
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "bytes": 28,
+      "sha256": "1F103C6A9DD07CD13A9A6F17ACE6B813F47747EB9CB7E00488CB2073CAAF91BB"
     },
     {
-      "path": "prototype-0.5-media-shell/docs/breakdown-system.md",
-      "bytes": 1933,
-      "sha256": "CADAE9CE10556754C14D65A14D6BD3293D4035340AE929AAC1F720381FB3CD7A"
+      "path": ".github/workflows/pages.yml",
+      "bytes": 686,
+      "sha256": "37CA028AC4E0E6EC85ED9B49800C17F5C87F9827842E4C45BED2C91976D4EBF7"
     },
     {
-      "path": "prototype-0.5-media-shell/styles.css",
-      "bytes": 45762,
-      "sha256": "69380FAD160BFF39F5419E722580258EEEBFDDFC55A58371DE21217F6534D4CB"
+      "path": ".gitignore",
+      "bytes": 685,
+      "sha256": "43BF43D4D80F13C2494A708AD31F01EB9C9F0D4A8EA27DAF4933DC414DB925CD"
     },
     {
-      "path": "prototype-0.5-media-shell/README.md",
-      "bytes": 3104,
-      "sha256": "E252B66F7D80C9C84062A8FFB133A736C9B604EB00A0B7F9A053AE68EC5BEE3E"
+      "path": ".nojekyll",
+      "bytes": 1,
+      "sha256": "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
     },
     {
-      "path": "prototype-0.5-media-shell/platform-adapter.js",
-      "bytes": 2234,
-      "sha256": "956F2AB5E55EF134D1BE790960C81F445C09931014D85600E677582B73DC24D2"
+      "path": "CONTRIBUTING.md",
+      "bytes": 1071,
+      "sha256": "8FCDEA3E35032D02E18997E3975CEB6A3AAAE04BB3206F5D47364B5504DB94F9"
     },
     {
-      "path": "prototype-0.5-media-shell/docs/build-log-step-1-provider-contract.md",
-      "bytes": 4028,
-      "sha256": "5CFD275A247BDFA4F67E21A3947FBF8239E461BEE12C1F0FFF5C76693D1D94E4"
+      "path": "DATA-LICENSES.md",
+      "bytes": 3460,
+      "sha256": "A11C40F2A97AA5FC4BAA1EF9E2A7C6F524A3C31A6FADA6F1AB91D73A48A3D750"
     },
     {
-      "path": "prototype-0.5-media-shell/index.html",
-      "bytes": 1051,
-      "sha256": "0594FBAECC208237911197343C1850DD92880C2EA3C5E97AE020649C7D75EDA2"
+      "path": "docs/PUBLIC-ALPHA-DATA-INVENTORY.md",
+      "bytes": 7077,
+      "sha256": "073508C236768B9B4F4EBE6B6D2F16338498DFFBF36C8D4B193DE5DB3B547528"
     },
     {
-      "path": "prototype-0.3-assisted-reader/tools/test-elision-layer.js",
-      "bytes": 2872,
-      "sha256": "5D6C3737B10A4534E1C7246121E691FFF2837565BCE73CE613A24A55F1EB9A58"
+      "path": "docs/PUBLIC-RELEASE-CHECKLIST.md",
+      "bytes": 2060,
+      "sha256": "62A28AC5F3DEDC3A3DB47CE12187A0EC9676BBEDB56C6434AF5853D8A86C8DD5"
     },
     {
-      "path": "prototype-0.3-assisted-reader/tools/test-audio-reader.js",
-      "bytes": 4017,
-      "sha256": "1B11036E9ACE7C9EECD57209031ABA265A7EF69EFE1872B7EE3F577F9C18B56D"
+      "path": "forge.config.js",
+      "bytes": 1198,
+      "sha256": "5D7A98C40BB4AACA3B3787F2E86550A59D8C14411DF15EBF1BEC1A1BF72CF0ED"
     },
     {
-      "path": "prototype-0.3-assisted-reader/tools/build-paisa-frequency.js",
-      "bytes": 3483,
-      "sha256": "97CE6D7336ED0B67F06773EED15AE8F6803B674AB590524F38D5DD9C3B07070B"
+      "path": "index.html",
+      "bytes": 383,
+      "sha256": "E1EF4EBC16DA3DF2C188E73813F90979596361960146B99C9E747C42C95E3895"
     },
     {
-      "path": "prototype-0.3-assisted-reader/tools/build-learner-enrichment.js",
-      "bytes": 1867,
-      "sha256": "7FE42DBD3BBB94951C24385EFE4F0275522B7A55C0C50DE3C6AB77ABDF2D61FE"
+      "path": "LICENSE",
+      "bytes": 1439,
+      "sha256": "2FEAA7598BCFBC9A6CB2B23D279C3FC1871A3863ACB51712AF8B6D1368573A45"
     },
     {
-      "path": "prototype-0.3-assisted-reader/tools/build-dictionary-overflow.js",
-      "bytes": 4361,
-      "sha256": "203FB4F73994AE7839C4643341CD6D15A2E169325CC26908BF9BCDFEC28C704C"
+      "path": "mobile/icons/app-icon-180.png",
+      "bytes": 94121,
+      "sha256": "8D0B5645F6453CA63CEB9B6782FC43E83608FAEFC2A6E198D434FC9962D08212"
     },
     {
-      "path": "prototype-0.3-assisted-reader/tools/build-context-markers.js",
-      "bytes": 4205,
-      "sha256": "C1F99D029394789DD3C6685E087EDA496674C444C25C878204314D2AE7B9C3BD"
+      "path": "mobile/icons/app-icon-192.png",
+      "bytes": 107134,
+      "sha256": "751DDFF00833FA108F43D92D12DD001463C1AFFDC8AD4039BEF94F6EED1ADC42"
+    },
+    {
+      "path": "mobile/icons/app-icon-512.png",
+      "bytes": 643472,
+      "sha256": "F4519DC0F7A7D5DAF330AEFBEC7FFCA23DB5F5CFC3C51E82BCE74D972D491BF2"
+    },
+    {
+      "path": "mobile/index.html",
+      "bytes": 2121,
+      "sha256": "DD5C7E49A0C8AF23CABCBAEBAABE698E125A4C26D42179E9223C6042B7529D19"
+    },
+    {
+      "path": "mobile/manifest.webmanifest",
+      "bytes": 615,
+      "sha256": "3E4CC8E7B3B24A34252FE893020640FFAA3531E1A0A9C9E3CE6D36ACFC39D414"
+    },
+    {
+      "path": "mobile/mobile-library.js",
+      "bytes": 15660,
+      "sha256": "F490FFFB24D06EA1167F3C90344AC3B7A6C0FA40FF01E384E54262E463F58F10"
+    },
+    {
+      "path": "mobile/mobile.css",
+      "bytes": 3186,
+      "sha256": "FB8B100A0342F237DCBBA6E7C8CF18E665387EA44042BABCD619877DD052F555"
+    },
+    {
+      "path": "mobile/pwa-register.js",
+      "bytes": 326,
+      "sha256": "47700301F179F1E91DA1833394157CA8B4DA8DAE4FD6A0D958195A2B7B5A4A35"
+    },
+    {
+      "path": "mobile/README.md",
+      "bytes": 1976,
+      "sha256": "8736428323DE35DB844EDE32798AD5AB9AE28075E54B3B0847D32FFF9D3E27CD"
+    },
+    {
+      "path": "mobile/sw.js",
+      "bytes": 2516,
+      "sha256": "E2625FB19FDDE8B50899BC751443EA97699BF430FEF994B23E97B83D50D7C025"
+    },
+    {
+      "path": "mobile/vendor/fflate-0.8.3.js",
+      "bytes": 33044,
+      "sha256": "462EF8041FC970E3615A20A9DD2B2E3047A073B2DA729EF4F02B634BBA8B7B83"
+    },
+    {
+      "path": "mobile/vendor/fflate-LICENSE.txt",
+      "bytes": 1069,
+      "sha256": "0A1DF3A083D0C010560AA342E87959C8C1070E6FD54545741F083F22D0C8B551"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 259823,
+      "sha256": "3B4EF9ACB9B9CA5CD5A365B45FB0AA1142BAA95AB4FD4013099203A202380BAE"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2134,
+      "sha256": "C1711B4E845257BC4968D1456990130823830035AC487F516746C62F6C0A1854"
+    },
+    {
+      "path": "prototype-0.2-lexical-coverage/core-dictionary.js",
+      "bytes": 3346046,
+      "sha256": "C85972EE509889BA0D54A65DCA7D5256F5CEECB522F9D4D7FBF7FC6D810D40E5"
+    },
+    {
+      "path": "prototype-0.2-lexical-coverage/data/README.txt",
+      "bytes": 717,
+      "sha256": "C220D5B84F770B0D9531C0E3F82FF6223CC1D57F89B8EC22D51EAE6B1E724562"
+    },
+    {
+      "path": "prototype-0.2-lexical-coverage/lexicon.js",
+      "bytes": 1909,
+      "sha256": "E424A97F591A333E1E6F0474E3A219F956128BAFA499FB2F50890BC1D639A5E1"
+    },
+    {
+      "path": "prototype-0.2-lexical-coverage/README.md",
+      "bytes": 5177,
+      "sha256": "7CE6FF09A3E32B7FA75F1B1E872E7CDE61FDD331F92A591E56BB80AA44615AC3"
+    },
+    {
+      "path": "prototype-0.2-lexical-coverage/tools/import-kaikki-italian.js",
+      "bytes": 17505,
+      "sha256": "E9BEF4369A0DADF9F8881586222FC4C7071F92F1EA8D0A73822F4166310783F4"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/accent-rules.js",
+      "bytes": 3271,
+      "sha256": "7D25F76DBCB1FF7C2C2BFC79B428386473E68EB46F3FEAB1B952D6AB843486ED"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/context-markers.js",
+      "bytes": 10404,
+      "sha256": "6FAC671BDDBA421E5E366BCF3DB2D2225AC4D9DD7D20C81B6D50C863D9F0BC52"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/dictionary-overflow.js",
+      "bytes": 1998317,
+      "sha256": "CB9D0A3E4756525B16EA24872A774EE3644302692B8A540DBBE16026270ECA20"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/elision-rules.js",
+      "bytes": 2427,
+      "sha256": "B8FF61E4DB0224EBEABB49D7C84119DCCC135C61FF0B7959B976FB19F838D193"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/learner-enrichment.js",
+      "bytes": 3005135,
+      "sha256": "3F2F41260A399407D77B119ADBF425D6509228BC29539604851807BA6456F8D1"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/paisa-frequency.js",
+      "bytes": 1367567,
+      "sha256": "93FAB35E3124B6F94517D84C15344D77C8E799BC1575F2C29DBF3509133DB1D3"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/README.md",
+      "bytes": 6175,
+      "sha256": "165ED018654DA50A2A52812AD4E3335BC242556D4F44BEE32BEABC2F5180D8F1"
     },
     {
       "path": "prototype-0.3-assisted-reader/tools/build-accent-rules.js",
@@ -91,9 +211,139 @@
       "sha256": "2B264DF9B835A4629CE227F3E43B5EF2865F9A7620D3AB4088E8CA14CE5BCCA3"
     },
     {
+      "path": "prototype-0.3-assisted-reader/tools/build-context-markers.js",
+      "bytes": 4205,
+      "sha256": "C1F99D029394789DD3C6685E087EDA496674C444C25C878204314D2AE7B9C3BD"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/tools/build-dictionary-overflow.js",
+      "bytes": 4361,
+      "sha256": "203FB4F73994AE7839C4643341CD6D15A2E169325CC26908BF9BCDFEC28C704C"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/tools/build-learner-enrichment.js",
+      "bytes": 1867,
+      "sha256": "7FE42DBD3BBB94951C24385EFE4F0275522B7A55C0C50DE3C6AB77ABDF2D61FE"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/tools/build-paisa-frequency.js",
+      "bytes": 3483,
+      "sha256": "97CE6D7336ED0B67F06773EED15AE8F6803B674AB590524F38D5DD9C3B07070B"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/tools/test-audio-reader.js",
+      "bytes": 4017,
+      "sha256": "1B11036E9ACE7C9EECD57209031ABA265A7EF69EFE1872B7EE3F577F9C18B56D"
+    },
+    {
+      "path": "prototype-0.3-assisted-reader/tools/test-elision-layer.js",
+      "bytes": 2872,
+      "sha256": "5D6C3737B10A4534E1C7246121E691FFF2837565BCE73CE613A24A55F1EB9A58"
+    },
+    {
       "path": "prototype-0.5-media-shell/app.js",
-      "bytes": 159659,
-      "sha256": "7C4052D0F604EE28949587FFBC6476168FD74E27F08ADB41653F1B7497DD218A"
+      "bytes": 160972,
+      "sha256": "A36FD549EA5A8DE82BE17FB50BAE884E1C7D1622417656E3C64AADDCAF0325C2"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/italian-foundation.json",
+      "bytes": 2395,
+      "sha256": "88B5A5189AC172BBAC4ACA2219D2FD4A3AC5D3E6D2A0B0DE92A3D617720472EA"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/reader-dict-en-trial.json",
+      "bytes": 81731,
+      "sha256": "86CC0E722CD75AF2B95D47DFD6EB74C624F314C9CE31418FA5C72BD4E1EC9523"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/reader-dict-trial.json",
+      "bytes": 54531,
+      "sha256": "7A8B342A632F30D64995591A0A716C5FBEECA2C342BEEB98022F406039AAF951"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/reader-dict-it-en-sample.json",
+      "bytes": 10431,
+      "sha256": "E3BCAE28A3F6B06CFE5F4CCE9498E5144C320B04F9893F57BBE1D2767FBEAFA0"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/reader-dict-it-sample.json",
+      "bytes": 5786,
+      "sha256": "FC1D805FFD10075488573CF063CEB24632E217768A5F9EEC245F3F6F8497694A"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/README.md",
+      "bytes": 4684,
+      "sha256": "3911D1B2C2A4B6CC43EFD038B4070402FBFDFDEDFC127A427585CC0C60323DE1"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/ribellare-form-check.json",
+      "bytes": 1928,
+      "sha256": "3B11494F6D71E93218F37DDAE3D1F8FA59C291E9B7E40E2834FD1DEDC2F5786C"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/verbs-001-passages.json",
+      "bytes": 8831,
+      "sha256": "D8053FF2C25BAA209DC342AC80ECC383117109D3FC103884155FA45DE35A716A"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/verbs-001-review.json",
+      "bytes": 129579,
+      "sha256": "F3C854FEB90A56F6810B1DEAD6D364ED381334A2F7121DCA7340994F1B1BEB2E"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/verbs-001-source.json",
+      "bytes": 50013,
+      "sha256": "F2DB0AF364B9B7A08CF204CA8F750CA9245D34FBB20FD911ACDB02324E9A8D64"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/verbs-001.json",
+      "bytes": 479694,
+      "sha256": "F0ED5C546CB251BDE56C4AFAFFC4196868AA33AD9C5B52EEA767859155BF155F"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/verbs-002-review.json",
+      "bytes": 143173,
+      "sha256": "6263B180E28559943F0A9FFD88A7254C390319E76328C7EC109F96D7CFCB8EC5"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/verbs-002-source.json",
+      "bytes": 28689,
+      "sha256": "C3DEBC421D5DB57B10F79BEA40F3629B79A2E0B990A7FE22A54C597194C62EC9"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/verbs-002.json",
+      "bytes": 311186,
+      "sha256": "DC812722ADDE4CDE61A3AFFDE29DC4A309E4B239BE52C4EC441628748911EC85"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/breakdown-system.md",
+      "bytes": 1933,
+      "sha256": "CADAE9CE10556754C14D65A14D6BD3293D4035340AE929AAC1F720381FB3CD7A"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/build-log-mobile-step-1-browser-shell.md",
+      "bytes": 1343,
+      "sha256": "DA4D58251015B0AE23E4AE2103582B95EB2A93757820EC4EBE85D7585F61EED3"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/build-log-mobile-step-2-book-import.md",
+      "bytes": 2073,
+      "sha256": "226CB63886BC99185AD71FA57FBD2300F0ACDEBEA4BBA4AD16957046C3C85B46"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/build-log-mobile-step-3-installable-pwa.md",
+      "bytes": 1725,
+      "sha256": "EC1B3BAD719425F2602142F0E4D628D6A8A8DB6CCAAC36FA6214637AFEF41702"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/build-log-shared-core-step-1-platform-adapter.md",
+      "bytes": 2150,
+      "sha256": "E9755A72ADD5D7084CEDD293A18D59DAEB9A1BBC6111660303D56ED3A74CFFBA"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/build-log-step-1-provider-contract.md",
+      "bytes": 4028,
+      "sha256": "5CFD275A247BDFA4F67E21A3947FBF8239E461BEE12C1F0FFF5C76693D1D94E4"
     },
     {
       "path": "prototype-0.5-media-shell/docs/build-log-step-2-youtube-parser.md",
@@ -111,79 +361,34 @@
       "sha256": "1EF9FDF38192D63CBFA347BCA4238592F4200C28454746A021F3CF0674A3F05A"
     },
     {
-      "path": "tools/test-mobile-entry.js",
-      "bytes": 3058,
-      "sha256": "F0BED7F9DE1C7023A3F48DFCA94F1D98191084DE21A0DB15A5EE80BDDED82B5B"
+      "path": "prototype-0.5-media-shell/docs/build-log-step-5-youtube-provider.md",
+      "bytes": 3937,
+      "sha256": "091F4F68215CE814113534DCDBDA79380A4F04757136EC3CC29CA2F0669F04ED"
     },
     {
-      "path": "tools/serve-mobile.js",
-      "bytes": 3676,
-      "sha256": "61B0DC2EF684CCAF2F4608BFF71143CBB8AE615C7B6F3F2F37B90DB7B92C2D98"
+      "path": "prototype-0.5-media-shell/docs/dictionary-1827-source-assessment.md",
+      "bytes": 7295,
+      "sha256": "9F19083DF3BADAAB21A0CF22C0BD53FC18D55CAA82BC20EF11F8FA7B48753981"
     },
     {
-      "path": "tools/build-third-party-notices.js",
-      "bytes": 7082,
-      "sha256": "E9974C5023521F8DE7C7B25E88FD4292CF16A2AEF00484D38B46F426EF5A2241"
+      "path": "prototype-0.5-media-shell/docs/foundation-experiment.md",
+      "bytes": 6138,
+      "sha256": "8414B39A1337EEEEDA409C54445D1533FDE57B7256D396C93CB4435B6CC60991"
     },
     {
-      "path": "tools/build-public-source.js",
-      "bytes": 6440,
-      "sha256": "7EF103506EFECFA2EE9D96DF52F521249BE26C67C31AF72048660D4AC07C56F1"
+      "path": "prototype-0.5-media-shell/docs/italian-foundation-provider-step-2.md",
+      "bytes": 16410,
+      "sha256": "1B9D3677C566E997E2DB485AAA8D8C7872EA54350FEDD58A6E20A353685B93D4"
     },
     {
-      "path": "src/preload.js",
-      "bytes": 1094,
-      "sha256": "52C297B27DA7DEB98841F43AFA276A30FF56BE253074FAC99BED2A0F6F5F117E"
+      "path": "prototype-0.5-media-shell/docs/italian-lexical-audit-2026-09-24.md",
+      "bytes": 11831,
+      "sha256": "CA20E9A89063AFBC2748213F924739976E44074DEDC3BE3E4163963E40B40C59"
     },
     {
-      "path": "src/main.js",
-      "bytes": 39540,
-      "sha256": "9CC241CD02FE828EB67D76AE1FAC73E9D998EBFD8DBB66985FEE2AFAAF4651AB"
-    },
-    {
-      "path": "src/books.js",
-      "bytes": 4090,
-      "sha256": "2B69303502761379C9663DE76ADF8B51DE9E36AE88829C2833E0243F8C0ABB93"
-    },
-    {
-      "path": "prototype-0.5-media-shell/tools/test-platform-adapter.js",
-      "bytes": 4300,
-      "sha256": "E821E99A5C5E034AD03D7AF4F8914B02DC73101B7A1EB28E9673C0AE30606702"
-    },
-    {
-      "path": "prototype-0.5-media-shell/tools/test-media-shell.js",
-      "bytes": 14341,
-      "sha256": "954530B68DB9A20F73BC1A88D4880C4AAAC1A9638538B7F0841EB8FB34917D3E"
-    },
-    {
-      "path": "prototype-0.5-media-shell/tools/test-breakdown.js",
-      "bytes": 5977,
-      "sha256": "F2B614F749546C403A2A189013BDCD191776D0B82E41E93B936E0264336B495A"
-    },
-    {
-      "path": "prototype-0.5-media-shell/docs/youtube-adapter-roadmap.md",
-      "bytes": 1450,
-      "sha256": "CC17E41E28FC83C36806B51939B8B1A28848789656AFD02D6DA6CE3E80BD4D0A"
-    },
-    {
-      "path": "prototype-0.5-media-shell/docs/url-door.md",
-      "bytes": 2668,
-      "sha256": "5C649773AD5DABFF0DFC0B51102069739610F690CB6D75A04EE371E4C3FABD67"
-    },
-    {
-      "path": "prototype-0.5-media-shell/docs/tester-build-0.6.md",
-      "bytes": 3600,
-      "sha256": "908C166E381F0858F01BE2084CB0B0D8190B72D81BC3C567795CA3C4F8BCD335"
-    },
-    {
-      "path": "prototype-0.5-media-shell/docs/teacher-provider-experiment.md",
-      "bytes": 2855,
-      "sha256": "485080F7535690C5DE4685967D9FEC9C75464BCA8BBB3818E1E063E9E9AE81AF"
-    },
-    {
-      "path": "prototype-0.5-media-shell/docs/shared-core-audit.md",
-      "bytes": 7530,
-      "sha256": "61736085B0BEF72551CD597EA21B61BE8C894B0B0E3304F2112EF37493B3F2AE"
+      "path": "prototype-0.5-media-shell/docs/lexical-review-workflow.md",
+      "bytes": 3095,
+      "sha256": "E59D9752983EF87E66674F1813209A9F24A3A46BD6007175F813FEE1E45D9DDC"
     },
     {
       "path": "prototype-0.5-media-shell/docs/media-shell.md",
@@ -191,14 +396,249 @@
       "sha256": "D58C6FC14398CEC8EFC23068833BE32BCB23D1167CE37BE60AD15DA37EBCCF82"
     },
     {
-      "path": "prototype-0.5-media-shell/docs/build-log-step-5-youtube-provider.md",
-      "bytes": 3937,
-      "sha256": "091F4F68215CE814113534DCDBDA79380A4F04757136EC3CC29CA2F0669F04ED"
+      "path": "prototype-0.5-media-shell/docs/reader-dict-it-en-assessment.md",
+      "bytes": 8881,
+      "sha256": "F0BB54A837337AEC0A4ABE395FA0FC3314084465D372E0AAA4A2400552170F3F"
     },
     {
-      "path": "prototype-0.3-assisted-reader/README.md",
-      "bytes": 6175,
-      "sha256": "165ED018654DA50A2A52812AD4E3335BC242556D4F44BEE32BEABC2F5180D8F1"
+      "path": "prototype-0.5-media-shell/docs/reader-dict-source-assessment.md",
+      "bytes": 6938,
+      "sha256": "969847E7BF9844FB43F706E23181EA71DEF63AD33968815E20F7DC9E0B139DD5"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/reader-dict-trial.md",
+      "bytes": 5482,
+      "sha256": "EA6F036B142C4E9E7B916CB5C918512095F2A80D3741B9B2BCA2A2B7184A8FA2"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/shared-core-audit.md",
+      "bytes": 7530,
+      "sha256": "61736085B0BEF72551CD597EA21B61BE8C894B0B0E3304F2112EF37493B3F2AE"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/teacher-provider-experiment.md",
+      "bytes": 2855,
+      "sha256": "485080F7535690C5DE4685967D9FEC9C75464BCA8BBB3818E1E063E9E9AE81AF"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/tester-build-0.6.md",
+      "bytes": 3600,
+      "sha256": "908C166E381F0858F01BE2084CB0B0D8190B72D81BC3C567795CA3C4F8BCD335"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/url-door.md",
+      "bytes": 2668,
+      "sha256": "5C649773AD5DABFF0DFC0B51102069739610F690CB6D75A04EE371E4C3FABD67"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/verb-batch-001-passage-check.md",
+      "bytes": 4611,
+      "sha256": "C55C43CCA2C89E20400CF2C1429116471D167C3C8D02005496E42BB881AA8D01"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/verb-batch-001-review.md",
+      "bytes": 17183,
+      "sha256": "2820FDA058132389B553C86959B27E109125DC1267F81906EF0C175499372F02"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/verb-batch-001.md",
+      "bytes": 10678,
+      "sha256": "2D6AFF97D8D9FBC30139137D84C500BA30FF3E06F21F49861F4BD61276D3A281"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/verb-batch-002-review.md",
+      "bytes": 18650,
+      "sha256": "4EE8486F490F971C401CB17033481694323918CCCEE0CBEAAE67237CEDB0B583"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/verb-batch-002.md",
+      "bytes": 10817,
+      "sha256": "960ADEBE00F2DF743F73570CE3513D302F7E1575AC4A3B14890D29DF936929ED"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/word-lens-context-evidence-design.md",
+      "bytes": 4509,
+      "sha256": "49B8185BD7A0BD08FC3415B860AA9FCD916B7D8EE364A7D2B61A0359C184DA25"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/word-lens-trial-integration.md",
+      "bytes": 2550,
+      "sha256": "2BAC674A6543630F93D7A8ED279C88BFF97D4C516D0D234A0985584F112F7EA6"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/youtube-adapter-roadmap.md",
+      "bytes": 1450,
+      "sha256": "CC17E41E28FC83C36806B51939B8B1A28848789656AFD02D6DA6CE3E80BD4D0A"
+    },
+    {
+      "path": "prototype-0.5-media-shell/foundation-lab.html",
+      "bytes": 4388,
+      "sha256": "8B61BFE6B82634195A2A52B94A3458091DF18D00C9B4285D41CA1C177546F6BE"
+    },
+    {
+      "path": "prototype-0.5-media-shell/foundation-lab.js",
+      "bytes": 9422,
+      "sha256": "01891FB88D216C16A1A3223A14939395B2FC39E86D2A945BB36A101A78FC91D4"
+    },
+    {
+      "path": "prototype-0.5-media-shell/index.html",
+      "bytes": 1309,
+      "sha256": "C61FCBE6DF518E938BDBDCAC20BF57EDB6FE70A4E2F2A23DC0752E992565B182"
+    },
+    {
+      "path": "prototype-0.5-media-shell/italian-foundation.js",
+      "bytes": 194,
+      "sha256": "24BFB59FB9F2CF87BBEA362DC72D21C35ADBB6B475D4F743BE72B4E5C8831D3C"
+    },
+    {
+      "path": "prototype-0.5-media-shell/lexical-provider.js",
+      "bytes": 2436,
+      "sha256": "52849B3DC00DCD8C929B01AA560B910B3E6DB5242369F763C9973EF119BFD692"
+    },
+    {
+      "path": "prototype-0.5-media-shell/platform-adapter.js",
+      "bytes": 2234,
+      "sha256": "956F2AB5E55EF134D1BE790960C81F445C09931014D85600E677582B73DC24D2"
+    },
+    {
+      "path": "prototype-0.5-media-shell/reader-dict-en-trial.js",
+      "bytes": 51867,
+      "sha256": "14BCD93FC28C02B3A5E5F545C62A03315F72DB3E2F00BCA8ACCBC6A0C8DCE475"
+    },
+    {
+      "path": "prototype-0.5-media-shell/README.md",
+      "bytes": 4218,
+      "sha256": "44B0B1E1D94087E91963AAC26973E500F503FFDBBFC9FE098260E80DE0D00819"
+    },
+    {
+      "path": "prototype-0.5-media-shell/reviewed-verbs-data.js",
+      "bytes": 642446,
+      "sha256": "487BBF1CF868FC761C1C527F4F66787FD6E92B8CF16AC6A87662987497C94D12"
+    },
+    {
+      "path": "prototype-0.5-media-shell/reviewed-word-lens.js",
+      "bytes": 3831,
+      "sha256": "4D18916DE735957770D0F4FBD4CCDB1BBE5F886DEF12958F7F4D2AEAD3554957"
+    },
+    {
+      "path": "prototype-0.5-media-shell/styles.css",
+      "bytes": 46154,
+      "sha256": "C09C5EE6A6A69ABED6F4DB741CEA4049B9C21F9C6987567B45167AB4A582CC54"
+    },
+    {
+      "path": "prototype-0.5-media-shell/tools/test-breakdown.js",
+      "bytes": 6027,
+      "sha256": "698CD49A0A8102DCBAD59669D58686C6F1AEE1C448E5535CFD5B283DE47B5E04"
+    },
+    {
+      "path": "prototype-0.5-media-shell/tools/test-media-shell.js",
+      "bytes": 20763,
+      "sha256": "78473AF9827066A210BA04D7FD410AE19940A8B38E80749557604DAC1D019068"
+    },
+    {
+      "path": "prototype-0.5-media-shell/tools/test-platform-adapter.js",
+      "bytes": 4300,
+      "sha256": "E821E99A5C5E034AD03D7AF4F8914B02DC73101B7A1EB28E9673C0AE30606702"
+    },
+    {
+      "path": "prototype-0.5-media-shell/word-lens-trial.js",
+      "bytes": 2978,
+      "sha256": "7D4025BBB01D8C42F2411C6594AEF276D3ABAA28F642EE5B004B8A1C61E3FF85"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4209,
+      "sha256": "9CFC882D442B80A9459E242ECE184A0F8D0001B64AF77B86AA4DF190AD65364C"
+    },
+    {
+      "path": "src/books.js",
+      "bytes": 4090,
+      "sha256": "2B69303502761379C9663DE76ADF8B51DE9E36AE88829C2833E0243F8C0ABB93"
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 39540,
+      "sha256": "9CC241CD02FE828EB67D76AE1FAC73E9D998EBFD8DBB66985FEE2AFAAF4651AB"
+    },
+    {
+      "path": "src/preload.js",
+      "bytes": 1094,
+      "sha256": "52C297B27DA7DEB98841F43AFA276A30FF56BE253074FAC99BED2A0F6F5F117E"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.txt",
+      "bytes": 28292,
+      "sha256": "979F8C064789A3F0EC63570920C56DD2AC484080862A5711CA6C6647E0008E5E"
+    },
+    {
+      "path": "tools/audit-italian-lexicon.js",
+      "bytes": 22872,
+      "sha256": "669E93A85C27040980357B83603EEE16D1540DDD034EBF88B2678551DA7DC4DB"
+    },
+    {
+      "path": "tools/build-italian-foundation.js",
+      "bytes": 5559,
+      "sha256": "6E4434FE0DE4634901F69A8A1F232D0FE8D30A7A18B1B7C65D8A5342902B5CB2"
+    },
+    {
+      "path": "tools/build-public-source.js",
+      "bytes": 7384,
+      "sha256": "DEA0BDF80B41FC36E75535CF5C0349647DDF6B41538F584626956A87D5BB0EBE"
+    },
+    {
+      "path": "tools/build-reader-dict-en-trial.js",
+      "bytes": 4629,
+      "sha256": "A2FA2A987909F8ADE271AFC927F1F352363AB39E3651C2F974BA57E42EA7C24D"
+    },
+    {
+      "path": "tools/build-reader-dict-trial.js",
+      "bytes": 3588,
+      "sha256": "30CF45828AD5F31F0B7BBA8A63C9C63E9545E103CF6EF1232EF3EA445112657C"
+    },
+    {
+      "path": "tools/build-reviewed-verbs.js",
+      "bytes": 5201,
+      "sha256": "D555CAE2668161D2007EB62693ACB78E8DC87218F28038A07FDC3BF8F35DFA3C"
+    },
+    {
+      "path": "tools/build-third-party-notices.js",
+      "bytes": 7913,
+      "sha256": "A376083C48D48D3B2340CFC2025D4F22ACACF40AE89A498D47DF7FD098AC4F9E"
+    },
+    {
+      "path": "tools/check-verb-reviews.js",
+      "bytes": 8096,
+      "sha256": "EB58AFA1CCB9CA10A318C779D927E120C5E3EF7B86472F037EBF5783A9E2A8CD"
+    },
+    {
+      "path": "tools/plan-lexical-batch.js",
+      "bytes": 12396,
+      "sha256": "75B3B87D5908C82648F0B3E33527467F2329928BCA6F489487DFA2F689C9F9C3"
+    },
+    {
+      "path": "tools/serve-foundation-lab.js",
+      "bytes": 1715,
+      "sha256": "066919A23D321607BE0301DD7AE2BCBEB3CF33CEB7C0B7CD64B8341DAA2BCDBC"
+    },
+    {
+      "path": "tools/serve-mobile.js",
+      "bytes": 3930,
+      "sha256": "BED51B52EA0B28C6C39E518760A55884B12DE925C469A1907FCEFB63F4BB77BD"
+    },
+    {
+      "path": "tools/test-italian-foundation.js",
+      "bytes": 6749,
+      "sha256": "2CC545D92CFE58EFE4F86EFEDBBF2986FAE23831BC923AE463824AD034D61E32"
+    },
+    {
+      "path": "tools/test-lexical-batch.js",
+      "bytes": 2848,
+      "sha256": "8412B0E7B432D395FFD72FDF0E639E7073C7C803817ACC64A21A8C13625AA471"
+    },
+    {
+      "path": "tools/test-mobile-entry.js",
+      "bytes": 3422,
+      "sha256": "551C8A89AEFDADCAF48EE3074ABC4FDA75A1633A47C982319EB15C8BB91E2EB5"
     },
     {
       "path": "tools/test-mobile-importer.js",
@@ -206,204 +646,19 @@
       "sha256": "A3C66CE5D9E70F82B125AFD23B6DDCED751B83B5FBFE459EC7F86BF2B3AF0A43"
     },
     {
-      "path": "prototype-0.3-assisted-reader/paisa-frequency.js",
-      "bytes": 1367567,
-      "sha256": "93FAB35E3124B6F94517D84C15344D77C8E799BC1575F2C29DBF3509133DB1D3"
+      "path": "tools/test-reader-dict-en-trial.js",
+      "bytes": 3167,
+      "sha256": "A9D49909EFE0542C52E0B073EE266CD9DF047165AA9E78A803888A7A6957FC0E"
     },
     {
-      "path": "prototype-0.3-assisted-reader/elision-rules.js",
-      "bytes": 2427,
-      "sha256": "B8FF61E4DB0224EBEABB49D7C84119DCCC135C61FF0B7959B976FB19F838D193"
+      "path": "tools/test-reader-dict-trial.js",
+      "bytes": 2822,
+      "sha256": "73CA92C493FADFB3F34517CA120F2845853A3384100D1E67588A843E35B50CB7"
     },
     {
-      "path": "docs/PUBLIC-ALPHA-DATA-INVENTORY.md",
-      "bytes": 7077,
-      "sha256": "073508C236768B9B4F4EBE6B6D2F16338498DFFBF36C8D4B193DE5DB3B547528"
-    },
-    {
-      "path": ".github/workflows/pages.yml",
-      "bytes": 686,
-      "sha256": "37CA028AC4E0E6EC85ED9B49800C17F5C87F9827842E4C45BED2C91976D4EBF7"
-    },
-    {
-      "path": ".github/ISSUE_TEMPLATE/config.yml",
-      "bytes": 28,
-      "sha256": "1F103C6A9DD07CD13A9A6F17ACE6B813F47747EB9CB7E00488CB2073CAAF91BB"
-    },
-    {
-      "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
-      "bytes": 1662,
-      "sha256": "772565F7E1050D23DCF16A902E2E5D0EE96D2BEA4C25BF9807E479EB4B06F6D8"
-    },
-    {
-      "path": ".github/ISSUE_TEMPLATE/alpha-feedback.yml",
-      "bytes": 970,
-      "sha256": "3D055B064BE5A50BC34B2AB4ED87DAD8C1A76692C02FB0FEF8A9D12D3F36DE60"
-    },
-    {
-      "path": "THIRD-PARTY-NOTICES.txt",
-      "bytes": 27501,
-      "sha256": "EFA48EA117535F1DEDCD77F8B4BBA88D1BFF4322FC5BBBDDF23BAD15BEC2ADA5"
-    },
-    {
-      "path": "README.md",
-      "bytes": 3558,
-      "sha256": "9B317F30744BD6E75373FAC4F334606DE21CC66F433C1856BE75CDF0AE9346C6"
-    },
-    {
-      "path": "docs/PUBLIC-RELEASE-CHECKLIST.md",
-      "bytes": 2060,
-      "sha256": "62A28AC5F3DEDC3A3DB47CE12187A0EC9676BBEDB56C6434AF5853D8A86C8DD5"
-    },
-    {
-      "path": "package.json",
-      "bytes": 1221,
-      "sha256": "4E81B6AF142ED58ABC570AFDAE9DEC61AD8C00C986E29E01C597C921B3C4F137"
-    },
-    {
-      "path": "LICENSE",
-      "bytes": 1439,
-      "sha256": "2FEAA7598BCFBC9A6CB2B23D279C3FC1871A3863ACB51712AF8B6D1368573A45"
-    },
-    {
-      "path": "index.html",
-      "bytes": 383,
-      "sha256": "E1EF4EBC16DA3DF2C188E73813F90979596361960146B99C9E747C42C95E3895"
-    },
-    {
-      "path": "forge.config.js",
-      "bytes": 1198,
-      "sha256": "5D7A98C40BB4AACA3B3787F2E86550A59D8C14411DF15EBF1BEC1A1BF72CF0ED"
-    },
-    {
-      "path": "DATA-LICENSES.md",
-      "bytes": 2522,
-      "sha256": "9361FB36D3B9F7F9827D89713FAD925D11064B21C1C69601B3199AF3FCE47BCD"
-    },
-    {
-      "path": "CONTRIBUTING.md",
-      "bytes": 1071,
-      "sha256": "8FCDEA3E35032D02E18997E3975CEB6A3AAAE04BB3206F5D47364B5504DB94F9"
-    },
-    {
-      "path": ".nojekyll",
-      "bytes": 1,
-      "sha256": "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
-    },
-    {
-      "path": ".gitignore",
-      "bytes": 610,
-      "sha256": "EE57D142838FD818FD8E552D64A810A9CCC9AF9A9A4348BEB9C0BF45DFC84C4B"
-    },
-    {
-      "path": "package-lock.json",
-      "bytes": 259823,
-      "sha256": "CF94D6FAE3D5BF48B20B66DE7661536318E7940DE7F50A234DDB5E17C397A15B"
-    },
-    {
-      "path": "mobile/index.html",
-      "bytes": 1805,
-      "sha256": "76A7306947F521B35911015814928A913DBABCF74504B1BDDBA0FE1A8D7A5F96"
-    },
-    {
-      "path": "mobile/manifest.webmanifest",
-      "bytes": 615,
-      "sha256": "3E4CC8E7B3B24A34252FE893020640FFAA3531E1A0A9C9E3CE6D36ACFC39D414"
-    },
-    {
-      "path": "mobile/mobile-library.js",
-      "bytes": 15660,
-      "sha256": "F490FFFB24D06EA1167F3C90344AC3B7A6C0FA40FF01E384E54262E463F58F10"
-    },
-    {
-      "path": "prototype-0.3-assisted-reader/dictionary-overflow.js",
-      "bytes": 1998317,
-      "sha256": "CB9D0A3E4756525B16EA24872A774EE3644302692B8A540DBBE16026270ECA20"
-    },
-    {
-      "path": "prototype-0.3-assisted-reader/context-markers.js",
-      "bytes": 10404,
-      "sha256": "6FAC671BDDBA421E5E366BCF3DB2D2225AC4D9DD7D20C81B6D50C863D9F0BC52"
-    },
-    {
-      "path": "prototype-0.3-assisted-reader/accent-rules.js",
-      "bytes": 3271,
-      "sha256": "7D25F76DBCB1FF7C2C2BFC79B428386473E68EB46F3FEAB1B952D6AB843486ED"
-    },
-    {
-      "path": "prototype-0.2-lexical-coverage/tools/import-kaikki-italian.js",
-      "bytes": 17505,
-      "sha256": "E9BEF4369A0DADF9F8881586222FC4C7071F92F1EA8D0A73822F4166310783F4"
-    },
-    {
-      "path": "prototype-0.2-lexical-coverage/data/README.txt",
-      "bytes": 717,
-      "sha256": "C220D5B84F770B0D9531C0E3F82FF6223CC1D57F89B8EC22D51EAE6B1E724562"
-    },
-    {
-      "path": "prototype-0.2-lexical-coverage/README.md",
-      "bytes": 5177,
-      "sha256": "7CE6FF09A3E32B7FA75F1B1E872E7CDE61FDD331F92A591E56BB80AA44615AC3"
-    },
-    {
-      "path": "prototype-0.2-lexical-coverage/lexicon.js",
-      "bytes": 1909,
-      "sha256": "E424A97F591A333E1E6F0474E3A219F956128BAFA499FB2F50890BC1D639A5E1"
-    },
-    {
-      "path": "prototype-0.2-lexical-coverage/core-dictionary.js",
-      "bytes": 3346046,
-      "sha256": "C85972EE509889BA0D54A65DCA7D5256F5CEECB522F9D4D7FBF7FC6D810D40E5"
-    },
-    {
-      "path": "mobile/vendor/fflate-LICENSE.txt",
-      "bytes": 1069,
-      "sha256": "0A1DF3A083D0C010560AA342E87959C8C1070E6FD54545741F083F22D0C8B551"
-    },
-    {
-      "path": "mobile/vendor/fflate-0.8.3.js",
-      "bytes": 33044,
-      "sha256": "462EF8041FC970E3615A20A9DD2B2E3047A073B2DA729EF4F02B634BBA8B7B83"
-    },
-    {
-      "path": "mobile/icons/app-icon-512.png",
-      "bytes": 643472,
-      "sha256": "F4519DC0F7A7D5DAF330AEFBEC7FFCA23DB5F5CFC3C51E82BCE74D972D491BF2"
-    },
-    {
-      "path": "mobile/icons/app-icon-192.png",
-      "bytes": 107134,
-      "sha256": "751DDFF00833FA108F43D92D12DD001463C1AFFDC8AD4039BEF94F6EED1ADC42"
-    },
-    {
-      "path": "mobile/icons/app-icon-180.png",
-      "bytes": 94121,
-      "sha256": "8D0B5645F6453CA63CEB9B6782FC43E83608FAEFC2A6E198D434FC9962D08212"
-    },
-    {
-      "path": "mobile/sw.js",
-      "bytes": 2292,
-      "sha256": "564C4620837763810AC1790D1FD46302F7D06624BB2960ABBF0D2E6158524A7D"
-    },
-    {
-      "path": "mobile/README.md",
-      "bytes": 1976,
-      "sha256": "8736428323DE35DB844EDE32798AD5AB9AE28075E54B3B0847D32FFF9D3E27CD"
-    },
-    {
-      "path": "mobile/pwa-register.js",
-      "bytes": 326,
-      "sha256": "47700301F179F1E91DA1833394157CA8B4DA8DAE4FD6A0D958195A2B7B5A4A35"
-    },
-    {
-      "path": "mobile/mobile.css",
-      "bytes": 3186,
-      "sha256": "FB8B100A0342F237DCBBA6E7C8CF18E665387EA44042BABCD619877DD052F555"
-    },
-    {
-      "path": "prototype-0.3-assisted-reader/learner-enrichment.js",
-      "bytes": 3005135,
-      "sha256": "3F2F41260A399407D77B119ADBF425D6509228BC29539604851807BA6456F8D1"
+      "path": "tools/test-reviewed-verbs.js",
+      "bytes": 4732,
+      "sha256": "AE9EA004FD8CBA91ABA788F7B6E59DA412682AF79648E75EFDC8B75C4C04F37B"
     },
     {
       "path": "tools/test-url-importer.js",
