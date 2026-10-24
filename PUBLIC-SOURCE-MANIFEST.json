@@ -1,9 +1,9 @@
 {
   "format": "passato-prossimo-public-source-v1",
-  "version": "0.6.0-alpha.2",
-  "generatedAt": "2026-10-03T21:32:20.396Z",
-  "policy": "Explicit allowlist; raw corpora, installers, release archives, dependencies, local media, and secrets are excluded. Existing public Forge configuration preserved; unrelated workspace change excluded.",
-  "fileCount": 132,
+  "version": "0.6.0-alpha.3",
+  "generatedAt": "2026-10-24T15:45:23.226Z",
+  "policy": "Explicit allowlist; raw corpora, installers, release archives, dependencies, local media, and secrets are excluded.",
+  "fileCount": 231,
   "files": [
     {
       "path": ".gitattributes",
@@ -32,8 +32,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 685,
-      "sha256": "43BF43D4D80F13C2494A708AD31F01EB9C9F0D4A8EA27DAF4933DC414DB925CD"
+      "bytes": 860,
+      "sha256": "B6D72054D39F52F50EC71A6A445DEDC9CC8F797E96AF343622B3D1B37FDE1FD9"
     },
     {
       "path": ".nojekyll",
@@ -47,8 +47,8 @@
     },
     {
       "path": "DATA-LICENSES.md",
-      "bytes": 3460,
-      "sha256": "A11C40F2A97AA5FC4BAA1EF9E2A7C6F524A3C31A6FADA6F1AB91D73A48A3D750"
+      "bytes": 4183,
+      "sha256": "9CBF9E5127B04520724C23CD488B1BE90FB4272B00456B919A2098EFB826388F"
     },
     {
       "path": "docs/PUBLIC-ALPHA-DATA-INVENTORY.md",
@@ -62,13 +62,13 @@
     },
     {
       "path": "forge.config.js",
-      "bytes": 1198,
-      "sha256": "5D7A98C40BB4AACA3B3787F2E86550A59D8C14411DF15EBF1BEC1A1BF72CF0ED"
+      "bytes": 1533,
+      "sha256": "8AA160EF7AF14081690A9A747A064DC35BA08B8E7E198AC3C0EAF9F438EEAF83"
     },
     {
       "path": "index.html",
-      "bytes": 15221,
-      "sha256": "E437A6E50B0B950D6BCCA71EFFB4DF3C514154DFD01CBB3CB2924113CA33C0F3"
+      "bytes": 15402,
+      "sha256": "EB2D4272AA351B6A9381551AF65DBEBC4F51AFF3B7A7D3B9ED965CC82BF17B2D"
     },
     {
       "path": "LICENSE",
@@ -92,8 +92,8 @@
     },
     {
       "path": "mobile/index.html",
-      "bytes": 2121,
-      "sha256": "DD5C7E49A0C8AF23CABCBAEBAABE698E125A4C26D42179E9223C6042B7529D19"
+      "bytes": 2277,
+      "sha256": "F78C267414C340F09D10C6436BA2ABC855D11739E50D0F3BCABBA0745651ECDA"
     },
     {
       "path": "mobile/manifest.webmanifest",
@@ -122,8 +122,8 @@
     },
     {
       "path": "mobile/sw.js",
-      "bytes": 2516,
-      "sha256": "E2625FB19FDDE8B50899BC751443EA97699BF430FEF994B23E97B83D50D7C025"
+      "bytes": 2626,
+      "sha256": "8B596610CA716351A55B6673C692113CE4C77E18866DD9E1E551A560B19221EB"
     },
     {
       "path": "mobile/vendor/fflate-0.8.3.js",
@@ -138,12 +138,12 @@
     {
       "path": "package-lock.json",
       "bytes": 259823,
-      "sha256": "3B4EF9ACB9B9CA5CD5A365B45FB0AA1142BAA95AB4FD4013099203A202380BAE"
+      "sha256": "3C8F928C656C3505ADDB13E0B4E672224C3D5FF79E9AFBCF9F7248E45E7DA6D6"
     },
     {
       "path": "package.json",
-      "bytes": 2134,
-      "sha256": "C1711B4E845257BC4968D1456990130823830035AC487F516746C62F6C0A1854"
+      "bytes": 2911,
+      "sha256": "3097EED936673B9DDEAD3C27D17D76362CB60F0134A9DAD8FAD192CC526BB02F"
     },
     {
       "path": "prototype-0.2-lexical-coverage/core-dictionary.js",
@@ -242,8 +242,8 @@
     },
     {
       "path": "prototype-0.5-media-shell/app.js",
-      "bytes": 160972,
-      "sha256": "A36FD549EA5A8DE82BE17FB50BAE884E1C7D1622417656E3C64AADDCAF0325C2"
+      "bytes": 168931,
+      "sha256": "C4DB03DB75D7D73664381FA300D1FAA5FE9AF19D2DFB4F146E9FC965E281A8F5"
     },
     {
       "path": "prototype-0.5-media-shell/data/italian-foundation.json",
@@ -272,13 +272,18 @@
     },
     {
       "path": "prototype-0.5-media-shell/data/research/README.md",
-      "bytes": 4684,
-      "sha256": "3911D1B2C2A4B6CC43EFD038B4070402FBFDFDEDFC127A427585CC0C60323DE1"
+      "bytes": 5311,
+      "sha256": "ABD0A603427133CD6A7DE9FD56A405BBBDDDC142D1ACE8AD3FA007BA3604CE6B"
     },
     {
       "path": "prototype-0.5-media-shell/data/research/ribellare-form-check.json",
       "bytes": 1928,
       "sha256": "3B11494F6D71E93218F37DDAE3D1F8FA59C291E9B7E40E2834FD1DEDC2F5786C"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/sposare-supplement.json",
+      "bytes": 1149,
+      "sha256": "4C6A29E323A09C6C42FFEC39024CA2B7FD883E75614F385A7FDA46EE32703420"
     },
     {
       "path": "prototype-0.5-media-shell/data/research/verbs-001-passages.json",
@@ -314,6 +319,356 @@
       "path": "prototype-0.5-media-shell/data/research/verbs-002.json",
       "bytes": 311186,
       "sha256": "DC812722ADDE4CDE61A3AFFDE29DC4A309E4B239BE52C4EC441628748911EC85"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/verbs-003-final-twenty-pilot.json",
+      "bytes": 134706,
+      "sha256": "EC28F14B512E6BB7F7F0C8A36162C2758862B350940A94E709B8AEC62FB86444"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/verbs-003-final-twenty-review.json",
+      "bytes": 80854,
+      "sha256": "B12BF7BA06CCBC5AD0F82AA3C4D0CC3A30ECD8F5F1F0317D638A1F15983424B1"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/verbs-003-first-ten-proposals.json",
+      "bytes": 22214,
+      "sha256": "6EEE009910A0E033B5A27541CB4D3EFF2925857D6CF62A67E7A183A2C18BA327"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/verbs-003-first-ten-review.json",
+      "bytes": 58722,
+      "sha256": "AF226167D6B837707973788A8885EBC941C550481803C2A7A2A665CB07538517"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/verbs-003-integration.json",
+      "bytes": 913,
+      "sha256": "FC4C74490AC7C716F09DDA8C5EE2FD94C3CAFB7BDBBAF442334B0B50DCC02581"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/verbs-003-second-ten-proposals.json",
+      "bytes": 38230,
+      "sha256": "DF41B7F573DD032DAC9ECB8B724D455000A813D8D9F6BE4801028DA866E45A02"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/verbs-003-second-ten-review.json",
+      "bytes": 41458,
+      "sha256": "6A6D0AE438657784A3AB5B47C2655313D19EC51A7B2C3E648ADFAA99B8B30C75"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/verbs-003-source.json",
+      "bytes": 27517,
+      "sha256": "8668BE776E4D45FBBD4F260BBDD5FF10E703AB34DEEC5D18DD1E11B4C2A7D942"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/verbs-003-third-ten-proposals.json",
+      "bytes": 37953,
+      "sha256": "20356B29969A237B9C8C6695114B1B882C6DD067FBE862624975AF8DDB389141"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/verbs-003-third-ten-review.json",
+      "bytes": 42021,
+      "sha256": "AEEAE5D7D78027C28E2FB5DA401477E76FF1E55DAD79F201460C7BBBFAE53FA4"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/research/verbs-003.json",
+      "bytes": 273185,
+      "sha256": "A4BBBF7222D7AD6DC177A17C9C4FD3E2EED598EF3F354F01B9B9738E292B1B56"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0000.js",
+      "bytes": 528099,
+      "sha256": "CCAF22644D295CD6804F18F8F4AC9E558CFFF5B6F63D2A1BD8F0E5C721131BB8"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0001.js",
+      "bytes": 539693,
+      "sha256": "4D172A311B61603D07837CA711F07CB824FC7176992330CCB77861E6DD2E79F5"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0002.js",
+      "bytes": 499247,
+      "sha256": "82B21C9DF93ACFAB2414F1444A473656CD53814CC40B76ED09B3044100FAB194"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0003.js",
+      "bytes": 550158,
+      "sha256": "B0AADF7F274DEF8D28D8B1C2C7B3DEAD4BA98EE0605F3B99ED6C57F60AEBB52A"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0004.js",
+      "bytes": 573752,
+      "sha256": "EFC9DD17EF8DD34948149FD1C8FF749B7D4E1710AFC6A3D028F181987D07D093"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0005.js",
+      "bytes": 518851,
+      "sha256": "352EA550328779F31A0280278103F12621373A58D41D4131F5AF291A4802F8EF"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0006.js",
+      "bytes": 439700,
+      "sha256": "40D045DFC79348DAC8CF67B85802229A0437CFA24F87804F40864D2BD859A9B8"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0007.js",
+      "bytes": 471256,
+      "sha256": "77A89B0270C346D757219E473FB3CEDD8C9C2ACC0DB2F274E8048AD03FCF79C9"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0008.js",
+      "bytes": 557552,
+      "sha256": "BF4AF507D8EED56775F4E7B341F1630EE328FE7B9B078FB3910B0DA8F78435DD"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0009.js",
+      "bytes": 500158,
+      "sha256": "2264C8A0C9436B8A334B3E47EBC5329BE23D778EA6F8A8414FF567C7E45E6031"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0010.js",
+      "bytes": 435359,
+      "sha256": "7468CE16AA4DBA830CF8CD76585CE33C94768695D31246853E934B0173C72898"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0011.js",
+      "bytes": 599219,
+      "sha256": "204B251520F07B44FD0D19758DC9D04CD438B23512ED92A6691C43DC89EDA59A"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0012.js",
+      "bytes": 624007,
+      "sha256": "F2E47ECAD5DF39A337A8494F00EDF3CFF1C97E343654FE02FE465751FC44C89F"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0013.js",
+      "bytes": 552819,
+      "sha256": "3A9501DBA1A348BE302B83DC577056AA9DD91ED527239E9195D28F1F94E438C6"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0014.js",
+      "bytes": 447633,
+      "sha256": "8C70FF768B9892831A17A28353047F3BF32E13BD6D9D6519A147ADAD3DA4DCFF"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0015.js",
+      "bytes": 527272,
+      "sha256": "C56AEEFD0C807F6A525505DC74086391B3263BA458DA88D5A7C6E8E898FC26AB"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0016.js",
+      "bytes": 639671,
+      "sha256": "BC0184C55B03DA515B605F8265EFBA7BC229F8BB5914814B243BE82A6A1E73E2"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0017.js",
+      "bytes": 472008,
+      "sha256": "38D134053E6C2B9740BB244E8B64D08FDB7A2884B351A990A23D236462F117C8"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0018.js",
+      "bytes": 504335,
+      "sha256": "02D6A74E3CF975BD494D3438B616D7893663CC1D3257107390285E8CC28B36B6"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0019.js",
+      "bytes": 559807,
+      "sha256": "A7FCCA82232B14D61C590D3D31DDBF1AC1187AAFE20BC8320F073E7120064DDD"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0020.js",
+      "bytes": 531791,
+      "sha256": "8BF1C5CF2618A88A390ED0C43DAB80CEB725C1042AEF0E435F7D17AF8C3A7C07"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0021.js",
+      "bytes": 510133,
+      "sha256": "DB2FC75F684B15714876F639BEA6FBFC90F066C4219C2C8C3AF4CE450776D83A"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0022.js",
+      "bytes": 475606,
+      "sha256": "54429B000CAB880D850FC3B94C0F84303A52BC1822F7EE31A9A124D1AAC4511B"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0023.js",
+      "bytes": 486947,
+      "sha256": "1A8A566587220BC2F6AFA39A801EDEBC05E4B368179891C728EE1EBACC15DB57"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0024.js",
+      "bytes": 263865,
+      "sha256": "C006FFCE1646EDF20CB0D0BA69CDDFABA2127FFACCBF42A2BD6BE4E4580B41F4"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0025.js",
+      "bytes": 617788,
+      "sha256": "B5C6CBCC6C9632F1348102E937B8F2103BD1FEF95893D8D2E55F618A431CCA86"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0026.js",
+      "bytes": 595835,
+      "sha256": "37A89271D9F5C11F31C5CB7A683B10541A33FCB49F1738274302A0E5CE2ABBE2"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0027.js",
+      "bytes": 614014,
+      "sha256": "039A749410AF2AF00AF054F0AE31F705DC2A9221437C9FF5C960C75AF83CEF12"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0028.js",
+      "bytes": 239867,
+      "sha256": "F2D092465758DA421C3CDDF09ECA04BF91C25FB489660859F60C900451629767"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0029.js",
+      "bytes": 497776,
+      "sha256": "003AE5B673FE2AD2DD50EDED788BC84424E5C7AFCDF2AC79E290A2A50330A58C"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0030.js",
+      "bytes": 443676,
+      "sha256": "2972C03D716D28FEEE8B89D86394DEF23F8A2DC69DDC3442B935D869F21AB2DF"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0031.js",
+      "bytes": 493189,
+      "sha256": "49CD25A1EFCAF8A4087AA0746733305A3BA016D45BFD4579927342BD2DBC0B1B"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0032.js",
+      "bytes": 510112,
+      "sha256": "4C25615580FAA8E76BEC9639DAB0F9B911C46F1DF2817DA3062962EC8AEBA411"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0033.js",
+      "bytes": 501790,
+      "sha256": "93B6A36447FE67C49A334E24EC443C8C796DD4E11771577D9739ED2E7EACE3C3"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0034.js",
+      "bytes": 440169,
+      "sha256": "E811E77D747CF52C7344884930212F245A9DD26F6BD8B1A5FA97D9E21B2D4AC9"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0035.js",
+      "bytes": 465671,
+      "sha256": "4943148094941C9AFA12316F5D433FD8AB330A7F2EE437A5F2CC6AAFE16494D5"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0036.js",
+      "bytes": 530027,
+      "sha256": "6BCF5CCEC7865A6A5CD979D70CCAD96F87B64B338899564CE8C55DDEC9841710"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0037.js",
+      "bytes": 535669,
+      "sha256": "414F6402D8E8EB7C1B93B954F2B9EC7B7F6A34CB0855751EB7F6E7B00691051E"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0038.js",
+      "bytes": 530542,
+      "sha256": "AED05C9562E008E40D152700F9E2F659E75360861731E7F0D5AC7C973269EF48"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0039.js",
+      "bytes": 496805,
+      "sha256": "0DEDD44566D53B688F02A7138F1E4915BD1B4AF47988C26147E0F3205ACA1569"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0040.js",
+      "bytes": 651483,
+      "sha256": "A773EFB79F1E0B16244A24FA11CC5EEAC84F39E7A63A79F21CD8DE170547D944"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0041.js",
+      "bytes": 541563,
+      "sha256": "C84F43AC76B3894C85D3671B4611706887F008596FACF0F9F850E7271C826826"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0042.js",
+      "bytes": 569395,
+      "sha256": "8BEA8CD9CF2808053548EA26FB7F1D4ADBA8EA9238295FD62B6C5533256A1781"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0043.js",
+      "bytes": 544986,
+      "sha256": "F507D16CFF858F280304558A109C8833FA89D89DD358ACD84089824BDB14CBF1"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0044.js",
+      "bytes": 723024,
+      "sha256": "7D2FC86B8C901FED1C5B144FBFE51B2A4E78E1561A850622E4572521F5ADBB8E"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0045.js",
+      "bytes": 494392,
+      "sha256": "23B665FB39446FAAF0031D1A214F67998E6B360E01A10E4DC55DFE44FB4BF713"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0046.js",
+      "bytes": 534042,
+      "sha256": "6FC3A4F36B2F1F850C19DD6C20C6F4942DD67966A8AA5B1EF505097FD6A839D2"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0047.js",
+      "bytes": 632349,
+      "sha256": "03CF6E6CC5DFCD12E2A2A791E4B5AABBE39BAD0E2C5DF88A1F43D64183CF39AC"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0048.js",
+      "bytes": 480085,
+      "sha256": "ABD6F629B369C712B82E11F7DE0B2854E60DFEBA5EB508524020C4711242446F"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0049.js",
+      "bytes": 552386,
+      "sha256": "49AC7CBB35A1D2C43F48F9549AFF1A4E274435FC73F7CD7CE3D70C850398F6CD"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0050.js",
+      "bytes": 659148,
+      "sha256": "57C84E633F768F46C2B02C7E3B0754B1B3976FC8F85AE09C48251592C3F57B86"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0051.js",
+      "bytes": 534865,
+      "sha256": "F27A7DF514B727A8024B050ECCFDBF587EF29F27F8552348468F1E3DFE4B4F89"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0052.js",
+      "bytes": 526181,
+      "sha256": "F8A29B1059EBC3F6665F47D21AF91C18245F40BCA781AE159AD4F4A3A65F5800"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0053.js",
+      "bytes": 545205,
+      "sha256": "AEFAB4B1360A4CC3C1BFD209F9F8C8838473C4F54FE0A099101FD8286F1177C7"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0054.js",
+      "bytes": 598707,
+      "sha256": "49EE182D60592366D50F60718255D1E5371B480FABEF88AC0858AB4B0078D9C4"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0055.js",
+      "bytes": 477205,
+      "sha256": "F67ED1379E4CD6B1DB1E194BC052F7BD8C84BD5EBE416D9D5B72B3B625C74A01"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0056.js",
+      "bytes": 516098,
+      "sha256": "CD0F54CF724EBD332A889AF7F25246259B04E996F18C0B3CE61791FEA36DDBDB"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0057.js",
+      "bytes": 317657,
+      "sha256": "73D0D90C8B4E7DD9C4CA873BB8A561B36A20A8CD49C5DE01D78EE139C391191E"
+    },
+    {
+      "path": "prototype-0.5-media-shell/data/source-lexicon/9d35bf47a6d2f242d694eb57/chunk-0058.js",
+      "bytes": 108799,
+      "sha256": "CA17D1B535DA0156A2E222FBB14567FB5F8B6FBC65673AA8760D4EDDA068F6D6"
     },
     {
       "path": "prototype-0.5-media-shell/docs/breakdown-system.md",
@@ -366,6 +721,26 @@
       "sha256": "091F4F68215CE814113534DCDBDA79380A4F04757136EC3CC29CA2F0669F04ED"
     },
     {
+      "path": "prototype-0.5-media-shell/docs/cercare-pattern-trial.md",
+      "bytes": 5127,
+      "sha256": "5311292FABD11525BF92F8C5D77292B3A6898BE2998A345D18F3B203B94EC2DF"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/construction-review-001.md",
+      "bytes": 3485,
+      "sha256": "3040BE7905CBC041E8641A1D930DE77933607D94CCDE44C9786919806B4A5BD6"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/construction-trial-v2.md",
+      "bytes": 4769,
+      "sha256": "282FE1CD1DCF658693B5C284F68D08E41DE3C7D8F53C5F810BA0DA7918927AB4"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/current-workstack.md",
+      "bytes": 9335,
+      "sha256": "1768C9A64D1D76744737756A55597215970AFDB98794C05CD0A888ACD6230FDC"
+    },
+    {
       "path": "prototype-0.5-media-shell/docs/dictionary-1827-source-assessment.md",
       "bytes": 7295,
       "sha256": "9F19083DF3BADAAB21A0CF22C0BD53FC18D55CAA82BC20EF11F8FA7B48753981"
@@ -387,8 +762,8 @@
     },
     {
       "path": "prototype-0.5-media-shell/docs/lexical-review-workflow.md",
-      "bytes": 3095,
-      "sha256": "E59D9752983EF87E66674F1813209A9F24A3A46BD6007175F813FEE1E45D9DDC"
+      "bytes": 6175,
+      "sha256": "8B79F04B69F13D729E3E3D30C2AE30AD8C5F9AE1300E6DC8A5CAE754D66E8A21"
     },
     {
       "path": "prototype-0.5-media-shell/docs/media-shell.md",
@@ -411,14 +786,29 @@
       "sha256": "EA6F036B142C4E9E7B916CB5C918512095F2A80D3741B9B2BCA2A2B7184A8FA2"
     },
     {
+      "path": "prototype-0.5-media-shell/docs/reviewed-construction-trial.md",
+      "bytes": 4143,
+      "sha256": "13E21762B91EC57B1180C0CBD19005FF0AC4C514BB463A11791A9B79C4E37FFF"
+    },
+    {
       "path": "prototype-0.5-media-shell/docs/shared-core-audit.md",
       "bytes": 7530,
       "sha256": "61736085B0BEF72551CD597EA21B61BE8C894B0B0E3304F2112EF37493B3F2AE"
     },
     {
+      "path": "prototype-0.5-media-shell/docs/source-lexicon-import.md",
+      "bytes": 5410,
+      "sha256": "47C592A08154792A272582EA8A96AF7FD422363418EBD6DCC29603AB41C67AA3"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/tatoeba-review-001.md",
+      "bytes": 7355,
+      "sha256": "5307C277A8FC67AD281BB9C6840FBB08074E89E6F875CBB1C28F9067D48BE52F"
+    },
+    {
       "path": "prototype-0.5-media-shell/docs/teacher-provider-experiment.md",
-      "bytes": 2855,
-      "sha256": "485080F7535690C5DE4685967D9FEC9C75464BCA8BBB3818E1E063E9E9AE81AF"
+      "bytes": 8884,
+      "sha256": "B9D6D3EF514198BDB6B50D10CE0FEBB18CCAE3EF199A8C6168C524EB619794C0"
     },
     {
       "path": "prototype-0.5-media-shell/docs/tester-build-0.6.md",
@@ -456,6 +846,21 @@
       "sha256": "960ADEBE00F2DF743F73570CE3513D302F7E1575AC4A3B14890D29DF936929ED"
     },
     {
+      "path": "prototype-0.5-media-shell/docs/verb-batch-003-final-twenty.md",
+      "bytes": 1943,
+      "sha256": "F43B405D7412E7A6E168EEF9C02073ECC9373340D6C2B2B49D7172BBCDD13C87"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/verb-batch-003-review.md",
+      "bytes": 3847,
+      "sha256": "08D96DB8C3C4030D8C13F7BC571297256866D455FF826815538D853EBC20B6F3"
+    },
+    {
+      "path": "prototype-0.5-media-shell/docs/verb-batch-003.md",
+      "bytes": 11654,
+      "sha256": "22D2517EB03DD4B71E4674B3A9998FB4D12A7ED84675764AA6BEF938C19C5A8B"
+    },
+    {
       "path": "prototype-0.5-media-shell/docs/word-lens-context-evidence-design.md",
       "bytes": 4509,
       "sha256": "49B8185BD7A0BD08FC3415B860AA9FCD916B7D8EE364A7D2B61A0359C184DA25"
@@ -482,8 +887,8 @@
     },
     {
       "path": "prototype-0.5-media-shell/index.html",
-      "bytes": 1309,
-      "sha256": "C61FCBE6DF518E938BDBDCAC20BF57EDB6FE70A4E2F2A23DC0752E992565B182"
+      "bytes": 1411,
+      "sha256": "11E3E35221B5BBDEC1763426B4C0FD06FC11C79486623E38BA0056AA037604CF"
     },
     {
       "path": "prototype-0.5-media-shell/italian-foundation.js",
@@ -512,28 +917,38 @@
     },
     {
       "path": "prototype-0.5-media-shell/reviewed-verbs-data.js",
-      "bytes": 642446,
-      "sha256": "487BBF1CF868FC761C1C527F4F66787FD6E92B8CF16AC6A87662987497C94D12"
+      "bytes": 966189,
+      "sha256": "796B44C041E7E76BF63A532016672E25827C0F23E65AFCF235B0788D9DF7FE14"
     },
     {
       "path": "prototype-0.5-media-shell/reviewed-word-lens.js",
-      "bytes": 3831,
-      "sha256": "4D18916DE735957770D0F4FBD4CCDB1BBE5F886DEF12958F7F4D2AEAD3554957"
+      "bytes": 5035,
+      "sha256": "B8D5F3A2750F25B6C8B0A6A432BD0843C42E905E4A0678B42CC077D78FA73E7F"
+    },
+    {
+      "path": "prototype-0.5-media-shell/source-lexicon-index.js",
+      "bytes": 657127,
+      "sha256": "85CE6F73AD8929DBD0553235DBC9BE4E97B60C7CDE873E0AB61E6AA9EC4C6AA5"
+    },
+    {
+      "path": "prototype-0.5-media-shell/source-lexicon.js",
+      "bytes": 3126,
+      "sha256": "79F08C530E2590023E3651E0E87CA66A8316F5FD9AEDBE435ED9D3B550268E8D"
     },
     {
       "path": "prototype-0.5-media-shell/styles.css",
-      "bytes": 46154,
-      "sha256": "C09C5EE6A6A69ABED6F4DB741CEA4049B9C21F9C6987567B45167AB4A582CC54"
+      "bytes": 46700,
+      "sha256": "BC82457155D728FACC85F7613735DF2D6B94EA5A7A249B5CC09EF937811F1C70"
     },
     {
       "path": "prototype-0.5-media-shell/tools/test-breakdown.js",
       "bytes": 6027,
-      "sha256": "698CD49A0A8102DCBAD59669D58686C6F1AEE1C448E5535CFD5B283DE47B5E04"
+      "sha256": "0B9988E8380971463D32BEC777F5DADF65E629AF74A380AF2B572D2CD9C8A024"
     },
     {
       "path": "prototype-0.5-media-shell/tools/test-media-shell.js",
-      "bytes": 20763,
-      "sha256": "78473AF9827066A210BA04D7FD410AE19940A8B38E80749557604DAC1D019068"
+      "bytes": 30819,
+      "sha256": "A2B7F9DAD6DDD869FA14AC99927BCE63081B6C12F248E402F021F510498DB9F4"
     },
     {
       "path": "prototype-0.5-media-shell/tools/test-platform-adapter.js",
@@ -547,8 +962,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4345,
-      "sha256": "0DB6E99DDA9962460D53E856D0F92B166ADEFC838F8225F75A6FF856B3F16DEA"
+      "bytes": 4586,
+      "sha256": "77AE1D62215077D10D01EEDF39DD35658FDD9B1F1F28EB5144F7675B2D5F1C17"
     },
     {
       "path": "src/books.js",
@@ -567,8 +982,8 @@
     },
     {
       "path": "THIRD-PARTY-NOTICES.txt",
-      "bytes": 28292,
-      "sha256": "979F8C064789A3F0EC63570920C56DD2AC484080862A5711CA6C6647E0008E5E"
+      "bytes": 28632,
+      "sha256": "7F61D49FA2F938F7554A637730CDFC830FF00FEEC584F45109BF759B9759B706"
     },
     {
       "path": "tools/audit-italian-lexicon.js",
@@ -582,8 +997,8 @@
     },
     {
       "path": "tools/build-public-source.js",
-      "bytes": 7384,
-      "sha256": "DEA0BDF80B41FC36E75535CF5C0349647DDF6B41538F584626956A87D5BB0EBE"
+      "bytes": 8073,
+      "sha256": "763B42049031C47E2DEB54556B3909D09CF20F6E5AB9D8A9837E11BAC071341D"
     },
     {
       "path": "tools/build-reader-dict-en-trial.js",
@@ -596,14 +1011,24 @@
       "sha256": "30CF45828AD5F31F0B7BBA8A63C9C63E9545E103CF6EF1232EF3EA445112657C"
     },
     {
+      "path": "tools/build-reviewed-batch-three.js",
+      "bytes": 5177,
+      "sha256": "9B1207AC6B4A60972FF3994FDEA50614417EC81A49B823A22F8A781EAE4BFF4D"
+    },
+    {
       "path": "tools/build-reviewed-verbs.js",
-      "bytes": 5201,
-      "sha256": "D555CAE2668161D2007EB62693ACB78E8DC87218F28038A07FDC3BF8F35DFA3C"
+      "bytes": 5274,
+      "sha256": "B20A8D29D31D2BE60F77EB99721A5B29F8CDA73440514721C1E13F21106FC930"
+    },
+    {
+      "path": "tools/build-source-lexicon-assets.js",
+      "bytes": 1951,
+      "sha256": "9541E02C75E78A49063B868A28B61BC3090F4BDFFF2CDC375D8D253FDF196823"
     },
     {
       "path": "tools/build-third-party-notices.js",
-      "bytes": 7913,
-      "sha256": "A376083C48D48D3B2340CFC2025D4F22ACACF40AE89A498D47DF7FD098AC4F9E"
+      "bytes": 8278,
+      "sha256": "27A83195A69384E39EECAC16731F5D61A6C1400AC56A3B91F08D2B90E799E06A"
     },
     {
       "path": "tools/check-verb-reviews.js",
@@ -611,9 +1036,34 @@
       "sha256": "EB58AFA1CCB9CA10A318C779D927E120C5E3EF7B86472F037EBF5783A9E2A8CD"
     },
     {
+      "path": "tools/import-source-lexicon.js",
+      "bytes": 10108,
+      "sha256": "AA07E2F6705F211ADF3548928D6714539440A3E51242CD3CF824127EF2F25528"
+    },
+    {
+      "path": "tools/lib/cercare-patterns.js",
+      "bytes": 3184,
+      "sha256": "49E3AF3885F7A81F37554BD7433390CA0FCFF7FDB4C6D3FB96787B7FEA0268E7"
+    },
+    {
+      "path": "tools/lib/reviewed-constructions-v2.js",
+      "bytes": 3831,
+      "sha256": "D145A7A34A8D538B686C803BBBD63BBE8DFE12E6A4F3809FE585AD84583D864E"
+    },
+    {
+      "path": "tools/lib/reviewed-constructions.js",
+      "bytes": 2981,
+      "sha256": "D52C6EB097FC571EBDD3D15276C6060D3AC918E50F3442AEA01AF70EB5A7F0F3"
+    },
+    {
       "path": "tools/plan-lexical-batch.js",
-      "bytes": 12396,
-      "sha256": "75B3B87D5908C82648F0B3E33527467F2329928BCA6F489487DFA2F689C9F9C3"
+      "bytes": 12408,
+      "sha256": "A58818A0F89761432D4EA74085F1341A8A32BC54B08D2464BCE3934D340D291F"
+    },
+    {
+      "path": "tools/prepare-tatoeba-review.js",
+      "bytes": 6752,
+      "sha256": "EBB577F30F2F169372196F040D928CFED244A9BA9EBF2AF583CE8B2927665D6B"
     },
     {
       "path": "tools/serve-foundation-lab.js",
@@ -622,8 +1072,18 @@
     },
     {
       "path": "tools/serve-mobile.js",
-      "bytes": 4159,
-      "sha256": "EA00F01403068F796B914CD45BD6AC697CF0D759AFC65E8C6BF30F50212A8756"
+      "bytes": 4847,
+      "sha256": "DCA101A04487BA99CD4191D755B368EF1570C2910CDCD12063DA444389AFA536"
+    },
+    {
+      "path": "tools/source-lexicon-store.js",
+      "bytes": 1769,
+      "sha256": "2393BE63E5B2FA73C14866AA7186C91276F85A290662E1B382F7BD9D6CE15062"
+    },
+    {
+      "path": "tools/test-cercare-patterns.js",
+      "bytes": 3079,
+      "sha256": "379223928D31C98B120DC19514480B1C16825644DB282929891674AE0A4C3AE8"
     },
     {
       "path": "tools/test-italian-foundation.js",
@@ -637,8 +1097,8 @@
     },
     {
       "path": "tools/test-mobile-entry.js",
-      "bytes": 3422,
-      "sha256": "551C8A89AEFDADCAF48EE3074ABC4FDA75A1633A47C982319EB15C8BB91E2EB5"
+      "bytes": 3470,
+      "sha256": "8689A3B55E56C84DC25441F51246E24E4776F2752C1D8F505266174455A4A1B1"
     },
     {
       "path": "tools/test-mobile-importer.js",
@@ -656,14 +1116,49 @@
       "sha256": "73CA92C493FADFB3F34517CA120F2845853A3384100D1E67588A843E35B50CB7"
     },
     {
+      "path": "tools/test-reviewed-constructions-v2.js",
+      "bytes": 2155,
+      "sha256": "6CA8DFD2F1310AADB91C3EEAC7C304130787EE2A7F49A356B563D8177BABB152"
+    },
+    {
+      "path": "tools/test-reviewed-constructions.js",
+      "bytes": 2368,
+      "sha256": "8707089097855F67767BE809AE613E80A0EAB5D2EF1E401AA98A06933876ACC6"
+    },
+    {
       "path": "tools/test-reviewed-verbs.js",
-      "bytes": 4732,
-      "sha256": "AE9EA004FD8CBA91ABA788F7B6E59DA412682AF79648E75EFDC8B75C4C04F37B"
+      "bytes": 6381,
+      "sha256": "700726197A97C5922D31BA9C4F5EBBD83C38C29A9A7157F9E117C769EB770186"
+    },
+    {
+      "path": "tools/test-source-lexicon-browser.js",
+      "bytes": 3387,
+      "sha256": "5EBED89CB43E59A1FF5A3CF8ADD07394CD27F892F76CD2F4541432300F59FAE7"
+    },
+    {
+      "path": "tools/test-source-lexicon.js",
+      "bytes": 3125,
+      "sha256": "8BB08CCA5E24B8B4B7C292994ADEB5CFF14C63A405C1D22998C16E1CC79E7629"
     },
     {
       "path": "tools/test-url-importer.js",
       "bytes": 10921,
       "sha256": "B72B373CB3A42B347A05146A9532ECA1356C878712A80E8B1EDC88DAAF9906ED"
+    },
+    {
+      "path": "tools/trial-cercare-patterns.js",
+      "bytes": 3527,
+      "sha256": "740693F5DE1E5FE5184D6A20FCE40213AA0F309849D30EF455A115CACBCC8759"
+    },
+    {
+      "path": "tools/trial-reviewed-constructions-v2.js",
+      "bytes": 5354,
+      "sha256": "96D46F7FF7C717D104E0A148404EC1A8A9896B24673962BC419F7D8B8C1AAE08"
+    },
+    {
+      "path": "tools/trial-reviewed-constructions.js",
+      "bytes": 4977,
+      "sha256": "7D39A8C806420967E5EBFCF1314C7D287CC4E8555ECB76FC03CA3EEDB86404AD"
     }
   ]
 }

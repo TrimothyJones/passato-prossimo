@@ -63,3 +63,14 @@ and Wiktionary contributors under CC BY-SA 4.0; it is not a runtime export.
 Standing review policy: [labeled meanings and grammatical uses](../../docs/lexical-review-workflow.md).
 Apply it to future reviews; approval of a grouped treatment does not enable the
 current single-verb-default exporter for that word.
+
+### Sposare supplemental sense — 2026-10-20
+
+Wikizionario contributors, “sposare”, Italian transitive sense 2:
+https://it.wiktionary.org/w/index.php?title=sposare&oldid=3581697
+History: https://it.wiktionary.org/w/index.php?title=sposare&action=history
+CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+Changes: one Italian sense extracted, English learner paraphrase and grouping.
+The adapted dictionary data remains CC BY-SA 4.0. No endorsement is implied.
+See sposare-supplement.json. Original reader.dict senses are unchanged;
+Treccani was a cross-check, not the redistributed source for this addition.

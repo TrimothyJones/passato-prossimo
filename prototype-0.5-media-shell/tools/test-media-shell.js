@@ -440,3 +440,156 @@ for(const [text,word,expected] of [
  if(word==='militare'){assert.match(elementStub.innerHTML,/Meanings by use/);assert.match(elementStub.innerHTML,/no use has been selected/);assert.match(elementStub.innerHTML,/service member/);}
 }
 console.log('Batch two sentence integration: required notes and unranked grammatical alternatives PASS');
+
+// Shared evidence must preserve reviewed records through Breakdown and teacher requests.
+const originalReviewed = JSON.stringify(context.window.PASSATO_REVIEWED_VERBS);
+for (const entry of context.window.PASSATO_REVIEWED_VERBS.entries) {
+  context.targetToken = entry.headword;
+  const actual = vm.runInContext(`(() => {
+    activeAnalysis = analyzeSection(targetToken);
+    const row = activeAnalysis.rows[0];
+    row.entry = {...row.entry, meaning: 'STALE CORE MEANING'};
+    const evidence = wordEvidenceForBreakdown(row);
+    const sentence = activeAnalysis.sentences[0];
+    const request = buildTeacherRequest({scope:'word', row, sentence, sentenceIndex:0,
+      phrases:[], emotion:sentence.emotion, wordEvidence:evidence});
+    showBreakdown('word', 0);
+    return {evidence, request, simulated:simulateTeacherResponse(request)};
+  })()`,context);
+  const expected = entry.groups.length ? entry.groups.map(g=>g.pos+(g.label?.text?' · '+g.label.text:'')+': '+g.definition.text).join('; ') : entry.definition.text;
+  assert.equal(actual.evidence.englishMeaning,expected,entry.headword);
+  assert.equal(actual.request.contractVersion,3);
+  assert.equal(actual.request.localEvidence.meaning,expected);
+  assert.equal(JSON.stringify(actual.request.localEvidence.lexical[0].evidence.reviewed),JSON.stringify(entry));
+  assert.equal(actual.evidence.lexical.interpretation.selectedSenseId,null);
+  assert.equal(actual.evidence.lexical.interpretation.selectedPos,null);
+  assert.match(elementStub.innerHTML,/Reviewed meaning guide and sources/);
+  assert.doesNotMatch(elementStub.innerHTML,/Here it most likely means|STALE CORE MEANING/);
+  assert.match(actual.simulated.english,/does not select/);
+}
+assert.equal(JSON.stringify(context.window.PASSATO_REVIEWED_VERBS),originalReviewed);
+const scoped = vm.runInContext(`(() => {
+  activeAnalysis = analyzeSection('Voglio cercare di capire. Posso sentire un rumore.');
+  const sentence=activeAnalysis.sentences[0];
+  const request=buildTeacherRequest({scope:'sentence',sentence,sentenceIndex:0,phrases:[],emotion:sentence.emotion});
+  const oldRequest={...request,contractVersion:1};
+  const before=teacherCacheKey(request);
+  const accepted=request.localEvidence.lexical.find(e=>e.token==='cercare');
+  accepted.evidence.reviewed.notes[0].text='Changed only in request';
+  return {request, oldKey:teacherCacheKey(oldRequest), before, after:teacherCacheKey(request)};
+})()`,context);
+assert(scoped.request.localEvidence.lexical.some(e=>e.token==='cercare'));
+assert(!scoped.request.localEvidence.lexical.some(e=>e.token==='sentire'));
+assert.notEqual(scoped.before,scoped.after,'Evidence updates must invalidate teacher cache');
+assert.notEqual(scoped.before,scoped.oldKey,'Old contract cache must not win');
+assert.equal(JSON.stringify(context.window.PASSATO_REVIEWED_VERBS),originalReviewed,'Request must not mutate provider');
+for(const token of ['ribellare','ribellarsi','faccio']) {
+ context.targetToken=token;
+ const evidence=vm.runInContext('activeAnalysis=analyzeSection(targetToken);wordEvidenceForBreakdown(activeAnalysis.rows[0])',context);
+ assert.equal(evidence.lexical.reviewed,null,token);
+ assert.equal(evidence.englishMeaning,evidence.lexical.fallback.meaning);
+}
+const fallback=vm.runInContext(`(() => {
+ const api=window.PASSATO_REVIEWED_WORD_LENS;
+ try {
+   window.PASSATO_REVIEWED_WORD_LENS=undefined;
+   activeAnalysis=analyzeSection('fare');
+   return wordEvidenceForBreakdown(activeAnalysis.rows[0]);
+ } finally {window.PASSATO_REVIEWED_WORD_LENS=api;}
+})()`,context);
+assert.equal(fallback.lexical.reviewed,null);
+assert(fallback.englishMeaning);
+const hostile=vm.runInContext(`(() => {
+ const lexical=lexicalEvidenceForRow({token:'fare'});
+ lexical.reviewed.source.attribution='<img src=x onerror=alert(1)>';
+ lexical.reviewed.notes[0]={title:'<script>',text:'<img src=x>',examples:[]};
+ return renderBreakdownLexicalEvidence(lexical);
+})()`,context);
+assert.doesNotMatch(hostile,/<img|<script>/);
+assert.match(hostile,/&lt;img/);
+console.log('Shared lexical evidence: all 149 entries, provenance, unresolved senses, sentence scope, cache invalidation, fallback and escaping PASS');
+
+// Teacher guides use reviewed distinctions without inventing a contextual choice.
+const teacherCases = [
+ ['Voglio cercare di capire.', 'cercare', 'trying to understand'],
+ ['Devo cercare le chiavi.', 'cercare', 'Two common constructions'],
+ ['Voglio stare a casa.', 'stare', 'stare'],
+ ['Posso sentire un rumore.', 'sentire', 'Hearing:'],
+ ['Comincio a sentire freddo.', 'sentire', 'Feeling:'],
+ ['Il potere cambia.', 'potere', 'potere'],
+ ['Il servizio militare dura un anno.', 'militare', 'adjective'],
+ ['Un militare aspetta fuori.', 'militare', 'noun'],
+ ['Vuole militare in un partito.', 'militare', 'verb'],
+ ['Voglio realizzare il progetto.', 'realizzare', 'English-influenced meaning'],
+ ['Devo situare il museo.', 'situare', 'Cerco il museo.'],
+ ['Il libro è popolare.', 'popolare', 'adjective'],
+ ['Vorrei sposare Anna.', 'sposare', 'Wikizionario contributors'],
+ ['Può servire una penna.', 'servire', 'grammatical subject'],
+ ['Devo sostituire il filtro.', 'sostituire', 'Y replaces X'],
+ ['Voglio rivelare il segreto.', 'rivelare', 'source details']
+];
+for (const [text, token, expected] of teacherCases) {
+ context.passageText=text;context.targetToken=token;
+ const outcome=vm.runInContext(`(() => {
+  activeAnalysis=analyzeSection(passageText);
+  const row=activeAnalysis.rows.find(r=>r.token===targetToken);
+  const sentence=activeAnalysis.sentences[row.sentenceIndex];
+  const request=buildTeacherRequest({scope:'word',row,sentence,sentenceIndex:row.sentenceIndex,
+   phrases:[],emotion:sentence.emotion,wordEvidence:wordEvidenceForBreakdown(row)});
+  const original=JSON.stringify(request);
+  const note=simulateTeacherResponse(request);
+  return {note,markup:renderTeacherNote(note),unchanged:original===JSON.stringify(request)};
+ })()`,context);
+ assert(outcome.unchanged);
+ assert(outcome.markup.includes(expected),token);
+ assert.equal(outcome.note.confidence,'unresolved');
+ assert.equal(outcome.note.lexicalGuides.length,1);
+ assert.equal(outcome.note.lexicalGuides[0].uncertainty.partOfSpeech,'unresolved');
+ assert.equal(outcome.note.lexicalGuides[0].uncertainty.construction,'not-assessed');
+ assert.equal(outcome.note.lexicalGuides[0].uncertainty.sense,'unresolved');
+ assert.match(outcome.markup,/source definitions are not all individually human-reviewed/);
+ assert.match(outcome.markup,/not confidence in a sentence interpretation/);
+ if(token==='militare') for(const pos of ['noun:','adjective:','verb:']) assert(outcome.markup.includes(pos));
+}
+const teacherSentence=vm.runInContext(`(() => {
+ activeAnalysis=analyzeSection('Voglio cercare di capire e cercare le chiavi. Posso sentire un rumore.');
+ const sentence=activeAnalysis.sentences[0];
+ const request=buildTeacherRequest({scope:'sentence',sentence,sentenceIndex:0,phrases:[],emotion:sentence.emotion});
+ const note=simulateTeacherResponse(request);
+ const key=teacherCacheKey(request);
+ simulatedTeacherProvider.revision++;
+ const changedKey=teacherCacheKey(request);
+ simulatedTeacherProvider.revision--;
+ return {note,key,changedKey};
+})()`,context);
+assert.equal(teacherSentence.note.lexicalGuides.filter(g=>g.token==='cercare').length,1);
+assert(!teacherSentence.note.lexicalGuides.some(g=>g.token==='sentire'));
+assert.notEqual(teacherSentence.key,teacherSentence.changedKey);
+assert.match(teacherSentence.note.english,/do not combine into a sentence translation/);
+const hostileGuide=vm.runInContext(`(() => {
+ const evidence=lexicalEvidenceForRow({token:'fare'});
+ const item={token:'<img src=x>',lemmaCandidate:'<script>',evidence};
+ evidence.reviewed.notes=[{title:'<img>',text:'<script>',examples:[{it:'<img>',en:'<script>'}]}];
+ const request={localEvidence:{lexical:[item]}};
+ const guide=teacherLexicalGuides(request)[0];
+ const markup=renderTeacherLexicalGuide(guide);
+ evidence.reviewed.review.status='unreviewed';
+ return {markup,rejected:teacherLexicalGuides(request).length};
+})()`,context);
+assert.doesNotMatch(hostileGuide.markup,/<img|<script>/);
+assert.match(hostileGuide.markup,/&lt;img/);
+assert.equal(hostileGuide.rejected,0);
+console.log('Teacher usage guides: constructions, grammatical alternatives, abstention, sentence scope, revision cache, review gate and escaping PASS');
+async function testSourceIntegration(){
+ const originalQuery=elementStub.querySelector;let slot={innerHTML:'',textContent:''},legacy={hidden:false};
+ elementStub.querySelector=function(selector){if(selector==='#sourceDictionaryMeanings')return slot;if(selector==='[data-legacy-meaning]')return legacy;return elementStub;};
+ const requests=[];context.window.PASSATO_SOURCE_LEXICON={lookup(token){return new Promise((resolve,reject)=>requests.push({token,resolve,reject}));},render(result){return 'SOURCE:'+result;}};
+ const show=word=>{slot={innerHTML:'',textContent:''};legacy={hidden:false};vm.runInContext(`activeBook={id:"source-test"};activeAnalysis=analyzeSection(${JSON.stringify(word)});showWordLens(0);`,context);};
+ const flush=async()=>{await Promise.resolve();await Promise.resolve();};
+ show('casa');const oldSlot=slot;show('libro');requests[0].resolve('old');await flush();assert.equal(oldSlot.innerHTML,'');assert.equal(slot.innerHTML,'');requests[1].resolve('book');await flush();assert.equal(slot.innerHTML,'SOURCE:book');assert.equal(legacy.hidden,true);
+ show('casa');requests[2].reject(Error('offline'));await flush();assert.match(slot.textContent,/existing guidance remains available/);assert.equal(legacy.hidden,false);
+ show('casa');elementStub.hidden=true;requests[3].resolve('closed');await flush();assert.equal(slot.innerHTML,'');
+ show('fare');assert.equal(requests.length,4,'Reviewed words must not request the source fallback');
+ elementStub.querySelector=originalQuery;console.log('Word Lens async source integration: precedence, stale requests, close and offline fallback PASS');
+}
+testSourceIntegration().catch(error=>{console.error(error);process.exitCode=1;});

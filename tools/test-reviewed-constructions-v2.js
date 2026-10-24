@@ -1,0 +1,27 @@
+'use strict';
+const assert=require('assert/strict');
+const {classify}=require('./lib/reviewed-constructions-v2');
+const {loadInfinitives}=require('./trial-cercare-patterns');
+const targets=new Set(require('./build-reviewed-verbs').read().entries.map(e=>e.headword));targets.add('provare');targets.add('smettere');
+const {infinitives}=loadInfinitives();
+function check(text,lemma,sense,flagged=false){const o=classify(text,targets,infinitives).find(o=>o.lemma===lemma);assert(o,text);assert.equal(o.provisionalSense,sense,text);assert.equal(o.closerReview,flagged,text);assert.equal(o.uncertainty.eventOutcome,'not-inferred');return o;}
+for(const text of ['Cerco di capire.','Cercavo di capire.','Non cerco di capire.','Ho cercato di capire.','Non ho cercato di capire.','Cercavamo di non parlare.'])check(text,'cercare','attempt');
+assert(check('Ho cercato di capire.','cercare','attempt').morphology.auxiliaryEvidence);
+check('Sono in cerca di capire.','cercare','attempt',true);
+check('I cerchi di capire sono strani.','cercare','attempt',true);
+check('Ha, cercato di capire.','cercare','attempt',true);
+check('Ho sempre cercato di capire.','cercare','attempt',true);
+check('Cerco. Di capire non si parla.','cercare','unresolved',true);
+check('Cerco di nuovo lavoro.','cercare','unresolved',true);
+check('Cerco di farlo.','cercare','unresolved',true);
+check('Voglio smettere di fumare.','smettere','stop-action');
+check('Voglio cominciare a parlare.','cominciare','begin-action');
+check('Vorrei provare ad andare.','provare','attempt');
+check('Voglio cominciare ad ascoltare.','cominciare','begin-action');
+check('Voglio provare a capire.','provare','attempt');
+check('Voglio provare un vestito.','provare','unresolved',true);
+check('Voglio smettere a fumare.','smettere','unresolved',true);
+check('Voglio cominciare a. Parlare aiuta.','cominciare','unresolved',true);
+check('Il provare a capire aiuta.','provare','attempt',true);
+assert.equal(classify('Ricercavo di capire.',targets,infinitives).filter(o=>o.lemma==='cercare').length,0);
+console.log('PASS v2 form, auxiliary, noun collision, boundary, negation, family and uncertainty regressions.');

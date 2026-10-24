@@ -34,3 +34,16 @@ The IT–EN snapshot is 2026-09-01. Archive hashes and locators are preserved in
 records. See `prototype-0.5-media-shell/data/research/README.md` for attribution.
 This license applies to dictionary data, not unrelated code. Short cited external
 passage fixtures retain their source rights and are not relicensed as dictionary data.
+
+## Expanded source dictionary — Alpha 3
+
+`prototype-0.5-media-shell/source-lexicon-index.js` and
+`prototype-0.5-media-shell/data/source-lexicon/` contain 19,712 selected
+reader.dict IT–EN entries (2026-09-01 snapshot), derived from Wiktionary
+contributors under CC BY-SA 4.0, as linked above. We matched existing vocabulary,
+removed HTML, retained grammatical groups, and split entries into lazy chunks.
+Definitions are source-backed, not individually editorially approved.
+
+The reviewed sposare supplement credits Italian Wiktionary contributors,
+[revision 3581697](https://it.wiktionary.org/w/index.php?title=sposare&oldid=3581697),
+under CC BY-SA 4.0. Its attribution and adaptation are retained in the supplement.

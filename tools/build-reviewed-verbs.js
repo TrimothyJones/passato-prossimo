@@ -37,6 +37,7 @@ function build(batchBytes, review) {
 }
 function read(){
  const batches=['001','002'].map(n=>build(fs.readFileSync(path.join(root,`data/research/verbs-${n}.json`)),JSON.parse(fs.readFileSync(path.join(root,`data/research/verbs-${n}-review.json`),'utf8'))));
+ batches.push(require('./build-reviewed-batch-three').readBatchThree());
  const entries=batches.flatMap(b=>b.entries);assert.equal(new Set(entries.map(e=>e.headword)).size,entries.length,'Duplicate reviewed headword');
  return {schemaVersion:2,providerId:'reviewed-verbs',matching:'exact-surface-only',batches:batches.map(({entries,...metadata})=>metadata),entries};
 }

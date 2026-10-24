@@ -1,0 +1,30 @@
+{
+  "id": "itwiktionary-sposare-3581697-sense-2",
+  "headword": "sposare",
+  "definition": {
+    "text": "to marry someone (take them as a spouse)",
+    "language": "en"
+  },
+  "sourceDefinition": {
+    "text": "unirsi in matrimonio con qualcuno, diventandone il coniuge",
+    "language": "it"
+  },
+  "source": {
+    "provider": "Italian Wiktionary",
+    "attribution": "Wikizionario contributors",
+    "url": "https://it.wiktionary.org/w/index.php?title=sposare&oldid=3581697",
+    "historyUrl": "https://it.wiktionary.org/w/index.php?title=sposare&action=history",
+    "locator": "Italiano / Verbo / Transitivo / sense 2",
+    "checkedOn": "2026-10-20"
+  },
+  "license": {
+    "identifier": "CC-BY-SA-4.0",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "changes": "One source sense extracted; English learner paraphrase and grouping supplied by Passato. Original reader.dict senses unchanged.",
+  "review": {
+    "status": "accepted-editorial-treatment",
+    "reviewedOn": "2026-10-20",
+    "scope": "Previously accepted marry-someone wording; openly licensed supporting source resolved during authorized integration."
+  }
+}

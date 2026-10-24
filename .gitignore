@@ -33,3 +33,9 @@ backup-*.zip
 Thumbs.db
 desktop.ini
 *.log
+
+# Reproducible local construction-routing output
+/tmp/reviewed-construction-trial/
+
+# Local source dictionary chunks (reproducible, not runtime assets)
+/tmp/source-lexicon/

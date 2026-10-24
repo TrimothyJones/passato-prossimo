@@ -1,0 +1,3828 @@
+{
+  "schemaVersion": 1,
+  "batchId": "verbs-003",
+  "batchSha256": "a4bbbf7222d7ad6dc177a17c9c4fd3e2eed598ef3f354f01b9b9738e292b1b56",
+  "date": "2026-10-20",
+  "method": "Source-first pilot: accept unchanged reader.dict definitions as baseline, check extraction and inspect source choices; user review focused on adaptations and exceptions.",
+  "scope": "Final 20 prepared; not 20 new human acceptances, runtime imports or tested context rules.",
+  "records": [
+    {
+      "lemma": "aggiungere",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:aggiungere:1:1",
+          "definition": {
+            "text": "(transitive) to add, to append",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "aggiungere / section 1 / item 1"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Adding",
+              "language": "en"
+            },
+            "definition": {
+              "text": "add; append",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:aggiungere:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "aggiungere / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": null
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "affermare",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:affermare:1:1",
+          "definition": {
+            "text": "(transitive) to declare, to affirm, to state, to claim, to assert",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonyms: dichiarare, sostenere, asserire",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "affermare / section 1 / item 1"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Making a statement",
+              "language": "en"
+            },
+            "definition": {
+              "text": "state; assert",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:affermare:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "affermare / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": {
+          "text": "A claim is not proof of its truth.",
+          "language": "en",
+          "status": "pending-editorial-review"
+        }
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "nominare",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:nominare:1:1",
+          "definition": {
+            "text": "to name, call, dub",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "nominare / section 1 / item 1"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:nominare:1:2",
+          "definition": {
+            "text": "to mention",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "nominare / section 1 / item 2"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:nominare:1:3",
+          "definition": {
+            "text": "to nominate, designate, elect, appoint",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "nominare / section 1 / item 3"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:nominare:1:4",
+          "definition": {
+            "text": "to institute",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "nominare / section 1 / item 4"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:nominare:1:5",
+          "definition": {
+            "text": "to constitute",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "nominare / section 1 / item 5"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Naming",
+              "language": "en"
+            },
+            "definition": {
+              "text": "name",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:nominare:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "nominare / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Mentioning",
+              "language": "en"
+            },
+            "definition": {
+              "text": "mention",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:nominare:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "nominare / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Appointment",
+              "language": "en"
+            },
+            "definition": {
+              "text": "appoint; nominate",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:nominare:1:3"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "nominare / section 1 / item 3"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": {
+          "text": "Naming or mentioning someone differs from appointing them to a role.",
+          "language": "en",
+          "status": "pending-editorial-review"
+        }
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "consentire",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:consentire:1:1",
+          "definition": {
+            "text": "(intransitive) to agree, to assent, to consent [auxiliary avere]",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonym: acconsentire",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "consentire / section 1 / item 1"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:consentire:1:2",
+          "definition": {
+            "text": "(transitive) to allow, to let, to give, to enable",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonyms: permettere, concedere, lasciare",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "consentire / section 1 / item 2"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:consentire:1:3",
+          "definition": {
+            "text": "(transitive, literary) to admit (e.g. the truth)",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonym: ammettere",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "consentire / section 1 / item 3"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:consentire:1:4",
+          "definition": {
+            "text": "(transitive, uncommon) to share (a feeling)",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "consentire / section 1 / item 4"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Agreement",
+              "language": "en"
+            },
+            "definition": {
+              "text": "agree; consent",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:consentire:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "consentire / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Permission or enabling",
+              "language": "en"
+            },
+            "definition": {
+              "text": "allow; enable",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:consentire:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "consentire / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": {
+          "text": "Keep agreement separate from granting permission or making something possible.",
+          "language": "en",
+          "status": "pending-editorial-review"
+        }
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "caratterizzare",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:caratterizzare:1:1",
+          "definition": {
+            "text": "(transitive) to characterize",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "caratterizzare / section 1 / item 1"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:caratterizzare:1:2",
+          "definition": {
+            "text": "(transitive) to be characteristic of",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "caratterizzare / section 1 / item 2"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Characterizing",
+              "language": "en"
+            },
+            "definition": {
+              "text": "characterize",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:caratterizzare:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "caratterizzare / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Distinctive feature",
+              "language": "en"
+            },
+            "definition": {
+              "text": "be characteristic of",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:caratterizzare:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "caratterizzare / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": null
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "incontrare",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:incontrare:1:1",
+          "definition": {
+            "text": "(transitive) to meet, come across, bump into, run into, find, encounter",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonyms: imbattersi, trovare",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "incontrare / section 1 / item 1"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:incontrare:1:2",
+          "definition": {
+            "text": "(transitive, sports) to play, fight",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "incontrare / section 1 / item 2"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:incontrare:1:3",
+          "definition": {
+            "text": "(intransitive, rare) to happen",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "incontrare / section 1 / item 3"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Encounter",
+              "language": "en"
+            },
+            "definition": {
+              "text": "meet; encounter",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:incontrare:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "incontrare / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Sport",
+              "language": "en"
+            },
+            "definition": {
+              "text": "face an opponent",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:incontrare:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "incontrare / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": {
+          "text": "Keep the source-labeled rare happen sense secondary.",
+          "language": "en",
+          "status": "pending-editorial-review"
+        }
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "abbandonare",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:abbandonare:1:1",
+          "definition": {
+            "text": "(transitive) to abandon (to leave behind)",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "abbandonare / section 1 / item 1"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:abbandonare:1:2",
+          "definition": {
+            "text": "(by extension, transitive) to give up on, to abandon",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonyms: rinunciare a, ritirarsi da",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "abbandonare / section 1 / item 2"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:abbandonare:1:3",
+          "definition": {
+            "text": "(by extension, intransitive) to give up",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonyms: arrendersi, dare forfait, desistere, lasciare perdere, (colloquial) mollare, rinunciare, ritirarsi",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "abbandonare / section 1 / item 3"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:abbandonare:1:4",
+          "definition": {
+            "text": "(by extension, transitive) to neglect",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonym: trascurare",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "abbandonare / section 1 / item 4"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:abbandonare:1:5",
+          "definition": {
+            "text": "(transitive) to loosen",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonym: allentare",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "abbandonare / section 1 / item 5"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:abbandonare:1:6",
+          "definition": {
+            "text": "(transitive) to relax",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonym: rilassare",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "abbandonare / section 1 / item 6"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Leaving behind",
+              "language": "en"
+            },
+            "definition": {
+              "text": "abandon",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:abbandonare:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "abbandonare / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Giving up",
+              "language": "en"
+            },
+            "definition": {
+              "text": "give up on",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:abbandonare:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "abbandonare / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Neglect",
+              "language": "en"
+            },
+            "definition": {
+              "text": "neglect",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:abbandonare:1:4"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "abbandonare / section 1 / item 4"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": null
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "interpretare",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:interpretare:1:1",
+          "definition": {
+            "text": "to interpret (all senses)",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "interpretare / section 1 / item 1"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:interpretare:1:2",
+          "definition": {
+            "text": "to perform",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "interpretare / section 1 / item 2"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Interpretation",
+              "language": "en"
+            },
+            "definition": {
+              "text": "interpret",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:interpretare:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "interpretare / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Performance",
+              "language": "en"
+            },
+            "definition": {
+              "text": "perform",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:interpretare:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "interpretare / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": {
+          "text": "Understanding meaning and performing a role or work need separate labels.",
+          "language": "en",
+          "status": "pending-editorial-review"
+        }
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "inserire",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:inserire:1:1",
+          "definition": {
+            "text": "to insert",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "inserire / section 1 / item 1"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:inserire:1:2",
+          "definition": {
+            "text": "to enclose",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "inserire / section 1 / item 2"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:inserire:1:3",
+          "definition": {
+            "text": "to embed",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "inserire / section 1 / item 3"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Insertion",
+              "language": "en"
+            },
+            "definition": {
+              "text": "insert",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:inserire:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "inserire / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Enclosure",
+              "language": "en"
+            },
+            "definition": {
+              "text": "enclose",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:inserire:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "inserire / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Embedding",
+              "language": "en"
+            },
+            "definition": {
+              "text": "embed",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:inserire:1:3"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "inserire / section 1 / item 3"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": null
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "salvare",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:salvare:1:1",
+          "definition": {
+            "text": "(transitive) to save, rescue, retrieve, deliver",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonym: mettere in salvo",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "salvare / section 1 / item 1"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:salvare:1:2",
+          "definition": {
+            "text": "(transitive) to save, guard, safeguard, protect, defend",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonyms: proteggere, salvaguardare, difendere",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "salvare / section 1 / item 2"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Rescue or saving",
+              "language": "en"
+            },
+            "definition": {
+              "text": "save; rescue",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:salvare:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "salvare / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Protection",
+              "language": "en"
+            },
+            "definition": {
+              "text": "safeguard; protect",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:salvare:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "salvare / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": null
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "appartenere",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:appartenere:1:1",
+          "definition": {
+            "text": "(intransitive) to belong [with a ‘to’] [auxiliary essere or avere]",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "appartenere / section 1 / item 1"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:appartenere:1:2",
+          "definition": {
+            "text": "(intransitive) to concern, to pertain to [with a] [auxiliary essere or avere]",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "appartenere / section 1 / item 2"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Belonging",
+              "language": "en"
+            },
+            "definition": {
+              "text": "belong to",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:appartenere:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "appartenere / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Relation",
+              "language": "en"
+            },
+            "definition": {
+              "text": "pertain to",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:appartenere:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "appartenere / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": null
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "sposare",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sposare:1:1",
+          "definition": {
+            "text": "(transitive) to cause (someone) to get married, to give a spouse to, to marry (someone to someone else)",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "sposare / section 1 / item 1"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sposare:1:2",
+          "definition": {
+            "text": "(transitive, figurative) to embrace, to espouse, to join",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "sposare / section 1 / item 2"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Bringing about a marriage",
+              "language": "en"
+            },
+            "definition": {
+              "text": "marry someone to someone else",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sposare:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "sposare / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Figurative commitment",
+              "language": "en"
+            },
+            "definition": {
+              "text": "espouse; embrace",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sposare:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "sposare / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": {
+          "text": "Source gap: add a separately sourced ordinary marrying-someone sense; keep sposarsi separately handled.",
+          "language": "en",
+          "status": "pending-editorial-review"
+        }
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false,
+      "externalSenseProposal": {
+        "definition": {
+          "text": "to marry someone (take them as a spouse)",
+          "language": "en"
+        },
+        "source": {
+          "url": "https://www.treccani.it/vocabolario/sposare/",
+          "locator": "section 2a",
+          "use": "Reference checked; original English paraphrase, no imported definition."
+        },
+        "license": {
+          "status": "not-established-for-distribution"
+        },
+        "confidence": "source-supported-proposal",
+        "register": "unknown",
+        "review": {
+          "status": "pending-user-review"
+        }
+      }
+    },
+    {
+      "lemma": "colpire",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:colpire:1:1",
+          "definition": {
+            "text": "(transitive) to hit, strike, smite",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "colpire / section 1 / item 1"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:colpire:1:2",
+          "definition": {
+            "text": "(transitive) to affect",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "colpire / section 1 / item 2"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:colpire:1:3",
+          "definition": {
+            "text": "(transitive) to surprise, impress",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "colpire / section 1 / item 3"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Physical impact",
+              "language": "en"
+            },
+            "definition": {
+              "text": "hit; strike",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:colpire:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "colpire / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Effect",
+              "language": "en"
+            },
+            "definition": {
+              "text": "affect",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:colpire:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "colpire / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Impression",
+              "language": "en"
+            },
+            "definition": {
+              "text": "impress; surprise",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:colpire:1:3"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "colpire / section 1 / item 3"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": null
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "organizzare",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:organizzare:1:1",
+          "definition": {
+            "text": "(transitive) to organize, arrange, set up",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "organizzare / section 1 / item 1"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Organization",
+              "language": "en"
+            },
+            "definition": {
+              "text": "organize; arrange",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:organizzare:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "organizzare / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": null
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "fornire",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:fornire:1:1",
+          "definition": {
+            "text": "(transitive) to supply, to provide, to furnish, to give, to yield",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonyms: dare, provvedere",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "fornire / section 1 / item 1"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:fornire:1:2",
+          "definition": {
+            "text": "(transitive) to equip",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonyms: attrezzare, equipaggiare",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "fornire / section 1 / item 2"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Provision",
+              "language": "en"
+            },
+            "definition": {
+              "text": "supply; provide",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:fornire:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "fornire / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Equipment",
+              "language": "en"
+            },
+            "definition": {
+              "text": "equip",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:fornire:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "fornire / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": null
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "raccogliere",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:raccogliere:1:1",
+          "definition": {
+            "text": "(transitive) to pick up, glean",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "raccogliere / section 1 / item 1"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:raccogliere:1:2",
+          "definition": {
+            "text": "(transitive) to pick, pluck, harvest, reap",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "raccogliere / section 1 / item 2"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:raccogliere:1:3",
+          "definition": {
+            "text": "(transitive) to bring together, assemble",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "raccogliere / section 1 / item 3"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Picking up",
+              "language": "en"
+            },
+            "definition": {
+              "text": "pick up",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:raccogliere:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "raccogliere / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Harvest",
+              "language": "en"
+            },
+            "definition": {
+              "text": "pick; harvest",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:raccogliere:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "raccogliere / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Gathering",
+              "language": "en"
+            },
+            "definition": {
+              "text": "gather; assemble",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:raccogliere:1:3"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "raccogliere / section 1 / item 3"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": null
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "trasformare",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:trasformare:1:1",
+          "definition": {
+            "text": "(transitive) to change, transform, convert, turn",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonyms: cambiare, convertire, tramutare",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "trasformare / section 1 / item 1"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Transformation",
+              "language": "en"
+            },
+            "definition": {
+              "text": "transform; convert",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:trasformare:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "trasformare / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": null
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "descrivere",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:descrivere:1:1",
+          "definition": {
+            "text": "(transitive) to describe (in all senses)",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "descrivere / section 1 / item 1"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Description",
+              "language": "en"
+            },
+            "definition": {
+              "text": "describe",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:descrivere:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "descrivere / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": null
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "rivelare",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:rivelare:1:1",
+          "definition": {
+            "text": "(transitive) to reveal, disclose, let out, make known, tell",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonyms: svelare, palesare, rendere",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "rivelare / section 1 / item 1"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:rivelare:1:2",
+          "definition": {
+            "text": "(transitive) to reveal, show, display",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonym: manifestare",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "rivelare / section 1 / item 2"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:rivelare:1:3",
+          "definition": {
+            "text": "(transitive) to detect",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonym: rilevare",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "rivelare / section 1 / item 3"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:rivelare:1:4",
+          "definition": {
+            "text": "(transitive) to veil again; to hide or conceal again",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "rivelare / section 1 / item 4"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:rivelare:1:5",
+          "definition": {
+            "text": "(transitive) to furnish again with sails",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "rivelare / section 1 / item 5"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Disclosure",
+              "language": "en"
+            },
+            "definition": {
+              "text": "reveal; disclose",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:rivelare:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "rivelare / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Manifestation",
+              "language": "en"
+            },
+            "definition": {
+              "text": "show; reveal",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:rivelare:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "rivelare / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Detection",
+              "language": "en"
+            },
+            "definition": {
+              "text": "detect",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:rivelare:1:3"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "rivelare / section 1 / item 3"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": {
+          "text": "Keep source items 4 and 5 (veil again; fit with sails again) preserved but withheld from learner defaults pending homograph/context review.",
+          "language": "en",
+          "status": "pending-editorial-review"
+        }
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "tentare",
+      "sourceStatus": "source-backed-baseline",
+      "humanReviewStatus": "not-individually-reviewed",
+      "sourceSenses": [
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:tentare:1:1",
+          "definition": {
+            "text": "to try, to attempt",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonym: provare",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "tentare / section 1 / item 1"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:tentare:1:2",
+          "definition": {
+            "text": "to tempt, to lure, to attract, to entice",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [
+            {
+              "text": "Synonym: indurre in tentazione",
+              "details": []
+            }
+          ],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "tentare / section 1 / item 2"
+          }
+        },
+        {
+          "id": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:tentare:1:3",
+          "definition": {
+            "text": "(literary) to touch lightly",
+            "language": "en"
+          },
+          "language": "it",
+          "pos": "verb",
+          "details": [],
+          "preferred": false,
+          "review": {
+            "status": "unreviewed"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "tentare / section 1 / item 3"
+          }
+        }
+      ],
+      "otherSections": [],
+      "sourceIntegrity": {
+        "status": "checked",
+        "checks": [
+          "original sense IDs and definitions retained",
+          "source and license fields present",
+          "no source sense discarded"
+        ]
+      },
+      "learnerAdaptation": {
+        "status": "ai-prepared-pending-editorial-review",
+        "groups": [
+          {
+            "label": {
+              "text": "Attempt",
+              "language": "en"
+            },
+            "definition": {
+              "text": "try; attempt",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:tentare:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "tentare / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          },
+          {
+            "label": {
+              "text": "Temptation",
+              "language": "en"
+            },
+            "definition": {
+              "text": "tempt; entice",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:tentare:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "tentare / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown",
+            "review": {
+              "status": "pending-editorial-review"
+            }
+          }
+        ],
+        "note": {
+          "text": "Tentare di + infinitive expresses an attempt; something tempting someone is a different use. Success is not implied.",
+          "language": "en",
+          "status": "pending-editorial-review"
+        }
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedSenseId": null
+      },
+      "eligibleForExport": false
+    }
+  ],
+  "exceptions": [
+    {
+      "lemma": "sposare",
+      "type": "missing-learner-sense",
+      "sourceUrl": "https://www.treccani.it/vocabolario/sposare/",
+      "proposal": "Add separate ordinary marry-someone sense; retain original causative and figurative senses."
+    },
+    {
+      "lemma": "rivelare",
+      "type": "possible-homograph-conflation",
+      "sourceUrl": "https://www.treccani.it/vocabolario/rivelare/",
+      "proposal": "Lead with disclose/show/detect; preserve items 4–5 outside learner defaults pending separate treatment. Absence from this reference is not proof they are invalid."
+    },
+    {
+      "lemma": "tentare",
+      "type": "teacher-context-distinction",
+      "sourceUrl": "https://www.treccani.it/vocabolario/tentare/",
+      "proposal": "Separate attempt from temptation; no automatic contextual selection."
+    }
+  ],
+  "measurement": {
+    "processed": 20,
+    "sourceDefinitionReconfirmationRequests": 0,
+    "externalReferenceEntriesChecked": 3,
+    "blockingSenseAddition": 1,
+    "accuracy": "not-measured",
+    "timeSaving": "not-measured"
+  }
+}

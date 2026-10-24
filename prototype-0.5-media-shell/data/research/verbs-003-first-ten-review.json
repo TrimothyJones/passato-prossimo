@@ -1,0 +1,1518 @@
+{
+  "schemaVersion": 1,
+  "batchId": "verbs-003",
+  "batchSha256": "a4bbbf7222d7ad6dc177a17c9c4fd3e2eed598ef3f354f01b9b9738e292b1b56",
+  "proposalFileSha256": "6eee009910a0e033b5a27541cb4d3eff2925857d6cf62a67e7a183a2c18ba327",
+  "status": "partially-human-reviewed",
+  "reviewedOn": "2026-10-11",
+  "reviewer": "Project user (this conversation)",
+  "scope": "First ten proposed meanings and distinctions accepted, conditional on labeled alternatives where needed. Does not approve all source senses, new label wording, grammatical rules, or runtime integration.",
+  "integrationStatus": "not-integrated",
+  "records": [
+    {
+      "lemma": "cambiare",
+      "acceptedContent": {
+        "proposedDefinition": {
+          "text": "to change; to exchange",
+          "language": "en"
+        },
+        "usageNote": {
+          "text": "Keep changing something and something changing distinct; exchange is a separate use.",
+          "language": "en"
+        },
+        "evidence": [
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:cambiare:1:2",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "cambiare / section 1 / item 2"
+            }
+          },
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:cambiare:1:3",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "cambiare / section 1 / item 3"
+            }
+          },
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:cambiare:1:1",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "cambiare / section 1 / item 1"
+            }
+          }
+        ]
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "cecb20737d2acf19aa2680d2d6174af6d1c3889224070d354ccee2eba3942b87",
+        "scope": "Presented wording and distinctions; not unreviewed secondary senses."
+      },
+      "displayPolicy": "labeled-alternatives-where-needed",
+      "senseGroups": [
+        {
+          "id": "cambiare-group-1",
+          "label": {
+            "text": "Changing something",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:cambiare:1:2"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "cambiare / section 1 / item 2"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        },
+        {
+          "id": "cambiare-group-2",
+          "label": {
+            "text": "Something changing",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:cambiare:1:3"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "cambiare / section 1 / item 3"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        },
+        {
+          "id": "cambiare-group-3",
+          "label": {
+            "text": "Exchanging",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:cambiare:1:1"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "cambiare / section 1 / item 1"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        }
+      ],
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "sostenere",
+      "acceptedContent": {
+        "proposedDefinition": {
+          "text": "to support; to maintain or argue",
+          "language": "en"
+        },
+        "usageNote": {
+          "text": "Separate physical/supportive uses from asserting a position. Preserve bear/endure and other source senses.",
+          "language": "en"
+        },
+        "evidence": [
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sostenere:1:1",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "sostenere / section 1 / item 1"
+            }
+          },
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sostenere:1:3",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "sostenere / section 1 / item 3"
+            }
+          },
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sostenere:1:4",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "sostenere / section 1 / item 4"
+            }
+          }
+        ]
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "043e31ddc65db7a2ca01be1d9416ca3a85e6e1a34b8ea4f84d3e0ba8ed6aa816",
+        "scope": "Presented wording and distinctions; not unreviewed secondary senses."
+      },
+      "displayPolicy": "labeled-alternatives-where-needed",
+      "senseGroups": [
+        {
+          "id": "sostenere-group-1",
+          "label": {
+            "text": "Physical support",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sostenere:1:1"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "sostenere / section 1 / item 1"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        },
+        {
+          "id": "sostenere-group-2",
+          "label": {
+            "text": "Supporting someone or a cause",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sostenere:1:3"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "sostenere / section 1 / item 3"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        },
+        {
+          "id": "sostenere-group-3",
+          "label": {
+            "text": "Maintaining or arguing a position",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sostenere:1:4"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "sostenere / section 1 / item 4"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        },
+        {
+          "id": "sostenere-group-4",
+          "label": {
+            "text": "Bearing or enduring",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sostenere:1:2"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "sostenere / section 1 / item 2"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        }
+      ],
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "riguardare",
+      "acceptedContent": {
+        "proposedDefinition": {
+          "text": "to concern; to look at again",
+          "language": "en"
+        },
+        "usageNote": {
+          "text": "Separate concerning a topic or person from looking again or checking something.",
+          "language": "en"
+        },
+        "evidence": [
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riguardare:1:1",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "riguardare / section 1 / item 1"
+            }
+          },
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riguardare:1:4",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "riguardare / section 1 / item 4"
+            }
+          },
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riguardare:1:3",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "riguardare / section 1 / item 3"
+            }
+          }
+        ]
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "6e8c9301e35d75c260e3517d35476b836f8a52bfc4603d9b3f97f258390fa141",
+        "scope": "Presented wording and distinctions; not unreviewed secondary senses."
+      },
+      "displayPolicy": "labeled-alternatives-where-needed",
+      "senseGroups": [
+        {
+          "id": "riguardare-group-1",
+          "label": {
+            "text": "Concerning someone or something",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riguardare:1:1"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "riguardare / section 1 / item 1"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        },
+        {
+          "id": "riguardare-group-2",
+          "label": {
+            "text": "Looking again",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riguardare:1:4"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "riguardare / section 1 / item 4"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        },
+        {
+          "id": "riguardare-group-3",
+          "label": {
+            "text": "Checking or examining",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riguardare:1:3"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "riguardare / section 1 / item 3"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        }
+      ],
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "leggere",
+      "acceptedContent": {
+        "proposedDefinition": {
+          "text": "to read",
+          "language": "en"
+        },
+        "usageNote": {
+          "text": "Verb meaning only. The source also has an adjective section; the same spelling must not automatically receive the verb reading.",
+          "language": "en"
+        },
+        "evidence": [
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:leggere:1:1",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "leggere / section 1 / item 1"
+            }
+          }
+        ]
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "1663cea3887ecab8b37385b849a9cfcc077531355ae68fb5bff0f47d3711d357",
+        "scope": "Presented wording and distinctions; not unreviewed secondary senses."
+      },
+      "displayPolicy": "labeled-alternatives-where-needed",
+      "senseGroups": [
+        {
+          "id": "leggere-group-1",
+          "label": {
+            "text": "Reading (verb)",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:leggere:1:1"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "leggere / section 1 / item 1"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        }
+      ],
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "risultare",
+      "acceptedContent": {
+        "proposedDefinition": {
+          "text": "to turn out to be; to appear",
+          "language": "en"
+        },
+        "usageNote": {
+          "text": "A reported finding or appearance is not always certain fact; keep the sentence context visible.",
+          "language": "en"
+        },
+        "evidence": [
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:risultare:1:1",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "risultare / section 1 / item 1"
+            }
+          },
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:risultare:1:2",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "risultare / section 1 / item 2"
+            }
+          }
+        ]
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "ebca510efdfdf9793a211feb7739299ce58aa8eb117fefc21fe353cbc6785367",
+        "scope": "Presented wording and distinctions; not unreviewed secondary senses."
+      },
+      "displayPolicy": "labeled-alternatives-where-needed",
+      "senseGroups": [
+        {
+          "id": "risultare-group-1",
+          "label": {
+            "text": "Turning out or emerging as",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:risultare:1:1"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "risultare / section 1 / item 1"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        },
+        {
+          "id": "risultare-group-2",
+          "label": {
+            "text": "Appearing or seeming",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:risultare:1:2"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "risultare / section 1 / item 2"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        }
+      ],
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "assumere",
+      "acceptedContent": {
+        "proposedDefinition": {
+          "text": "to take on; to hire; to consume",
+          "language": "en"
+        },
+        "usageNote": {
+          "text": "Use labeled alternatives for taking on a role/responsibility, hiring someone, and consuming a substance. Do not present the English word assume as a universal equivalent.",
+          "language": "en"
+        },
+        "evidence": [
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:assumere:1:1",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "assumere / section 1 / item 1"
+            }
+          },
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:assumere:1:2",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "assumere / section 1 / item 2"
+            }
+          },
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:assumere:1:3",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "assumere / section 1 / item 3"
+            }
+          }
+        ]
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "e227879805b1ff97912929a2659d400073a2754c61d20624bd3724f4f21667c2",
+        "scope": "Presented wording and distinctions; not unreviewed secondary senses."
+      },
+      "displayPolicy": "labeled-alternatives-where-needed",
+      "senseGroups": [
+        {
+          "id": "assumere-group-1",
+          "label": {
+            "text": "Taking on a role or responsibility",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:assumere:1:1"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "assumere / section 1 / item 1"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        },
+        {
+          "id": "assumere-group-2",
+          "label": {
+            "text": "Hiring",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:assumere:1:2"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "assumere / section 1 / item 2"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        },
+        {
+          "id": "assumere-group-3",
+          "label": {
+            "text": "Consuming a substance",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:assumere:1:3"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "assumere / section 1 / item 3"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        }
+      ],
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "condurre",
+      "acceptedContent": {
+        "proposedDefinition": {
+          "text": "to lead or guide; to conduct",
+          "language": "en"
+        },
+        "usageNote": {
+          "text": "Keep guiding, conducting an activity, and a road leading somewhere distinct. Other source uses remain available.",
+          "language": "en"
+        },
+        "evidence": [
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:condurre:1:1",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "condurre / section 1 / item 1"
+            }
+          },
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:condurre:1:3",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "condurre / section 1 / item 3"
+            }
+          },
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:condurre:1:7",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "condurre / section 1 / item 7"
+            }
+          }
+        ]
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "5753f6b18f68dc19418c29dea02478d9901ff8348f3f95001facd56b6bb2d104",
+        "scope": "Presented wording and distinctions; not unreviewed secondary senses."
+      },
+      "displayPolicy": "labeled-alternatives-where-needed",
+      "senseGroups": [
+        {
+          "id": "condurre-group-1",
+          "label": {
+            "text": "Leading or guiding",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:condurre:1:1"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "condurre / section 1 / item 1"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        },
+        {
+          "id": "condurre-group-2",
+          "label": {
+            "text": "Conducting an activity",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:condurre:1:3"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "condurre / section 1 / item 3"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        },
+        {
+          "id": "condurre-group-3",
+          "label": {
+            "text": "Leading to a place",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:condurre:1:7"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "condurre / section 1 / item 7"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        }
+      ],
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "dimostrare",
+      "acceptedContent": {
+        "proposedDefinition": {
+          "text": "to show; to prove",
+          "language": "en"
+        },
+        "usageNote": {
+          "text": "Showing or displaying something and establishing it with evidence are distinct readings.",
+          "language": "en"
+        },
+        "evidence": [
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:dimostrare:1:1",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "dimostrare / section 1 / item 1"
+            }
+          },
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:dimostrare:1:2",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "dimostrare / section 1 / item 2"
+            }
+          }
+        ]
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "96c6a1f2819baee1925522b6c00f1c69e5bbe7cf6cc412322ae5fc91640ec1cc",
+        "scope": "Presented wording and distinctions; not unreviewed secondary senses."
+      },
+      "displayPolicy": "labeled-alternatives-where-needed",
+      "senseGroups": [
+        {
+          "id": "dimostrare-group-1",
+          "label": {
+            "text": "Showing or displaying",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:dimostrare:1:1"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "dimostrare / section 1 / item 1"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        },
+        {
+          "id": "dimostrare-group-2",
+          "label": {
+            "text": "Proving or establishing",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:dimostrare:1:2"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "dimostrare / section 1 / item 2"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        }
+      ],
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "capire",
+      "acceptedContent": {
+        "proposedDefinition": {
+          "text": "to understand",
+          "language": "en"
+        },
+        "usageNote": {
+          "text": "Preserve the source-labeled rare fit/be-contained sense as secondary.",
+          "language": "en"
+        },
+        "evidence": [
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:capire:1:1",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "capire / section 1 / item 1"
+            }
+          }
+        ]
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "5ffb6963f4281a9d5777686687ea8ffb6ac2a4a73e65f428ffa69e3959c709c0",
+        "scope": "Presented wording and distinctions; not unreviewed secondary senses."
+      },
+      "displayPolicy": "labeled-alternatives-where-needed",
+      "senseGroups": [
+        {
+          "id": "capire-group-1",
+          "label": {
+            "text": "Understanding",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:capire:1:1"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "capire / section 1 / item 1"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        }
+      ],
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "ritenere",
+      "acceptedContent": {
+        "proposedDefinition": {
+          "text": "to think; to consider",
+          "language": "en"
+        },
+        "usageNote": {
+          "text": "Do not lead with the source-first rare hold-again sense. Retaining/withholding and restraining remain labeled alternatives.",
+          "language": "en"
+        },
+        "evidence": [
+          {
+            "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:ritenere:1:2",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "ritenere / section 1 / item 2"
+            }
+          }
+        ]
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "d59f598ca22802d466d875c6e3b7b614ac594dd991d2bf995396a625e4debec3",
+        "scope": "Presented wording and distinctions; not unreviewed secondary senses."
+      },
+      "displayPolicy": "labeled-alternatives-where-needed",
+      "senseGroups": [
+        {
+          "id": "ritenere-group-1",
+          "label": {
+            "text": "Thinking or considering",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:ritenere:1:2"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "ritenere / section 1 / item 2"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        },
+        {
+          "id": "ritenere-group-2",
+          "label": {
+            "text": "Holding back or restraining",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:ritenere:1:3"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "ritenere / section 1 / item 3"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        },
+        {
+          "id": "ritenere-group-3",
+          "label": {
+            "text": "Retaining or withholding money",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:ritenere:1:6"
+          ],
+          "sources": [
+            {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "ritenere / section 1 / item 6"
+            }
+          ],
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "draft-implementation-of-accepted-treatment",
+            "note": "Grouping principle accepted; newly authored labels are not separately human-reviewed."
+          }
+        }
+      ],
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    }
+  ]
+}

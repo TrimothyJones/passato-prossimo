@@ -1,0 +1,1114 @@
+{
+  "schemaVersion": 1,
+  "batchId": "verbs-003",
+  "batchSha256": "a4bbbf7222d7ad6dc177a17c9c4fd3e2eed598ef3f354f01b9b9738e292b1b56",
+  "proposalFileSha256": "df41b7f573dd032dac9ecb8b724d455000a813d8d9f6be4801028da866e45a02",
+  "reviewedOn": "2026-10-11",
+  "reviewer": "Project user (this conversation)",
+  "status": "partially-human-reviewed",
+  "scope": "Words 11–20: presented meanings and context distinctions accepted, requiring separate grammatical groups for popolare and separate handling of trasferirsi. Not automatic contextual selection or approval of all source senses.",
+  "integrationStatus": "not-integrated",
+  "records": [
+    {
+      "lemma": "proporre",
+      "acceptedContent": {
+        "groups": [
+          {
+            "label": {
+              "text": "Proposing an idea",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to propose; to suggest",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:proporre:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "proporre / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          },
+          {
+            "label": {
+              "text": "Putting someone forward",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to suggest someone for a role",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:proporre:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "proporre / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          }
+        ],
+        "usageNote": {
+          "text": "Keep the source-labeled literary and archaic senses secondary.",
+          "language": "en"
+        },
+        "referenceUrls": []
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "1dc4068d7afd0fc2808910ac6e0b55a14d96311d3109ad99984e38004815e558",
+        "scope": "Presented learner meanings and grouping treatment; no claim of independent review of every internal label or secondary source sense."
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "restare",
+      "acceptedContent": {
+        "groups": [
+          {
+            "label": {
+              "text": "Staying in a place",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to stay; to remain",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:restare:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "restare / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          },
+          {
+            "label": {
+              "text": "Being left over",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to remain; to be left",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:restare:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "restare / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          },
+          {
+            "label": {
+              "text": "Continuing in a state",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to remain in a condition",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:restare:1:3"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "restare / section 1 / item 3"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          }
+        ],
+        "usageNote": {
+          "text": "Location, remainder and continuing state are separate uses.",
+          "language": "en"
+        },
+        "referenceUrls": []
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "98ba062c1e5742ba3b9c5f38fbc3ea8f9e1262dfc6031c78641b2f4b303c1ce5",
+        "scope": "Presented learner meanings and grouping treatment; no claim of independent review of every internal label or secondary source sense."
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "derivare",
+      "acceptedContent": {
+        "groups": [
+          {
+            "label": {
+              "text": "Origin or cause",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to derive from; to stem from",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:derivare:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "derivare / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          },
+          {
+            "label": {
+              "text": "Obtaining something",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to derive; to obtain",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:derivare:1:4"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "derivare / section 1 / item 4"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          },
+          {
+            "label": {
+              "text": "Mathematics",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to differentiate",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:derivare:1:6"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "derivare / section 1 / item 6"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "mathematics"
+          }
+        ],
+        "usageNote": {
+          "text": "Retain watercourse and other technical meanings separately; da marks origin in the source.",
+          "language": "en"
+        },
+        "referenceUrls": []
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "bcd97ea88c0006b1f16ab9f9c20831d5fb0a38e58483fd68ac0cce24e469c234",
+        "scope": "Presented learner meanings and grouping treatment; no claim of independent review of every internal label or secondary source sense."
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "richiedere",
+      "acceptedContent": {
+        "groups": [
+          {
+            "label": {
+              "text": "Requesting",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to ask for; to request",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:richiedere:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "richiedere / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          },
+          {
+            "label": {
+              "text": "Requiring",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to require; to need",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:richiedere:1:3"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "richiedere / section 1 / item 3"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          },
+          {
+            "label": {
+              "text": "Asking again",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to ask again",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:richiedere:1:4"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "richiedere / section 1 / item 4"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          }
+        ],
+        "usageNote": {
+          "text": "A task requiring time is distinct from a person requesting something.",
+          "language": "en"
+        },
+        "referenceUrls": []
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "9ff349063b12fd7b42a239388d694a93189b3bd350e6595433e2ed45c8e335e2",
+        "scope": "Presented learner meanings and grouping treatment; no claim of independent review of every internal label or secondary source sense."
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "mantenere",
+      "acceptedContent": {
+        "groups": [
+          {
+            "label": {
+              "text": "Keeping or maintaining",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to keep; to maintain",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:mantenere:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "mantenere / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          },
+          {
+            "label": {
+              "text": "Material support",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to support financially or materially",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:mantenere:1:3"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "mantenere / section 1 / item 3"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          },
+          {
+            "label": {
+              "text": "Honoring a commitment",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to keep; to uphold a commitment",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:mantenere:1:6"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "mantenere / section 1 / item 6"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          }
+        ],
+        "usageNote": {
+          "text": "Retain other source meanings with their labels.",
+          "language": "en"
+        },
+        "referenceUrls": []
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "f553ba9d772525b67a85835dc8b0f521c5a224465b91551c4604995143e0e56b",
+        "scope": "Presented learner meanings and grouping treatment; no claim of independent review of every internal label or secondary source sense."
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "trasferire",
+      "acceptedContent": {
+        "groups": [
+          {
+            "label": {
+              "text": "Moving something or someone",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to transfer; to move",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:trasferire:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "trasferire / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          },
+          {
+            "label": {
+              "text": "Legal transfer",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to transfer or convey rights or property",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:trasferire:1:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "trasferire / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          }
+        ],
+        "usageNote": {
+          "text": "Do not automatically map trasferirsi onto the bare transitive headword.",
+          "language": "en"
+        },
+        "referenceUrls": []
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "ee6321fa35ae694e155618fb8fa2cbdb04bd654211c9a6621d6ab3a924d14797",
+        "scope": "Presented learner meanings and grouping treatment; no claim of independent review of every internal label or secondary source sense."
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "popolare",
+      "acceptedContent": {
+        "groups": [
+          {
+            "label": {
+              "text": "Verb: populating",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to populate",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:popolare:2:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "popolare / section 2 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          },
+          {
+            "label": {
+              "text": "Verb: inhabiting",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to inhabit",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:popolare:2:2"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "popolare / section 2 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          },
+          {
+            "label": {
+              "text": "Adjective: people",
+              "language": "en"
+            },
+            "definition": {
+              "text": "of or relating to the people",
+              "language": "en"
+            },
+            "pos": "adjective",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "popolare / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          },
+          {
+            "label": {
+              "text": "Adjective: folk",
+              "language": "en"
+            },
+            "definition": {
+              "text": "folk; vernacular",
+              "language": "en"
+            },
+            "pos": "adjective",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "popolare / section 1 / item 2"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          },
+          {
+            "label": {
+              "text": "Adjective: popularity",
+              "language": "en"
+            },
+            "definition": {
+              "text": "popular; widespread",
+              "language": "en"
+            },
+            "pos": "adjective",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "popolare / section 1 / item 3"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          },
+          {
+            "label": {
+              "text": "Adjective: social class",
+              "language": "en"
+            },
+            "definition": {
+              "text": "working-class",
+              "language": "en"
+            },
+            "pos": "adjective",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "popolare / section 1 / item 4"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          },
+          {
+            "label": {
+              "text": "Adjective: prices",
+              "language": "en"
+            },
+            "definition": {
+              "text": "low; inexpensive (prices)",
+              "language": "en"
+            },
+            "pos": "adjective",
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "popolare / section 1 / item 5"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          }
+        ],
+        "usageNote": {
+          "text": "Requires separate adjective groups: relating to the people; folk; popular/widespread; working-class; low prices. Never default automatically to the verb.",
+          "language": "en"
+        },
+        "referenceUrls": []
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "d7d0267c50f6188241febedf2a5cf1d58506c722f4dceedcac1ea842669599aa",
+        "scope": "Presented learner meanings and grouping treatment; no claim of independent review of every internal label or secondary source sense."
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "costringere",
+      "acceptedContent": {
+        "groups": [
+          {
+            "label": {
+              "text": "Compelling someone",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to force; to compel",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:costringere:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "costringere / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          }
+        ],
+        "usageNote": {
+          "text": "Construction candidate: costringere qualcuno a + infinitive. People or circumstances may supply the compulsion.",
+          "language": "en"
+        },
+        "referenceUrls": [
+          "https://www.treccani.it/vocabolario/costringere/"
+        ]
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "e669bd2f274d32033ccac17c789dbb71a7f427bb46977982bdaa8e2d48fb5688",
+        "scope": "Presented learner meanings and grouping treatment; no claim of independent review of every internal label or secondary source sense."
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "situare",
+      "acceptedContent": {
+        "groups": [
+          {
+            "label": {
+              "text": "Placing or locating",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to place; to situate",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:situare:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "situare / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          }
+        ],
+        "usageNote": {
+          "text": "Source usage note: usually passive. Distinguish being located from searching for a location.",
+          "language": "en"
+        },
+        "referenceUrls": []
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "6bd78b8ea0955b48af8add8ae00ac44066935f708f518baaa73e504497edb415",
+        "scope": "Presented learner meanings and grouping treatment; no claim of independent review of every internal label or secondary source sense."
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "basare",
+      "acceptedContent": {
+        "groups": [
+          {
+            "label": {
+              "text": "Basing something on something",
+              "language": "en"
+            },
+            "definition": {
+              "text": "to base; to ground",
+              "language": "en"
+            },
+            "pos": "verb",
+            "senseIds": [
+              "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:basare:1:1"
+            ],
+            "source": {
+              "provider": "reader.dict IT-EN",
+              "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+              "date": "2026-09-01",
+              "url": "https://www.reader-dict.com",
+              "attribution": "reader.dict and Wiktionary contributors",
+              "license": {
+                "identifier": "CC-BY-SA-4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+              },
+              "locator": "basare / section 1 / item 1"
+            },
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "confidence": "unassessed",
+            "register": "unknown"
+          }
+        ],
+        "usageNote": {
+          "text": "Construction candidate: basare qualcosa su qualcosa; keep basarsi su as a separately handled pronominal form.",
+          "language": "en"
+        },
+        "referenceUrls": [
+          "https://www.treccani.it/vocabolario/basare/"
+        ]
+      },
+      "humanReview": {
+        "status": "accepted-with-required-distinctions",
+        "contentHash": "6dcf1e7773ee582238d07789b2417097db4f8e69e2408c89117bd064022fcfef",
+        "scope": "Presented learner meanings and grouping treatment; no claim of independent review of every internal label or secondary source sense."
+      },
+      "contextSelection": {
+        "status": "unimplemented",
+        "selectedGroupId": null,
+        "evidence": []
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    }
+  ],
+  "requiredTreatments": {
+    "trasferire": {
+      "relatedForm": "trasferirsi",
+      "handling": "Separate pronominal-form treatment; no automatic alias or inflection mapping.",
+      "userShorthand": "trasferir",
+      "shorthandAddedAsAlias": false
+    },
+    "popolare": {
+      "grammaticalGroups": [
+        "verb",
+        "adjective"
+      ],
+      "automaticSelection": false
+    },
+    "situare": {
+      "distinction": "Placing/situating or being situated is distinct from cercare: searching for something.",
+      "learnerNoteDraft": {
+        "status": "human-accepted",
+        "language": "en",
+        "text": "Situare concerns where something is placed or situated. Cercare means looking for something. Cerco is a form of cercare, not of situare.",
+        "examples": [
+          {
+            "it": "Il museo è situato vicino alla stazione.",
+            "en": "The museum is situated near the station."
+          },
+          {
+            "it": "Cerco il museo.",
+            "en": "I am looking for the museum."
+          }
+        ],
+        "provenance": "Original Codex-authored explanation and examples; accepted by the project user in this conversation.",
+        "review": {
+          "reviewer": "Project user (this conversation)",
+          "reviewedOn": "2026-10-11",
+          "scope": "Situare/cercare contrast and the two examples shown in chat; not runtime integration.",
+          "contentHash": "a72b7cb9cc79aaf1bf543e6e7bebcf66fe7717e3ff55722bc528ae9e59430291"
+        }
+      }
+    }
+  }
+}

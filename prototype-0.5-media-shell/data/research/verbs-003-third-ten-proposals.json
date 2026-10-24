@@ -1,0 +1,1129 @@
+{
+  "schemaVersion": 1,
+  "batchId": "verbs-003",
+  "batchSha256": "a4bbbf7222d7ad6dc177a17c9c4fd3e2eed598ef3f354f01b9b9738e292b1b56",
+  "scope": "Words 21–30, source-linked labeled alternatives; pending user review, no automatic contextual selection.",
+  "records": [
+    {
+      "lemma": "scegliere",
+      "groups": [
+        {
+          "label": {
+            "text": "Choosing",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to choose",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:scegliere:1:1"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "scegliere / section 1 / item 1"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        }
+      ],
+      "usageNote": {
+        "text": "Keep selection distinct from the outcome of the choice.",
+        "language": "en"
+      },
+      "referenceUrls": [],
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "lemma": "giungere",
+      "groups": [
+        {
+          "label": {
+            "text": "Arrival or reaching a point",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to arrive; to reach",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:giungere:1:1"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "giungere / section 1 / item 1"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        }
+      ],
+      "usageNote": {
+        "text": "Keep the source-labeled literary joining sense secondary.",
+        "language": "en"
+      },
+      "referenceUrls": [],
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "lemma": "dichiarare",
+      "groups": [
+        {
+          "label": {
+            "text": "Stating or declaring",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to declare; to state",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:dichiarare:1:1"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "dichiarare / section 1 / item 1"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        },
+        {
+          "label": {
+            "text": "Card games",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to bid",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:dichiarare:1:2"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "dichiarare / section 1 / item 2"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "card games",
+          "review": {
+            "status": "pending-human-review"
+          }
+        }
+      ],
+      "usageNote": {
+        "text": "A declared claim is not automatically established fact.",
+        "language": "en"
+      },
+      "referenceUrls": [],
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "lemma": "servire",
+      "groups": [
+        {
+          "label": {
+            "text": "Serving",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to serve",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:servire:1:1"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "servire / section 1 / item 1"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        },
+        {
+          "label": {
+            "text": "Usefulness or purpose",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to be useful; to serve a purpose",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:servire:1:3"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "servire / section 1 / item 3"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        },
+        {
+          "label": {
+            "text": "Need",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to be needed",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:servire:1:4"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "servire / section 1 / item 4"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        }
+      ],
+      "usageNote": {
+        "text": "Mi serve una penna means I need a pen: una penna is the grammatical subject and mi identifies who needs it.",
+        "language": "en"
+      },
+      "referenceUrls": [
+        "https://www.treccani.it/vocabolario/servire/"
+      ],
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "lemma": "riportare",
+      "groups": [
+        {
+          "label": {
+            "text": "Bringing back",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to bring or take back",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riportare:1:1"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "riportare / section 1 / item 1"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        },
+        {
+          "label": {
+            "text": "Reporting",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to report; to quote",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riportare:1:2"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "riportare / section 1 / item 2"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        },
+        {
+          "label": {
+            "text": "Results or consequences",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to obtain; to sustain",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riportare:1:3"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "riportare / section 1 / item 3"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        }
+      ],
+      "usageNote": {
+        "text": "Objects help distinguish outcomes: riportare una vittoria versus riportare ferite. Do not label every occurrence as reporting news.",
+        "language": "en"
+      },
+      "referenceUrls": [
+        "https://www.treccani.it/vocabolario/riportare/"
+      ],
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "lemma": "effettuare",
+      "groups": [
+        {
+          "label": {
+            "text": "Carrying out",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to carry out; to perform",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:effettuare:1:1"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "effettuare / section 1 / item 1"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        }
+      ],
+      "usageNote": {
+        "text": "An action such as a payment or check; not a universal substitute for every use of fare.",
+        "language": "en"
+      },
+      "referenceUrls": [],
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "lemma": "riconoscere",
+      "groups": [
+        {
+          "label": {
+            "text": "Recognition",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to recognize",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riconoscere:1:1"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "riconoscere / section 1 / item 1"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        },
+        {
+          "label": {
+            "text": "Identification",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to identify",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riconoscere:1:4"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "riconoscere / section 1 / item 4"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        },
+        {
+          "label": {
+            "text": "Acknowledgment",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to acknowledge",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riconoscere:1:2"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "riconoscere / section 1 / item 2"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        },
+        {
+          "label": {
+            "text": "Admission",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to admit",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riconoscere:1:3"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "riconoscere / section 1 / item 3"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        }
+      ],
+      "usageNote": {
+        "text": "Recognizing someone differs from acknowledging a right or admitting an error.",
+        "language": "en"
+      },
+      "referenceUrls": [],
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "lemma": "riprendere",
+      "groups": [
+        {
+          "label": {
+            "text": "Resuming",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to resume",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riprendere:1:4"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "riprendere / section 1 / item 4"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        },
+        {
+          "label": {
+            "text": "Taking again",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to take again",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riprendere:1:1"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "riprendere / section 1 / item 1"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        },
+        {
+          "label": {
+            "text": "Taking back",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to take back",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riprendere:1:3"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "riprendere / section 1 / item 3"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        },
+        {
+          "label": {
+            "text": "Recording images",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to film; to photograph",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riprendere:1:5"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "riprendere / section 1 / item 5"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        },
+        {
+          "label": {
+            "text": "Reprimanding",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to reprimand",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riprendere:1:6"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "riprendere / section 1 / item 6"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        }
+      ],
+      "usageNote": {
+        "text": "Keep riprendersi separately handled; its recovery use must not be silently mapped to the bare verb.",
+        "language": "en"
+      },
+      "referenceUrls": [],
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "lemma": "risalire",
+      "groups": [
+        {
+          "label": {
+            "text": "Upward movement again",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to climb again",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:risalire:1:1"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "risalire / section 1 / item 1"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        },
+        {
+          "label": {
+            "text": "Renewed increase",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to rise again",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:risalire:1:7"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "risalire / section 1 / item 7"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        },
+        {
+          "label": {
+            "text": "Tracing an origin",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to trace back to an origin",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:risalire:1:4"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "risalire / section 1 / item 4"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        },
+        {
+          "label": {
+            "text": "Dating",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to date back to",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:risalire:1:5"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "risalire / section 1 / item 5"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        }
+      ],
+      "usageNote": {
+        "text": "Risalire a can introduce an origin or a date: the preposition alone does not settle the sense.",
+        "language": "en"
+      },
+      "referenceUrls": [],
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      }
+    },
+    {
+      "lemma": "sostituire",
+      "groups": [
+        {
+          "label": {
+            "text": "Replacing with",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to replace something with something else",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sostituire:1:2"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "sostituire / section 1 / item 2"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        },
+        {
+          "label": {
+            "text": "Substituting for",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to put something in place of something else",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sostituire:1:1"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "sostituire / section 1 / item 1"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        },
+        {
+          "label": {
+            "text": "Standing in",
+            "language": "en"
+          },
+          "definition": {
+            "text": "to take the place of; to stand in for",
+            "language": "en"
+          },
+          "pos": "verb",
+          "senseIds": [
+            "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sostituire:1:3"
+          ],
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "sostituire / section 1 / item 3"
+          },
+          "license": {
+            "identifier": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          },
+          "confidence": "unassessed",
+          "register": "unknown",
+          "review": {
+            "status": "pending-human-review"
+          }
+        }
+      ],
+      "usageNote": {
+        "text": "Sostituire X con Y: Y replaces X. Sostituire X a Y: X replaces Y. Preserve argument roles.",
+        "language": "en"
+      },
+      "referenceUrls": [
+        "https://www.treccani.it/vocabolario/sostituire/"
+      ],
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false,
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      }
+    }
+  ]
+}

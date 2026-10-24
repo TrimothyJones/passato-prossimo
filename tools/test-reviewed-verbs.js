@@ -5,7 +5,7 @@ const root=path.resolve(__dirname,'../prototype-0.5-media-shell');
 const bytes=fs.readFileSync(path.join(root,'data/research/verbs-001.json'));
 const review=JSON.parse(fs.readFileSync(path.join(root,'data/research/verbs-001-review.json')));
 const provider=read();
-assert.equal(provider.entries.length,99);
+assert.equal(provider.entries.length,149);
 for(const word of ['ribellare','ribellarsi','faccio','farè','dì'])assert.equal(lens.lookup(provider,word),null,word);
 assert.equal(lens.lookup(provider,'FARE').definition.text,'to do; to make');
 assert.equal(lens.lookup(undefined,'fare'),null);
@@ -22,7 +22,7 @@ for(const entry of provider.entries){assert(entry.senses.every(s=>s.review.statu
 const hostile=structuredClone(provider.entries[0]);hostile.notes=[{title:'<img>',text:'<script>bad()</script>'}];assert(!lens.notes(hostile).includes('<script>'));assert(lens.notes(hostile).includes('&lt;script&gt;'));
 assert(lens.evidence(hostile,{meaning:'<script>bad()</script>',example:'old example'}).includes('&lt;script&gt;'));
 assert.equal(fs.readFileSync(path.join(root,'reviewed-verbs-data.js'),'utf8'),serialize(provider));
-console.log('Reviewed verbs: 99 reviewed entries, source preservation, stale-review rejection, exact matching, safe rendering PASS');
+console.log('Reviewed verbs: 149 reviewed entries, source preservation, stale-review rejection, exact matching, safe rendering PASS');
 
 const batch2=fs.readFileSync(path.join(root,'data/research/verbs-002.json'));
 const review2=JSON.parse(fs.readFileSync(path.join(root,'data/research/verbs-002-review.json')));
@@ -41,3 +41,17 @@ const omitted=structuredClone(review2);const required=omitted.decisions.find(d=>
 required.clarification.status='proposed';
 required.humanReview.contentHash=require('node:crypto').createHash('sha256').update(JSON.stringify({lemma:required.lemma,definition:required.proposedDefinition,evidence:required.evidence,contextNote:required.contextNote,clarification:required.clarification,senseAnnotations:required.senseAnnotationProposals,formTreatment:required.followUpEvidence})).digest('hex');
 assert.throws(()=>build(batch2,omitted),/Required distinction missing/);
+
+const batch3=JSON.parse(fs.readFileSync(path.join(root,'data/research/verbs-003.json')));
+for(const original of batch3.entries){const e=lens.lookup(provider,original.lemma);assert(e,original.lemma);assert.deepEqual(e.senses,original.senses);assert.deepEqual(e.otherSections,original.otherSections);assert(e.groups.every(g=>g.sources.length&&g.license&&g.definition.language));assert.equal(lens.resolve(provider,original.lemma).interpretation.selectedSenseId,null);}
+const sposare=lens.lookup(provider,'sposare');assert.match(sposare.groups[0].definition.text,/take them as a spouse/);assert.equal(sposare.supplementalSenses[0].license.identifier,'CC-BY-SA-4.0');assert(lens.evidence(sposare,{meaning:''}).includes('oldid=3581697'));
+assert.deepEqual([...new Set(lens.lookup(provider,'popolare').groups.map(g=>g.pos))],['verb','adjective']);
+assert(lens.notes(lens.lookup(provider,'situare')).includes('Cerco il museo.'));
+assert(lens.notes(lens.lookup(provider,'sostituire')).includes('Y replaces X'));
+assert(!lens.lookup(provider,'rivelare').groups.some(g=>/veil again|sails again/.test(g.definition.text)));
+for(const word of ['trasferir','trasferirsi','sposarsi'])assert.equal(lens.lookup(provider,word),null);
+console.log('Batch three: all 50 source-preserving entries, labels, approved notes, supplemental provenance and exact-form boundaries PASS');
+
+const {readBatchThree}=require('./build-reviewed-batch-three');
+assert.throws(()=>readBatchThree({'sposare-supplement.json':Buffer.from('{}')}),/Stale integration input/);
+assert.throws(()=>readBatchThree({'verbs-003-first-ten-review.json':Buffer.from('{}')}),/Stale integration input/);

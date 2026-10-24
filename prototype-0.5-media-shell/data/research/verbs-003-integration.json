@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "status": "authorized-local-integration",
+  "authorizedBy": "Project user (this conversation)",
+  "date": "2026-10-20",
+  "scope": "Connect completed batch to shared Word Lens/Breakdown/Teacher provider and resolve sposare; no public deployment.",
+  "files": {
+    "verbs-003.json": "a4bbbf7222d7ad6dc177a17c9c4fd3e2eed598ef3f354f01b9b9738e292b1b56",
+    "verbs-003-first-ten-review.json": "af226167d6b837707973788a8885ebc941c550481803c2a7a2a665cb07538517",
+    "verbs-003-second-ten-review.json": "6a6d0ae438657784a3ab5b47c2655313d19ec51a7b2c3e648adfaa99b8b30c75",
+    "verbs-003-third-ten-review.json": "aeeae5d7d78027c28e2fb5da401477e76ff1e55dad79f201460c7bbbfae53fa4",
+    "verbs-003-final-twenty-review.json": "b12bf7ba06ccbc5ad0f82aa3c4d0cc3a30ecd8f5f1f0317d638a1f15983424b1",
+    "sposare-supplement.json": "4c6a29e323a09c6c42ffec39024ca2b7fd883e75614f385a7fda46ee32703420"
+  }
+}

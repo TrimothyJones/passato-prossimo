@@ -1,4 +1,4 @@
-const CACHE_NAME = "passato-prossimo-mobile-v4";
+const CACHE_NAME = "passato-prossimo-mobile-v8";
 const APP_ASSETS = [
   "./",
   "./index.html",
@@ -25,6 +25,8 @@ const APP_ASSETS = [
   "../prototype-0.5-media-shell/word-lens-trial.js",
   "../prototype-0.5-media-shell/reviewed-verbs-data.js",
   "../prototype-0.5-media-shell/reviewed-word-lens.js",
+  "../prototype-0.5-media-shell/source-lexicon-index.js",
+  "../prototype-0.5-media-shell/source-lexicon.js",
   "../prototype-0.5-media-shell/app.js"
 ];
 

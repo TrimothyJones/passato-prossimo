@@ -107,7 +107,7 @@ const teacherExperiment = vm.runInContext(`
     };
   })();
 `, context);
-assert.equal(teacherExperiment.request.contractVersion, 1);
+assert.equal(teacherExperiment.request.contractVersion, 3);
 assert.equal(teacherExperiment.request.sentence, "Che schifo!");
 assert.equal(teacherExperiment.request.targetLanguage, "it");
 assert.equal(teacherExperiment.request.supportLanguage, "en");

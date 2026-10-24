@@ -2,7 +2,7 @@
   "name": "the-immersion-project",
   "productName": "Passato Prossimo",
   "appId": "com.passatoprossimo.immersion",
-  "version": "0.6.0-alpha.2",
+  "version": "0.6.0-alpha.3",
   "description": "Passato Prossimo, an Italian immersion reader and media learning prototype.",
   "author": "Passato Prossimo Project",
   "license": "UNLICENSED",
@@ -27,7 +27,18 @@
     "public:source": "node tools/build-public-source.js",
     "test": "node tools/test-mobile-entry.js && node tools/test-mobile-importer.js && node prototype-0.5-media-shell/tools/test-platform-adapter.js && node prototype-0.5-media-shell/tools/test-media-shell.js && node prototype-0.5-media-shell/tools/test-breakdown.js && node tools/test-url-importer.js",
     "build:reviewed-verbs": "node tools/build-reviewed-verbs.js",
-    "test:reviewed-verbs": "node tools/test-reviewed-verbs.js"
+    "test:reviewed-verbs": "node tools/test-reviewed-verbs.js",
+    "trial:cercare": "node tools/trial-cercare-patterns.js",
+    "test:cercare": "node tools/test-cercare-patterns.js",
+    "trial:constructions": "node tools/trial-reviewed-constructions.js",
+    "test:constructions": "node tools/test-reviewed-constructions.js",
+    "trial:constructions:v2": "node tools/trial-reviewed-constructions-v2.js",
+    "test:constructions:v2": "node tools/test-reviewed-constructions-v2.js",
+    "import:source-lexicon": "node tools/import-source-lexicon.js",
+    "validate:source-lexicon": "node tools/import-source-lexicon.js --validate",
+    "test:source-lexicon": "node tools/test-source-lexicon.js",
+    "build:source-assets": "node tools/build-source-lexicon-assets.js",
+    "test:source-browser": "node tools/test-source-lexicon-browser.js"
   },
   "dependencies": {
     "cheerio": "1.0.0-rc.12",

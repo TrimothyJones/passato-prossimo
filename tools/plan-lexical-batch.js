@@ -162,4 +162,4 @@ async function main() {
   console.log(JSON.stringify({...result.counts,words:entries.map(e=>e.lemma)},null,2));
 }
 if(require.main===module) main().catch(error=>{console.error(error);process.exitCode=1;});
-module.exports={key,readIndex,select,localVocabulary};
+module.exports={key,readIndex,readArchive,select,localVocabulary};

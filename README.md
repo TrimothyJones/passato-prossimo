@@ -9,17 +9,20 @@ reading loop supports local TXT and EPUB books, article URLs, word and sentence
 Breakdown, text-to-speech, local audio/video, early YouTube playback, and manual
 export of a sanitized local testing report.
 
-## Word Lens update — 0.6.0-alpha.2
+## Word Lens update — 0.6.0-alpha.3
 
-Word Lens now includes 99 reviewed Italian headword entries with clearer English
-meanings, construction notes, and labeled alternatives. Original dictionary senses
-and source details remain available. Dictionary data credits reader.dict and
-Wiktionary contributors under CC BY-SA 4.0.
+Windows and the mobile/web reader now include 149 reviewed learner entries and
+19,712 source dictionary entries matched to the existing vocabulary. Reviewed
+guidance takes priority. Additional dictionary senses retain their grammatical
+groups and attribution; they are not individually reviewed learner explanations.
+The Teacher experiment can show the accepted usage guides; it remains a local
+simulation and does not select a sentence meaning automatically.
 
-This update improves lexical guidance; it does not automatically select a meaning
-from context. Matching uses exact headwords, with conjugated forms retaining the
-existing lookup. The web app has this update; the older Windows download remains
-unchanged. Further refinements are planned, without a promised release schedule.
+Matching uses exact normalized headwords. Missing or ambiguous source matches
+retain the existing lookup. This is not complete inflection coverage.
+Mobile loads dictionary chunks on demand and caches opened chunks for offline
+use. Desktop includes all chunks locally. Download the Windows alpha from
+[Releases](https://github.com/TrimothyJones/passato-prossimo/releases/tag/v0.6.0-alpha.3).
 
 ## Alpha Status
 

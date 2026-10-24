@@ -274,6 +274,7 @@ const simulatedTeacherProvider = {
   id: "simulated-italian-teacher-v1",
   label: "Simulated Italian teacher",
   kind: "simulation",
+  revision: 3,
   explain(request) {
     return simulateTeacherResponse(request);
   }
@@ -2467,7 +2468,7 @@ function renderSourcesLicensesDialog() {
 
         <section>
           <h3>Dictionary layers</h3>
-          <p><strong>reader.dict / Wiktionary contributors</strong><br />Word Lens includes 99 reviewed headword entries, adapted learner meanings and usage notes, and preserved source senses. Dictionary data: CC BY-SA 4.0. IT–EN snapshot: 2026-09-01. Review does not imply sentence-specific interpretation.</p>
+          <p><strong>reader.dict / Wiktionary contributors</strong><br />Word Lens includes 149 headword entries with accepted learner treatments, adapted learner meanings and usage notes, and preserved source senses. Dictionary data: CC BY-SA 4.0. IT–EN snapshot: 2026-09-01. Review does not imply sentence-specific interpretation.</p>
           <div class="sources-dialog-links">
             <button type="button" data-license-url="https://www.reader-dict.com">reader.dict</button>
             <button type="button" data-license-url="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</button>
@@ -3006,6 +3007,14 @@ function renderFrictionChip(row) {
   `;
 }
 
+function lexicalEvidenceForRow(row, fallbackMeaning = '') {
+  return window.PASSATO_REVIEWED_WORD_LENS?.resolve(window.PASSATO_REVIEWED_VERBS, row.token, fallbackMeaning) || {
+    schemaVersion: 1, token: row.token, match: 'legacy-fallback', generalMeaning: fallbackMeaning,
+    interpretation: { status: 'unresolved', selectedSenseId: null, selectedPos: null },
+    reviewed: null, fallback: { meaning: fallbackMeaning, reviewStatus: 'not-established' }
+  };
+}
+
 function wordEvidenceForBreakdown(row) {
   const frequencyInfo = frequencyInfoFor(row.lemma);
   const learnerInfo = learnerInfoFor(row.token, row.lemma);
@@ -3027,7 +3036,9 @@ function wordEvidenceForBreakdown(row) {
     accentRule,
     elisionInfo
   });
+  const lexical = lexicalEvidenceForRow(row, learnerInfo?.translation || entry.meaning || overflowInfo?.definition || "Meaning not available yet.");
   return {
+    lexical,
     row,
     entry,
     frequencyInfo,
@@ -3037,8 +3048,10 @@ function wordEvidenceForBreakdown(row) {
     accentRule,
     elisionInfo,
     providerNotes,
-    englishMeaning: learnerInfo?.translation || entry.meaning || overflowInfo?.definition || "Meaning not available yet.",
-    italianExplanation: overflowInfo?.definition && overflowInfo.definition !== entry.meaning
+    englishMeaning: lexical.generalMeaning,
+    italianExplanation: lexical.reviewed
+      ? "Queste indicazioni descrivono usi generali della parola; il significato e la funzione grammaticale nella frase restano da verificare."
+      : overflowInfo?.definition && overflowInfo.definition !== entry.meaning
       ? overflowInfo.definition
       : `La forma “${row.token}” viene collegata al lemma “${row.lemma}”${entry.pos && entry.pos !== "unknown" ? `, con funzione ${entry.pos}` : ""}.`
   };
@@ -3098,20 +3111,36 @@ function renderBreakdownPhrase(phrase) {
   `;
 }
 
+function renderBreakdownLexicalEvidence(lexical) {
+  const reviewed = lexical?.reviewed;
+  if (!reviewed) return '';
+  return '<details class="breakdown-details"><summary>Reviewed meaning guide and sources</summary><dl>'
+    + window.PASSATO_REVIEWED_WORD_LENS.notes(reviewed) + '</dl>'
+    + '<p>' + escapeHtml(reviewed.source.attribution) + ' · ' + escapeHtml(reviewed.license.identifier)
+    + ' · Snapshot ' + escapeHtml(reviewed.source.date) + '</p>'
+    + '<p>Review: ' + escapeHtml(reviewed.review.status) + '. ' + escapeHtml(reviewed.review.scope)
+    + ' Confidence: ' + escapeHtml(reviewed.confidence) + '. Register: ' + escapeHtml(reviewed.register.value) + '.</p>'
+    + '<details><summary>Original source senses · unreviewed for learners</summary><ul>'
+    + reviewed.senses.map(sense => '<li>' + escapeHtml(sense.definition.text) + '</li>').join('')
+    + '</ul></details></details>';
+}
+
 function renderBreakdownWord(row) {
   const evidence = wordEvidenceForBreakdown(row);
   return `
     <div class="breakdown-word-row">
       <strong>${escapeHtml(row.token)}</strong>
       <span>${escapeHtml(evidence.englishMeaning)}</span>
-      <small>${escapeHtml(row.lemma)} / ${escapeHtml(confidenceLabel(row.lemmaMatch.confidence))}</small>
+      <small>${escapeHtml(row.lemma)} / ${escapeHtml(confidenceLabel(row.lemmaMatch.confidence))} · General meanings; sentence interpretation unresolved.</small>
+      ${renderBreakdownLexicalEvidence(evidence.lexical)}
     </div>
   `;
 }
 
 function buildTeacherRequest({ scope, row, sentence, sentenceIndex, phrases, emotion, wordEvidence }) {
+  const evidenceRows = scope === "word" ? [row] : rowsForSentence(sentenceIndex);
   return {
-    contractVersion: 1,
+    contractVersion: 3,
     targetLanguage: "it",
     supportLanguage: "en",
     scope,
@@ -3121,6 +3150,12 @@ function buildTeacherRequest({ scope, row, sentence, sentenceIndex, phrases, emo
     learnerStatus: row ? lemmaStatus(row.lemma) : "sentence",
     localEvidence: {
       meaning: wordEvidence?.englishMeaning || "",
+      lexical: evidenceRows.filter(Boolean).map(evidenceRow => ({
+        token: evidenceRow.token,
+        lemmaCandidate: evidenceRow.lemma,
+        lemmaMatch: { label: evidenceRow.lemmaMatch?.label || "unassessed", confidence: evidenceRow.lemmaMatch?.confidence ?? null },
+        evidence: (evidenceRow === row && wordEvidence ? wordEvidence : wordEvidenceForBreakdown(evidenceRow)).lexical
+      })),
       phrases: phrases.map((phrase) => ({
         phrase: phrase.phrase,
         english: phrase.english,
@@ -3141,22 +3176,59 @@ function buildTeacherRequest({ scope, row, sentence, sentenceIndex, phrases, emo
   };
 }
 
+function teacherLexicalGuides(request) {
+  const seen = new Set();
+  return (request.localEvidence.lexical || []).filter(item => {
+    const entry = item.evidence?.reviewed;
+    if (!entry || !['human-accepted-wording','accepted-editorial-treatment'].includes(entry.review?.status)) return false;
+    const key = item.token.normalize('NFC').toLowerCase();
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  }).map(item => ({
+    token: item.token,
+    lemmaCandidate: item.lemmaCandidate,
+    lemmaMatch: item.lemmaMatch || {label: 'unassessed', confidence: null},
+    generalMeaning: item.evidence.generalMeaning,
+    reviewed: JSON.parse(JSON.stringify(item.evidence.reviewed)),
+    uncertainty: {
+      lemma: 'candidate-only', partOfSpeech: 'unresolved',
+      construction: 'not-assessed', sense: 'unresolved'
+    }
+  }));
+}
+
 function simulateTeacherResponse(request) {
+  const guides = teacherLexicalGuides(request);
   const phrase = request.localEvidence.phrases[0];
   const tone = request.localEvidence.tone;
   let english;
   let italian;
   let focus;
 
-  if (phrase) {
+  if (guides.length && request.scope === "word") {
+    const guide = guides[0];
+    english = 'Reviewed guidance for “' + guide.token + '”: ' + guide.generalMeaning
+      + '. This does not select its meaning or grammatical use in this sentence.';
+    italian = 'La guida riporta usi generali della parola. La frase serve a distinguere il significato e la funzione grammaticale; qui non sono ancora stati scelti.';
+    focus = guide.reviewed.groups?.length
+      ? 'Compare the separately labeled grammatical uses below before choosing a meaning.'
+      : guide.reviewed.notes?.length
+        ? 'Use the reviewed usage notes below to compare the construction and meaning with your sentence.'
+        : 'Compare this general meaning with the whole sentence; the original source senses remain separate and unreviewed.';
+  } else if (phrase) {
     english = `Read “${phrase.phrase}” as one connected expression: ${phrase.english}. Translating each word separately would hide the job the phrase is doing.`;
     italian = `${phrase.italian} Conviene leggere “${phrase.phrase}” come un blocco unico.`;
     focus = phrase.structure;
   } else if (request.scope === "word") {
     const meaning = request.localEvidence.meaning || "the local stack does not have a dependable meaning yet";
-    english = `In this sentence, “${request.selection}” is most likely connected to “${request.lemma}”: ${meaning}`;
+    english = `General lexical guidance for “${request.selection}”: ${meaning}. This does not select its meaning or grammatical use in this sentence.`;
     italian = `In questa frase, “${request.selection}” viene probabilmente collegato al lemma “${request.lemma}”.`;
     focus = request.localEvidence.languageClues[0]?.body || "Compare this word with the rest of the sentence before treating the gloss as a complete translation.";
+  } else if (guides.length) {
+    english = 'The reviewed word guides below offer starting points for this sentence. They do not combine into a sentence translation or select a contextual meaning.';
+    italian = 'Le guide delle parole offrono punti di partenza. Non costituiscono una traduzione della frase e non scelgono il significato nel contesto.';
+    focus = 'Compare each word’s usage notes and alternatives with the sentence. A dictionary match alone cannot decide how the words relate.';
   } else if (tone.label !== "Neutral / unclear") {
     english = `The literal wording is only part of the message. The sentence likely carries ${tone.label.toLowerCase()}, which changes how a listener may receive it.`;
     italian = italianEmotionExplanation(tone);
@@ -3172,17 +3244,19 @@ function simulateTeacherResponse(request) {
     providerId: simulatedTeacherProvider.id,
     providerLabel: simulatedTeacherProvider.label,
     providerKind: simulatedTeacherProvider.kind,
+    providerRevision: simulatedTeacherProvider.revision,
+    lexicalGuides: guides,
     english,
     italian,
     focus,
-    confidence: phrase ? "medium" : tone.confidence || "exploratory",
+    confidence: guides.length ? "unresolved" : phrase ? "medium" : tone.confidence || "exploratory",
     caution: "This is a controlled simulated response for testing the teacher-provider workflow, not an AI-generated judgment.",
     createdAt: new Date().toISOString()
   };
 }
 
 function teacherCacheKey(request, providerId = activeTeacherProviderId) {
-  return `${providerId}:${stableTextHash(JSON.stringify(request))}`;
+  return `${providerId}:r${teacherProviders.get(providerId)?.revision || 1}:${stableTextHash(JSON.stringify(request))}`;
 }
 
 function cachedTeacherNote(request) {
@@ -3204,6 +3278,28 @@ async function requestTeacherNote(request) {
   return { note, fromCache: false };
 }
 
+function renderTeacherLexicalGuide(guide) {
+  const entry = guide.reviewed;
+  const notes = (entry.notes || []).map(note => '<div><dt>' + escapeHtml(note.title) + '</dt><dd>'
+    + escapeHtml(note.text) + (note.examples?.length ? '<ul>' + note.examples.map(example =>
+      '<li><span lang="it">' + escapeHtml(example.it) + '</span> — ' + escapeHtml(example.en) + '</li>').join('') + '</ul>' : '') + '</dd></div>').join('');
+  const annotations = (entry.annotations || []).map(note => '<p><strong>' + escapeHtml(note.label)
+    + '</strong>: ' + escapeHtml(note.englishMeaning) + ' · <span lang="it">' + escapeHtml(note.italianMeaning)
+    + '</span>. ' + escapeHtml(note.text) + '</p>').join('');
+  return '<section class="teacher-lexical-guide"><h4>' + escapeHtml(guide.token) + '</h4>'
+    + (entry.groups?.length ? '<ul>'+entry.groups.map(g=>'<li><strong>'+escapeHtml(g.label?.text||g.pos)+'</strong> ('+escapeHtml(g.pos)+'): '+escapeHtml(g.definition.text)+'</li>').join('')+'</ul>' : '<p>'+escapeHtml(guide.generalMeaning)+'</p>') + '<dl>' + notes + '</dl>' + annotations
+    + '<details><summary>What still needs context?</summary><p>Possible lemma: ' + escapeHtml(guide.lemmaCandidate)
+    + '. A lemma match does not confirm the grammatical use. No construction has been checked, and no sentence-specific sense has been selected.</p></details>'
+    + (entry.supplementalSenses||[]).map(s=>'<p>'+escapeHtml(s.source.attribution)+' · '+escapeHtml(s.license.identifier)+' · '+escapeHtml(s.changes)+' <a href="'+escapeHtml(s.source.url)+'" target="_blank" rel="noopener noreferrer">Supplement source</a></p>').join('')
+    + '<details><summary>Source and original alternatives</summary><p>' + escapeHtml(entry.source.attribution)
+    + ' · ' + escapeHtml(entry.license.identifier) + ' · ' + escapeHtml(entry.source.date)
+    + '</p><p>Accepted learner treatments; source definitions are not all individually human-reviewed. Source confidence: '
+    + escapeHtml(entry.confidence) + '; register: ' + escapeHtml(entry.register.value)
+    + '. These labels are not confidence in a sentence interpretation.</p><ul>'
+    + entry.senses.map(sense => '<li>' + escapeHtml(sense.definition.text) + '</li>').join('')
+    + '</ul></details></section>';
+}
+
 function renderTeacherNote(note, fromCache = false) {
   return `
     <div class="teacher-note">
@@ -3214,6 +3310,7 @@ function renderTeacherNote(note, fromCache = false) {
       <p>${escapeHtml(note.english)}</p>
       <p lang="it" class="teacher-note-italian">${escapeHtml(note.italian)}</p>
       <small>${escapeHtml(note.focus)}</small>
+      ${(note.lexicalGuides || []).map(renderTeacherLexicalGuide).join("")}
       <small class="teacher-note-caution">${escapeHtml(note.caution)}</small>
     </div>
   `;
@@ -3236,7 +3333,7 @@ function showBreakdown(scope, index, anchorEl = null) {
   const emotion = sentence.emotion;
   const wordEvidence = row ? wordEvidenceForBreakdown(row) : null;
   const leadEnglish = wordEvidence
-    ? `${row.token} is grouped under ${row.lemma}. Here it most likely means: ${wordEvidence.englishMeaning}`
+    ? `General lexical guidance for ${row.token}: ${wordEvidence.englishMeaning}. The meaning and grammatical use in this sentence remain unresolved.`
     : phrases.length
       ? `${phrases[0].phrase} works as a connected expression: ${phrases[0].english}`
       : emotion.label !== "Neutral / unclear"
@@ -3279,6 +3376,7 @@ function showBreakdown(scope, index, anchorEl = null) {
       <span>In italiano</span>
       <p lang="it">${escapeHtml(leadItalian)}</p>
     </section>
+    ${wordEvidence ? renderBreakdownLexicalEvidence(wordEvidence.lexical) : ""}
     <section class="teacher-experiment">
       <div class="teacher-experiment-heading">
         <div>
@@ -3450,9 +3548,10 @@ function showWordLens(rowIndex, anchorEl = null) {
     elisionInfo
   });
   const lens = appEl.querySelector("#wordLens");
+  const sourceRequest = {}; lens.sourceRequest = sourceRequest;
   const knownState = contextInfo ? "Context marker" : row.known ? "Likely familiar" : "Potential friction";
   const matchState = `${row.lemmaMatch.label} / ${confidenceLabel(row.lemmaMatch.confidence)}`;
-  const reviewed = window.PASSATO_REVIEWED_WORD_LENS?.lookup(window.PASSATO_REVIEWED_VERBS, row.token);
+  const reviewed = lexicalEvidenceForRow(row, entry.meaning).reviewed;
   lens.hidden = false;
   lens.classList.remove("is-idle", "is-floating", "is-sheet");
   lens.removeAttribute("style");
@@ -3470,7 +3569,8 @@ function showWordLens(rowIndex, anchorEl = null) {
     </div>
     <dl>
       <div><dt>Dictionary form</dt><dd>${escapeHtml(row.lemma)}</dd></div>
-      ${reviewed ? window.PASSATO_REVIEWED_WORD_LENS.meaning(reviewed) : `<div><dt>Meaning</dt><dd>${escapeHtml(entry.meaning)}</dd></div>`}
+      ${reviewed ? window.PASSATO_REVIEWED_WORD_LENS.meaning(reviewed) : `<div data-legacy-meaning><dt>Meaning</dt><dd>${escapeHtml(entry.meaning)}</dd></div>`}
+      ${!reviewed ? '<div id="sourceDictionaryMeanings" aria-live="polite"></div>' : ""}
       ${window.PASSATO_REVIEWED_WORD_LENS?.notes(reviewed) || ""}
       ${!reviewed && learnerNote ? `<div><dt>Learner gloss</dt><dd>${escapeHtml(learnerNote)}</dd></div>` : ""}
       ${!reviewed && entry.example ? `<div><dt>Example</dt><dd>${escapeHtml(entry.example)}</dd></div>` : ""}
@@ -3514,6 +3614,18 @@ function showWordLens(rowIndex, anchorEl = null) {
     <div class="lens-accent"></div>
   `;
 
+  if (!reviewed && window.PASSATO_SOURCE_LEXICON) {
+    const sourceSlot = lens.querySelector('#sourceDictionaryMeanings');
+    window.PASSATO_SOURCE_LEXICON.lookup(row.token).then(result => {
+      if (!result || lens.sourceRequest !== sourceRequest || lens.hidden) return;
+      sourceSlot.innerHTML = window.PASSATO_SOURCE_LEXICON.render(result);
+      const legacy = lens.querySelector('[data-legacy-meaning]');
+      if (legacy) legacy.hidden = true;
+    }).catch(() => {
+      if (lens.sourceRequest === sourceRequest && !lens.hidden && sourceSlot)
+        sourceSlot.textContent = 'Source dictionary unavailable; existing guidance remains available.';
+    });
+  }
   lens.querySelector(".lens-close")?.addEventListener("click", hideWordLens);
   for (const link of lens.querySelectorAll("[data-license-url]")) {
     link.addEventListener("click", () => openProjectSource(link.dataset.licenseUrl));

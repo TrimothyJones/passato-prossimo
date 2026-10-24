@@ -45,6 +45,15 @@ const contentTypes = new Map([
   [".png", "image/png"]
 ]);
 
+// Generated source dictionaries are bundled public assets, never the raw import archive.
+allowedFiles.add('prototype-0.5-media-shell/source-lexicon.js');
+allowedFiles.add('prototype-0.5-media-shell/source-lexicon-index.js');
+const sourceAssetRoot=path.join(root,'prototype-0.5-media-shell/data/source-lexicon');
+if(require('node:fs').existsSync(sourceAssetRoot))for(const version of require('node:fs').readdirSync(sourceAssetRoot)){
+ if(!/^[a-f0-9]{24}$/.test(version))continue;
+ for(const file of require('node:fs').readdirSync(path.join(sourceAssetRoot,version)))if(/^chunk-\d{4}\.js$/.test(file))allowedFiles.add('prototype-0.5-media-shell/data/source-lexicon/'+version+'/'+file);
+}
+
 function normalizedRequestPath(rawUrl) {
   const pathname = new URL(rawUrl || "/", "http://localhost").pathname;
   if (pathname === "/" || pathname === "/mobile") return "mobile/index.html";

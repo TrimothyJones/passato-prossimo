@@ -61,7 +61,9 @@ const exactCopies = [
   ["tools/test-url-importer.js", "tools/test-url-importer.js"]
 ];
 
+for(const file of ['build-reviewed-batch-three.js','import-source-lexicon.js','source-lexicon-store.js','test-source-lexicon.js','build-source-lexicon-assets.js','test-source-lexicon-browser.js','test-cercare-patterns.js','trial-cercare-patterns.js','test-reviewed-constructions.js','test-reviewed-constructions-v2.js','trial-reviewed-constructions.js','trial-reviewed-constructions-v2.js','prepare-tatoeba-review.js'])exactCopies.push(['tools/'+file,'tools/'+file]);
 const treeCopies = [
+  ['tools/lib','tools/lib'],
   ["prototype-0.3-assisted-reader/tools", "prototype-0.3-assisted-reader/tools"],
   ["prototype-0.5-media-shell", "prototype-0.5-media-shell"],
   ["mobile", "mobile"],
@@ -79,6 +81,7 @@ function copyFile(sourceRelative, targetRelative) {
 function copyTree(sourceRelative, targetRelative) {
   const source = path.join(root, sourceRelative);
   for (const entry of fs.readdirSync(source, { withFileTypes: true })) {
+    if(sourceRelative.replace(/\\/g,'/').endsWith('/data/research') && /^(tatoeba|cercare-pattern|construction-|reviewed-construction|source-lexicon-import-report)/.test(entry.name))continue;
     const childSource = path.join(sourceRelative, entry.name);
     const childTarget = path.join(targetRelative, entry.name);
     if (entry.isDirectory()) copyTree(childSource, childTarget);

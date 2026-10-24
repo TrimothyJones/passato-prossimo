@@ -1,0 +1,598 @@
+{
+  "schemaVersion": 1,
+  "batchId": "verbs-003",
+  "batchSha256": "a4bbbf7222d7ad6dc177a17c9c4fd3e2eed598ef3f354f01b9b9738e292b1b56",
+  "scope": "First ten wording proposals only; no human approval or runtime integration.",
+  "records": [
+    {
+      "lemma": "cambiare",
+      "proposedDefinition": {
+        "text": "to change; to exchange",
+        "language": "en"
+      },
+      "usageNote": {
+        "text": "Keep changing something and something changing distinct; exchange is a separate use.",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:cambiare:1:2",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "cambiare / section 1 / item 2"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:cambiare:1:3",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "cambiare / section 1 / item 3"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:cambiare:1:1",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "cambiare / section 1 / item 1"
+          }
+        }
+      ],
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "confidence": "unassessed",
+      "register": "unknown",
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "sostenere",
+      "proposedDefinition": {
+        "text": "to support; to maintain or argue",
+        "language": "en"
+      },
+      "usageNote": {
+        "text": "Separate physical/supportive uses from asserting a position. Preserve bear/endure and other source senses.",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sostenere:1:1",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "sostenere / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sostenere:1:3",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "sostenere / section 1 / item 3"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:sostenere:1:4",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "sostenere / section 1 / item 4"
+          }
+        }
+      ],
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "confidence": "unassessed",
+      "register": "unknown",
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "riguardare",
+      "proposedDefinition": {
+        "text": "to concern; to look at again",
+        "language": "en"
+      },
+      "usageNote": {
+        "text": "Separate concerning a topic or person from looking again or checking something.",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riguardare:1:1",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "riguardare / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riguardare:1:4",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "riguardare / section 1 / item 4"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:riguardare:1:3",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "riguardare / section 1 / item 3"
+          }
+        }
+      ],
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "confidence": "unassessed",
+      "register": "unknown",
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "leggere",
+      "proposedDefinition": {
+        "text": "to read",
+        "language": "en"
+      },
+      "usageNote": {
+        "text": "Verb meaning only. The source also has an adjective section; the same spelling must not automatically receive the verb reading.",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:leggere:1:1",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "leggere / section 1 / item 1"
+          }
+        }
+      ],
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "confidence": "unassessed",
+      "register": "unknown",
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "risultare",
+      "proposedDefinition": {
+        "text": "to turn out to be; to appear",
+        "language": "en"
+      },
+      "usageNote": {
+        "text": "A reported finding or appearance is not always certain fact; keep the sentence context visible.",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:risultare:1:1",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "risultare / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:risultare:1:2",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "risultare / section 1 / item 2"
+          }
+        }
+      ],
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "confidence": "unassessed",
+      "register": "unknown",
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "assumere",
+      "proposedDefinition": {
+        "text": "to take on; to hire; to consume",
+        "language": "en"
+      },
+      "usageNote": {
+        "text": "Use labeled alternatives for taking on a role/responsibility, hiring someone, and consuming a substance. Do not present the English word assume as a universal equivalent.",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:assumere:1:1",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "assumere / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:assumere:1:2",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "assumere / section 1 / item 2"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:assumere:1:3",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "assumere / section 1 / item 3"
+          }
+        }
+      ],
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "confidence": "unassessed",
+      "register": "unknown",
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "condurre",
+      "proposedDefinition": {
+        "text": "to lead or guide; to conduct",
+        "language": "en"
+      },
+      "usageNote": {
+        "text": "Keep guiding, conducting an activity, and a road leading somewhere distinct. Other source uses remain available.",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:condurre:1:1",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "condurre / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:condurre:1:3",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "condurre / section 1 / item 3"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:condurre:1:7",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "condurre / section 1 / item 7"
+          }
+        }
+      ],
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "confidence": "unassessed",
+      "register": "unknown",
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "dimostrare",
+      "proposedDefinition": {
+        "text": "to show; to prove",
+        "language": "en"
+      },
+      "usageNote": {
+        "text": "Showing or displaying something and establishing it with evidence are distinct readings.",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:dimostrare:1:1",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "dimostrare / section 1 / item 1"
+          }
+        },
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:dimostrare:1:2",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "dimostrare / section 1 / item 2"
+          }
+        }
+      ],
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "confidence": "unassessed",
+      "register": "unknown",
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "capire",
+      "proposedDefinition": {
+        "text": "to understand",
+        "language": "en"
+      },
+      "usageNote": {
+        "text": "Preserve the source-labeled rare fit/be-contained sense as secondary.",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:capire:1:1",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "capire / section 1 / item 1"
+          }
+        }
+      ],
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "confidence": "unassessed",
+      "register": "unknown",
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    },
+    {
+      "lemma": "ritenere",
+      "proposedDefinition": {
+        "text": "to think; to consider",
+        "language": "en"
+      },
+      "usageNote": {
+        "text": "Do not lead with the source-first rare hold-again sense. Retaining/withholding and restraining remain labeled alternatives.",
+        "language": "en"
+      },
+      "evidence": [
+        {
+          "senseId": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf:ritenere:1:2",
+          "source": {
+            "provider": "reader.dict IT-EN",
+            "sha256": "0355bcad784a57f47a0fea4a10ebbe1b09ffc018651de5ae12316cf737124bbf",
+            "date": "2026-09-01",
+            "url": "https://www.reader-dict.com",
+            "attribution": "reader.dict and Wiktionary contributors",
+            "license": {
+              "identifier": "CC-BY-SA-4.0",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            },
+            "locator": "ritenere / section 1 / item 2"
+          }
+        }
+      ],
+      "license": {
+        "identifier": "CC-BY-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "confidence": "unassessed",
+      "register": "unknown",
+      "review": {
+        "status": "pending-human-review",
+        "author": "Codex (AI)",
+        "date": "2026-10-11"
+      },
+      "preserveSecondarySenses": true,
+      "eligibleForExport": false
+    }
+  ]
+}

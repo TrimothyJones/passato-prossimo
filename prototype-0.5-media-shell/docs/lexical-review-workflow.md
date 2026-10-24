@@ -49,3 +49,51 @@ would not satisfy the user's conditional approval.
 Local integration update: both batches are connected, including the required
 notes and militare groups. Context research is expanded in
 [word-lens-context-evidence-design.md](word-lens-context-evidence-design.md).
+
+## Proposed lighter review trial — 2026-10-17
+
+The user proposed trusting source definitions as a working baseline rather than
+individually rechecking every unchanged definition. Treat this as the next workflow
+experiment, not retroactive human validation of all source senses or authorization
+for bulk runtime import. Preserve source attribution, license and original wording.
+
+Focus editorial review on changed learner wording, preferred sense selection,
+grammatical grouping, register/archaic labels, source conflicts, teacher explanations
+and contextual matching rules. Distinguish source-backed unchanged content from
+human-reviewed adaptations. Sample unchanged records for extraction/formatting errors;
+expand checks when a sample or source conflict exposes a problem. Do not invent
+accuracy or confidence scores. The existing approval/export gate remains unchanged
+until the experiment has a concrete implementation.
+
+## Adopted experimental workflow — 2026-10-18
+
+The user confirmed reader.dict as the trusted working definition baseline for
+this experiment. Unchanged source definitions no longer need individual user
+reconfirmation. Continue background review, but concentrate it on extraction
+integrity, relevant distinctions and suspicious cases rather than automatically
+re-researching every definition. This supersedes the tentative workflow wording
+above; it does not rewrite the historical review records.
+
+Proposed combined flow using existing components:
+
+1. Select existing vocabulary keys with the batch planner and retain source senses,
+   grammatical sections, labels, attribution, license and source hashes.
+2. Check extraction and sense references automatically. Record unchanged content
+   as source-backed, not human-reviewed. Unknown register/confidence stays unknown.
+3. Prepare labeled learner alternatives and teacher notes separately. Log AI checks
+   as AI checks; do not imply independent human validation or guaranteed correctness.
+4. Use the offline construction flagger to gather provisional contextual evidence.
+   Keep missing-rule coverage, morphological/POS uncertainty and competing senses
+   distinct. A match does not validate a definition or establish sentence meaning.
+5. Bring the user a compact exception queue: conflicting sources, misleading default
+   choices, consequential grouping decisions, uncertain context and newly authored
+   teaching guidance. Routine unchanged definitions need not fill the review table.
+6. Spot-check routine cases as well as flagged ones. Evaluate the trial by review
+   effort and errors found in fresh samples, not raw routing coverage alone. Retain
+   source and rule versions so decisions can be revisited.
+
+The remaining 20 candidates in batch 003 are the next bounded pilot. Existing
+planner, source data, review records and flagging tools are available, but the
+combined pipeline and new source-backed export handling are not yet implemented.
+The current runtime remains unchanged. This workflow agreement is not a claim
+that unreviewed entries were individually accepted by the user.
