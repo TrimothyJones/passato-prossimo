@@ -293,7 +293,10 @@ let activeLensAnchored = false;
 let activeEmojiSentenceIndex = null;
 let activeEmojiLensAnchored = false;
 let readerSettings = loadReaderSettings();
-let lemmaModel = loadLemmaModel();
+let lemmaModel = Object.assign(Object.create(null), loadLemmaModel());
+let learningStore = window.PASSATO_LEARNING_STORE?.create();
+let learningReady = null;
+let learningStorageIssue = '';
 let speechSettings = loadSpeechSettings();
 let readingPositions = loadReadingPositions();
 let breakdownMode = loadBreakdownMode();
@@ -399,6 +402,56 @@ function loadLemmaModel() {
   } catch {
   }
   return Object.fromEntries([...defaultKnown].map((lemma) => [lemma, { status: "known", confidence: 1 }]));
+}
+
+function showLearningStorageIssue(message) {
+  learningStorageIssue=message;
+  for(const el of appEl.querySelectorAll('.learning-storage-status')){el.textContent=message;el.hidden=!message;}
+}
+function learningStorageNotice() {
+  return '<p class="learning-storage-status" role="status" '+(learningStorageIssue?'':'hidden')+'>'+escapeHtml(learningStorageIssue)+'</p>';
+}
+function ensureLearningReady() {
+  if(!learningReady) learningReady=(async()=>{
+    if(!learningStore) throw Error('Learning storage is unavailable. Reload to try again.');
+    let legacy={};try{legacy=JSON.parse(localStorage.getItem('prototype03LemmaModel')||'{}');}catch(_){}
+    await learningStore.migrateLegacy(legacy);
+    for(const word of await learningStore.listWords()){
+      if(word.statusSource==='legacy'||word.statusSource==='self-assessment'||word.reviewCount>0)
+        lemmaModel[word.lemma]={status:word.status,confidence:word.confidence};
+    }
+  })().catch(error=>{learningReady=null;showLearningStorageIssue('Learning history is unavailable. Existing ratings are retained; new ratings cannot be saved yet.');throw error;});
+  return learningReady;
+}
+function learningContext(row,source) {
+  return {bookId:activeBook?.id||'',sectionIndex:activeSectionIndex,sentenceIndex:row.sentenceIndex,token:row.token,source,lemmaMethod:row.lemmaMatch?.method||'unresolved'};
+}
+function recordLearningEncounter(row,source) {
+  const context=learningContext(row,source);
+  return ensureLearningReady().then(()=>learningStore.recordEncounter(row.lemma||row.token,context)).catch(()=>{
+    showLearningStorageIssue('This lookup could not be added to learning history. Your saved ratings are unchanged.');
+  });
+}
+async function markLearningStatus(row,status,button,eventType='word_lens_marked') {
+  const context=learningContext(row,'self-assessment');button.disabled=true;
+  try {
+    await ensureLearningReady();
+    const word=await learningStore.setStatus(row.lemma||row.token,status,context);
+    lemmaModel[word.lemma]={status:word.status,confidence:word.confidence};
+    showLearningStorageIssue('');
+    try{saveLemmaModel();}catch(_){showLearningStorageIssue('Rating saved in learning history; the legacy backup could not be updated.');}
+    try{logInteraction(eventType,{bookId:context.bookId,sectionIndex:context.sectionIndex,token:row.token,lemma:word.lemma,status});}catch(_){}
+    if(activeBook?.id===context.bookId&&activeSectionIndex===context.sectionIndex){stopSpeechReader({resetCursor:false});renderReader();}
+  }catch(_){showLearningStorageIssue('Your new rating was not saved. Please try again; the previous rating is unchanged.');}
+  finally{button.disabled=false;}
+}
+async function exportLearningHistory() {
+  try {
+    await ensureLearningReady();const data=await learningStore.exportJSON();
+    const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));
+    const link=document.createElement('a');link.href=url;link.download='passato-learning-history-'+new Date().toISOString().slice(0,10)+'.json';link.click();
+    window.setTimeout(()=>URL.revokeObjectURL(url),1000);
+  }catch(_){showLearningStorageIssue('Learning history could not be exported. Please try again.');}
 }
 
 function saveLemmaModel() {
@@ -2387,6 +2440,75 @@ function renderMediaShell() {
   appEl.querySelector("#restMediaButton").addEventListener("click", restActiveMedia);
 }
 
+function renderLabSpheres() {
+  const icons={books:'<path d="M12 8c-3-3-7-3-10-2v16c3-1 7-1 10 2m0-16c3-3 7-3 10-2v16c-3-1-7-1-10 2V8Z"/>',media:'<rect x="2" y="4" width="20" height="16" rx="4"/><path d="m10 9 5 3-5 3Z"/>',practice:'<path d="M5 7a8 8 0 1 1-1 9M5 2v5h5M9 12l2 2 4-4"/>'};
+  return '<nav class="lab-spheres" aria-label="Explore your lab">'+[
+    ['books','Bookshelf','Read at your own pace',allBooks().length+' texts to explore'],
+    ['media','Media','Listen. Watch. Notice.','Video & audio'],
+    ['practice','Practice','Make the language yours',loadPracticeCollection().length+' saved sentences']
+  ].map(([id,title,description,meta])=>'<button type="button" class="lab-destination lab-'+id+'" aria-label="'+title+' — '+description+'" data-lab-destination="'+id+'"><span class="lab-orb" aria-hidden="true"><svg viewBox="0 0 24 28" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">'+icons[id]+'</svg><span class="lab-orb-name">'+title+'</span></span><span class="lab-destination-description">'+description+'</span><small>'+meta+'</small></button>').join('')+'</nav><button type="button" id="labMotionToggle" class="lab-motion-toggle" aria-pressed="false">Pause floating</button>';
+}
+
+function renderContextExperiment() {
+  const evidence=lexicalEvidenceForRow({token:'cercare'});
+  return '<section class="context-lab" aria-labelledby="contextLabTitle"><header><p class="eyebrow">Experiment 01 · Context laboratory</p><h2 id="contextLabTitle">Same verb. A different job.</h2><p>Change the situation. Notice what follows <em lang="it">cerco</em> before opening the explanation.</p></header>'
+    + '<div class="context-scene-picker" role="group" aria-label="Choose a situation"><button type="button" data-context-scene="search" aria-pressed="true">01 · Getting ready to leave</button><button type="button" data-context-scene="attempt" aria-pressed="false">02 · Facing a confusing explanation</button></div>'
+    + '<div id="contextScene" aria-live="polite"></div>'
+    + '<label class="context-notice">What changed for you? <textarea id="contextReflection" rows="2" placeholder="A word, a pattern, a guess…"></textarea></label><p class="context-private-note">A scratchpad for this visit. It is not saved or graded.</p>'
+    + '<div class="context-actions"><button type="button" data-context-action="reveal">Show the clue</button><button type="button" data-context-action="compare">Compare both</button><button type="button" data-context-action="reset">Start fresh</button></div>'
+    + '<div id="contextClue" aria-live="polite" hidden></div><div id="contextComparison" hidden><div><p lang="it"><strong>Cerco</strong> le chiavi.</p><p>I’m looking for the keys.</p><small>cercare + a thing being sought</small></div><div><p lang="it"><strong>Cerco</strong> di capire.</p><p>I’m trying to understand.</p><small>cercare + di + infinitive</small></div><p class="context-comparison-note">The words after the verb change too: a thing being sought becomes an action being attempted. This is not a rule that inserting <em>di</em> anywhere changes the meaning.</p></div>'
+    + '<details class="context-evidence"><summary>About this experiment &amp; sources</summary><p>Two authored examples based on our accepted cercare usage note. The scenes and explanations are written for this pair; the app is not inferring meanings in arbitrary sentences. This learning format is an experiment, not a validated teaching outcome.</p>'
+    + (evidence.reviewed?renderBreakdownLexicalEvidence(evidence):'<p>The reviewed source guide is unavailable.</p>')+'</details></section>';
+}
+
+function bindContextExperiment() {
+  const lab=appEl.querySelector('.context-lab');if(!lab)return;
+  let scene='search';
+  const scenes={
+    search:{situation:'You’re ready to leave home, but your keys are missing.',tail:'le chiavi',label:'a thing',clue:'Here, cercare takes the thing you are looking for: le chiavi. Cerco le chiavi means “I’m looking for the keys.”'},
+    attempt:{situation:'You’re reading an explanation that doesn’t make sense yet.',tail:'di capire',label:'di + an infinitive',clue:'Here, cercare di is followed by the infinitive capire. Cerco di capire means “I’m trying to understand.”'}
+  };
+  function paint(){
+    const item=scenes[scene];
+    lab.querySelector('#contextScene').innerHTML='<p class="context-situation">'+escapeHtml(item.situation)+'</p><p class="context-sentence" lang="it"><span>Cerco</span> <mark>'+escapeHtml(item.tail)+'</mark>.</p><p>What is the speaker doing here? What does the rest of the sentence tell you?</p>';
+    for(const button of lab.querySelectorAll('[data-context-scene]'))button.setAttribute('aria-pressed',String(button.dataset.contextScene===scene));
+    lab.querySelector('#contextClue').hidden=true;lab.querySelector('#contextClue').textContent='';
+    lab.querySelector('#contextComparison').hidden=true;
+  }
+  lab.addEventListener('click',event=>{
+    const button=event.target.closest('[data-context-scene],[data-context-action]');if(!button)return;
+    if(button.dataset.contextScene){scene=button.dataset.contextScene;paint();return;}
+    if(button.dataset.contextAction==='reveal'){
+      const clue=lab.querySelector('#contextClue');clue.textContent=scenes[scene].clue;clue.hidden=false;
+    }else if(button.dataset.contextAction==='compare')lab.querySelector('#contextComparison').hidden=false;
+    else if(button.dataset.contextAction==='reset'){scene='search';lab.querySelector('#contextReflection').value='';paint();}
+  });
+  paint();
+}
+
+function renderPracticeRoom() {
+  releaseMediaObjectUrl();stopSpeechReader({resetCursor:true,log:false});
+  appEl.innerHTML='<section class="practice-room"><button class="ghost-button" id="practiceHome">← Your lab</button><header><p class="eyebrow">Spazio per provare</p><h1>A little Italian. Your way.</h1><p>Explore how a sentence works, then return to something you’ve read.</p></header>'+renderContextExperiment()+'<div class="practice-room-grid"><section id="roomExercise"><h2>Choose a sentence</h2><p>Your practice will open here. Hints are there when you need them.</p><button class="teacher-primary" id="practiceSample">Try the reading sample →</button></section><section class="teacher-collection" id="roomCollection">'+renderPracticeCollection()+'</section></div></section>';
+  bindContextExperiment();
+  appEl.querySelector('#practiceHome').addEventListener('click',()=>{renderLibrary();window.scrollTo(0,0);});
+  appEl.querySelector('#practiceSample').addEventListener('click',async()=>{await openBook('teacher-modern-trial');showBreakdown('sentence',0,appEl.querySelector('.sentence-span'));appEl.querySelector('[data-start-practice]')?.click();});
+  appEl.querySelector('#roomCollection').addEventListener('click',event=>{
+    const button=event.target.closest('[data-saved-practice],[data-remove-practice]');if(!button)return;
+    const rows=loadPracticeCollection(),index=Number(button.dataset.savedPractice??button.dataset.removePractice),item=rows[index];if(!item)return;
+    if(button.hasAttribute('data-saved-practice')){
+      const exercise=appEl.querySelector('#roomExercise');exercise.innerHTML='<p class="teacher-saved-origin">From '+escapeHtml(item.title)+'</p>'+renderTeacherPractice(item.sentence);exercise.scrollIntoView({block:'nearest'});exercise.querySelector('input')?.focus();
+    }else{rows.splice(index,1);try{localStorage.setItem('passato-practice-collection-v1',JSON.stringify(rows));appEl.querySelector('#roomCollection').innerHTML=renderPracticeCollection();}catch(_){appEl.querySelector('#roomExercise').textContent='Could not update saved sentences. Please check device storage.';}}
+  });
+  appEl.querySelector('#roomExercise').addEventListener('click',event=>{
+    const button=event.target.closest('[data-practice-action]');if(!button)return;
+    const area=appEl.querySelector('#roomExercise'),hint=area.querySelector('[data-practice-hint]'),answer=area.querySelector('[data-practice-answer]'),input=area.querySelector('input');
+    if(button.dataset.practiceAction==='hint')hint.hidden=false;
+    if(button.dataset.practiceAction==='reveal')answer.hidden=false;
+    if(button.dataset.practiceAction==='retry'){hint.hidden=true;answer.hidden=true;input.value='';input.focus();}
+  });
+  window.scrollTo(0,0);
+}
+
 function renderLibrary() {
   releaseMediaObjectUrl();
   stopSpeechReader({ resetCursor: true, log: false });
@@ -2404,8 +2526,11 @@ function renderLibrary() {
       <header class="library-top">
         <p class="eyebrow">The Immersion Project / 0.6 Public Alpha</p>
         <h1>Passato Prossimo</h1>
-        <p>Passato Prossimo studyware: choose a section, read first, and open the Word Lens only when the text asks for a closer look.</p>
+        <p>Your Italian immersion lab. Follow a story, find a new sound, or make a little room to practise.</p>
       </header>
+      ${learningStorageNotice()}
+      ${renderLabSpheres()}
+      <div class="lab-shelf-heading"><p class="eyebrow">La tua biblioteca</p><h2 id="labShelfHeading" tabindex="-1">Stay with a story.</h2></div>
       <div class="library-actions">
         <button class="ghost-button media-shell-launch" id="mediaShellButton" type="button">Open Media Shell</button>
         ${
@@ -2415,6 +2540,7 @@ function renderLibrary() {
                <button class="ghost-button" id="exportTestingReportButton" type="button">Export testing report</button>`
             : `<p class="library-note">Open this prototype in the desktop app to import EPUB or TXT books.</p>`
         }
+        <button class="ghost-button" id="exportLearningHistoryButton" type="button" title="Downloads your word history and book identifiers to this device">Export learning history</button>
         <button class="ghost-button" id="sourcesLicensesButton" type="button">Sources &amp; licenses</button>
       </div>
       <form class="url-import" id="urlImportForm">
@@ -2433,10 +2559,21 @@ function renderLibrary() {
     </section>
   `;
 
+  appEl.querySelector('#labMotionToggle')?.addEventListener('click',event=>{
+    const button=event.currentTarget,paused=button.getAttribute('aria-pressed')!=='true';
+    appEl.querySelector('.lab-spheres').classList.toggle('is-motion-paused',paused);
+    button.setAttribute('aria-pressed',String(paused));button.textContent=paused?'Resume floating':'Pause floating';
+  });
+  for(const button of appEl.querySelectorAll('[data-lab-destination]'))button.addEventListener('click',()=>{
+    if(button.dataset.labDestination==='media')renderMediaShell();
+    else if(button.dataset.labDestination==='practice')renderPracticeRoom();
+    else {const heading=appEl.querySelector('#labShelfHeading');heading.scrollIntoView({block:'start'});heading.focus({preventScroll:true});}
+  });
   appEl.querySelector("#importButton")?.addEventListener("click", importBook);
   appEl.querySelector("#mediaShellButton")?.addEventListener("click", renderMediaShell);
   appEl.querySelector("#refreshShelfButton")?.addEventListener("click", loadCustomBooks);
   appEl.querySelector("#exportTestingReportButton")?.addEventListener("click", exportTestingReport);
+  appEl.querySelector('#exportLearningHistoryButton')?.addEventListener('click',exportLearningHistory);
   appEl.querySelector("#sourcesLicensesButton")?.addEventListener("click", openSourcesLicensesDialog);
   appEl.querySelector("#closeSourcesLicensesButton")?.addEventListener("click", closeSourcesLicensesDialog);
   appEl.querySelector("#sourcesLicensesDialog")?.addEventListener("click", (event) => {
@@ -2794,6 +2931,7 @@ function renderReader() {
         </div>
       </header>
 
+      ${learningStorageNotice()}
       ${renderSourceStrip(activeBook)}
 
       <section class="reader-layout">
@@ -2838,7 +2976,7 @@ function renderReader() {
           <section id="breakdownPanel" class="breakdown-panel is-idle" hidden>
             <div class="lens-sign">
               <span>Passato Prossimo</span>
-              <strong>Breakdown</strong>
+              <strong>Teacher</strong>
             </div>
             <p>Select a word or sentence.</p>
             <div class="lens-accent"></div>
@@ -2858,7 +2996,7 @@ function renderReader() {
           </label>
           <button class="page-nav-button" id="nextButton" type="button" aria-label="Next page" title="Next page" ${activeSectionIndex >= sections.length - 1 ? "disabled" : ""}>&#8594;</button>
         </nav>
-        <button class="breakdown-toggle ${breakdownMode ? "is-active" : ""}" id="breakdownToggle" type="button" aria-pressed="${breakdownMode}">Breakdown</button>
+        <button class="breakdown-toggle ${breakdownMode ? "is-active" : ""}" id="breakdownToggle" type="button" aria-pressed="${breakdownMode}">Teacher</button>
         <div class="audio-reader-controls" aria-label="Italian audio reader">
           <button class="audio-icon-button" id="speechToggleButton" type="button" aria-label="Start audio reader" title="Read aloud">&#9654;</button>
           <button class="audio-icon-button" id="speechStopButton" type="button" aria-label="Stop audio reader" title="Stop">&#9632;</button>
@@ -3316,6 +3454,33 @@ function renderTeacherNote(note, fromCache = false) {
   `;
 }
 
+function loadPracticeCollection() {
+  try {const rows=JSON.parse(localStorage.getItem('passato-practice-collection-v1')||'[]');return Array.isArray(rows)?rows.filter(x=>x&&typeof x.sentence==='string'&&typeof x.title==='string'):[];} catch (_) {return [];}
+}
+function renderPracticeCollection() {
+  const rows=loadPracticeCollection();
+  return '<h3>Your practice collection</h3><p>Saved on this device · '+rows.length+' sentences</p>'+(rows.length?rows.map((x,i)=>'<div class="practice-saved-card"><button type="button" data-saved-practice="'+i+'"><small>'+escapeHtml(x.title)+'</small><span lang="it">'+escapeHtml(x.sentence)+'</span></button><button type="button" data-remove-practice="'+i+'" aria-label="Remove saved sentence '+(i+1)+'">×</button></div>').join(''):'<p>Save a sentence while you read. Come back and make it yours.</p>');
+}
+
+function renderTeacherPractice(sentence) {
+  const match = String(sentence).match(/\p{L}[\p{L}’']*/u);
+  if (!match) return '<p>Choose a sentence with words to practise.</p>';
+  const blank = sentence.slice(0, match.index) + '____' + sentence.slice(match.index + match[0].length);
+  return '<section class="teacher-practice"><h3>Bring back the missing word</h3>'
+    + '<p>Read it once, then try from memory. Other words may fit; we’re recalling the original.</p>'
+    + '<p class="teacher-practice-sentence" lang="it">'+escapeHtml(blank)+'</p>'
+    + '<label>Your guess <input type="text" autocomplete="off" placeholder="Say it or type it here"></label>'
+    + '<div class="teacher-practice-actions"><button type="button" data-practice-action="hint">Hint</button><button type="button" data-practice-action="reveal">Reveal</button><button type="button" data-practice-action="retry">Try again</button></div>'
+    + '<p data-practice-hint hidden>It begins with <strong>'+escapeHtml(match[0][0])+'</strong>.</p>'
+    + '<div data-practice-answer hidden aria-live="polite"><p>The original word: <strong lang="it">'+escapeHtml(match[0])+'</strong></p><p>Read the complete sentence aloud, then try again. No score is saved.</p></div></section>';
+}
+
+function teacherStartingPoint(request) {
+  const guide = teacherLexicalGuides(request).find(item => item.reviewed.notes?.length);
+  if (guide) return guide.token + ': ' + guide.reviewed.notes[0].text;
+  return 'Start with a word you recognise, then explore the words around it. We do not yet have a checked explanation for this whole sentence.';
+}
+
 function showBreakdown(scope, index, anchorEl = null) {
   const panel = appEl.querySelector("#breakdownPanel");
   if (!panel) return;
@@ -3351,7 +3516,7 @@ function showBreakdown(scope, index, anchorEl = null) {
     notes.findIndex((candidate) => candidate.title === note.title && candidate.body === note.body) === noteIndex
   ).slice(0, 8);
   const teacherRequest = buildTeacherRequest({ scope, row, sentence, sentenceIndex, phrases, emotion, wordEvidence });
-  const hasSavedTeacherNote = Boolean(cachedTeacherNote(teacherRequest));
+
 
   panel.hidden = false;
   panel.classList.remove("is-idle", "is-floating", "is-sheet");
@@ -3359,15 +3524,31 @@ function showBreakdown(scope, index, anchorEl = null) {
   panel.innerHTML = `
     <div class="lens-sign">
       <div>
-        <span>Prototype 0.4</span>
-        <strong>Breakdown</strong>
+        <span>Passato Prossimo</span>
+        <strong>Teacher</strong>
       </div>
-      <button class="lens-close" type="button" aria-label="Close Breakdown">&times;</button>
+      <button class="lens-close" type="button" aria-label="Close Teacher">&times;</button>
     </div>
-    <div class="breakdown-selection">
-      <p>${isWord ? "Word in context" : "Sentence in context"}</p>
-      <h2>${escapeHtml(isWord ? row.token : sentence.text)}</h2>
+    <div class="teacher-view-switch" role="group" aria-label="Teacher view">
+      <button type="button" data-teacher-view="understand" aria-pressed="true">Understand</button>
+      <button type="button" data-teacher-view="practice" aria-pressed="false">Practice</button>
     </div>
+    <section data-teacher-pane="understand">
+      <div class="breakdown-selection teacher-column-frame"><p>Il tuo laboratorio · Your sentence</p><h2 lang="it">${escapeHtml(sentence.text)}</h2><button type="button" class="teacher-save" data-save-sentence>＋ Save for practice</button><small id="teacherSaveStatus" aria-live="polite"></small></div>
+      <div class="teacher-understand-copy"><h3>Something to notice</h3><p>${escapeHtml(teacherStartingPoint(teacherRequest))}</p>
+        <button type="button" class="teacher-primary" data-start-practice>Try this sentence →</button>
+      </div>
+      <section class="teacher-words"><h3>Word inspector</h3><p>Tap for possible meanings.</p>
+        <div class="teacher-word-picker">${activeAnalysis.rows.filter(item => item.sentenceIndex === sentenceIndex).map((item,n)=>'<button type="button" data-teacher-word="'+n+'" aria-pressed="false">'+escapeHtml(item.token)+'</button>').join('')}</div>
+        <div id="teacherWordResult" class="teacher-inspector" aria-live="polite"><p>Choose a word above to take a closer look.</p></div>
+      </section>
+      <details class="breakdown-details teacher-all-details"><summary>Details &amp; sources</summary>
+        <p>This local trial offers word guidance, not a confirmed sentence interpretation.</p>
+        <div id="teacherWordSources"></div>
+        <button class="teacher-request-button" id="askTeacherButton" type="button">Full guidance and review notes</button>
+        <div id="teacherResponse" aria-live="polite" hidden></div>
+    <details class="breakdown-details">
+      <summary>Sentence clues · Breakdown</summary>
     <section class="breakdown-lead">
       <span>English support</span>
       <p>${escapeHtml(leadEnglish)}</p>
@@ -3377,18 +3558,7 @@ function showBreakdown(scope, index, anchorEl = null) {
       <p lang="it">${escapeHtml(leadItalian)}</p>
     </section>
     ${wordEvidence ? renderBreakdownLexicalEvidence(wordEvidence.lexical) : ""}
-    <section class="teacher-experiment">
-      <div class="teacher-experiment-heading">
-        <div>
-          <span>Teacher provider experiment</span>
-          <strong>Optional second explanation</strong>
-        </div>
-        <small>Simulated / local</small>
-      </div>
-      <p>Test whether a teacher-shaped response adds useful context beyond the local layers.</p>
-      <button class="teacher-request-button" id="askTeacherButton" type="button">${hasSavedTeacherNote ? "Open saved teacher note" : "Ask Italian teacher"}</button>
-      <div id="teacherResponse" aria-live="polite" hidden></div>
-    </section>
+    </details>
     ${phrases.length ? `
       <section class="breakdown-section">
         <h3>Connected phrase${phrases.length === 1 ? "" : "s"}</h3>
@@ -3396,7 +3566,7 @@ function showBreakdown(scope, index, anchorEl = null) {
       </section>
     ` : ""}
     ${frictionRows.length ? `
-      <details class="breakdown-details" open>
+      <details class="breakdown-details">
         <summary>Words carrying the load</summary>
         <div class="breakdown-word-list">${frictionRows.map(renderBreakdownWord).join("")}</div>
       </details>
@@ -3408,10 +3578,13 @@ function showBreakdown(scope, index, anchorEl = null) {
       </details>
     ` : ""}
     <details class="breakdown-details">
-      <summary>Tone and confidence</summary>
+      <summary>Tone clues · Emoji Lens</summary>
       <p>${escapeHtml(emotion.emoji)} ${escapeHtml(emotion.label)} / ${escapeHtml(emotion.confidence)} local estimate.</p>
       <p>${escapeHtml(row ? row.lemmaMatch.explanation : "Sentence-level intent remains an estimate based on local wording and punctuation.")}</p>
     </details>
+      </details>
+    </section>
+    <section data-teacher-pane="practice" hidden><div id="teacherPracticeArea">${renderTeacherPractice(sentence.text)}</div><section class="teacher-collection" id="teacherCollection">${renderPracticeCollection()}</section></section>
     ${isWord ? `
       <div class="breakdown-actions">
         <button type="button" data-breakdown-status="known">Know</button>
@@ -3422,6 +3595,62 @@ function showBreakdown(scope, index, anchorEl = null) {
     <div class="lens-accent"></div>
   `;
 
+  const workspaceRequest = {}; panel.teacherWorkspaceRequest = workspaceRequest;
+  function selectTeacherView(view) {
+    for (const pane of panel.querySelectorAll('[data-teacher-pane]')) pane.hidden = pane.dataset.teacherPane !== view;
+    for (const button of panel.querySelectorAll('[data-teacher-view]')) button.setAttribute('aria-pressed', String(button.dataset.teacherView === view));
+    panel.scrollTop = 0;
+    positionActiveBreakdown();
+  }
+  for (const button of panel.querySelectorAll('[data-teacher-view]')) button.addEventListener('click', () => selectTeacherView(button.dataset.teacherView));
+  panel.querySelector('[data-start-practice]')?.addEventListener('click', () => {selectTeacherView('practice');panel.querySelector('.teacher-practice input')?.focus();});
+  panel.querySelector('#teacherPracticeArea')?.addEventListener('click', event => {
+    const button=event.target.closest('[data-practice-action]');if(!button)return;
+    const hint=panel.querySelector('[data-practice-hint]'),answer=panel.querySelector('[data-practice-answer]'),input=panel.querySelector('.teacher-practice input');
+    if(button.dataset.practiceAction==='hint')hint.hidden=false;
+    if(button.dataset.practiceAction==='reveal')answer.hidden=false;
+    if(button.dataset.practiceAction==='retry'){hint.hidden=true;answer.hidden=true;input.value='';input.focus();}
+  });
+  panel.querySelector('[data-save-sentence]')?.addEventListener('click', () => {
+    const status=panel.querySelector('#teacherSaveStatus'),rows=loadPracticeCollection();
+    if(rows.some(x=>x.sentence===sentence.text)){status.textContent='Already in your collection.';return;}
+    rows.unshift({sentence:sentence.text,title:activeBook?.title||'Your reading',sourceUrl:activeBook?.sourceUrl||'',savedAt:new Date().toISOString()});
+    try{localStorage.setItem('passato-practice-collection-v1',JSON.stringify(rows));status.textContent='Saved on this device.';panel.querySelector('#teacherCollection').innerHTML=renderPracticeCollection();}catch(_){status.textContent='Could not save. Device storage may be full.';}
+  });
+  panel.querySelector('#teacherCollection')?.addEventListener('click',event=>{
+    const button=event.target.closest('[data-saved-practice],[data-remove-practice]');if(!button)return;
+    const rows=loadPracticeCollection();
+    if(button.hasAttribute('data-saved-practice')){
+      const item=rows[Number(button.dataset.savedPractice)];if(!item)return;
+      panel.querySelector('#teacherPracticeArea').innerHTML='<p class="teacher-saved-origin">From '+escapeHtml(item.title)+'</p>'+renderTeacherPractice(item.sentence);selectTeacherView('practice');
+    }else{
+      rows.splice(Number(button.dataset.removePractice),1);
+      try{localStorage.setItem('passato-practice-collection-v1',JSON.stringify(rows));panel.querySelector('#teacherCollection').innerHTML=renderPracticeCollection();}catch(_){panel.querySelector('#teacherSaveStatus').textContent='Could not update saved sentences.';}
+    }
+  });
+  const sentenceWords = activeAnalysis.rows.filter(item => item.sentenceIndex === sentenceIndex);
+  let wordRequest = 0;
+  for (const button of panel.querySelectorAll('[data-teacher-word]')) {
+    button.addEventListener('click', async () => {
+      const current = ++wordRequest, selected = sentenceWords[Number(button.dataset.teacherWord)];
+      const output = panel.querySelector('#teacherWordResult');
+      if (!selected || !output) return;
+      for (const peer of panel.querySelectorAll('[data-teacher-word]')) peer.setAttribute('aria-pressed', String(peer === button));
+      void recordLearningEncounter(selected,'teacher-inspector');
+      const evidence = lexicalEvidenceForRow(selected);
+      output.innerHTML = '<h3>'+escapeHtml(selected.token)+'</h3><p>'+escapeHtml(wordEvidenceForBreakdown(selected).englishMeaning)+'</p><small>Possible meaning; context matters.</small>';
+      const sources=panel.querySelector('#teacherWordSources');
+      sources.innerHTML=renderBreakdownWord(selected);
+      if (evidence.reviewed || !window.PASSATO_SOURCE_LEXICON) return;
+      try {
+        const source = await window.PASSATO_SOURCE_LEXICON.lookup(selected.token);
+        if (!source || current !== wordRequest || panel.teacherWorkspaceRequest !== workspaceRequest || panel.hidden) return;
+        const definitions=source.row.sections.filter(section=>section.role==='grammatical').flatMap(section=>section.items.map(item=>section.heading+': '+item.text));
+        output.innerHTML='<h3>'+escapeHtml(selected.token)+'</h3><ul>'+definitions.slice(0,3).map(text=>'<li>'+escapeHtml(text)+'</li>').join('')+'</ul><small>Dictionary possibilities. Full alternatives are in Details &amp; sources.</small>';
+        sources.innerHTML='<dl>'+window.PASSATO_SOURCE_LEXICON.render(source)+'</dl>';
+      } catch (_) { /* Keep the existing guidance available when a source chunk is offline. */ }
+    });
+  }
   panel.querySelector(".lens-close")?.addEventListener("click", hideBreakdown);
   panel.querySelector("#askTeacherButton")?.addEventListener("click", async (event) => {
     const button = event.currentTarget;
@@ -3430,6 +3659,7 @@ function showBreakdown(scope, index, anchorEl = null) {
     button.textContent = "Preparing teacher note...";
     try {
       const result = await requestTeacherNote(teacherRequest);
+      if (panel.teacherWorkspaceRequest !== workspaceRequest || panel.hidden) return;
       responseEl.innerHTML = renderTeacherNote(result.note, result.fromCache);
       responseEl.hidden = false;
       button.textContent = result.fromCache ? "Teacher note opened" : "Teacher note added";
@@ -3450,24 +3680,11 @@ function showBreakdown(scope, index, anchorEl = null) {
       button.textContent = "Try teacher again";
     }
   });
-  for (const button of panel.querySelectorAll("[data-breakdown-status]")) {
-    button.addEventListener("click", () => {
-      lemmaModel[row.lemma] = {
-        status: button.dataset.breakdownStatus,
-        confidence: button.dataset.breakdownStatus === "known" ? 1 : button.dataset.breakdownStatus === "shaky" ? 0.55 : 0
-      };
-      saveLemmaModel();
-      logInteraction("breakdown_word_marked", {
-        bookId: activeBook.id,
-        sectionIndex: activeSectionIndex,
-        token: row.token,
-        lemma: row.lemma,
-        status: button.dataset.breakdownStatus
-      });
-      renderReader();
-    });
+  for (const button of panel.querySelectorAll('[data-breakdown-status]')) {
+    button.addEventListener('click',()=>markLearningStatus(row,button.dataset.breakdownStatus,button,'breakdown_word_marked'));
   }
-  if (anchorEl) positionWordLens(panel, anchorEl);
+  if(isWord)void recordLearningEncounter(row,'teacher-word');
+  if (anchorEl || window.innerWidth >= 981) positionWordLens(panel, anchorEl);
   logInteraction("breakdown_opened", {
     bookId: activeBook.id,
     sectionIndex: activeSectionIndex,
@@ -3481,11 +3698,12 @@ function showBreakdown(scope, index, anchorEl = null) {
 }
 
 function hideBreakdown() {
+  for (const selected of appEl.querySelectorAll('.is-help-selected')) selected.classList.remove('is-help-selected');
   const panel = appEl.querySelector("#breakdownPanel");
   activeBreakdownSelection = null;
   if (!panel) return;
   panel.hidden = true;
-  panel.classList.remove("is-floating", "is-sheet");
+  panel.classList.remove("is-floating", "is-sheet", "is-docked");
   panel.removeAttribute("style");
 }
 
@@ -3631,27 +3849,12 @@ function showWordLens(rowIndex, anchorEl = null) {
     link.addEventListener("click", () => openProjectSource(link.dataset.licenseUrl));
   }
 
-  for (const button of lens.querySelectorAll(".lens-actions button")) {
-    button.addEventListener("click", () => {
-      lemmaModel[row.lemma] = {
-        status: button.dataset.status,
-        confidence: button.dataset.status === "known" ? 1 : button.dataset.status === "shaky" ? 0.55 : 0
-      };
-      saveLemmaModel();
-      activeLensRowIndex = null;
-      stopSpeechReader({ resetCursor: false });
-      logInteraction("word_lens_marked", {
-        bookId: activeBook.id,
-        sectionIndex: activeSectionIndex,
-        token: row.token,
-        lemma: row.lemma,
-        status: button.dataset.status
-      });
-      renderReader();
-    });
+  for (const button of lens.querySelectorAll('.lens-actions button')) {
+    button.addEventListener('click',()=>markLearningStatus(row,button.dataset.status,button));
   }
+  void recordLearningEncounter(row,'word-lens');
 
-  if (anchorEl) {
+  if (anchorEl || window.innerWidth >= 981) {
     positionWordLens(lens, anchorEl);
   }
 
@@ -3743,17 +3946,18 @@ function hideEmojiLens() {
 }
 
 function hideWordLens() {
+  for (const selected of appEl.querySelectorAll('.is-help-selected')) selected.classList.remove('is-help-selected');
   const lens = appEl.querySelector("#wordLens");
   if (!lens) return;
   activeLensRowIndex = null;
   activeLensAnchored = false;
   lens.hidden = true;
-  lens.classList.remove("is-floating", "is-sheet");
+  lens.classList.remove("is-floating", "is-sheet", "is-docked");
   lens.removeAttribute("style");
 }
 
 function positionActiveWordLens() {
-  if (activeLensRowIndex === null || !activeLensAnchored) return;
+  if (activeLensRowIndex === null || (!activeLensAnchored && window.innerWidth < 981)) return;
   const lens = appEl.querySelector("#wordLens");
   const anchor = appEl.querySelector(`.word-token[data-row="${activeLensRowIndex}"]`);
   if (!lens || !anchor || lens.hidden) return;
@@ -3769,7 +3973,7 @@ function positionActiveEmojiLens() {
 }
 
 function positionActiveBreakdown() {
-  if (!activeBreakdownSelection?.anchored) return;
+  if (!activeBreakdownSelection || (!activeBreakdownSelection.anchored && window.innerWidth < 981)) return;
   const panel = appEl.querySelector("#breakdownPanel");
   const anchor = activeBreakdownSelection.scope === "word"
     ? appEl.querySelector(`.word-token[data-row="${activeBreakdownSelection.index}"]`)
@@ -3780,6 +3984,24 @@ function positionActiveBreakdown() {
 
 function positionWordLens(lens, anchorEl) {
   const viewportWidth = window.innerWidth;
+  for (const selected of appEl.querySelectorAll('.is-help-selected')) selected.classList.remove('is-help-selected');
+  if (anchorEl) anchorEl.classList.add('is-help-selected');
+  if (viewportWidth >= 981) {
+    lens.classList.remove('is-floating', 'is-sheet');
+    lens.classList.add('is-docked');
+    lens.removeAttribute('style');
+    const rail=appEl.querySelector('.side-rail');
+    const header=appEl.querySelector('.reader-bar')?.getBoundingClientRect();
+    const dockTop=Math.max(16,(header?.bottom || 82)+12);
+    rail?.style.setProperty('--help-dock-top',dockTop+'px');
+    const controls=appEl.querySelector('.reader-tools')?.getBoundingClientRect();
+    const bottom=controls && controls.top>dockTop+120 && controls.top<window.innerHeight ? controls.top-12 : window.innerHeight-16;
+    const actualTop=Math.max(dockTop,rail?.getBoundingClientRect().top || dockTop);
+    lens.style.maxHeight=Math.max(120,bottom-actualTop)+'px';
+    return;
+  }
+  lens.classList.remove('is-docked');
+  if (!anchorEl) return;
   if (viewportWidth < 760) {
     lens.classList.remove("is-floating");
     lens.classList.add("is-sheet");
@@ -3795,6 +4017,11 @@ function positionWordLens(lens, anchorEl) {
   lens.style.left = "0px";
   lens.style.top = "0px";
 
+  const controls = appEl.querySelector('.reader-tools')?.getBoundingClientRect();
+  const usableBottom = controls && controls.top > 180 && controls.top < window.innerHeight
+    ? controls.top - 12 : window.innerHeight - 16;
+  const preferredTop = Math.max(16, Math.min(anchorRect.top - 178, 96));
+  lens.style.maxHeight = Math.max(140, Math.min(720, usableBottom - preferredTop)) + 'px';
   const lensRect = lens.getBoundingClientRect();
   const pageRect = appEl.querySelector(".page")?.getBoundingClientRect();
   const pageRight = pageRect?.right || anchorRect.right;
@@ -3804,8 +4031,7 @@ function positionWordLens(lens, anchorEl) {
     besidePageLeft + lensWidth <= viewportWidth - 16
       ? besidePageLeft
       : Math.max(16, viewportRightLeft);
-  const preferredTop = anchorRect.top - 18;
-  const maxTop = Math.max(16, window.innerHeight - lensRect.height - 16);
+  const maxTop = Math.max(16, usableBottom - lensRect.height);
   const top = Math.max(16, Math.min(preferredTop, maxTop));
 
   lens.style.left = `${left}px`;
@@ -4210,4 +4436,4 @@ window.addEventListener("resize", positionActiveLenses);
 window.addEventListener("scroll", positionActiveLenses, { passive: true });
 
 initializeSpeechReader();
-loadCustomBooks();
+ensureLearningReady().catch(()=>{}).then(loadCustomBooks);

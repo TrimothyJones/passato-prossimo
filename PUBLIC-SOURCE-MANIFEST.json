@@ -1,9 +1,9 @@
 {
   "format": "passato-prossimo-public-source-v1",
   "version": "0.6.0-alpha.3",
-  "generatedAt": "2026-10-24T15:45:23.226Z",
+  "generatedAt": "2026-11-08T18:49:12.517Z",
   "policy": "Explicit allowlist; raw corpora, installers, release archives, dependencies, local media, and secrets are excluded.",
-  "fileCount": 231,
+  "fileCount": 236,
   "files": [
     {
       "path": ".gitattributes",
@@ -62,13 +62,23 @@
     },
     {
       "path": "forge.config.js",
-      "bytes": 1533,
-      "sha256": "8AA160EF7AF14081690A9A747A064DC35BA08B8E7E198AC3C0EAF9F438EEAF83"
+      "bytes": 1559,
+      "sha256": "DD251CC6FE5F6109F60C05CA3F7B7A4FC8FE5C8549B61D562FD9E0890035CF7A"
     },
     {
       "path": "index.html",
       "bytes": 15402,
       "sha256": "EB2D4272AA351B6A9381551AF65DBEBC4F51AFF3B7A7D3B9ED965CC82BF17B2D"
+    },
+    {
+      "path": "learning/learning-store.js",
+      "bytes": 8829,
+      "sha256": "A3FC5DC77828F64E70DB07E3EAFF41CCBEA34AADD3462540B89C0072FEFB4314"
+    },
+    {
+      "path": "learning/README.md",
+      "bytes": 2834,
+      "sha256": "446ED82FFE4853F2293C6893FEFF88C07E2D20C270FF0A290EE82E9BEBA178CD"
     },
     {
       "path": "LICENSE",
@@ -92,8 +102,8 @@
     },
     {
       "path": "mobile/index.html",
-      "bytes": 2277,
-      "sha256": "F78C267414C340F09D10C6436BA2ABC855D11739E50D0F3BCABBA0745651ECDA"
+      "bytes": 2335,
+      "sha256": "192F120DCA7638890550A1877A45F1FBA33387273C2B90462FC08FAFA9E87F62"
     },
     {
       "path": "mobile/manifest.webmanifest",
@@ -122,8 +132,8 @@
     },
     {
       "path": "mobile/sw.js",
-      "bytes": 2626,
-      "sha256": "8B596610CA716351A55B6673C692113CE4C77E18866DD9E1E551A560B19221EB"
+      "bytes": 2662,
+      "sha256": "C0D02B1B8B7252661FE43F63895998E403C7122B3201142696A4F05143957A6E"
     },
     {
       "path": "mobile/vendor/fflate-0.8.3.js",
@@ -142,8 +152,8 @@
     },
     {
       "path": "package.json",
-      "bytes": 2911,
-      "sha256": "3097EED936673B9DDEAD3C27D17D76362CB60F0134A9DAD8FAD192CC526BB02F"
+      "bytes": 3070,
+      "sha256": "4182CB5646CE879B868341452C1C4C06816DC24BA3ED604404797BBB3A900CD5"
     },
     {
       "path": "prototype-0.2-lexical-coverage/core-dictionary.js",
@@ -242,8 +252,8 @@
     },
     {
       "path": "prototype-0.5-media-shell/app.js",
-      "bytes": 168931,
-      "sha256": "C4DB03DB75D7D73664381FA300D1FAA5FE9AF19D2DFB4F146E9FC965E281A8F5"
+      "bytes": 191654,
+      "sha256": "292D0F8F38094A950481E5E8ADA6057C6A063A81DB9958A3BD043AFEAE0150D3"
     },
     {
       "path": "prototype-0.5-media-shell/data/italian-foundation.json",
@@ -737,8 +747,8 @@
     },
     {
       "path": "prototype-0.5-media-shell/docs/current-workstack.md",
-      "bytes": 9335,
-      "sha256": "1768C9A64D1D76744737756A55597215970AFDB98794C05CD0A888ACD6230FDC"
+      "bytes": 10631,
+      "sha256": "CAD6F01CCF93073EBCD27CDA8028871ACD9479A72AA7D5C7068DBB43406FF350"
     },
     {
       "path": "prototype-0.5-media-shell/docs/dictionary-1827-source-assessment.md",
@@ -807,8 +817,8 @@
     },
     {
       "path": "prototype-0.5-media-shell/docs/teacher-provider-experiment.md",
-      "bytes": 8884,
-      "sha256": "B9D6D3EF514198BDB6B50D10CE0FEBB18CCAE3EF199A8C6168C524EB619794C0"
+      "bytes": 16479,
+      "sha256": "243F6FE05CA7FAB015FFE5ABFF64FB9BEDDCA56ACADCD238167BFA846EB7877B"
     },
     {
       "path": "prototype-0.5-media-shell/docs/tester-build-0.6.md",
@@ -887,8 +897,8 @@
     },
     {
       "path": "prototype-0.5-media-shell/index.html",
-      "bytes": 1411,
-      "sha256": "11E3E35221B5BBDEC1763426B4C0FD06FC11C79486623E38BA0056AA037604CF"
+      "bytes": 1469,
+      "sha256": "6591F84D35942C195816677F14332D178BF89C938D3B197C1493752D023B6D74"
     },
     {
       "path": "prototype-0.5-media-shell/italian-foundation.js",
@@ -937,8 +947,8 @@
     },
     {
       "path": "prototype-0.5-media-shell/styles.css",
-      "bytes": 46700,
-      "sha256": "BC82457155D728FACC85F7613735DF2D6B94EA5A7A249B5CC09EF937811F1C70"
+      "bytes": 61694,
+      "sha256": "FABBF28FD960922404963C4162F6CBE853F457DB6605767B2D243955547BA37D"
     },
     {
       "path": "prototype-0.5-media-shell/tools/test-breakdown.js",
@@ -947,8 +957,8 @@
     },
     {
       "path": "prototype-0.5-media-shell/tools/test-media-shell.js",
-      "bytes": 30819,
-      "sha256": "A2B7F9DAD6DDD869FA14AC99927BCE63081B6C12F248E402F021F510498DB9F4"
+      "bytes": 32302,
+      "sha256": "0E8B0FE8A2EAB6D45DF899356E222ADC1F1A81C93BABAF7A8B6AB145F1AE1F10"
     },
     {
       "path": "prototype-0.5-media-shell/tools/test-platform-adapter.js",
@@ -962,13 +972,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 4586,
-      "sha256": "77AE1D62215077D10D01EEDF39DD35658FDD9B1F1F28EB5144F7675B2D5F1C17"
+      "bytes": 5440,
+      "sha256": "8AF732D04E488A54A5E8FE7BD61CA1E216890E3957DBC6B57FA6A32F5270680D"
     },
     {
       "path": "src/books.js",
-      "bytes": 4090,
-      "sha256": "2B69303502761379C9663DE76ADF8B51DE9E36AE88829C2833E0243F8C0ABB93"
+      "bytes": 4757,
+      "sha256": "C0BBDEC399157711B89749D80210436C82D9ACC340E07F82FDC993D396F6F38E"
     },
     {
       "path": "src/main.js",
@@ -979,6 +989,16 @@
       "path": "src/preload.js",
       "bytes": 1094,
       "sha256": "52C297B27DA7DEB98841F43AFA276A30FF56BE253074FAC99BED2A0F6F5F117E"
+    },
+    {
+      "path": "tests/learning-store.browser.js",
+      "bytes": 3536,
+      "sha256": "1F6F82824E29E1A0E850709EBF305AE3A6A96C7962EDB698E0E179B11B5D6278"
+    },
+    {
+      "path": "tests/learning-store.test.js",
+      "bytes": 824,
+      "sha256": "F5EDF6762CDED8D271DF8F3413DC45C522A18803B56AF212D8492BB9725E16A4"
     },
     {
       "path": "THIRD-PARTY-NOTICES.txt",
@@ -997,8 +1017,8 @@
     },
     {
       "path": "tools/build-public-source.js",
-      "bytes": 8073,
-      "sha256": "763B42049031C47E2DEB54556B3909D09CF20F6E5AB9D8A9837E11BAC071341D"
+      "bytes": 8664,
+      "sha256": "2DFDC01C11CAADF1B05D847F3AEA27007AAF3A07DFA956327C3D44263E687EE6"
     },
     {
       "path": "tools/build-reader-dict-en-trial.js",
@@ -1072,8 +1092,8 @@
     },
     {
       "path": "tools/serve-mobile.js",
-      "bytes": 4847,
-      "sha256": "DCA101A04487BA99CD4191D755B368EF1570C2910CDCD12063DA444389AFA536"
+      "bytes": 4879,
+      "sha256": "94E1D94816C5D5B1FAC98CC7EF70CE468EF7D90B4164F1C4AD05BF09B16078A9"
     },
     {
       "path": "tools/source-lexicon-store.js",
@@ -1091,14 +1111,19 @@
       "sha256": "2CC545D92CFE58EFE4F86EFEDBBF2986FAE23831BC923AE463824AD034D61E32"
     },
     {
+      "path": "tools/test-learning-browser.cjs",
+      "bytes": 5566,
+      "sha256": "DEF2E9965402D898BD56D6DEFA2C35F1C821556F427CA5033888B8F1DF0351E0"
+    },
+    {
       "path": "tools/test-lexical-batch.js",
       "bytes": 2848,
       "sha256": "8412B0E7B432D395FFD72FDF0E639E7073C7C803817ACC64A21A8C13625AA471"
     },
     {
       "path": "tools/test-mobile-entry.js",
-      "bytes": 3470,
-      "sha256": "8689A3B55E56C84DC25441F51246E24E4776F2752C1D8F505266174455A4A1B1"
+      "bytes": 3783,
+      "sha256": "A6DAD576415ACDD11541B9AA23468455F19F63237100674460F76930A68FFB70"
     },
     {
       "path": "tools/test-mobile-importer.js",

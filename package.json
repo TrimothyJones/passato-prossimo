@@ -25,7 +25,7 @@
     "make": "electron-forge make",
     "notices": "node tools/build-third-party-notices.js",
     "public:source": "node tools/build-public-source.js",
-    "test": "node tools/test-mobile-entry.js && node tools/test-mobile-importer.js && node prototype-0.5-media-shell/tools/test-platform-adapter.js && node prototype-0.5-media-shell/tools/test-media-shell.js && node prototype-0.5-media-shell/tools/test-breakdown.js && node tools/test-url-importer.js",
+    "test": "node tools/test-mobile-entry.js && node tools/test-mobile-importer.js && node prototype-0.5-media-shell/tools/test-platform-adapter.js && node prototype-0.5-media-shell/tools/test-media-shell.js && node prototype-0.5-media-shell/tools/test-breakdown.js && node tools/test-url-importer.js && npm run test:learning",
     "build:reviewed-verbs": "node tools/build-reviewed-verbs.js",
     "test:reviewed-verbs": "node tools/test-reviewed-verbs.js",
     "trial:cercare": "node tools/trial-cercare-patterns.js",
@@ -38,7 +38,9 @@
     "validate:source-lexicon": "node tools/import-source-lexicon.js --validate",
     "test:source-lexicon": "node tools/test-source-lexicon.js",
     "build:source-assets": "node tools/build-source-lexicon-assets.js",
-    "test:source-browser": "node tools/test-source-lexicon-browser.js"
+    "test:source-browser": "node tools/test-source-lexicon-browser.js",
+    "test:learning": "node --test tests/learning-store.test.js",
+    "test:learning:browser": "node tools/test-learning-browser.cjs"
   },
   "dependencies": {
     "cheerio": "1.0.0-rc.12",

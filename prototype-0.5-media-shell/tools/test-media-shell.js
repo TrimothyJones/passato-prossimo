@@ -593,3 +593,25 @@ async function testSourceIntegration(){
  elementStub.querySelector=originalQuery;console.log('Word Lens async source integration: precedence, stale requests, close and offline fallback PASS');
 }
 testSourceIntegration().catch(error=>{console.error(error);process.exitCode=1;});
+
+const practiceMarkup=vm.runInContext(`renderTeacherPractice('Voglio cercare di capire. <script>')`,context);
+assert.match(practiceMarkup,/____ cercare di capire/);
+assert.match(practiceMarkup,/data-practice-action="reveal"/);
+assert.match(practiceMarkup,/>Voglio</);
+assert.doesNotMatch(practiceMarkup,/<script>/);
+assert.match(vm.runInContext(`renderTeacherPractice('...')`,context),/Choose a sentence/);
+vm.runInContext(`activeBook={id:'teacher-trial'};activeAnalysis=analyzeSection('Voglio cercare di capire. La casa.');showBreakdown('sentence',0);`,context);
+assert.match(elementStub.innerHTML,/Word inspector/);
+assert.match(elementStub.innerHTML,/Sentence clues/);
+assert.match(elementStub.innerHTML,/Tone clues/);
+assert.match(elementStub.innerHTML,/data-teacher-pane="practice"/);
+assert.doesNotMatch(elementStub.innerHTML,/data-teacher-word="\d+">casa</);
+console.log('Teacher workspace: grouped tools, sentence-scoped word picker, optional practice and escaping PASS');
+
+const contrastMarkup=vm.runInContext('renderContextExperiment()',context);
+assert.match(contrastMarkup,/Cerco<\/strong> le chiavi/);
+assert.match(contrastMarkup,/Cerco<\/strong> di capire/);
+assert.match(contrastMarkup,/not saved or graded/);
+assert.match(contrastMarkup,/id="contextClue" aria-live="polite" hidden/);
+assert.match(contrastMarkup,/Reviewed meaning guide and sources/);
+console.log('Context laboratory: reviewed evidence, two authored contrasts and hidden initial explanation PASS');

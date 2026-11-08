@@ -8,6 +8,7 @@ const defaultPort = 4173;
 const landingPath = require("node:fs").existsSync(path.join(root, "releases/public-source/index.html"))
   ? "releases/public-source/index.html" : "index.html";
 const allowedFiles = new Set([
+  "learning/learning-store.js",
   "mobile/index.html",
   landingPath,
   "mobile/mobile.css",

@@ -9,6 +9,21 @@ reading loop supports local TXT and EPUB books, article URLs, word and sentence
 Breakdown, text-to-speech, local audio/video, early YouTube playback, and manual
 export of a sanitized local testing report.
 
+## Current development checkpoint — 2026-11-08
+
+The web app and source now include the redesigned lab navigation, Teacher/practice
+workspace, and local learning history. Word Lens and Teacher record explicit word
+encounters and self-assessments without treating a lookup as proof of knowledge.
+Existing ratings migrate automatically; saved practice remains intact.
+
+Learning history stays in the current browser/profile. **Export learning history**
+produces a personal JSON file containing selected words and book identifiers; this
+is separate from the sanitized testing report described below. It is not device
+sync or an import/restore feature. See [learning store notes](learning/README.md).
+
+This is a source/web checkpoint toward the next milestone, not a 0.7 release.
+The downloadable Windows installer remains the previously published Alpha 3.
+
 ## Word Lens update — 0.6.0-alpha.3
 
 Windows and the mobile/web reader now include 149 reviewed learner entries and

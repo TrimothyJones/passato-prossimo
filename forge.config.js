@@ -3,6 +3,7 @@ module.exports = {
     asar: true,
     executableName: "PassatoProssimo",
     ignore: [
+      /^\/tests(?:\/|$)/,
       /^\/tmp(?:\/|$)/,
       /^\/immersion-hub(?:\/|$)/,
       /^\/\.agents(?:\/|$)/,

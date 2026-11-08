@@ -1,4 +1,15 @@
 window.IMMERSION_BOOKS = [
+{
+  "id": "teacher-modern-trial",
+  "title": "Una giornata qualunque",
+  "author": "Passato Prossimo · original trial text",
+  "source": "Built in",
+  "language": "Italian",
+  "rights": "Original project-authored practice text; experimental, pending learner review.",
+  "sourceUrl": "",
+  "note": "Teacher trial: everyday sentences. Turn on Teacher, then select a sentence.",
+  "text": "Voglio cercare di capire questa frase.\n\nPrima devo cercare le chiavi di casa.\n\nPossiamo cominciare a leggere dopo pranzo.\n\nPreferisco stare a casa e parlare con un amico.\n\nVorrei passare il pomeriggio in biblioteca.\n\nQuesta notizia può rendere felice mia sorella."
+},
   {
     id: "pinocchio",
     title: "Pinocchio",

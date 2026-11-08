@@ -4,13 +4,20 @@ const path = require("node:path");
 
 const root = path.resolve(__dirname, "..");
 const packageMetadata = JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf8"));
-const target = path.join(root, "public-repo", `passato-prossimo-${packageMetadata.version}-source`);
+const snapshot = process.argv.find(arg => arg.startsWith('--snapshot='))?.slice('--snapshot='.length);
+if (snapshot && !/^[a-zA-Z0-9-]+$/.test(snapshot)) throw new Error('Snapshot must contain only letters, digits and hyphens.');
+const target = path.join(root, "public-repo", `passato-prossimo-${packageMetadata.version}-source${snapshot ? '-' + snapshot : ''}`);
 
 if (fs.existsSync(target)) {
   throw new Error(`Public source target already exists: ${target}`);
 }
 
 const exactCopies = [
+  ["learning/README.md", "learning/README.md"],
+  ["tests/learning-store.browser.js", "tests/learning-store.browser.js"],
+  ["tools/test-learning-browser.cjs", "tools/test-learning-browser.cjs"],
+  ["learning/learning-store.js", "learning/learning-store.js"],
+  ["tests/learning-store.test.js", "tests/learning-store.test.js"],
   [".gitattributes", ".gitattributes"],
   [".gitignore", ".gitignore"],
   ["LICENSE", "LICENSE"],

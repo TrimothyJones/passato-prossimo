@@ -48,12 +48,17 @@ async function run() {
     const serviceWorkerResponse = await fetch(`${base}/mobile/sw.js`);
     assert.equal(serviceWorkerResponse.status, 200);
     const worker = await serviceWorkerResponse.text();
-    assert.match(worker, /passato-prossimo-mobile-v8/);
+    assert.match(worker, /passato-prossimo-mobile-v18/);
     for (const asset of ['reader-dict-en-trial.js', 'word-lens-trial.js', 'reviewed-verbs-data.js', 'reviewed-word-lens.js', 'source-lexicon-index.js', 'source-lexicon.js']) {
       assert(worker.includes(asset));
       assert(mobileHtml.indexOf(asset) < mobileHtml.indexOf('app.js'));
       assert.equal((await fetch(`${base}/prototype-0.5-media-shell/${asset}`)).status, 200);
     }
+
+    assert(worker.includes('../learning/learning-store.js'));
+    assert(mobileHtml.indexOf('../learning/learning-store.js') >= 0);
+    assert(mobileHtml.indexOf('../learning/learning-store.js') < mobileHtml.indexOf('app.js'));
+    assert.equal((await fetch(base + '/learning/learning-store.js')).status, 200);
 
     const iconResponse = await fetch(`${base}/mobile/icons/app-icon-192.png`);
     assert.equal(iconResponse.status, 200);

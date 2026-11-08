@@ -107,3 +107,25 @@ October 20 completion: all batch 003 learner treatments accepted, including fina
 October 20 integration complete locally: shared provider and simulated Teacher now receive 149 entries, including labeled batch 003 alternatives and approved contrast/role notes. Sposare supplemented from Italian Wiktionary revision 3581697 under CC BY-SA 4.0; original reader.dict source intact. Tests pass; local Teacher UI smoke-tested. No public deployment; contextual selectors remain offline experiments.
 
 October 20: resumable source import pipeline built and fully replay-validated. 29,127 local keys processed in 59 chunks: 19,712 source entries, 2,537 exceptions, 6,878 missing exact matches. Node indexed lookup verifies reviewed precedence. No source-layer app integration yet; see source-lexicon-import.md.
+
+## Alpha 3 release — October 24, 2026
+
+Published code: 688c99085972d04e50d47d520f8235ec196b7eb6 in the public checkout
+(public-repo/passato-prossimo-0.6.0-alpha.1-source). GitHub Pages deployment
+40108621678 succeeded. Release tag: v0.6.0-alpha.3.
+
+- Word Lens now uses the validated 19,712-entry exact-match source dictionary as
+  an on-demand fallback after the 149 reviewed learner entries. Counts overlap.
+- All 59 chunks are bundled on Windows; mobile fetches/caches chunks as needed.
+- Source senses remain grouped and unselected; no automatic sentence interpretation.
+- Teacher usage guides and the latest 50 reviewed words are included.
+- Private archives, raw corpus inputs and local research reports are excluded.
+- App suite, all runtime source entries, reviewed entries, packaged asset audit,
+  real rendered desktop/mobile smoke checks and mobile cached offline lookup passed.
+- Clean-machine installation/uninstallation and physical-phone testing remain open.
+
+Local release artifacts and SHA-256 checksums:
+releases/Passato-Prossimo-0.6.0-alpha.3-Windows-x64/
+Release notes: releases/alpha3-release-notes.md.
+Research/import rebuild commands require separately obtained local input files;
+the public runtime is self-contained and its app/source-browser tests run without them.
