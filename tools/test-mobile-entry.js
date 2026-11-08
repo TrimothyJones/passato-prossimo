@@ -48,7 +48,7 @@ async function run() {
     const serviceWorkerResponse = await fetch(`${base}/mobile/sw.js`);
     assert.equal(serviceWorkerResponse.status, 200);
     const worker = await serviceWorkerResponse.text();
-    assert.match(worker, /passato-prossimo-mobile-v18/);
+    assert.match(worker, /passato-prossimo-mobile-v20/);
     for (const asset of ['reader-dict-en-trial.js', 'word-lens-trial.js', 'reviewed-verbs-data.js', 'reviewed-word-lens.js', 'source-lexicon-index.js', 'source-lexicon.js']) {
       assert(worker.includes(asset));
       assert(mobileHtml.indexOf(asset) < mobileHtml.indexOf('app.js'));

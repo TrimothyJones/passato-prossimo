@@ -9,6 +9,14 @@ reading loop supports local TXT and EPUB books, article URLs, word and sentence
 Breakdown, text-to-speech, local audio/video, early YouTube playback, and manual
 export of a sanitized local testing report.
 
+## Streamlined Word Lens
+
+Word selection opens Word Lens by default. The shared study pane switches between
+Word Lens and Teacher, with desktop sizing under **Adjust pane**. Meanings appear
+first; **Explore this word** preserves usage guidance, source details, and nested
+diagnostics. Switching views does not add duplicate encounters. Mobile retains
+its sheet layout. This update changes presentation, not morphological analysis.
+
 ## Current development checkpoint — 2026-11-08
 
 The web app and source now include the redesigned lab navigation, Teacher/practice

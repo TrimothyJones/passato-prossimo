@@ -1,9 +1,9 @@
 {
   "format": "passato-prossimo-public-source-v1",
   "version": "0.6.0-alpha.3",
-  "generatedAt": "2026-11-08T18:49:12.517Z",
+  "generatedAt": "2026-11-08T19:19:58.918Z",
   "policy": "Explicit allowlist; raw corpora, installers, release archives, dependencies, local media, and secrets are excluded.",
-  "fileCount": 236,
+  "fileCount": 237,
   "files": [
     {
       "path": ".gitattributes",
@@ -133,7 +133,7 @@
     {
       "path": "mobile/sw.js",
       "bytes": 2662,
-      "sha256": "C0D02B1B8B7252661FE43F63895998E403C7122B3201142696A4F05143957A6E"
+      "sha256": "57A7D3BAB27C5E3C745759BE50885AEFAA09C28B920C589E0E7145AB0AEBBAAC"
     },
     {
       "path": "mobile/vendor/fflate-0.8.3.js",
@@ -252,8 +252,8 @@
     },
     {
       "path": "prototype-0.5-media-shell/app.js",
-      "bytes": 191654,
-      "sha256": "292D0F8F38094A950481E5E8ADA6057C6A063A81DB9958A3BD043AFEAE0150D3"
+      "bytes": 195779,
+      "sha256": "ED2B43F38D4C8550D0D1FE4FE4643EF706B759B9151C5217F1A78F63AABF17E4"
     },
     {
       "path": "prototype-0.5-media-shell/data/italian-foundation.json",
@@ -811,6 +811,11 @@
       "sha256": "47C592A08154792A272582EA8A96AF7FD422363418EBD6DCC29603AB41C67AA3"
     },
     {
+      "path": "prototype-0.5-media-shell/docs/study-pane-experiment.md",
+      "bytes": 1316,
+      "sha256": "D500C519DA4E9E7D6C1B6960E9D617203A686460D919A5BC14211326AD467FE1"
+    },
+    {
       "path": "prototype-0.5-media-shell/docs/tatoeba-review-001.md",
       "bytes": 7355,
       "sha256": "5307C277A8FC67AD281BB9C6840FBB08074E89E6F875CBB1C28F9067D48BE52F"
@@ -947,8 +952,8 @@
     },
     {
       "path": "prototype-0.5-media-shell/styles.css",
-      "bytes": 61694,
-      "sha256": "FABBF28FD960922404963C4162F6CBE853F457DB6605767B2D243955547BA37D"
+      "bytes": 63483,
+      "sha256": "25D17329C884CA019DC4646B722D49447B50D39DCF00E318B4B93ACE6E67E1FA"
     },
     {
       "path": "prototype-0.5-media-shell/tools/test-breakdown.js",
@@ -972,8 +977,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5440,
-      "sha256": "8AF732D04E488A54A5E8FE7BD61CA1E216890E3957DBC6B57FA6A32F5270680D"
+      "bytes": 5872,
+      "sha256": "2ED265DA73D1825C86B4D2F6410A81870B3143EF1B5B3E744A9DF97DE9C24439"
     },
     {
       "path": "src/books.js",
@@ -1112,8 +1117,8 @@
     },
     {
       "path": "tools/test-learning-browser.cjs",
-      "bytes": 5566,
-      "sha256": "DEF2E9965402D898BD56D6DEFA2C35F1C821556F427CA5033888B8F1DF0351E0"
+      "bytes": 6941,
+      "sha256": "4585D0373A1C1FA86097C34DAC9D2A35687D22FCE79035AF8AE146732AA9DF0B"
     },
     {
       "path": "tools/test-lexical-batch.js",
@@ -1123,7 +1128,7 @@
     {
       "path": "tools/test-mobile-entry.js",
       "bytes": 3783,
-      "sha256": "A6DAD576415ACDD11541B9AA23468455F19F63237100674460F76930A68FFB70"
+      "sha256": "98632A47D4288EF07623F9F5E5C266C95ED5D18430FA105AADEE9CEDFFCAD966"
     },
     {
       "path": "tools/test-mobile-importer.js",

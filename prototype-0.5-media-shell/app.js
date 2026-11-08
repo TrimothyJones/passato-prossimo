@@ -299,7 +299,7 @@ let learningReady = null;
 let learningStorageIssue = '';
 let speechSettings = loadSpeechSettings();
 let readingPositions = loadReadingPositions();
-let breakdownMode = loadBreakdownMode();
+let breakdownMode = false; // Each session starts with the quick dictionary.
 let activeBreakdownSelection = null;
 let pendingUrlPreview = null;
 let teacherNotes = loadTeacherNotes();
@@ -3055,15 +3055,13 @@ function renderReader() {
         selectSpeechSentence(sentenceIndex);
         saveActiveReadingPosition(sentenceIndex, { source: "word-selected" });
       }
-      if (breakdownMode) showBreakdown("word", rowIndex, token);
-      else showWordLens(rowIndex, token);
+      showWordLens(rowIndex, token);
     });
   }
   for (const chip of appEl.querySelectorAll(".friction-chip")) {
     chip.addEventListener("click", () => {
       const rowIndex = Number(chip.dataset.row);
-      if (breakdownMode) showBreakdown("word", rowIndex);
-      else showWordLens(rowIndex);
+      showWordLens(rowIndex);
     });
   }
   for (const sentence of appEl.querySelectorAll(".sentence-span")) {
@@ -3481,7 +3479,52 @@ function teacherStartingPoint(request) {
   return 'Start with a word you recognise, then explore the words around it. We do not yet have a checked explanation for this whole sentence.';
 }
 
-function showBreakdown(scope, index, anchorEl = null) {
+// Shared study pane: presentation only; lexical ranking remains unchanged.
+let studyPaneWidth = 390;
+function installStudyPane(panel, view, rowIndex) {
+  if (typeof panel.insertAdjacentHTML !== 'function') return;
+  panel.querySelector('.lens-sign').insertAdjacentHTML('afterend', `<div class="study-pane-toolbar">
+    <nav aria-label="Study tools"><button type="button" data-study-view="word" aria-pressed="${view==='word'}">Word Lens</button><button type="button" data-study-view="teacher" aria-pressed="${view==='teacher'}">Teacher</button></nav>
+    <details class="study-pane-layout"><summary>Adjust pane</summary><label class="study-pane-size">Pane width <input aria-label="Study pane width" type="range" min="320" max="560" step="10" value="${studyPaneWidth}"></label></details>
+  </div>`);
+  const layout=appEl.querySelector('.reader-layout');
+  layout?.style.setProperty('--study-pane-width',studyPaneWidth+'px');
+  panel.querySelector('.study-pane-size input').addEventListener('input',event=>{
+    studyPaneWidth=Number(event.target.value);layout?.style.setProperty('--study-pane-width',studyPaneWidth+'px');
+    positionWordLens(panel,null);
+  });
+  for(const button of panel.querySelectorAll('[data-study-view]')) button.addEventListener('click',()=>{
+    if(button.dataset.studyView===view)return;
+    if(button.dataset.studyView==='word')showWordLens(rowIndex,null,false);
+    else showBreakdown('word',rowIndex,null,false);
+    appEl.querySelector(button.dataset.studyView==='word'?'#wordLens [data-study-view="word"]':'#breakdownPanel [data-study-view="teacher"]')?.focus();
+  });
+}
+function simplifyWordLens(lens) {
+  if(typeof lens.insertAdjacentHTML!=='function')return;
+  const list=lens.querySelector('dl');
+  const details=document.createElement('details');details.className='study-word-details';
+  details.innerHTML='<summary>Explore this word</summary><dl></dl>';
+  const secondary=details.querySelector('dl');
+  const technical=document.createElement('details');technical.className='study-technical-details';
+  technical.innerHTML='<summary>How this lookup works</summary><dl></dl>';
+  const technicalLabels=new Set(['Reading signal','Frequency source','Lemma match','Local clue','Why grouped?']);
+  for(const item of [...list.children].slice(2)) {
+    if(item.id==='sourceDictionaryMeanings')continue;
+    (technicalLabels.has(item.querySelector('dt')?.textContent)?technical.querySelector('dl'):secondary).append(item);
+  }
+  // Do not repeat the headword when its dictionary form is identical.
+  if(list.firstElementChild?.querySelector('dd')?.textContent===lens.querySelector('.lens-word h2')?.textContent)list.firstElementChild.hidden=true;
+  list.after(details);
+  const actions=lens.querySelector('.lens-actions');list.after(actions);
+  const evidence=lens.querySelector('.lens-evidence');if(evidence)technical.append(evidence);
+  const source=lens.querySelector('.word-lens-dictionary');if(source)details.append(source);
+  const debug=lens.querySelector('.debug-drawer');if(debug){debug.querySelector('summary').textContent='Technical diagnostics';technical.append(debug);}
+  details.append(technical);
+  const label=lens.querySelector('.lens-word > p');if(label)label.hidden=true;
+}
+
+function showBreakdown(scope, index, anchorEl = null, trackEncounter = true) {
   const panel = appEl.querySelector("#breakdownPanel");
   if (!panel) return;
   const isWord = scope === "word";
@@ -3683,7 +3726,8 @@ function showBreakdown(scope, index, anchorEl = null) {
   for (const button of panel.querySelectorAll('[data-breakdown-status]')) {
     button.addEventListener('click',()=>markLearningStatus(row,button.dataset.breakdownStatus,button,'breakdown_word_marked'));
   }
-  if(isWord)void recordLearningEncounter(row,'teacher-word');
+  installStudyPane(panel,'teacher',isWord ? index : activeAnalysis.rows.findIndex(candidate=>candidate.sentenceIndex===sentenceIndex));
+  if(isWord && trackEncounter)void recordLearningEncounter(row,'teacher-word');
   if (anchorEl || window.innerWidth >= 981) positionWordLens(panel, anchorEl);
   logInteraction("breakdown_opened", {
     bookId: activeBook.id,
@@ -3719,7 +3763,7 @@ function toggleBreakdownMode() {
   logInteraction("breakdown_mode_changed", { enabled: breakdownMode });
 }
 
-function showWordLens(rowIndex, anchorEl = null) {
+function showWordLens(rowIndex, anchorEl = null, trackEncounter = true) {
   hideBreakdown();
   const row = activeAnalysis.rows[rowIndex];
   if (!row) return;
@@ -3837,6 +3881,11 @@ function showWordLens(rowIndex, anchorEl = null) {
     window.PASSATO_SOURCE_LEXICON.lookup(row.token).then(result => {
       if (!result || lens.sourceRequest !== sourceRequest || lens.hidden) return;
       sourceSlot.innerHTML = window.PASSATO_SOURCE_LEXICON.render(result);
+      // The first source definition is an anchor, not a claimed contextual match.
+      if(typeof sourceSlot.insertAdjacentHTML==='function') {
+        const first=result.row.sections.find(section=>section.role==='grammatical' && section.items.length)?.items[0]?.text;
+        if(first){const full=document.createElement('details');full.className='study-source-details';full.innerHTML='<summary>All dictionary senses and sources</summary><dl>'+sourceSlot.innerHTML+'</dl>';sourceSlot.replaceChildren();sourceSlot.insertAdjacentHTML('beforeend','<dt>Dictionary meaning</dt><dd>'+escapeHtml(first)+'</dd><dd class="study-meaning-caveat">General meaning · context may differ.</dd>');sourceSlot.append(full);}
+      }
       const legacy = lens.querySelector('[data-legacy-meaning]');
       if (legacy) legacy.hidden = true;
     }).catch(() => {
@@ -3852,7 +3901,9 @@ function showWordLens(rowIndex, anchorEl = null) {
   for (const button of lens.querySelectorAll('.lens-actions button')) {
     button.addEventListener('click',()=>markLearningStatus(row,button.dataset.status,button));
   }
-  void recordLearningEncounter(row,'word-lens');
+  simplifyWordLens(lens);
+  installStudyPane(lens,'word',rowIndex);
+  if(trackEncounter)void recordLearningEncounter(row,'word-lens');
 
   if (anchorEl || window.innerWidth >= 981) {
     positionWordLens(lens, anchorEl);

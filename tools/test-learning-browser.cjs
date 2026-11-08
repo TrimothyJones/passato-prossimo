@@ -14,7 +14,7 @@ if(!process.versions.electron){
   const win=new BrowserWindow({show:false,webPreferences:{partition:'persist:store-tests'}});await win.loadURL(origin+'/learning/learning-store.js');
   await win.webContents.executeJavaScript(fs.readFileSync(path.join(root,'learning/learning-store.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'tests/learning-store.browser.js'),'utf8'));
   console.log(await win.webContents.executeJavaScript('runLearningStoreBrowserTests()'));win.destroy();
-  const ui=new BrowserWindow({show:false,webPreferences:{partition:'persist:integration-tests'}});await ui.loadURL(origin+'/learning/learning-store.js');
+  const ui=new BrowserWindow({show:false,width:1360,height:900,webPreferences:{partition:'persist:integration-tests'}});await ui.loadURL(origin+'/learning/learning-store.js');
   await ui.webContents.executeJavaScript(`localStorage.setItem('prototype03LemmaModel',JSON.stringify({cercare:{status:'shaky',confidence:.55}}));localStorage.setItem('passato-practice-collection-v1',JSON.stringify([{sentence:'Cerco di capire.',title:'Keep me'}]));`);
   await ui.loadURL(origin+'/prototype-0.5-media-shell/index.html');
   await ui.webContents.executeJavaScript('ensureLearningReady()');await new Promise(r=>setTimeout(r,250));
@@ -24,6 +24,15 @@ if(!process.versions.electron){
    const idx=activeAnalysis.rows.findIndex(r=>r.token==='cercare');const row=activeAnalysis.rows[idx];showWordLens(idx,document.querySelector('[data-row="'+idx+'"]'));
    // A later read transaction waits behind the actual lookup write.
    await new Promise(r=>setTimeout(r,100));check((await learningStore.getWord('cercare')).encounterCount===1,'Word Lens encounter');
+   const paneCount=(await learningStore.listEncounters()).length;
+   document.querySelector('#wordLens [data-study-view="teacher"]').click();
+   check(!document.querySelector('#breakdownPanel').hidden,'Teacher tab opens');
+   document.querySelector('#breakdownPanel [data-study-view="word"]').click();
+   check(!document.querySelector('#wordLens').hidden,'Word Lens tab returns');
+   check((await learningStore.listEncounters()).length===paneCount,'Tabs do not inflate encounters');
+   const width=document.querySelector('#wordLens .study-pane-size input');width.value='500';width.dispatchEvent(new Event('input'));
+   check(document.querySelector('.reader-layout').style.getPropertyValue('--study-pane-width')==='500px','Resize applied');
+   check(!document.querySelector('#wordLens .study-word-details').open,'Details initially collapsed');
    const rating=document.querySelector('[data-status="known"]');rating.click();await new Promise(r=>setTimeout(r,150));check((await learningStore.getWord('cercare')).status==='known'&&lemmaModel.cercare.status==='known','Status UI committed');
    showBreakdown('word',idx,document.querySelector('[data-row="'+idx+'"]'));await new Promise(r=>setTimeout(r,100));document.querySelector('[data-breakdown-status="shaky"]').click();await new Promise(r=>setTimeout(r,150));
    check((await learningStore.listReviews('cercare')).length===2,'Both rating paths persisted');
@@ -38,6 +47,11 @@ if(!process.versions.electron){
   console.log(await ui.webContents.executeJavaScript(`(()=>{if(lemmaModel.cercare.status!=='shaky'||lemmaModel.novissimotest)throw Error('Reload hydration');return 'Reload: durable ratings restored; unassessed encounters excluded PASS';})()`));
   // The mobile entry point shares storage on this origin and loads the same provider.
   await ui.loadURL(origin+'/mobile/');await ui.webContents.executeJavaScript('ensureLearningReady()');console.log(await ui.webContents.executeJavaScript(`(()=>{if(!window.PASSATO_LEARNING_STORE||lemmaModel.cercare.status!=='shaky')throw Error('Mobile integration');return 'Mobile entry: provider and existing ratings PASS';})()`));
+  if(process.env.PASSATO_STUDY_SCREENSHOT==='1') {
+    ui.setSize(1360,900);await new Promise(r=>setTimeout(r,400));await ui.webContents.executeJavaScript('openBook("teacher-modern-trial")');
+    await ui.webContents.executeJavaScript('showWordLens(activeAnalysis.rows.findIndex(r=>r.token==="cercare"));');
+    await new Promise(r=>setTimeout(r,300));fs.mkdirSync(path.join(root,'tmp'),{recursive:true});fs.writeFileSync(path.join(root,'tmp/study-pane.png'),(await ui.webContents.capturePage()).toPNG());
+  }
   ui.destroy();server.close();app.exit(0);
  }catch(error){console.error(error);server?.close();app.exit(1);}});
 }

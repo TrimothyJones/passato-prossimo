@@ -1,4 +1,4 @@
-const CACHE_NAME = "passato-prossimo-mobile-v18";
+const CACHE_NAME = "passato-prossimo-mobile-v20";
 const APP_ASSETS = [
   "../learning/learning-store.js",
   "./",

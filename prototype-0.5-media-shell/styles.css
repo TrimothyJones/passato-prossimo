@@ -2539,3 +2539,31 @@ h2,
 .lab-motion-toggle:focus-visible { outline:2px solid var(--aqua); outline-offset:3px; }
 @media(prefers-reduced-motion:reduce) { .lab-orb { animation:none; transition:none; }.lab-destination:hover .lab-orb,.lab-destination:active .lab-orb,.lab-destination:focus-visible .lab-orb { transform:none; scale:1; }.lab-motion-toggle { display:none; } }
 .learning-storage-status:not([hidden]) { margin:12px 18px; padding:12px 16px; border:1px solid #d6a85f66; border-radius:8px; background:#352b20; color:var(--marble); }
+
+/* Resizable study-pane experiment. Mobile keeps its existing sheet. */
+.study-pane-toolbar { padding:12px 16px; border-bottom:1px solid var(--line); }
+.study-pane-toolbar nav { display:flex; gap:8px; }
+.study-pane-toolbar button { flex:1; padding:10px; border:1px solid #d6b57a35; border-radius:12px; background:transparent; color:inherit; cursor:pointer; }
+.study-pane-toolbar button[aria-pressed="true"] { background:#d6b57a25; border-color:#d6b57a88; }
+.study-pane-size { display:none; font-size:.75rem; gap:12px; align-items:center; margin-top:12px; opacity:.8; }
+.study-pane-size input { min-width:0; width:100%; accent-color:#d6b57a; }
+.study-word-details,.study-source-details { margin:16px 0; padding:14px; border:1px solid #d6b57a25; border-radius:12px; }
+.study-word-details summary,.study-source-details summary { cursor:pointer; font-size:.85rem; }
+.study-meaning-caveat { font-size:.78rem; opacity:.7; }
+.word-lens .lens-actions { margin:16px 0; }
+.word-lens > dl { padding:12px 0; }
+@media(min-width:981px) {
+ .reader-layout { grid-template-columns:minmax(0,1fr) minmax(320px,min(var(--study-pane-width,390px),45vw)); }
+ .study-pane-size { display:flex; }
+}
+
+.word-lens > dl { margin:0 16px; }
+.word-lens > .lens-actions { margin:12px 16px; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:6px; }
+.word-lens > .lens-actions button { padding:10px 6px; font-size:.78rem; }
+.word-lens > .study-word-details { margin:16px; }
+.study-pane-size { white-space:nowrap; }
+
+.study-pane-layout { display:none; margin-top:8px; font-size:.75rem; opacity:.8; }
+.study-pane-layout summary { cursor:pointer; }
+.study-technical-details { margin-top:16px; border-top:1px solid var(--line); padding-top:12px; }
+@media(min-width:981px) { .study-pane-layout { display:block; } }
